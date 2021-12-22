@@ -17,4 +17,4 @@ Frost is a Full Site Editing theme for WordPress that extends the incredible pow
 
 ## Demo Site
 
-There is a demo site located at [frostwp.com](https://frostwp.com/).
+See the Frost theme in action at [frostwp.com](https://frostwp.com/).
