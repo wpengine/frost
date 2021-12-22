@@ -14,15 +14,15 @@ return array(
 				<!-- /wp:spacer -->
 				
 				<!-- wp:image {"id":330,"sizeSlug":"full","linkDestination":"none"} -->
-				<figure class="wp-block-image size-full"><img src="https://frostwp.com/pro/wp-content/uploads/sites/14/2021/05/sample-black_1920x1200.jpg" alt="Sample Frost Image" class="wp-image-330"/></figure>
+				<figure class="wp-block-image size-full"><img src="https://frostwp.com/demo/wp-content/uploads/sites/14/2021/05/sample-black_1920x1200.jpg" alt="Sample Frost Image" class="wp-image-330"/></figure>
 				<!-- /wp:image -->
 				
 				<!-- wp:spacer {"height":30} -->
 				<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer -->
 				
-				<!-- wp:heading {"textAlign":"center"} -->
-				<h2 class="has-text-align-center" id="image-heading-text-buttons">Image, heading, text, buttons.</h2>
+				<!-- wp:heading {"textAlign":"center","fontSize":"x-large"} -->
+				<h2 class="has-text-align-center has-x-large-font-size" id="image-heading-text-buttons">Image, heading, text, buttons.</h2>
 				<!-- /wp:heading -->
 				
 				<!-- wp:paragraph {"align":"center"} -->

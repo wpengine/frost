@@ -8,7 +8,7 @@
 return array(
 	'title'      => __( 'Link page with image, buttons.', 'frost' ),
 	'categories' => array( 'frost-link-page' ),
-	'content'    => '<!-- wp:group {"align":"full","backgroundColor":"black","className":"is-full-height","layout":{"wideSize":"600px"}} -->
+	'content'    => '<!-- wp:group {"align":"full","backgroundColor":"black","className":"is-full-height","layout":{"inherit":true}} -->
 				<div class="wp-block-group alignfull is-full-height has-black-background-color has-background"><!-- wp:group -->
 				<div class="wp-block-group"><!-- wp:spacer -->
 				<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
@@ -18,8 +18,8 @@ return array(
 				<div class="wp-block-image is-style-rounded"><figure class="aligncenter size-large is-resized"><img src="https://frostwp.com/demo/wp-content/uploads/sites/2/2021/05/sample-white_800x800.jpg" alt="Sample Frost Image" class="wp-image-736" width="120" height="120"/></figure></div>
 				<!-- /wp:image -->
 				
-				<!-- wp:heading {"textAlign":"center","textColor":"white","fontSize":"large"} -->
-				<h2 class="has-text-align-center has-white-color has-text-color has-large-font-size" id="your-name">Your Name</h2>
+				<!-- wp:heading {"textAlign":"center","textColor":"white","fontSize":"x-large"} -->
+				<h2 class="has-text-align-center has-white-color has-text-color has-x-large-font-size" id="your-name">Your Name</h2>
 				<!-- /wp:heading -->
 				
 				<!-- wp:paragraph {"align":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|white"}}}},"textColor":"white"} -->
@@ -42,8 +42,7 @@ return array(
 				<div style="height:60px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer -->
 				
-				<!-- wp:group {"className":"is-style-max-width-600"} -->
-				<div class="wp-block-group is-style-max-width-600"><!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center","orientation":"horizontal"},"style":{"spacing":{"margin":{"top":"0px","bottom":"0px"}}}} -->
+				<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center","orientation":"horizontal"},"style":{"spacing":{"margin":{"top":"0px","bottom":"0px"}}}} -->
 				<div class="wp-block-buttons" style="margin-top:0px;margin-bottom:0px"><!-- wp:button {"width":100,"style":{"border":{"radius":0}},"className":"is-style-fill-white"} -->
 				<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-fill-white"><a class="wp-block-button__link no-border-radius">Visit My Website</a></div>
 				<!-- /wp:button -->
@@ -63,8 +62,7 @@ return array(
 				<!-- wp:button {"width":100,"style":{"border":{"radius":0}},"className":"is-style-fill-white"} -->
 				<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-fill-white"><a class="wp-block-button__link no-border-radius">Listen to My Podcast</a></div>
 				<!-- /wp:button --></div>
-				<!-- /wp:buttons --></div>
-				<!-- /wp:group -->
+				<!-- /wp:buttons -->
 				
 				<!-- wp:spacer {"height":40} -->
 				<div style="height:40px" aria-hidden="true" class="wp-block-spacer"></div>

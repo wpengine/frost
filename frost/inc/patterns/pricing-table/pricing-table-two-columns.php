@@ -13,8 +13,8 @@ return array(
 				<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer -->
 				
-				<!-- wp:heading {"textAlign":"center"} -->
-				<h2 class="has-text-align-center" id="pricing-options">Pricing Table</h2>
+				<!-- wp:heading {"textAlign":"center","fontSize":"x-large"} -->
+				<h2 class="has-text-align-center has-x-large-font-size" id="pricing-options">Pricing Table</h2>
 				<!-- /wp:heading -->
 				
 				<!-- wp:paragraph {"align":"center"} -->
@@ -24,8 +24,8 @@ return array(
 				<!-- wp:columns {"style":{"spacing":{"margin":{"top":"0px","bottom":"0px"}}}} -->
 				<div class="wp-block-columns" style="margin-top:0px;margin-bottom:0px"><!-- wp:column -->
 				<div class="wp-block-column"><!-- wp:group {"style":{"border":{"width":"1px","style":"solid"}},"borderColor":"black","className":"has-black-border"} -->
-				<div class="wp-block-group has-black-border has-border-color has-black-border-color" style="border-style:solid;border-width:1px"><!-- wp:heading {"textAlign":"center","style":{"spacing":{"margin":{"bottom":"0px"}}},"backgroundColor":"black","textColor":"white","fontSize":"normal"} -->
-				<h2 class="has-text-align-center has-white-color has-black-background-color has-text-color has-background has-normal-font-size" id="personal-95" style="margin-bottom:0px">Personal - $95</h2>
+				<div class="wp-block-group has-black-border has-border-color has-black-border-color" style="border-style:solid;border-width:1px"><!-- wp:heading {"textAlign":"center","level":4,"style":{"spacing":{"margin":{"bottom":"0px"}}},"backgroundColor":"black","textColor":"white"} -->
+				<h4 class="has-text-align-center has-white-color has-black-background-color has-text-color has-background" id="personal-95" style="margin-bottom:0px">Personal - $95</h4>
 				<!-- /wp:heading -->
 				
 				<!-- wp:group {"style":{"spacing":{"padding":{"top":"30px","right":"40px","bottom":"40px","left":"40px"}}}} -->
@@ -48,8 +48,8 @@ return array(
 				
 				<!-- wp:column -->
 				<div class="wp-block-column"><!-- wp:group {"style":{"border":{"width":"1px","style":"solid"}},"borderColor":"black","className":"has-black-border"} -->
-				<div class="wp-block-group has-black-border has-border-color has-black-border-color" style="border-style:solid;border-width:1px"><!-- wp:heading {"textAlign":"center","style":{"spacing":{"margin":{"bottom":"0px"}}},"backgroundColor":"black","textColor":"white","fontSize":"normal"} -->
-				<h2 class="has-text-align-center has-white-color has-black-background-color has-text-color has-background has-normal-font-size" id="professional-295" style="margin-bottom:0px">Professional - $295</h2>
+				<div class="wp-block-group has-black-border has-border-color has-black-border-color" style="border-style:solid;border-width:1px"><!-- wp:heading {"textAlign":"center","level":4,"style":{"spacing":{"margin":{"bottom":"0px"}}},"backgroundColor":"black","textColor":"white"} -->
+				<h4 class="has-text-align-center has-white-color has-black-background-color has-text-color has-background" id="professional-295" style="margin-bottom:0px">Professional - $295</h4>
 				<!-- /wp:heading -->
 				
 				<!-- wp:group {"style":{"spacing":{"padding":{"top":"30px","right":"40px","bottom":"40px","left":"40px"}}}} -->
