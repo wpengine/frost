@@ -15,8 +15,8 @@ return array(
 				
 				<!-- wp:columns {"verticalAlignment":"center","align":"wide","style":{"spacing":{"margin":{"top":"0px","bottom":"0px"}}}} -->
 				<div class="wp-block-columns alignwide are-vertically-aligned-center" style="margin-top:0px;margin-bottom:0px"><!-- wp:column {"verticalAlignment":"center","width":"30%"} -->
-				<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:30%"><!-- wp:image {"id":736,"sizeSlug":"full","linkDestination":"none","className":"is-style-no-margin"} -->
-				<figure class="wp-block-image size-full is-style-no-margin"><img src="https://frostwp.com/demo/wp-content/uploads/sites/14/2021/05/sample-white_800x800.jpg" alt="Sample Frost Image" class="wp-image-736"/></figure>
+				<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:30%"><!-- wp:image {"id":3488,"sizeSlug":"full","linkDestination":"none","className":"is-style-no-margin"} -->
+				<figure class="wp-block-image size-full is-style-no-margin"><img src="https://frostwp.com/wp-content/uploads/2021/12/sample-white_800x800.jpg" alt="Frost WordPress Theme" class="wp-image-3488"/></figure>
 				<!-- /wp:image --></div>
 				<!-- /wp:column -->
 				
@@ -29,8 +29,8 @@ return array(
 				<p class="has-white-color has-text-color" style="line-height:1.5">Lorem ipsum dolor sit amet, consectetur adipiscing vestibulum. Quisque vitae mi pellentesque arcu fermentum, dignissim velit vitae, malesuad elit condimentum. Vestibulum et faucibus.</p>
 				<!-- /wp:paragraph -->
 				
-				<!-- wp:audio {"id":2495} -->
-				<figure class="wp-block-audio"><audio controls src="https://frostwp.com/demo/wp-content/uploads/sites/14/2021/08/sample-audio-file.mp3"></audio></figure>
+				<!-- wp:audio {"id":3546} -->
+				<figure class="wp-block-audio"><audio controls src="https://frostwp.com/wp-content/uploads/2021/12/sample-audio-file.mp3"></audio></figure>
 				<!-- /wp:audio -->
 				
 				<!-- wp:buttons {"style":{"spacing":{"margin":{"top":"0px","bottom":"0px"}}}} -->

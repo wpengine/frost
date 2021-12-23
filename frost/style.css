@@ -105,6 +105,10 @@ blockquote {
 	gap: 5px 20px;
 }
 
+.wp-block-navigation__responsive-container.is-menu-open {
+	padding: 35px 40px;
+}
+
 .wp-block-navigation:not(.has-background) .wp-block-navigation__submenu-container {
 	background-color: var(--wp--preset--color--black);
 	border: var(--wp--preset--color--black);
@@ -120,11 +124,6 @@ blockquote {
 .wp-block-navigation__responsive-container-open {
 	border: 1px solid var(--wp--preset--color--black);
 	padding: 2px;
-}
-
-.wp-block-navigation__responsive-container-close {
-	right: 40px;
-	top: 35px;
 }
 
 /* Site Content
@@ -446,6 +445,13 @@ img {
 	padding-right: 40px;
 }
 
+/* List
+--------------------------------------------- */
+
+.wp-block-post-content ul {
+	margin-bottom: 30px;
+}
+
 /* Preformatted
 --------------------------------------------- */
 
@@ -515,7 +521,7 @@ img {
 }
 
 .wp-block-quote.is-style-large p {
-	font-size: var(--wp--preset--font-size--large);
+	font-size: var(--wp--preset--font-size--x-large);
 	line-height: var(--wp--custom--line-height--medium);
 }
 

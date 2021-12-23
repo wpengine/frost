@@ -14,8 +14,8 @@ return array(
 				<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer -->
 				
-				<!-- wp:image {"align":"center","id":735,"width":120,"height":120,"sizeSlug":"full","linkDestination":"none","className":"is-style-rounded"} -->
-				<div class="wp-block-image is-style-rounded"><figure class="aligncenter size-full is-resized"><img src="https://frostwp.com/demo/wp-content/uploads/sites/2/2021/05/sample-black_800x800.jpg" alt="Sample Frost Image" class="wp-image-735" width="120" height="120"/></figure></div>
+				<!-- wp:image {"align":"center","id":3489,"width":120,"height":120,"sizeSlug":"full","linkDestination":"none","className":"is-style-rounded"} -->
+				<div class="wp-block-image is-style-rounded"><figure class="aligncenter size-full is-resized"><img src="https://frostwp.com/wp-content/uploads/2021/12/sample-black_800x800.jpg" alt="Frost WordPress Theme" class="wp-image-3489" width="120" height="120"/></figure></div>
 				<!-- /wp:image -->
 				
 				<!-- wp:heading {"textAlign":"center","fontSize":"x-large"} -->

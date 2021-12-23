@@ -13,8 +13,8 @@ return array(
 				<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer -->
 				
-				<!-- wp:image {"id":330,"sizeSlug":"full","linkDestination":"none"} -->
-				<figure class="wp-block-image size-full"><img src="https://frostwp.com/demo/wp-content/uploads/sites/14/2021/05/sample-black_1920x1200.jpg" alt="Sample Frost Image" class="wp-image-330"/></figure>
+				<!-- wp:image {"id":3480,"sizeSlug":"full","linkDestination":"none"} -->
+				<figure class="wp-block-image size-full"><img src="https://frostwp.com/wp-content/uploads/2021/12/sample-black_1920x1200.jpg" alt="Frost WordPress Theme" class="wp-image-3480"/></figure>
 				<!-- /wp:image -->
 				
 				<!-- wp:spacer {"height":30} -->

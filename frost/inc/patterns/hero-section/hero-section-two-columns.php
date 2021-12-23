@@ -35,8 +35,8 @@ return array(
 				<!-- /wp:column -->
 				
 				<!-- wp:column {"width":""} -->
-				<div class="wp-block-column"><!-- wp:image {"id":244,"sizeSlug":"full","linkDestination":"none"} -->
-				<figure class="wp-block-image size-full"><img src="https://frostwp.com/demo/wp-content/uploads/sites/14/2021/05/sample-black_1200x1200.jpg" alt="Sample Frost Image" class="wp-image-244"/></figure>
+				<div class="wp-block-column"><!-- wp:image {"id":3485,"sizeSlug":"large","linkDestination":"none"} -->
+				<figure class="wp-block-image size-large"><img src="https://frostwp.com/wp-content/uploads/2021/12/sample-black_1200x1200-1024x1024.jpg" alt="Frost WordPress Theme" class="wp-image-3485"/></figure>
 				<!-- /wp:image --></div>
 				<!-- /wp:column --></div>
 				<!-- /wp:columns -->

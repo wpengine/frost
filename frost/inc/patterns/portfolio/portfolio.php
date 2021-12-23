@@ -30,20 +30,20 @@ return array(
 				
 				<!-- wp:column {"verticalAlignment":"center","width":"","className":"has-no-bottom-margin"} -->
 				<div class="wp-block-column is-vertically-aligned-center has-no-bottom-margin"><!-- wp:gallery {"columns":0,"linkTo":"none"} -->
-				<figure class="wp-block-gallery has-nested-images columns-0 is-cropped"><!-- wp:image {"id":2429,"sizeSlug":"large","linkDestination":"none"} -->
-				<figure class="wp-block-image size-large"><img src="https://frostwp.com/demo/wp-content/uploads/sites/14/2021/08/portfolio-black_800x800_1.jpg" alt="Sample Frost Image" class="wp-image-2429"/></figure>
+				<figure class="wp-block-gallery has-nested-images columns-0 is-cropped"><!-- wp:image {"id":3497,"sizeSlug":"full","linkDestination":"none"} -->
+				<figure class="wp-block-image size-full"><img src="https://frostwp.com/wp-content/uploads/2021/12/portfolio-black_800x800_1.jpg" alt="Frost WordPress Theme" class="wp-image-3497"/></figure>
 				<!-- /wp:image -->
 				
-				<!-- wp:image {"id":2430,"sizeSlug":"large","linkDestination":"none"} -->
-				<figure class="wp-block-image size-large"><img src="https://frostwp.com/demo/wp-content/uploads/sites/14/2021/08/portfolio-black_800x800_2.jpg" alt="Sample Frost Image" class="wp-image-2430"/></figure>
+				<!-- wp:image {"id":3498,"sizeSlug":"full","linkDestination":"none"} -->
+				<figure class="wp-block-image size-full"><img src="https://frostwp.com/wp-content/uploads/2021/12/portfolio-black_800x800_2.jpg" alt="Frost WordPress Theme" class="wp-image-3498"/></figure>
 				<!-- /wp:image -->
 				
-				<!-- wp:image {"id":2431,"sizeSlug":"large","linkDestination":"none"} -->
-				<figure class="wp-block-image size-large"><img src="https://frostwp.com/demo/wp-content/uploads/sites/14/2021/08/portfolio-black_800x800_3.jpg" alt="Sample Frost Image" class="wp-image-2431"/></figure>
+				<!-- wp:image {"id":3499,"sizeSlug":"full","linkDestination":"none"} -->
+				<figure class="wp-block-image size-full"><img src="https://frostwp.com/wp-content/uploads/2021/12/portfolio-black_800x800_3.jpg" alt="Frost WordPress Theme" class="wp-image-3499"/></figure>
 				<!-- /wp:image -->
 				
-				<!-- wp:image {"id":2432,"sizeSlug":"large","linkDestination":"none"} -->
-				<figure class="wp-block-image size-large"><img src="https://frostwp.com/demo/wp-content/uploads/sites/14/2021/08/portfolio-black_800x800_4.jpg" alt="Sample Frost Image" class="wp-image-2432"/></figure>
+				<!-- wp:image {"id":3500,"sizeSlug":"full","linkDestination":"none"} -->
+				<figure class="wp-block-image size-full"><img src="https://frostwp.com/wp-content/uploads/2021/12/portfolio-black_800x800_4.jpg" alt="Frost WordPress Theme" class="wp-image-3500"/></figure>
 				<!-- /wp:image --></figure>
 				<!-- /wp:gallery --></div>
 				<!-- /wp:column --></div>
