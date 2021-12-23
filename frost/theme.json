@@ -460,7 +460,7 @@
 					}
 				},
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--)",
+					"fontSize": "var(--wp--preset--font-size--large)",
 					"fontWeight": "var(--wp--custom--font-weight--medium)",
 					"lineHeight": "var(--wp--custom--line-height--one)"
 				}
