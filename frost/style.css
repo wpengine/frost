@@ -126,6 +126,15 @@ blockquote {
 	padding: 2px;
 }
 
+.has-white-color .wp-block-navigation__responsive-container-open {
+	border: 1px solid var(--wp--preset--color--white);
+}
+
+.has-white-color .wp-block-navigation__responsive-container-open:focus,
+.has-white-color .wp-block-navigation__responsive-container-open:hover {
+	color: var(--wp--preset--color--white);
+}
+
 /* Site Content
 ---------------------------------------------------------------------------- */
 
@@ -675,6 +684,26 @@ img {
 	.wp-block-navigation .wp-block-navigation-item.is-style-fill a:hover {
 		background-color: var(--wp--preset--color--white);
 		color: var(--wp--preset--color--black);
+	}
+
+	.wp-block-navigation .wp-block-navigation-item.is-style-fill-white a,
+	.wp-block-navigation .wp-block-navigation-item.is-style-outline-white a {
+		border: 1px solid var(--wp--preset--color--white);
+		padding: 5px 15px;
+	}
+
+	.wp-block-navigation .wp-block-navigation-item.is-style-fill-white,
+	.wp-block-navigation .wp-block-navigation-item.is-style-outline-white a:focus,
+	.wp-block-navigation .wp-block-navigation-item.is-style-outline-white a:hover {
+		background-color: var(--wp--preset--color--white);
+		color: var(--wp--preset--color--black);
+	}
+
+	.wp-block-navigation .wp-block-navigation-item.is-style-outline-white a,
+	.wp-block-navigation .wp-block-navigation-item.is-style-fill-white a:focus,
+	.wp-block-navigation .wp-block-navigation-item.is-style-fill-white a:hover {
+		background-color: var(--wp--preset--color--black);
+		color: var(--wp--preset--color--white);
 	}
 
 	/* Pullquote

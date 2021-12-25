@@ -67,6 +67,22 @@ register_block_style(
 	)
 );
 
+register_block_style(
+	'core/navigation-link',
+	array(
+		'name'  => 'fill-white',
+		'label' => __( 'Fill White', 'frost' ),
+	)
+);
+
+register_block_style(
+	'core/navigation-link',
+	array(
+		'name'  => 'outline-white',
+		'label' => __( 'Outline White', 'frost' ),
+	)
+);
+
 // Add paragraph styles: Margin.
 register_block_style(
 	'core/paragraph',
