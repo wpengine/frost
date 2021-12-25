@@ -410,6 +410,12 @@ p.has-background {
 	box-shadow: 0 0 50px rgb(0 0 0 / 10%);
 }
 
+.is-style-full-height {
+	align-items: center;
+	display: grid;
+	min-height: 100vh;
+}
+
 .is-style-no-margin {
 	margin: 0;
 }

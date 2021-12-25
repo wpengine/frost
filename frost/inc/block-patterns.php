@@ -29,6 +29,10 @@ function frost_register_block_patterns() {
 			'label' => __( 'Footer', 'frost' ),
 			'categoryTypes' => array( 'frost' ),
 		),
+		'frost-form' => array(
+			'label' => __( 'Form', 'frost' ),
+			'categoryTypes' => array( 'frost' ),
+		),
 		'frost-header' => array(
 			'label' => __( 'Header', 'frost' ),
 			'categoryTypes' => array( 'frost' ),
@@ -103,7 +107,9 @@ function frost_register_block_patterns() {
 		'footer/footer-stacked-black-background',
 		'footer/footer-three-columns',
 		'footer/footer-three-columns-black-background',
-		'header/header-default',
+		'footer/footer-default',
+		'form/form-login-black-background',
+		'form/form-login',
 		'header/header-default-black-background',
 		'hidden/hidden-404',
 		'hero-section/hero-section-one-column',

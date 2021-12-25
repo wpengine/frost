@@ -396,12 +396,6 @@ input[type="submit"]:hover,
 	padding: 0;
 }
 
-.wp-block-group.is-full-height {
-	align-items: center;
-	display: grid;
-	min-height: 100vh;
-}
-
 /* Has Background
 --------------------------------------------- */
 h1.has-background,
@@ -626,6 +620,12 @@ img {
 
 .is-style-boxshadow {
 	box-shadow: 0 0 50px rgb(0 0 0 / 10%);
+}
+
+.is-style-full-height {
+	align-items: center;
+	display: grid;
+	min-height: 100vh;
 }
 
 .is-style-no-margin {

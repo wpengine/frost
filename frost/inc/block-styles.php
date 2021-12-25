@@ -33,6 +33,13 @@ register_block_style(
 		'label' => __( 'Boxshadow', 'frost' ),
 	)
 );
+register_block_style(
+	'core/group',
+	array(
+		'name'  => 'full-height',
+		'label' => __( 'Full-height', 'frost' ),
+	)
+);
 
 // Add image styles: Margin.
 register_block_style(
