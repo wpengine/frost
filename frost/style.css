@@ -614,10 +614,6 @@ img {
 /* Magic Classes
 ---------------------------------------------------------------------------- */
 
-.has-no-bottom-margin {
-	margin-bottom: 0 !important;
-}
-
 .has-negative-top-margin {
 	margin-top: -175px;
 	position: relative;

@@ -23,13 +23,13 @@ return array(
 				
 				<!-- wp:column {"verticalAlignment":"center"} -->
 				<div class="wp-block-column is-vertically-aligned-center"><!-- wp:paragraph {"align":"center","className":"is-style-no-margin","fontSize":"small"} -->
-				<p class="has-text-align-center is-style-no-margin has-small-font-size"><a href="#">Privacy Policy</a>&nbsp;·&nbsp;<a href="#">Terms of Service</a>&nbsp;·&nbsp;<a href="#">Contact Us</a></p>
+				<p class="has-text-align-center is-style-no-margin has-small-font-size"><a href="#">Privacy Policy</a> · <a href="#">Terms of Service</a> · <a href="#">Contact Us</a></p>
 				<!-- /wp:paragraph --></div>
 				<!-- /wp:column -->
 				
 				<!-- wp:column {"verticalAlignment":"center"} -->
-				<div class="wp-block-column is-vertically-aligned-center"><!-- wp:social-links {"iconBackgroundColor":"black","iconBackgroundColorValue":"#000","align":"right","className":"has-no-bottom-margin is-style-default","layout":{"type":"flex","justifyContent":"right"},"style":{"spacing":{"margin":{"top":"0px","bottom":"0px"}}}} -->
-				<ul class="wp-block-social-links alignright has-icon-background-color has-no-bottom-margin is-style-default" style="margin-top:0px;margin-bottom:0px"><!-- wp:social-link {"url":"#","service":"facebook"} /-->
+				<div class="wp-block-column is-vertically-aligned-center"><!-- wp:social-links {"iconBackgroundColor":"black","iconBackgroundColorValue":"#000","align":"right","className":"is-style-default","layout":{"type":"flex","justifyContent":"right"},"style":{"spacing":{"margin":{"top":"0px","bottom":"0px"}}}} -->
+				<ul class="wp-block-social-links alignright has-icon-background-color is-style-default" style="margin-top:0px;margin-bottom:0px"><!-- wp:social-link {"url":"#","service":"facebook"} /-->
 				
 				<!-- wp:social-link {"url":"#","service":"instagram"} /-->
 				

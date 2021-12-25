@@ -14,8 +14,8 @@ return array(
 				<!-- /wp:spacer -->
 				
 				<!-- wp:columns {"verticalAlignment":"center","align":"wide","style":{"spacing":{"margin":{"top":"0px","bottom":"0px"}}}} -->
-				<div class="wp-block-columns alignwide are-vertically-aligned-center" style="margin-top:0px;margin-bottom:0px"><!-- wp:column {"verticalAlignment":"center","width":"","className":"has-no-bottom-margin"} -->
-				<div class="wp-block-column is-vertically-aligned-center has-no-bottom-margin"><!-- wp:heading {"fontSize":"x-large"} -->
+				<div class="wp-block-columns alignwide are-vertically-aligned-center" style="margin-top:0px;margin-bottom:0px"><!-- wp:column {"verticalAlignment":"center","width":""} -->
+				<div class="wp-block-column is-vertically-aligned-center"><!-- wp:heading {"fontSize":"x-large"} -->
 				<h2 class="has-x-large-font-size" id="sample-heading">Sample Heading</h2>
 				<!-- /wp:heading -->
 				
@@ -28,8 +28,8 @@ return array(
 				<!-- /wp:paragraph --></div>
 				<!-- /wp:column -->
 				
-				<!-- wp:column {"verticalAlignment":"center","width":"","className":"has-no-bottom-margin"} -->
-				<div class="wp-block-column is-vertically-aligned-center has-no-bottom-margin"><!-- wp:gallery {"columns":0,"linkTo":"none"} -->
+				<!-- wp:column {"verticalAlignment":"center","width":""} -->
+				<div class="wp-block-column is-vertically-aligned-center"><!-- wp:gallery {"columns":0,"linkTo":"none"} -->
 				<figure class="wp-block-gallery has-nested-images columns-0 is-cropped"><!-- wp:image {"id":3497,"sizeSlug":"full","linkDestination":"none"} -->
 				<figure class="wp-block-image size-full"><img src="https://frostwp.com/wp-content/uploads/2021/12/portfolio-black_800x800_1.jpg" alt="Frost WordPress Theme" class="wp-image-3497"/></figure>
 				<!-- /wp:image -->
@@ -49,8 +49,8 @@ return array(
 				<!-- /wp:column --></div>
 				<!-- /wp:columns -->
 				
-				<!-- wp:spacer {"height":60} -->
-				<div style="height:60px" aria-hidden="true" class="wp-block-spacer"></div>
+				<!-- wp:spacer {"height":30} -->
+				<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer --></div>
 				<!-- /wp:group -->',
 );

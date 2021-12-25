@@ -396,13 +396,6 @@ p.has-background {
 	background-color: var(--wp--preset--color--gray);
 }
 
-/* Magic Classes
----------------------------------------------------------------------------- */
-
-.has-no-bottom-margin {
-	margin-bottom: 0 !important;
-}
-
 /* Block Styles
 ---------------------------------------------------------------------------- */
 
