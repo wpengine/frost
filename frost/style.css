@@ -405,18 +405,6 @@ input[type="submit"]:hover,
 	padding: 0;
 }
 
-/* Has Background
---------------------------------------------- */
-h1.has-background,
-h2.has-background,
-h3.has-background,
-h4.has-background,
-h5.has-background,
-h6.has-background,
-p.has-background {
-	padding: 20px 30px;
-}
-
 /* Images
 --------------------------------------------- */
 
@@ -615,7 +603,7 @@ img {
 ---------------------------------------------------------------------------- */
 
 .has-negative-top-margin {
-	margin-top: -175px;
+	margin-top: -166px;
 	position: relative;
 	z-index: 999;
 }
