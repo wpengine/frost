@@ -406,10 +406,7 @@
 				},
 				"spacing": {
 					"margin": {
-						"top": "0px",
-						"right": "0px",
-						"bottom": "35px",
-						"left": "0px"
+						"bottom": "35px"
 					},
 					"padding": {
 						"top": "30px",
