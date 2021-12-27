@@ -110,6 +110,7 @@ function frost_register_block_patterns() {
 		'footer/footer-default',
 		'form/form-login-black-background',
 		'form/form-login',
+		'header/header-default',
 		'header/header-default-black-background',
 		'hidden/hidden-404',
 		'hero-section/hero-section-one-column',
