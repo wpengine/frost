@@ -27,10 +27,10 @@ return array(
 				<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer -->
 				
-				<!-- wp:columns {"align":"wide","style":{"spacing":{"margin":{"top":"0px","bottom":"0px"}}}} -->
-				<div class="wp-block-columns alignwide" style="margin-top:0px;margin-bottom:0px"><!-- wp:column -->
-				<div class="wp-block-column"><!-- wp:columns {"style":{"spacing":{"margin":{"top":"0px","bottom":"0px"}}}} -->
-				<div class="wp-block-columns" style="margin-top:0px;margin-bottom:0px"><!-- wp:column {"width":"22%"} -->
+				<!-- wp:columns {"align":"wide"} -->
+				<div class="wp-block-columns alignwide"><!-- wp:column -->
+				<div class="wp-block-column"><!-- wp:columns -->
+				<div class="wp-block-columns"><!-- wp:column {"width":"22%"} -->
 				<div class="wp-block-column" style="flex-basis:22%"><!-- wp:image {"id":3489,"sizeSlug":"full","linkDestination":"none"} -->
 				<figure class="wp-block-image size-full"><img src="https://frostwp.com/wp-content/uploads/2021/12/sample-black_800x800.jpg" alt="Frost WordPress Theme" class="wp-image-3489"/></figure>
 				<!-- /wp:image --></div>
@@ -47,8 +47,8 @@ return array(
 				<!-- /wp:column --></div>
 				<!-- /wp:columns -->
 				
-				<!-- wp:columns {"style":{"spacing":{"margin":{"top":"0px","bottom":"0px"}}}} -->
-				<div class="wp-block-columns" style="margin-top:0px;margin-bottom:0px"><!-- wp:column {"width":"22%"} -->
+				<!-- wp:columns -->
+				<div class="wp-block-columns"><!-- wp:column {"width":"22%"} -->
 				<div class="wp-block-column" style="flex-basis:22%"><!-- wp:image {"id":3489,"sizeSlug":"full","linkDestination":"none"} -->
 				<figure class="wp-block-image size-full"><img src="https://frostwp.com/wp-content/uploads/2021/12/sample-black_800x800.jpg" alt="Frost WordPress Theme" class="wp-image-3489"/></figure>
 				<!-- /wp:image --></div>
@@ -65,8 +65,8 @@ return array(
 				<!-- /wp:column --></div>
 				<!-- /wp:columns -->
 				
-				<!-- wp:columns {"style":{"spacing":{"margin":{"top":"0px","bottom":"0px"}}}} -->
-				<div class="wp-block-columns" style="margin-top:0px;margin-bottom:0px"><!-- wp:column {"width":"22%"} -->
+				<!-- wp:columns -->
+				<div class="wp-block-columns"><!-- wp:column {"width":"22%"} -->
 				<div class="wp-block-column" style="flex-basis:22%"><!-- wp:image {"id":3489,"sizeSlug":"full","linkDestination":"none"} -->
 				<figure class="wp-block-image size-full"><img src="https://frostwp.com/wp-content/uploads/2021/12/sample-black_800x800.jpg" alt="Frost WordPress Theme" class="wp-image-3489"/></figure>
 				<!-- /wp:image --></div>
@@ -85,8 +85,8 @@ return array(
 				<!-- /wp:column -->
 				
 				<!-- wp:column -->
-				<div class="wp-block-column"><!-- wp:columns {"style":{"spacing":{"margin":{"top":"0px","bottom":"0px"}}}} -->
-				<div class="wp-block-columns" style="margin-top:0px;margin-bottom:0px"><!-- wp:column {"width":"22%"} -->
+				<div class="wp-block-column"><!-- wp:columns -->
+				<div class="wp-block-columns"><!-- wp:column {"width":"22%"} -->
 				<div class="wp-block-column" style="flex-basis:22%"><!-- wp:image {"id":3489,"sizeSlug":"full","linkDestination":"none"} -->
 				<figure class="wp-block-image size-full"><img src="https://frostwp.com/wp-content/uploads/2021/12/sample-black_800x800.jpg" alt="Frost WordPress Theme" class="wp-image-3489"/></figure>
 				<!-- /wp:image --></div>
@@ -103,8 +103,8 @@ return array(
 				<!-- /wp:column --></div>
 				<!-- /wp:columns -->
 				
-				<!-- wp:columns {"style":{"spacing":{"margin":{"top":"0px","bottom":"0px"}}}} -->
-				<div class="wp-block-columns" style="margin-top:0px;margin-bottom:0px"><!-- wp:column {"width":"22%"} -->
+				<!-- wp:columns -->
+				<div class="wp-block-columns"><!-- wp:column {"width":"22%"} -->
 				<div class="wp-block-column" style="flex-basis:22%"><!-- wp:image {"id":3489,"sizeSlug":"full","linkDestination":"none"} -->
 				<figure class="wp-block-image size-full"><img src="https://frostwp.com/wp-content/uploads/2021/12/sample-black_800x800.jpg" alt="Frost WordPress Theme" class="wp-image-3489"/></figure>
 				<!-- /wp:image --></div>

@@ -14,8 +14,8 @@ return array(
 				<div style="height:40px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer -->
 				
-				<!-- wp:columns {"align":"wide","style":{"spacing":{"margin":{"top":"0px","bottom":"0px"}}}} -->
-				<div class="wp-block-columns alignwide" style="margin-top:0px;margin-bottom:0px"><!-- wp:column -->
+				<!-- wp:columns {"align":"wide"} -->
+				<div class="wp-block-columns alignwide"><!-- wp:column -->
 				<div class="wp-block-column"><!-- wp:paragraph {"align":"left","className":"is-style-no-margin","fontSize":"small"} -->
 				<p class="has-text-align-left is-style-no-margin has-small-font-size">© 2022 Your Company LLC · <a href="#">Contact Us</a></p>
 				<!-- /wp:paragraph --></div>

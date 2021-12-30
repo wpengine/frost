@@ -21,8 +21,8 @@ return array(
 				<!-- /wp:column -->
 				
 				<!-- wp:column {"verticalAlignment":"center","width":"40%"} -->
-				<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:40%"><!-- wp:buttons {"layout":{"type":"flex","justifyContent":"right","orientation":"horizontal"},"style":{"spacing":{"margin":{"top":"0px","bottom":"0px"}}}} -->
-				<div class="wp-block-buttons" style="margin-top:0px;margin-bottom:0px"><!-- wp:button {"style":{"border":{"radius":0}},"className":"is-style-fill large"} -->
+				<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:40%"><!-- wp:buttons {"layout":{"type":"flex","justifyContent":"right","orientation":"horizontal"}} -->
+				<div class="wp-block-buttons"><!-- wp:button {"style":{"border":{"radius":0}},"className":"is-style-fill large"} -->
 				<div class="wp-block-button is-style-fill large"><a class="wp-block-button__link no-border-radius">Get Started →</a></div>
 				<!-- /wp:button -->
 				

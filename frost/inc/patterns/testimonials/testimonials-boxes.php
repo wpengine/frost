@@ -13,11 +13,11 @@ return array(
 				<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer -->
 				
-				<!-- wp:columns {"align":"wide","style":{"spacing":{"margin":{"top":"0px","bottom":"0px"}}}} -->
-				<div class="wp-block-columns alignwide" style="margin-top:0px;margin-bottom:0px"><!-- wp:column -->
+				<!-- wp:columns {"align":"wide"} -->
+				<div class="wp-block-columns alignwide"><!-- wp:column -->
 				<div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"padding":{"top":"30px","right":"30px","bottom":"10px","left":"30px"}}},"backgroundColor":"black"} -->
-				<div class="wp-block-group has-black-background-color has-background" style="padding-top:30px;padding-right:30px;padding-bottom:10px;padding-left:30px"><!-- wp:heading {"textAlign":"center","level":4,"style":{"typography":{"fontSize":72,"lineHeight":"1"}},"textColor":"white","className":"has-no-bottom-margin"} -->
-				<h4 class="has-text-align-center has-no-bottom-margin has-white-color has-text-color" style="font-size:72px;line-height:1">“</h4>
+				<div class="wp-block-group has-black-background-color has-background" style="padding-top:30px;padding-right:30px;padding-bottom:10px;padding-left:30px"><!-- wp:heading {"textAlign":"center","level":4,"style":{"typography":{"fontSize":72,"lineHeight":"1"},"spacing":{"margin":{"top":"0px","right":"0px","bottom":"0px","left":"0px"}}},"textColor":"white"} -->
+				<h4 class="has-text-align-center has-white-color has-text-color" style="font-size:72px;line-height:1;margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px">“</h4>
 				<!-- /wp:heading -->
 				
 				<!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":"18px"}},"textColor":"white"} -->
@@ -32,8 +32,8 @@ return array(
 				
 				<!-- wp:column -->
 				<div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"padding":{"top":"30px","right":"30px","bottom":"10px","left":"30px"}}},"backgroundColor":"black"} -->
-				<div class="wp-block-group has-black-background-color has-background" style="padding-top:30px;padding-right:30px;padding-bottom:10px;padding-left:30px"><!-- wp:heading {"textAlign":"center","level":4,"style":{"typography":{"fontSize":72,"lineHeight":"1"}},"textColor":"white","className":"has-no-bottom-margin"} -->
-				<h4 class="has-text-align-center has-no-bottom-margin has-white-color has-text-color" style="font-size:72px;line-height:1">“</h4>
+				<div class="wp-block-group has-black-background-color has-background" style="padding-top:30px;padding-right:30px;padding-bottom:10px;padding-left:30px"><!-- wp:heading {"textAlign":"center","level":4,"style":{"typography":{"fontSize":72,"lineHeight":"1"},"spacing":{"margin":{"top":"0px","right":"0px","bottom":"0px","left":"0px"}}},"textColor":"white"} -->
+				<h4 class="has-text-align-center has-white-color has-text-color" style="font-size:72px;line-height:1;margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px">“</h4>
 				<!-- /wp:heading -->
 				
 				<!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":"18px"}},"textColor":"white"} -->
@@ -48,8 +48,8 @@ return array(
 				
 				<!-- wp:column -->
 				<div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"padding":{"top":"30px","right":"30px","bottom":"10px","left":"30px"}}},"backgroundColor":"black"} -->
-				<div class="wp-block-group has-black-background-color has-background" style="padding-top:30px;padding-right:30px;padding-bottom:10px;padding-left:30px"><!-- wp:heading {"textAlign":"center","level":4,"style":{"typography":{"fontSize":72,"lineHeight":"1"}},"textColor":"white","className":"has-no-bottom-margin"} -->
-				<h4 class="has-text-align-center has-no-bottom-margin has-white-color has-text-color" style="font-size:72px;line-height:1">“</h4>
+				<div class="wp-block-group has-black-background-color has-background" style="padding-top:30px;padding-right:30px;padding-bottom:10px;padding-left:30px"><!-- wp:heading {"textAlign":"center","level":4,"style":{"typography":{"fontSize":72,"lineHeight":"1"},"spacing":{"margin":{"top":"0px","right":"0px","bottom":"0px","left":"0px"}}},"textColor":"white"} -->
+				<h4 class="has-text-align-center has-white-color has-text-color" style="font-size:72px;line-height:1;margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px">“</h4>
 				<!-- /wp:heading -->
 				
 				<!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":"18px"}},"textColor":"white"} -->

@@ -13,8 +13,8 @@ return array(
 				<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer -->
 				
-				<!-- wp:columns {"align":"wide","style":{"spacing":{"margin":{"top":"0px","bottom":"0px"}}}} -->
-				<div class="wp-block-columns alignwide" style="margin-top:0px;margin-bottom:0px"><!-- wp:column {"verticalAlignment":"center"} -->
+				<!-- wp:columns {"align":"wide"} -->
+				<div class="wp-block-columns alignwide"><!-- wp:column {"verticalAlignment":"center"} -->
 				<div class="wp-block-column is-vertically-aligned-center"><!-- wp:heading {"textColor":"white","fontSize":"x-large"} -->
 				<h2 class="has-white-color has-text-color has-x-large-font-size" id="text-on-left-image-on-right">Text on left, image on right.</h2>
 				<!-- /wp:heading -->
@@ -23,8 +23,8 @@ return array(
 				<p class="has-white-color has-text-color">Lorem ipsum dolor sit amet, consectetur adipiscing vestibulum. Fringilla nec accumsan eget, facilisis mi justo, luctus pellentesque vitae gravida non diam accumsan posuere, venenatis at mi turpis.</p>
 				<!-- /wp:paragraph -->
 				
-				<!-- wp:buttons {"style":{"spacing":{"margin":{"top":"0px","bottom":"0px"}}}} -->
-				<div class="wp-block-buttons" style="margin-top:0px;margin-bottom:0px"><!-- wp:button {"style":{"border":{"radius":0}},"className":"is-style-fill-white"} -->
+				<!-- wp:buttons -->
+				<div class="wp-block-buttons"><!-- wp:button {"style":{"border":{"radius":0}},"className":"is-style-fill-white"} -->
 				<div class="wp-block-button is-style-fill-white"><a class="wp-block-button__link no-border-radius">Get Started</a></div>
 				<!-- /wp:button -->
 				

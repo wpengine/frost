@@ -21,8 +21,8 @@ return array(
 				<p class="has-text-align-center has-white-color has-text-color">Create a three-column table, full-width (1200px).</p>
 				<!-- /wp:paragraph -->
 				
-				<!-- wp:columns {"align":"wide","style":{"spacing":{"margin":{"top":"0px","bottom":"0px"}}},"className":"has-smaller-left-margin"} -->
-				<div class="wp-block-columns alignwide has-smaller-left-margin" style="margin-top:0px;margin-bottom:0px"><!-- wp:column -->
+				<!-- wp:columns {"align":"wide","className":"has-smaller-left-margin"} -->
+				<div class="wp-block-columns alignwide has-smaller-left-margin"><!-- wp:column -->
 				<div class="wp-block-column"><!-- wp:group {"style":{"border":{"width":"1px","style":"solid"}},"borderColor":"white","className":"has-white-border"} -->
 				<div class="wp-block-group has-white-border has-border-color has-white-border-color" style="border-style:solid;border-width:1px"><!-- wp:heading {"textAlign":"center","level":4,"style":{"spacing":{"margin":{"bottom":"0px"}}},"backgroundColor":"white","textColor":"black"} -->
 				<h4 class="has-text-align-center has-black-color has-white-background-color has-text-color has-background" id="personal-95" style="margin-bottom:0px">Personal - $95</h4>
@@ -37,8 +37,8 @@ return array(
 				<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer -->
 				
-				<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center","orientation":"horizontal"},"style":{"spacing":{"margin":{"top":"0px","bottom":"0px"}}}} -->
-				<div class="wp-block-buttons" style="margin-top:0px;margin-bottom:0px"><!-- wp:button {"style":{"border":{"radius":0}},"className":"is-style-fill-white"} -->
+				<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center","orientation":"horizontal"}} -->
+				<div class="wp-block-buttons"><!-- wp:button {"style":{"border":{"radius":0}},"className":"is-style-fill-white"} -->
 				<div class="wp-block-button is-style-fill-white"><a class="wp-block-button__link no-border-radius">Sign Up Now</a></div>
 				<!-- /wp:button --></div>
 				<!-- /wp:buttons --></div>
@@ -61,8 +61,8 @@ return array(
 				<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer -->
 				
-				<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center","orientation":"horizontal"},"style":{"spacing":{"margin":{"top":"0px","bottom":"0px"}}}} -->
-				<div class="wp-block-buttons" style="margin-top:0px;margin-bottom:0px"><!-- wp:button {"style":{"border":{"radius":0}},"className":"is-style-fill-white"} -->
+				<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center","orientation":"horizontal"}} -->
+				<div class="wp-block-buttons"><!-- wp:button {"style":{"border":{"radius":0}},"className":"is-style-fill-white"} -->
 				<div class="wp-block-button is-style-fill-white"><a class="wp-block-button__link no-border-radius">Sign Up Now</a></div>
 				<!-- /wp:button --></div>
 				<!-- /wp:buttons --></div>
@@ -85,8 +85,8 @@ return array(
 				<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer -->
 				
-				<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center","orientation":"horizontal"},"style":{"spacing":{"margin":{"top":"0px","bottom":"0px"}}}} -->
-				<div class="wp-block-buttons" style="margin-top:0px;margin-bottom:0px"><!-- wp:button {"style":{"border":{"radius":0}},"className":"is-style-fill-white"} -->
+				<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center","orientation":"horizontal"}} -->
+				<div class="wp-block-buttons"><!-- wp:button {"style":{"border":{"radius":0}},"className":"is-style-fill-white"} -->
 				<div class="wp-block-button is-style-fill-white"><a class="wp-block-button__link no-border-radius">Sign Up Now</a></div>
 				<!-- /wp:button --></div>
 				<!-- /wp:buttons --></div>

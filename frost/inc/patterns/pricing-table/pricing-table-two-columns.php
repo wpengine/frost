@@ -21,8 +21,8 @@ return array(
 				<p class="has-text-align-center">Create a two-column table, wide-width (800px).</p>
 				<!-- /wp:paragraph -->
 				
-				<!-- wp:columns {"style":{"spacing":{"margin":{"top":"0px","bottom":"0px"}}}} -->
-				<div class="wp-block-columns" style="margin-top:0px;margin-bottom:0px"><!-- wp:column -->
+				<!-- wp:columns -->
+				<div class="wp-block-columns"><!-- wp:column -->
 				<div class="wp-block-column"><!-- wp:group {"style":{"border":{"width":"1px","style":"solid"}},"borderColor":"black","className":"has-black-border"} -->
 				<div class="wp-block-group has-black-border has-border-color has-black-border-color" style="border-style:solid;border-width:1px"><!-- wp:heading {"textAlign":"center","level":4,"style":{"spacing":{"margin":{"bottom":"0px"}}},"backgroundColor":"black","textColor":"white"} -->
 				<h4 class="has-text-align-center has-white-color has-black-background-color has-text-color has-background" id="personal-95" style="margin-bottom:0px">Personal - $95</h4>
@@ -37,8 +37,8 @@ return array(
 				<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer -->
 				
-				<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center","orientation":"horizontal"},"style":{"spacing":{"margin":{"top":"0px","bottom":"0px"}}}} -->
-				<div class="wp-block-buttons" style="margin-top:0px;margin-bottom:0px"><!-- wp:button {"style":{"border":{"radius":0}}} -->
+				<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center","orientation":"horizontal"}} -->
+				<div class="wp-block-buttons"><!-- wp:button {"style":{"border":{"radius":0}}} -->
 				<div class="wp-block-button"><a class="wp-block-button__link no-border-radius">Sign Up Now</a></div>
 				<!-- /wp:button --></div>
 				<!-- /wp:buttons --></div>
@@ -61,8 +61,8 @@ return array(
 				<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer -->
 				
-				<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center","orientation":"horizontal"},"style":{"spacing":{"margin":{"top":"0px","bottom":"0px"}}}} -->
-				<div class="wp-block-buttons" style="margin-top:0px;margin-bottom:0px"><!-- wp:button {"style":{"border":{"radius":0}}} -->
+				<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center","orientation":"horizontal"}} -->
+				<div class="wp-block-buttons"><!-- wp:button {"style":{"border":{"radius":0}}} -->
 				<div class="wp-block-button"><a class="wp-block-button__link no-border-radius">Sign Up Now</a></div>
 				<!-- /wp:button --></div>
 				<!-- /wp:buttons --></div>

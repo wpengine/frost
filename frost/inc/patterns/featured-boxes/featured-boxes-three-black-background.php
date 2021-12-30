@@ -13,8 +13,8 @@ return array(
 				<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer -->
 				
-				<!-- wp:columns {"align":"wide","style":{"spacing":{"margin":{"top":"0px","bottom":"0px"}}}} -->
-				<div class="wp-block-columns alignwide" style="margin-top:0px;margin-bottom:0px"><!-- wp:column {"style":{"spacing":{"padding":{"top":"40px","right":"40px","bottom":"40px","left":"40px"}}},"backgroundColor":"white"} -->
+				<!-- wp:columns {"align":"wide"} -->
+				<div class="wp-block-columns alignwide"><!-- wp:column {"style":{"spacing":{"padding":{"top":"40px","right":"40px","bottom":"40px","left":"40px"}}},"backgroundColor":"white"} -->
 				<div class="wp-block-column has-white-background-color has-background" style="padding-top:40px;padding-right:40px;padding-bottom:40px;padding-left:40px"><!-- wp:heading {"level":3} -->
 				<h3 id="sample-heading">Sample Heading</h3>
 				<!-- /wp:heading -->
@@ -23,8 +23,8 @@ return array(
 				<p style="font-size:18px">Lorem ipsum dolor sit amet, consectetur adipiscing vestibulum. Fringilla nec accumsan eget, facilisis mi justo, luctus pellentesque.</p>
 				<!-- /wp:paragraph -->
 				
-				<!-- wp:buttons {"style":{"spacing":{"margin":{"top":"0px","bottom":"0px"}}}} -->
-				<div class="wp-block-buttons" style="margin-top:0px;margin-bottom:0px"><!-- wp:button {"style":{"border":{"radius":0}}} -->
+				<!-- wp:buttons -->
+				<div class="wp-block-buttons"><!-- wp:button {"style":{"border":{"radius":0}}} -->
 				<div class="wp-block-button"><a class="wp-block-button__link no-border-radius">Learn More</a></div>
 				<!-- /wp:button --></div>
 				<!-- /wp:buttons --></div>
@@ -39,8 +39,8 @@ return array(
 				<p style="font-size:18px">Lorem ipsum dolor sit amet, consectetur adipiscing vestibulum. Fringilla nec accumsan eget, facilisis mi justo, luctus pellentesque.</p>
 				<!-- /wp:paragraph -->
 				
-				<!-- wp:buttons {"style":{"spacing":{"margin":{"top":"0px","bottom":"0px"}}}} -->
-				<div class="wp-block-buttons" style="margin-top:0px;margin-bottom:0px"><!-- wp:button {"style":{"border":{"radius":0}}} -->
+				<!-- wp:buttons -->
+				<div class="wp-block-buttons"><!-- wp:button {"style":{"border":{"radius":0}}} -->
 				<div class="wp-block-button"><a class="wp-block-button__link no-border-radius">Learn More</a></div>
 				<!-- /wp:button --></div>
 				<!-- /wp:buttons --></div>
@@ -55,8 +55,8 @@ return array(
 				<p style="font-size:18px">Lorem ipsum dolor sit amet, consectetur adipiscing vestibulum. Fringilla nec accumsan eget, facilisis mi justo, luctus pellentesque.</p>
 				<!-- /wp:paragraph -->
 				
-				<!-- wp:buttons {"style":{"spacing":{"margin":{"top":"0px","bottom":"0px"}}}} -->
-				<div class="wp-block-buttons" style="margin-top:0px;margin-bottom:0px"><!-- wp:button {"style":{"border":{"radius":0}}} -->
+				<!-- wp:buttons -->
+				<div class="wp-block-buttons"><!-- wp:button {"style":{"border":{"radius":0}}} -->
 				<div class="wp-block-button"><a class="wp-block-button__link no-border-radius">Learn More</a></div>
 				<!-- /wp:button --></div>
 				<!-- /wp:buttons --></div>

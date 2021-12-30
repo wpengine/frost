@@ -13,8 +13,8 @@ return array(
 				<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer -->
 				
-				<!-- wp:columns {"verticalAlignment":"center","align":"wide","style":{"spacing":{"margin":{"top":"0px","bottom":"0px"}}}} -->
-				<div class="wp-block-columns alignwide are-vertically-aligned-center" style="margin-top:0px;margin-bottom:0px"><!-- wp:column {"verticalAlignment":"center","width":"30%"} -->
+				<!-- wp:columns {"verticalAlignment":"center","align":"wide"} -->
+				<div class="wp-block-columns alignwide are-vertically-aligned-center"><!-- wp:column {"verticalAlignment":"center","width":"30%"} -->
 				<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:30%"><!-- wp:image {"id":3489,"sizeSlug":"full","linkDestination":"none","className":"is-style-no-margin"} -->
 				<figure class="wp-block-image size-full is-style-no-margin"><img src="https://frostwp.com/wp-content/uploads/2021/12/sample-black_800x800.jpg" alt="Frost WordPress Theme" class="wp-image-3489"/></figure>
 				<!-- /wp:image --></div>
@@ -33,8 +33,8 @@ return array(
 				<figure class="wp-block-audio"><audio controls src="https://frostwp.com/wp-content/uploads/2021/12/sample-audio-file.mp3"></audio></figure>
 				<!-- /wp:audio -->
 				
-				<!-- wp:buttons {"style":{"spacing":{"margin":{"top":"0px","bottom":"0px"}}}} -->
-				<div class="wp-block-buttons" style="margin-top:0px;margin-bottom:0px"><!-- wp:button {"className":"is-style-outline"} -->
+				<!-- wp:buttons -->
+				<div class="wp-block-buttons"><!-- wp:button {"className":"is-style-outline"} -->
 				<div class="wp-block-button is-style-outline"><a class="wp-block-button__link" href="#">Apple Podcasts</a></div>
 				<!-- /wp:button -->
 				

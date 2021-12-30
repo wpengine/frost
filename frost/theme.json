@@ -213,7 +213,7 @@
 			"core/buttons": {
 				"spacing": {
 					"margin": {
-						"bottom": "30px"
+						"bottom": "0"
 					}
 				}
 			},
@@ -262,7 +262,7 @@
 			"core/columns": {
 				"spacing": {
 					"margin": {
-						"bottom": "30px"
+						"bottom": "0"
 					}
 				}
 			},
@@ -465,7 +465,7 @@
 			"core/social-links": {
 				"spacing": {
 					"margin": {
-						"bottom": "30px"
+						"bottom": "0"
 					}
 				}
 			},

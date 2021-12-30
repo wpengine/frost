@@ -14,9 +14,9 @@ return array(
 				<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer -->
 				
-				<!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":48,"lineHeight":"1.25"}},"className":"is-uppercase"} -->
-				<p class="has-text-align-center is-uppercase" style="font-size:48px;line-height:1.25">Let’s Connect</p>
-				<!-- /wp:paragraph -->
+				<!-- wp:heading {"textAlign":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"400"},"spacing":{"margin":{"bottom":"20px"}}},"fontSize":"max-48"} -->
+				<h2 class="has-text-align-center has-max-48-font-size" id="let-s-connect-1" style="font-style:normal;font-weight:400;margin-bottom:20px">Let’s Connect</h2>
+				<!-- /wp:heading -->
 				
 				<!-- wp:paragraph {"align":"center"} -->
 				<p class="has-text-align-center">Quisque aliquam nisl quis metus taylor feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing vestibulum vitae gravida non diam accumsan.</p>

@@ -8,8 +8,8 @@
 return array(
 	'title'      => __( 'Link page with image, buttons.', 'frost' ),
 	'categories' => array( 'frost-link-page' ),
-	'content'    => '<!-- wp:group {"align":"full","className":"is-full-height","layout":{"inherit":true}} -->
-				<div class="wp-block-group alignfull is-full-height"><!-- wp:group -->
+	'content'    => '<!-- wp:group {"align":"full","className":"is-style-full-height","layout":{"inherit":true}} -->
+				<div class="wp-block-group alignfull is-style-full-height"><!-- wp:group -->
 				<div class="wp-block-group"><!-- wp:spacer -->
 				<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer -->
@@ -26,8 +26,8 @@ return array(
 				<p class="has-text-align-center">Company Name<br><a href="mailto:name@company.com">name@company.com</a></p>
 				<!-- /wp:paragraph -->
 				
-				<!-- wp:social-links {"iconBackgroundColor":"black","iconBackgroundColorValue":"#000","size":"has-normal-icon-size","align":"center","style":{"spacing":{"margin":{"top":"0px","bottom":"0px"}}}} -->
-				<ul class="wp-block-social-links aligncenter has-normal-icon-size has-icon-background-color" style="margin-top:0px;margin-bottom:0px"><!-- wp:social-link {"url":"#","service":"facebook"} /-->
+				<!-- wp:social-links {"iconBackgroundColor":"black","iconBackgroundColorValue":"#000","size":"has-normal-icon-size","align":"center"} -->
+				<ul class="wp-block-social-links aligncenter has-normal-icon-size has-icon-background-color"><!-- wp:social-link {"url":"#","service":"facebook"} /-->
 				
 				<!-- wp:social-link {"url":"#","service":"instagram"} /-->
 				
@@ -42,8 +42,8 @@ return array(
 				<div style="height:60px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer -->
 				
-				<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center","orientation":"horizontal"},"style":{"spacing":{"margin":{"top":"0px","bottom":"0px"}}}} -->
-				<div class="wp-block-buttons" style="margin-top:0px;margin-bottom:0px"><!-- wp:button {"width":100,"style":{"border":{"radius":0}}} -->
+				<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center","orientation":"horizontal"}} -->
+				<div class="wp-block-buttons"><!-- wp:button {"width":100,"style":{"border":{"radius":0}}} -->
 				<div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link no-border-radius">Visit My Website</a></div>
 				<!-- /wp:button -->
 				

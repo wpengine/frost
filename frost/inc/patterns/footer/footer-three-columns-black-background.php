@@ -14,8 +14,8 @@ return array(
 				<div style="height:40px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer -->
 				
-				<!-- wp:columns {"align":"wide","style":{"spacing":{"margin":{"top":"0px","bottom":"0px"}}}} -->
-				<div class="wp-block-columns alignwide" style="margin-top:0px;margin-bottom:0px"><!-- wp:column {"verticalAlignment":"center"} -->
+				<!-- wp:columns {"align":"wide"} -->
+				<div class="wp-block-columns alignwide"><!-- wp:column {"verticalAlignment":"center"} -->
 				<div class="wp-block-column is-vertically-aligned-center"><!-- wp:paragraph {"align":"left","textColor":"white","className":"is-style-no-margin","fontSize":"small"} -->
 				<p class="has-text-align-left is-style-no-margin has-white-color has-text-color has-small-font-size">© 2022 Your Company LLC</p>
 				<!-- /wp:paragraph --></div>
@@ -28,8 +28,8 @@ return array(
 				<!-- /wp:column -->
 				
 				<!-- wp:column {"verticalAlignment":"center"} -->
-				<div class="wp-block-column is-vertically-aligned-center"><!-- wp:social-links {"iconColor":"black","iconColorValue":"#000","iconBackgroundColor":"white","iconBackgroundColorValue":"#fff","align":"right","className":"is-style-default","layout":{"type":"flex","justifyContent":"right"},"style":{"spacing":{"margin":{"top":"0px","bottom":"0px"}}}} -->
-				<ul class="wp-block-social-links alignright has-icon-color has-icon-background-color is-style-default" style="margin-top:0px;margin-bottom:0px"><!-- wp:social-link {"url":"#","service":"facebook"} /-->
+				<div class="wp-block-column is-vertically-aligned-center"><!-- wp:social-links {"iconColor":"black","iconColorValue":"#000","iconBackgroundColor":"white","iconBackgroundColorValue":"#fff","align":"right","className":"is-style-default","layout":{"type":"flex","justifyContent":"right"}} -->
+				<ul class="wp-block-social-links alignright has-icon-color has-icon-background-color is-style-default"><!-- wp:social-link {"url":"#","service":"facebook"} /-->
 				
 				<!-- wp:social-link {"url":"#","service":"instagram"} /-->
 				

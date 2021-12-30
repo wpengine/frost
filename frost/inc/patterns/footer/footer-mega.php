@@ -14,8 +14,8 @@ return array(
 				<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer -->
 				
-				<!-- wp:columns {"align":"wide","style":{"spacing":{"margin":{"top":"0px","bottom":"0px"}}}} -->
-				<div class="wp-block-columns alignwide" style="margin-top:0px;margin-bottom:0px"><!-- wp:column {"width":"50%"} -->
+				<!-- wp:columns {"align":"wide"} -->
+				<div class="wp-block-columns alignwide"><!-- wp:column {"width":"50%"} -->
 				<div class="wp-block-column" style="flex-basis:50%"><!-- wp:heading {"level":4} -->
 				<h4 id="our-company">Our Company</h4>
 				<!-- /wp:heading -->
@@ -66,8 +66,8 @@ return array(
 				<!-- /wp:column --></div>
 				<!-- /wp:columns -->
 				
-				<!-- wp:spacer {"height":40} -->
-				<div style="height:40px" aria-hidden="true" class="wp-block-spacer"></div>
+				<!-- wp:spacer {"height":70} -->
+				<div style="height:70px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer --></div>
 				<!-- /wp:group -->',
 );

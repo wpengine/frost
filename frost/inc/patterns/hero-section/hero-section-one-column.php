@@ -29,8 +29,8 @@ return array(
 				<p class="has-text-align-center">Lorem ipsum dolor sit amet, consectetur adipiscing vestibulum. Fringilla nec accumsan eget, facilisis mi justo, luctus eu pellentesque vitae gravida non diam accumsan.</p>
 				<!-- /wp:paragraph -->
 				
-				<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center","orientation":"horizontal"},"style":{"spacing":{"margin":{"top":"0px","bottom":"0px"}}}} -->
-				<div class="wp-block-buttons" style="margin-top:0px;margin-bottom:0px"><!-- wp:button {"style":{"border":{"radius":0}}} -->
+				<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center","orientation":"horizontal"}} -->
+				<div class="wp-block-buttons"><!-- wp:button {"style":{"border":{"radius":0}}} -->
 				<div class="wp-block-button"><a class="wp-block-button__link no-border-radius">Get Started</a></div>
 				<!-- /wp:button -->
 				
