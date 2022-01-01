@@ -72,7 +72,8 @@ function frost_fonts_url() {
 	}
 
 	$fonts = [
-		'family=Jost:wght@100;200;300;400;500;600;700;800;900'
+		'family=Jost:wght@100;200;300;400;500;600;700;800;900',
+		'family=Outfit:wght@100;200;300;400;500;600;700;800;900'
 	];
 
 	// Make a single request for all Google Fonts.

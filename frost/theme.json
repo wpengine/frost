@@ -134,6 +134,11 @@
 					"slug": "jost"
 				},
 				{
+					"fontFamily": "\"Outfit\", sans-serif",
+					"name": "Outfit",
+					"slug": "outfit"
+				},
+				{
 					"fontFamily": "monospace",
 					"name": "Monospace",
 					"slug": "monospace"
@@ -298,6 +303,7 @@
 					}
 				},
 				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--outfit)",
 					"fontWeight": "var(--wp--custom--font-weight--medium)",
 					"lineHeight": "var(--wp--custom--line-height--heading)"
 				}
