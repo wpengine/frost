@@ -326,6 +326,13 @@ img {
 	text-align: inherit;
 }
 
+/* Post Author
+--------------------------------------------- */
+
+.wp-block-post-author__name {
+	margin: 0;
+}
+
 /* Separator
 --------------------------------------------- */
 
