@@ -109,6 +109,8 @@ function frost_register_block_patterns() {
 		'hidden/hidden-404',
 		'hero-section/hero-section-one-column',
 		'hero-section/hero-section-one-column-black-background',
+		'hero-section/hero-section-three-columns',
+		'hero-section/hero-section-three-columns-black-background',
 		'hero-section/hero-section-two-columns',
 		'hero-section/hero-section-two-columns-black-background',
 		'link-page/link-page',
