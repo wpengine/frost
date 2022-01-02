@@ -46,7 +46,7 @@ img {
 .wp-block-button__link:focus,
 .wp-block-button__link:hover,
 .wp-block-search__button:focus,
-.wp-block-search__button:hover  {
+.wp-block-search__button:hover {
 	background-color: transparent;
 	color: var(--wp--preset--color--black);
 }
@@ -164,7 +164,7 @@ img {
 --------------------------------------------- */
 
 .block-editor-block-list__block.wp-block-column.wp-block-column {
-    margin-bottom: 30px;
+	margin-bottom: 30px;
 }
 
 /* Groups
