@@ -405,6 +405,18 @@ input[type="submit"]:hover,
 	padding: 0;
 }
 
+/* Heading
+--------------------------------------------- */
+
+h1.has-background,
+h2.has-background,
+h3.has-background,
+h4.has-background,
+h5.has-background,
+h6.has-background {
+	padding: 20px 30px;
+}
+
 /* Images
 --------------------------------------------- */
 
@@ -434,6 +446,13 @@ img {
 .wp-block-group.alignfull {
 	padding-left: 40px;
 	padding-right: 40px;
+}
+
+/* Paragraph
+--------------------------------------------- */
+
+p.has-background {
+	padding: 20px 30px;
 }
 
 /* Preformatted

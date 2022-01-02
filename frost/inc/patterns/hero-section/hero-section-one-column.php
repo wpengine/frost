@@ -6,7 +6,7 @@
  */
 
 return array(
-	'title'      => __( 'Hero section with image, text, buttons.', 'frost' ),
+	'title'      => __( 'Section with image, text, buttons.', 'frost' ),
 	'categories' => array( 'frost-hero-section' ),
 	'content'    => '<!-- wp:group {"align":"full","backgroundColor":"white","layout":{"wideSize":"800px"}} -->
 				<div class="wp-block-group alignfull has-white-background-color has-background"><!-- wp:spacer -->
