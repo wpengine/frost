@@ -427,3 +427,11 @@ p.has-background {
 .is-style-no-margin {
 	margin: 0;
 }
+
+/* Layout
+--------------------------------------------- */
+
+.is-root-container .wp-block[data-align="full"] {
+	margin-left: calc(-100vw / 2 + 100% / 2) !important;
+	margin-right: calc(-100vw / 2 + 100% / 2) !important;
+}
