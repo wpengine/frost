@@ -11,6 +11,12 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 An experimental block theme for designers, developers, and creators.
 
+== Changelog ==
+
+= 0.8.0 - 2022-01-03 =
+
+* Initial public release.
+
 == Copyright ==
 
 Frost WordPress Theme, (C) 2022 WP Engine.
