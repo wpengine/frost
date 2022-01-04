@@ -6,7 +6,7 @@
  */
 
 return array(
-	'title'      => __( 'Sample home page layout.', 'frost' ),
+	'title'      => __( 'Sample home page.', 'frost' ),
 	'categories' => array( 'frost-page' ),
 	'content'    => '<!-- wp:group {"align":"full","backgroundColor":"white","layout":{"wideSize":"800px"}} -->
 				<div class="wp-block-group alignfull has-white-background-color has-background"><!-- wp:spacer {"height":70} -->

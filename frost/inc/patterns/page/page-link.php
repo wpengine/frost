@@ -6,8 +6,8 @@
  */
 
 return array(
-	'title'      => __( 'Link page with image, buttons.', 'frost' ),
-	'categories' => array( 'frost-link-page' ),
+	'title'      => __( 'Sample link page.', 'frost' ),
+	'categories' => array( 'frost-page' ),
 	'content'    => '<!-- wp:group {"align":"full","className":"is-style-full-height","layout":{"inherit":true}} -->
 				<div class="wp-block-group alignfull is-style-full-height"><!-- wp:group -->
 				<div class="wp-block-group"><!-- wp:spacer -->

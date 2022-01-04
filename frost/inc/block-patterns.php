@@ -37,10 +37,6 @@ function frost_register_block_patterns() {
 			'label' => __( 'Hero Section', 'frost' ),
 			'categoryTypes' => array( 'frost' ),
 		),
-		'frost-link-page' => array(
-			'label' => __( 'Link Page', 'frost' ),
-			'categoryTypes' => array( 'frost' ),
-		),
 		'frost-podcast-episode' => array(
 			'label' => __( 'Podcast Episode', 'frost' ),
 			'categoryTypes' => array( 'frost' ),
@@ -117,9 +113,9 @@ function frost_register_block_patterns() {
 		'hero-section/hero-section-three-columns-black-background',
 		'hero-section/hero-section-two-columns',
 		'hero-section/hero-section-two-columns-black-background',
-		'link-page/link-page',
-		'link-page/link-page-black-background',
 		'page/page-home',
+		'page/page-link',
+		'page/page-link-black-background',
 		'podcast-episode/podcast-episode',
 		'podcast-episode/podcast-episode-black-background',
 		'portfolio/portfolio',
