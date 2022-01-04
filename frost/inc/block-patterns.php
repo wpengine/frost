@@ -45,6 +45,10 @@ function frost_register_block_patterns() {
 			'label' => __( 'Podcast Episode', 'frost' ),
 			'categoryTypes' => array( 'frost' ),
 		),
+		'frost-page' => array(
+			'label' => __( 'Page', 'frost' ),
+			'categoryTypes' => array( 'frost' ),
+		),
 		'frost-portfolio' => array(
 			'label' => __( 'Portfolio', 'frost' ),
 			'categoryTypes' => array( 'frost' ),
@@ -115,6 +119,7 @@ function frost_register_block_patterns() {
 		'hero-section/hero-section-two-columns-black-background',
 		'link-page/link-page',
 		'link-page/link-page-black-background',
+		'page/page-home',
 		'podcast-episode/podcast-episode',
 		'podcast-episode/podcast-episode-black-background',
 		'portfolio/portfolio',
