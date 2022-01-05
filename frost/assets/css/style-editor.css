@@ -39,18 +39,14 @@ img {
  * https://github.com/WordPress/gutenberg/issues/35884
 ---------------------------------------------*/
 
-.wp-site-blocks,
-body > .is-root-container,
 .edit-post-visual-editor__post-title-wrapper,
-.wp-block-group.alignfull,
-.wp-block-cover.alignfull,
+body > .is-root-container,
 .is-root-container .wp-block[data-align="full"] > .wp-block-group,
 .is-root-container .wp-block[data-align="full"] > .wp-block-cover {
 	padding-left: var(--wp--custom--spacing--outer);
 	padding-right: var(--wp--custom--spacing--outer);
 }
 
-.wp-site-blocks .alignfull,
 .is-root-container .wp-block[data-align="full"] {
 	margin-left: calc(-1 * var(--wp--custom--spacing--outer)) !important;
 	margin-right: calc(-1 * var(--wp--custom--spacing--outer)) !important;

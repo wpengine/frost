@@ -114,7 +114,7 @@
 				"body": 1.75
 			},
 			"spacing": {
-				"outer": "40px"
+				"outer": "30px"
 			}
 		},
 		"layout": {
