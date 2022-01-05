@@ -81,9 +81,9 @@ blockquote {
  * https://github.com/WordPress/gutenberg/issues/35884
 ---------------------------------------------*/
 
-.wp-site-blocks,
 .wp-block-group.alignfull,
-.wp-block-cover.alignfull {
+.wp-block-cover.alignfull,
+.wp-site-blocks {
 	padding-left: var(--wp--custom--spacing--outer);
 	padding-right: var(--wp--custom--spacing--outer);
 }

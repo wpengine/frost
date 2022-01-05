@@ -39,8 +39,8 @@ img {
  * https://github.com/WordPress/gutenberg/issues/35884
 ---------------------------------------------*/
 
-.edit-post-visual-editor__post-title-wrapper,
 body > .is-root-container,
+.edit-post-visual-editor__post-title-wrapper,
 .is-root-container .wp-block[data-align="full"] > .wp-block-group,
 .is-root-container .wp-block[data-align="full"] > .wp-block-cover {
 	padding-left: var(--wp--custom--spacing--outer);
