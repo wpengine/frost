@@ -112,6 +112,9 @@
 				"heading": 1.1,
 				"medium": 1.5,
 				"body": 1.75
+			},
+			"spacing": {
+				"outer": "40px"
 			}
 		},
 		"layout": {
