@@ -398,13 +398,6 @@ input[type="submit"]:hover,
 	margin-bottom: 10px;
 }
 
-/* Groups
---------------------------------------------- */
-
-.wp-block-group:where(.has-background) {
-	padding: 0;
-}
-
 /* Heading
 --------------------------------------------- */
 

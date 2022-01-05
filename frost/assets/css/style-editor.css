@@ -167,13 +167,6 @@ img {
 	margin-bottom: 30px;
 }
 
-/* Groups
---------------------------------------------- */
-
-.wp-block-group:where(.has-background) {
-	padding: 0;
-}
-
 /* Heading
 --------------------------------------------- */
 

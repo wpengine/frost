@@ -295,6 +295,11 @@
 					}
 				}
 			},
+			"core/group": {
+				"spacing": {
+					"padding": "0px"
+				}
+			},
 			"core/heading": {
 				"spacing": {
 					"margin": {
