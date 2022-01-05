@@ -26,6 +26,33 @@ img {
 	vertical-align: top;
 }
 
+/*
+ * Alignment Styles - Originally from TT2.
+ * These rules are temporary, and should not
+ * be relied on or modified too heavily by
+ * themes or plugins that build on Frost.
+ * These are meant to be a precursor to a
+ * global solution provided by the Block Editor.
+ *
+ * Relevant issues:
+ * https://github.com/WordPress/gutenberg/issues/35607
+ * https://github.com/WordPress/gutenberg/issues/35884
+---------------------------------------------*/
+
+.edit-post-visual-editor__post-title-wrapper,
+body > .is-root-container,
+.is-root-container .wp-block[data-align="full"] > .wp-block-group,
+.is-root-container .wp-block[data-align="full"] > .wp-block-cover {
+	padding-left: var(--wp--custom--spacing--outer);
+	padding-right: var(--wp--custom--spacing--outer);
+}
+
+.is-root-container .wp-block[data-align="full"] {
+	margin-left: calc(-1 * var(--wp--custom--spacing--outer)) !important;
+	margin-right: calc(-1 * var(--wp--custom--spacing--outer)) !important;
+	width: unset;
+}
+
 /* Buttons
 --------------------------------------------- */
 
@@ -419,12 +446,4 @@ p.has-background {
 
 .is-style-no-margin {
 	margin: 0;
-}
-
-/* Layout
---------------------------------------------- */
-
-.is-root-container .wp-block[data-align="full"] {
-	margin-left: calc(-100vw / 2 + 100% / 2) !important;
-	margin-right: calc(-100vw / 2 + 100% / 2) !important;
 }

@@ -68,6 +68,32 @@ blockquote {
 	margin: 0;
 }
 
+/*
+ * Alignment Styles - Originally from TT2.
+ * These rules are temporary, and should not
+ * be relied on or modified too heavily by
+ * themes or plugins that build on Frost.
+ * These are meant to be a precursor to a
+ * global solution provided by the Block Editor.
+ *
+ * Relevant issues:
+ * https://github.com/WordPress/gutenberg/issues/35607
+ * https://github.com/WordPress/gutenberg/issues/35884
+---------------------------------------------*/
+
+.wp-site-blocks,
+.wp-block-group.alignfull,
+.wp-block-cover.alignfull {
+	padding-left: var(--wp--custom--spacing--outer);
+	padding-right: var(--wp--custom--spacing--outer);
+}
+
+.wp-site-blocks .alignfull {
+	margin-left: calc(-1 * var(--wp--custom--spacing--outer)) !important;
+	margin-right: calc(-1 * var(--wp--custom--spacing--outer)) !important;
+	width: unset;
+}
+
 /* Site Blocks
 ---------------------------------------------------------------------------- */
 
@@ -106,7 +132,7 @@ blockquote {
 }
 
 .wp-block-navigation__responsive-container.is-menu-open {
-	padding: 35px 40px;
+	padding: 30px var(--wp--custom--spacing--outer);
 }
 
 .wp-block-navigation:not(.has-background) .wp-block-navigation__submenu-container {
@@ -427,20 +453,6 @@ img {
 	margin-left: 30px;
 }
 
-/* Layout
---------------------------------------------- */
-
-.wp-site-blocks .alignfull {
-	margin-left: calc(-100vw / 2 + 100% / 2) !important;
-	margin-right: calc(-100vw / 2 + 100% / 2) !important;
-	max-width: 100vw;
-}
-
-.wp-block-group.alignfull {
-	padding-left: 40px;
-	padding-right: 40px;
-}
-
 /* Paragraph
 --------------------------------------------- */
 
@@ -611,16 +623,6 @@ p.has-background {
 ---------------------------------------------------------------------------- */
 
 @media only screen and (min-width: 800px) {
-
-
-	/* Layout
-	--------------------------------------------- */
-
-	.wp-site-blocks .alignwide {
-		margin-left: -280px;
-		margin-right: -280px;
-		max-width: 1200px;
-	}
 
 	/* Navigation
 	--------------------------------------------- */
