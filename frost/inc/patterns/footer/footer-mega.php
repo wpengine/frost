@@ -9,24 +9,20 @@ return array(
 	'title'      => __( 'Footer with text, button, links.', 'frost' ),
 	'categories' => array( 'frost-footer' ),
 	'blockTypes' => array( 'core/template-part/footer' ),
-	'content'    => '<!-- wp:group {"align":"full","layout":{"inherit":true}} -->
-				<div class="wp-block-group alignfull"><!-- wp:spacer -->
-				<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
-				<!-- /wp:spacer -->
-				
-				<!-- wp:columns {"align":"wide"} -->
-				<div class="wp-block-columns alignwide"><!-- wp:column {"width":"50%"} -->
+	'content'    => '<!-- wp:group {"align":"full","style":{"typography":{"fontSize":"18px"}},"layout":{"inherit":true}} -->
+				<div class="wp-block-group alignfull" style="font-size:18px"><!-- wp:columns {"align":"wide","style":{"elements":{"link":{"color":[]}},"spacing":{"padding":{"top":"100px","bottom":"70px"}}}} -->
+				<div class="wp-block-columns alignwide has-link-color" style="padding-top:100px;padding-bottom:70px"><!-- wp:column {"width":"50%"} -->
 				<div class="wp-block-column" style="flex-basis:50%"><!-- wp:heading {"level":4} -->
 				<h4 id="our-company">Our Company</h4>
 				<!-- /wp:heading -->
 				
-				<!-- wp:paragraph {"style":{"typography":{"fontSize":"18px"}}} -->
-				<p style="font-size:18px">Lorem ipsum dolor sit amet, consectetur adipiscing lectus. Vestibulum mi justo, luctus eu pellentesque vitae gravida non.</p>
+				<!-- wp:paragraph -->
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing lectus. Vestibulum mi justo, luctus eu pellentesque vitae gravida non.</p>
 				<!-- /wp:paragraph -->
 				
 				<!-- wp:buttons -->
-				<div class="wp-block-buttons"><!-- wp:button {"style":{"border":{"radius":0}}} -->
-				<div class="wp-block-button"><a class="wp-block-button__link no-border-radius" href="#">Learn More</a></div>
+				<div class="wp-block-buttons"><!-- wp:button {"style":{"border":{"radius":0}},"className":"is-style-fill"} -->
+				<div class="wp-block-button is-style-fill"><a class="wp-block-button__link no-border-radius" href="#">Learn More</a></div>
 				<!-- /wp:button --></div>
 				<!-- /wp:buttons --></div>
 				<!-- /wp:column -->
@@ -64,10 +60,6 @@ return array(
 				<ul class="has-small-font-size"><li><a href="#">Facebook</a></li><li><a href="#">Instagram</a></li><li><a style="font-family: var(--font-family-primary);font-size: var(--font-size-regular);font-weight: var(--font-weight-regular)" href="#">Twitter</a></li><li><a style="font-family: var(--font-family-primary);font-size: var(--font-size-regular);font-weight: var(--font-weight-regular)" href="#">LinkedIn</a></li><li><a href="#">Dribbble</a></li></ul>
 				<!-- /wp:list --></div>
 				<!-- /wp:column --></div>
-				<!-- /wp:columns -->
-				
-				<!-- wp:spacer {"height":70} -->
-				<div style="height:70px" aria-hidden="true" class="wp-block-spacer"></div>
-				<!-- /wp:spacer --></div>
+				<!-- /wp:columns --></div>
 				<!-- /wp:group -->',
 );

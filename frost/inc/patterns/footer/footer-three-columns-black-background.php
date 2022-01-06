@@ -9,37 +9,23 @@ return array(
 	'title'      => __( 'Footer with text, links, buttons.', 'frost' ),
 	'categories' => array( 'frost-footer' ),
 	'blockTypes' => array( 'core/template-part/footer' ),
-	'content'    => '<!-- wp:group {"align":"full","backgroundColor":"black","layout":{"inherit":true}} -->
-				<div class="wp-block-group alignfull has-black-background-color has-background"><!-- wp:spacer {"height":40} -->
-				<div style="height:40px" aria-hidden="true" class="wp-block-spacer"></div>
-				<!-- /wp:spacer -->
+	'content'    => '<!-- wp:group {"align":"full","style":{"elements":{"link":{"color":{"text":"var:preset|color|white"}}},"spacing":{"padding":{"top":"40px","bottom":"40px"}}},"backgroundColor":"black","textColor":"white","layout":{"inherit":true},"fontSize":"small"} -->
+				<div class="wp-block-group alignfull has-white-color has-black-background-color has-text-color has-background has-link-color has-small-font-size" style="padding-top:40px;padding-bottom:40px"><!-- wp:group {"align":"wide","layout":{"type":"flex","allowOrientation":false,"justifyContent":"space-between"}} -->
+				<div class="wp-block-group alignwide"><!-- wp:paragraph -->
+				<p>© 2022 Your Company LLC</p>
+				<!-- /wp:paragraph -->
 				
-				<!-- wp:columns {"align":"wide"} -->
-				<div class="wp-block-columns alignwide"><!-- wp:column {"verticalAlignment":"center"} -->
-				<div class="wp-block-column is-vertically-aligned-center"><!-- wp:paragraph {"align":"left","textColor":"white","className":"is-style-no-margin","fontSize":"small"} -->
-				<p class="has-text-align-left is-style-no-margin has-white-color has-text-color has-small-font-size">© 2022 Your Company LLC</p>
-				<!-- /wp:paragraph --></div>
-				<!-- /wp:column -->
+				<!-- wp:paragraph -->
+				<p><a href="#">Privacy Policy</a> · <a href="#">Terms of Service</a> · <a href="#">Contact Us</a></p>
+				<!-- /wp:paragraph -->
 				
-				<!-- wp:column {"verticalAlignment":"center"} -->
-				<div class="wp-block-column is-vertically-aligned-center"><!-- wp:paragraph {"align":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|white"}}}},"textColor":"white","className":"is-style-no-margin","fontSize":"small"} -->
-				<p class="has-text-align-center is-style-no-margin has-white-color has-text-color has-link-color has-small-font-size"><a href="#">Privacy Policy</a> · <a href="#">Terms of Service</a> · <a href="#">Contact Us</a></p>
-				<!-- /wp:paragraph --></div>
-				<!-- /wp:column -->
-				
-				<!-- wp:column {"verticalAlignment":"center"} -->
-				<div class="wp-block-column is-vertically-aligned-center"><!-- wp:social-links {"iconColor":"black","iconColorValue":"#000","iconBackgroundColor":"white","iconBackgroundColorValue":"#fff","align":"right","className":"is-style-default","layout":{"type":"flex","justifyContent":"right"}} -->
-				<ul class="wp-block-social-links alignright has-icon-color has-icon-background-color is-style-default"><!-- wp:social-link {"url":"#","service":"facebook"} /-->
+				<!-- wp:social-links {"iconColor":"black","iconColorValue":"#000","iconBackgroundColor":"white","iconBackgroundColorValue":"#fff","className":"is-style-default"} -->
+				<ul class="wp-block-social-links has-icon-color has-icon-background-color is-style-default"><!-- wp:social-link {"url":"#","service":"facebook"} /-->
 				
 				<!-- wp:social-link {"url":"#","service":"instagram"} /-->
 				
 				<!-- wp:social-link {"url":"#","service":"twitter"} /--></ul>
 				<!-- /wp:social-links --></div>
-				<!-- /wp:column --></div>
-				<!-- /wp:columns -->
-				
-				<!-- wp:spacer {"height":10} -->
-				<div style="height:10px" aria-hidden="true" class="wp-block-spacer"></div>
-				<!-- /wp:spacer --></div>
+				<!-- /wp:group --></div>
 				<!-- /wp:group -->',
 );

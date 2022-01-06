@@ -9,19 +9,15 @@ return array(
 	'title'      => __( 'Footer with text, button, links.', 'frost' ),
 	'categories' => array( 'frost-footer' ),
 	'blockTypes' => array( 'core/template-part/footer' ),
-	'content'    => '<!-- wp:group {"align":"full","backgroundColor":"black","layout":{"inherit":true}} -->
-				<div class="wp-block-group alignfull has-black-background-color has-background"><!-- wp:spacer -->
-				<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
-				<!-- /wp:spacer -->
-				
-				<!-- wp:columns {"align":"wide","style":{"elements":{"link":{"color":[]}}}} -->
-				<div class="wp-block-columns alignwide has-link-color"><!-- wp:column {"width":"50%"} -->
-				<div class="wp-block-column" style="flex-basis:50%"><!-- wp:heading {"level":4,"textColor":"white"} -->
-				<h4 class="has-white-color has-text-color" id="our-company">Our Company</h4>
+	'content'    => '<!-- wp:group {"align":"full","style":{"elements":{"link":{"color":{"text":"var:preset|color|white"}}},"typography":{"fontSize":"18px"}},"backgroundColor":"black","textColor":"white","layout":{"inherit":true}} -->
+				<div class="wp-block-group alignfull has-white-color has-black-background-color has-text-color has-background has-link-color" style="font-size:18px"><!-- wp:columns {"align":"wide","style":{"elements":{"link":{"color":[]}},"spacing":{"padding":{"top":"100px","bottom":"70px"}}}} -->
+				<div class="wp-block-columns alignwide has-link-color" style="padding-top:100px;padding-bottom:70px"><!-- wp:column {"width":"50%"} -->
+				<div class="wp-block-column" style="flex-basis:50%"><!-- wp:heading {"level":4} -->
+				<h4 id="our-company">Our Company</h4>
 				<!-- /wp:heading -->
 				
-				<!-- wp:paragraph {"style":{"typography":{"fontSize":"18px"}},"textColor":"white"} -->
-				<p class="has-white-color has-text-color" style="font-size:18px">Lorem ipsum dolor sit amet, consectetur adipiscing lectus. Vestibulum mi justo, luctus eu pellentesque vitae gravida non.</p>
+				<!-- wp:paragraph -->
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing lectus. Vestibulum mi justo, luctus eu pellentesque vitae gravida non.</p>
 				<!-- /wp:paragraph -->
 				
 				<!-- wp:buttons -->
@@ -35,39 +31,35 @@ return array(
 				<div class="wp-block-column" style="flex-basis:5%"></div>
 				<!-- /wp:column -->
 				
-				<!-- wp:column {"width":"15%","style":{"elements":{"link":{"color":{"text":"var:preset|color|white"}}}}} -->
-				<div class="wp-block-column has-link-color" style="flex-basis:15%"><!-- wp:heading {"level":4,"textColor":"white"} -->
-				<h4 class="has-white-color has-text-color" id="about-us">About Us</h4>
+				<!-- wp:column {"width":"15%"} -->
+				<div class="wp-block-column" style="flex-basis:15%"><!-- wp:heading {"level":4} -->
+				<h4 id="about-us">About Us</h4>
 				<!-- /wp:heading -->
 				
-				<!-- wp:list {"textColor":"white","fontSize":"small"} -->
-				<ul class="has-white-color has-text-color has-small-font-size"><li><a style="font-family: var(--font-family-primary);font-size: var(--font-size-regular);font-weight: var(--font-weight-regular)" href="#">Start Here</a></li><li><a style="font-family: var(--font-family-primary);font-size: var(--font-size-regular);font-weight: var(--font-weight-regular)" href="#">Our Mission</a></li><li><a style="font-family: var(--font-family-primary);font-size: var(--font-size-regular);font-weight: var(--font-weight-regular)" href="#">Brand Guide</a></li><li><a style="font-family: var(--font-family-primary);font-size: var(--font-size-regular);font-weight: var(--font-weight-regular)" href="#">Newsletter</a></li><li><a href="#">Accessibility</a></li></ul>
+				<!-- wp:list {"fontSize":"small"} -->
+				<ul class="has-small-font-size"><li><a style="font-family: var(--font-family-primary);font-size: var(--font-size-regular);font-weight: var(--font-weight-regular)" href="#">Start Here</a></li><li><a style="font-family: var(--font-family-primary);font-size: var(--font-size-regular);font-weight: var(--font-weight-regular)" href="#">Our Mission</a></li><li><a style="font-family: var(--font-family-primary);font-size: var(--font-size-regular);font-weight: var(--font-weight-regular)" href="#">Brand Guide</a></li><li><a style="font-family: var(--font-family-primary);font-size: var(--font-size-regular);font-weight: var(--font-weight-regular)" href="#">Newsletter</a></li><li><a href="#">Accessibility</a></li></ul>
 				<!-- /wp:list --></div>
 				<!-- /wp:column -->
 				
-				<!-- wp:column {"width":"15%","style":{"elements":{"link":{"color":{"text":"var:preset|color|white"}}}}} -->
-				<div class="wp-block-column has-link-color" style="flex-basis:15%"><!-- wp:heading {"level":4,"textColor":"white"} -->
-				<h4 class="has-white-color has-text-color" id="services">Services</h4>
+				<!-- wp:column {"width":"15%"} -->
+				<div class="wp-block-column" style="flex-basis:15%"><!-- wp:heading {"level":4} -->
+				<h4 id="services">Services</h4>
 				<!-- /wp:heading -->
 				
-				<!-- wp:list {"textColor":"white","fontSize":"small"} -->
-				<ul class="has-white-color has-text-color has-small-font-size"><li><a style="font-family: var(--font-family-primary);font-size: var(--font-size-regular);font-weight: var(--font-weight-regular)" href="#">Web Design</a></li><li><a style="font-family: var(--font-family-primary);font-size: var(--font-size-regular);font-weight: var(--font-weight-regular)" href="#">Development</a></li><li><a style="font-family: var(--font-family-primary);font-size: var(--font-size-regular);font-weight: var(--font-weight-regular)" href="#">Copywriting</a></li><li><a style="font-family: var(--font-family-primary);font-size: var(--font-size-regular);font-weight: var(--font-weight-regular)" href="#">Marketing</a></li><li><a href="#">Social Media</a></li></ul>
+				<!-- wp:list {"fontSize":"small"} -->
+				<ul class="has-small-font-size"><li><a style="font-family: var(--font-family-primary);font-size: var(--font-size-regular);font-weight: var(--font-weight-regular)" href="#">Web Design</a></li><li><a style="font-family: var(--font-family-primary);font-size: var(--font-size-regular);font-weight: var(--font-weight-regular)" href="#">Development</a></li><li><a style="font-family: var(--font-family-primary);font-size: var(--font-size-regular);font-weight: var(--font-weight-regular)" href="#">Copywriting</a></li><li><a style="font-family: var(--font-family-primary);font-size: var(--font-size-regular);font-weight: var(--font-weight-regular)" href="#">Marketing</a></li><li><a href="#">Social Media</a></li></ul>
 				<!-- /wp:list --></div>
 				<!-- /wp:column -->
 				
-				<!-- wp:column {"width":"15%","style":{"elements":{"link":{"color":{"text":"var:preset|color|white"}}}}} -->
-				<div class="wp-block-column has-link-color" style="flex-basis:15%"><!-- wp:heading {"level":4,"textColor":"white"} -->
-				<h4 class="has-white-color has-text-color" id="connect">Connect</h4>
+				<!-- wp:column {"width":"15%"} -->
+				<div class="wp-block-column" style="flex-basis:15%"><!-- wp:heading {"level":4} -->
+				<h4 id="connect">Connect</h4>
 				<!-- /wp:heading -->
 				
-				<!-- wp:list {"textColor":"white","fontSize":"small"} -->
-				<ul class="has-white-color has-text-color has-small-font-size"><li><a href="#">Facebook</a></li><li><a href="#">Instagram</a></li><li><a style="font-family: var(--font-family-primary);font-size: var(--font-size-regular);font-weight: var(--font-weight-regular)" href="#">Twitter</a></li><li><a style="font-family: var(--font-family-primary);font-size: var(--font-size-regular);font-weight: var(--font-weight-regular)" href="#">LinkedIn</a></li><li><a href="#">Dribbble</a></li></ul>
+				<!-- wp:list {"fontSize":"small"} -->
+				<ul class="has-small-font-size"><li><a href="#">Facebook</a></li><li><a href="#">Instagram</a></li><li><a style="font-family: var(--font-family-primary);font-size: var(--font-size-regular);font-weight: var(--font-weight-regular)" href="#">Twitter</a></li><li><a style="font-family: var(--font-family-primary);font-size: var(--font-size-regular);font-weight: var(--font-weight-regular)" href="#">LinkedIn</a></li><li><a href="#">Dribbble</a></li></ul>
 				<!-- /wp:list --></div>
 				<!-- /wp:column --></div>
-				<!-- /wp:columns -->
-				
-				<!-- wp:spacer {"height":70} -->
-				<div style="height:70px" aria-hidden="true" class="wp-block-spacer"></div>
-				<!-- /wp:spacer --></div>
+				<!-- /wp:columns --></div>
 				<!-- /wp:group -->',
 );

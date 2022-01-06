@@ -9,13 +9,9 @@ return array(
 	'title'      => __( 'Footer with heading, text, button.', 'frost' ),
 	'categories' => array( 'frost-footer' ),
 	'blockTypes' => array( 'core/template-part/footer' ),
-	'content'    => '<!-- wp:group {"align":"full","layout":{"inherit":true}} -->
-				<div class="wp-block-group alignfull"><!-- wp:spacer -->
-				<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
-				<!-- /wp:spacer -->
-				
-				<!-- wp:heading {"textAlign":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"400"},"spacing":{"margin":{"bottom":"20px"}}},"fontSize":"max-48"} -->
-				<h2 class="has-text-align-center has-max-48-font-size" id="let-s-connect-1" style="font-style:normal;font-weight:400;margin-bottom:20px">Let’s Connect</h2>
+	'content'    => '<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"100px","bottom":"40px"}}},"layout":{"inherit":true}} -->
+				<div class="wp-block-group alignfull" style="padding-top:100px;padding-bottom:40px"><!-- wp:heading {"textAlign":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"400"},"spacing":{"margin":{"bottom":"20px"}}},"fontSize":"max-48"} -->
+				<h2 class="has-text-align-center has-max-48-font-size" id="let-s-connect" style="font-style:normal;font-weight:400;margin-bottom:20px">Let’s Connect</h2>
 				<!-- /wp:heading -->
 				
 				<!-- wp:paragraph {"align":"center"} -->
@@ -28,16 +24,12 @@ return array(
 				<!-- /wp:button --></div>
 				<!-- /wp:buttons -->
 				
-				<!-- wp:spacer {"height":70} -->
+				<!-- wp:spacer {"height":"70px"} -->
 				<div style="height:70px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer -->
 				
 				<!-- wp:paragraph {"align":"center","fontSize":"small"} -->
 				<p class="has-text-align-center has-small-font-size">© 2022 Your Company LLC · <a href="#">Contact Us</a></p>
-				<!-- /wp:paragraph -->
-				
-				<!-- wp:spacer {"height":30} -->
-				<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
-				<!-- /wp:spacer --></div>
+				<!-- /wp:paragraph --></div>
 				<!-- /wp:group -->',
 );
