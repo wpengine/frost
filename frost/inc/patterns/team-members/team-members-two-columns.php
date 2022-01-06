@@ -8,8 +8,8 @@
 return array(
 	'title'      => __( 'Team with image, text, link.', 'frost' ),
 	'categories' => array( 'frost-team-members' ),
-	'content'    => '<!-- wp:group {"align":"full","backgroundColor":"white","layout":{"inherit":true}} -->
-				<div class="wp-block-group alignfull has-white-background-color has-background"><!-- wp:spacer -->
+	'content'    => '<!-- wp:group {"align":"full","layout":{"inherit":true}} -->
+				<div class="wp-block-group alignfull"><!-- wp:spacer -->
 				<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer -->
 				
@@ -23,7 +23,7 @@ return array(
 				<!-- /wp:paragraph --></div>
 				<!-- /wp:group -->
 				
-				<!-- wp:spacer {"height":30} -->
+				<!-- wp:spacer {"height":"30px"} -->
 				<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer -->
 				
@@ -141,7 +141,7 @@ return array(
 				<!-- /wp:column --></div>
 				<!-- /wp:columns -->
 				
-				<!-- wp:spacer {"height":10} -->
+				<!-- wp:spacer {"height":"10px"} -->
 				<div style="height:10px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer --></div>
 				<!-- /wp:group -->',

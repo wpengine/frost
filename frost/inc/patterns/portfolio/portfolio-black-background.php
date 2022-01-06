@@ -8,23 +8,23 @@
 return array(
 	'title'      => __( 'Portfolio with images, text.', 'frost' ),
 	'categories' => array( 'frost-portfolio' ),
-	'content'    => '<!-- wp:group {"align":"full","backgroundColor":"black","layout":{"inherit":true}} -->
-				<div class="wp-block-group alignfull has-black-background-color has-background"><!-- wp:spacer -->
+	'content'    => '<!-- wp:group {"align":"full","style":{"elements":{"link":{"color":{"text":"var:preset|color|white"}}}},"backgroundColor":"black","textColor":"white","layout":{"inherit":true}} -->
+				<div class="wp-block-group alignfull has-white-color has-black-background-color has-text-color has-background has-link-color"><!-- wp:spacer -->
 				<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer -->
 				
 				<!-- wp:columns {"verticalAlignment":"center","align":"wide"} -->
 				<div class="wp-block-columns alignwide are-vertically-aligned-center"><!-- wp:column {"verticalAlignment":"center","width":""} -->
-				<div class="wp-block-column is-vertically-aligned-center"><!-- wp:heading {"textColor":"white","fontSize":"x-large"} -->
-				<h2 class="has-white-color has-text-color has-x-large-font-size" id="sample-heading">Sample Heading</h2>
+				<div class="wp-block-column is-vertically-aligned-center"><!-- wp:heading {"fontSize":"x-large"} -->
+				<h2 class="has-x-large-font-size" id="sample-heading">Sample Heading</h2>
 				<!-- /wp:heading -->
 				
-				<!-- wp:paragraph {"textColor":"white"} -->
-				<p class="has-white-color has-text-color">Lorem ipsum dolor sit amet, consectetur adipiscing dignissim. Quisque vitae mauris pellentesque arcu fermentum, vestibulum malesuada elit condimentum. Vivamus et enim diam velit.</p>
+				<!-- wp:paragraph -->
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing dignissim. Quisque vitae mauris pellentesque arcu fermentum, vestibulum malesuada elit condimentum. Vivamus et enim diam velit.</p>
 				<!-- /wp:paragraph -->
 				
-				<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|white"}}}}} -->
-				<p class="has-link-color"><a href="#">View Project →</a></p>
+				<!-- wp:paragraph -->
+				<p><a href="#">View Project →</a></p>
 				<!-- /wp:paragraph --></div>
 				<!-- /wp:column -->
 				
@@ -49,7 +49,7 @@ return array(
 				<!-- /wp:column --></div>
 				<!-- /wp:columns -->
 				
-				<!-- wp:spacer {"height":30} -->
+				<!-- wp:spacer {"height":"30px"} -->
 				<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer --></div>
 				<!-- /wp:group -->',

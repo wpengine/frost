@@ -8,8 +8,8 @@
 return array(
 	'title'      => __( 'Section with image, text, buttons.', 'frost' ),
 	'categories' => array( 'frost-hero-section' ),
-	'content'    => '<!-- wp:group {"align":"full","backgroundColor":"white","layout":{"wideSize":"800px"}} -->
-				<div class="wp-block-group alignfull has-white-background-color has-background"><!-- wp:spacer -->
+	'content'    => '<!-- wp:group {"align":"full","layout":{"wideSize":"800px"}} -->
+				<div class="wp-block-group alignfull"><!-- wp:spacer -->
 				<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer -->
 				
@@ -17,7 +17,7 @@ return array(
 				<figure class="wp-block-image size-full"><img src="https://frostwp.com/wp-content/uploads/2021/12/sample-black_1920x1200.jpg" alt="Frost WordPress Theme" class="wp-image-3480"/></figure>
 				<!-- /wp:image -->
 				
-				<!-- wp:spacer {"height":30} -->
+				<!-- wp:spacer {"height":"30px"} -->
 				<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer -->
 				

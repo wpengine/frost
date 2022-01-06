@@ -8,17 +8,17 @@
 return array(
 	'title'      => __( 'Call-to-action with text, button.', 'frost' ),
 	'categories' => array( 'frost-call-to-action' ),
-	'content'    => '<!-- wp:group {"align":"full","backgroundColor":"black","layout":{"inherit":true}} -->
-				<div class="wp-block-group alignfull has-black-background-color has-background"><!-- wp:spacer -->
+	'content'    => '<!-- wp:group {"align":"full","backgroundColor":"black","textColor":"white","layout":{"inherit":true}} -->
+				<div class="wp-block-group alignfull has-white-color has-black-background-color has-text-color has-background"><!-- wp:spacer -->
 				<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer -->
 				
-				<!-- wp:heading {"textAlign":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"400"},"spacing":{"margin":{"bottom":"20px"}}},"textColor":"white","fontSize":"max-48"} -->
-				<h2 class="has-text-align-center has-white-color has-text-color has-max-48-font-size" id="let-s-connect" style="font-style:normal;font-weight:400;margin-bottom:20px">Let’s Connect</h2>
+				<!-- wp:heading {"textAlign":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"400"},"spacing":{"margin":{"bottom":"20px"}}},"fontSize":"max-48"} -->
+				<h2 class="has-text-align-center has-max-48-font-size" id="let-s-connect" style="font-style:normal;font-weight:400;margin-bottom:20px">Let’s Connect</h2>
 				<!-- /wp:heading -->
 				
-				<!-- wp:paragraph {"align":"center","textColor":"white"} -->
-				<p class="has-text-align-center has-white-color has-text-color">Quisque aliquam nisl quis metus taylor feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing vestibulum vitae gravida non diam accumsan.</p>
+				<!-- wp:paragraph {"align":"center"} -->
+				<p class="has-text-align-center">Quisque aliquam nisl quis metus taylor feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing vestibulum vitae gravida non diam accumsan.</p>
 				<!-- /wp:paragraph -->
 				
 				<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->

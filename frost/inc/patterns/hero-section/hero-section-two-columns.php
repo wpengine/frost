@@ -8,8 +8,8 @@
 return array(
 	'title'      => __( 'Section with media, text, buttons.', 'frost' ),
 	'categories' => array( 'frost-hero-section' ),
-	'content'    => '<!-- wp:group {"align":"full","backgroundColor":"white","layout":{"inherit":true}} -->
-				<div class="wp-block-group alignfull has-white-background-color has-background"><!-- wp:spacer -->
+	'content'    => '<!-- wp:group {"align":"full","layout":{"inherit":true}} -->
+				<div class="wp-block-group alignfull"><!-- wp:spacer -->
 				<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer -->
 				

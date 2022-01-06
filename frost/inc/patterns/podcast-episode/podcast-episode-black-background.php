@@ -8,8 +8,8 @@
 return array(
 	'title'      => __( 'Podcast episode with media, text.', 'frost' ),
 	'categories' => array( 'frost-podcast-episode' ),
-	'content'    => '<!-- wp:group {"align":"full","backgroundColor":"black","layout":{"inherit":true}} -->
-				<div class="wp-block-group alignfull has-black-background-color has-background"><!-- wp:spacer -->
+	'content'    => '<!-- wp:group {"align":"full","backgroundColor":"black","textColor":"white","layout":{"inherit":true}} -->
+				<div class="wp-block-group alignfull has-white-color has-black-background-color has-text-color has-background"><!-- wp:spacer -->
 				<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer -->
 				
@@ -21,12 +21,12 @@ return array(
 				<!-- /wp:column -->
 				
 				<!-- wp:column {"verticalAlignment":"center","width":"70%"} -->
-				<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:70%"><!-- wp:heading {"textColor":"white","fontSize":"x-large"} -->
-				<h2 class="has-white-color has-text-color has-x-large-font-size" id="sample-podcast-episode">Sample Podcast Episode</h2>
+				<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:70%"><!-- wp:heading {"fontSize":"x-large"} -->
+				<h2 class="has-x-large-font-size" id="sample-podcast-episode">Sample Podcast Episode</h2>
 				<!-- /wp:heading -->
 				
-				<!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.5"}},"textColor":"white"} -->
-				<p class="has-white-color has-text-color" style="line-height:1.5">Lorem ipsum dolor sit amet, consectetur adipiscing vestibulum. Quisque vitae mi pellentesque arcu fermentum, dignissim velit vitae, malesuad elit condimentum. Vestibulum et faucibus.</p>
+				<!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.5"}}} -->
+				<p style="line-height:1.5">Lorem ipsum dolor sit amet, consectetur adipiscing vestibulum. Quisque vitae mi pellentesque arcu fermentum, dignissim velit vitae, malesuad elit condimentum. Vestibulum et faucibus.</p>
 				<!-- /wp:paragraph -->
 				
 				<!-- wp:audio {"id":3546} -->
@@ -53,7 +53,7 @@ return array(
 				<!-- /wp:column --></div>
 				<!-- /wp:columns -->
 				
-				<!-- wp:spacer {"height":70} -->
+				<!-- wp:spacer {"height":"70px"} -->
 				<div style="height:70px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer --></div>
 				<!-- /wp:group -->',

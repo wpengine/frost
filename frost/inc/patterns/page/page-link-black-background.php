@@ -8,8 +8,8 @@
 return array(
 	'title'      => __( 'Sample link page.', 'frost' ),
 	'categories' => array( 'frost-page' ),
-	'content'    => '<!-- wp:group {"align":"full","backgroundColor":"black","className":"is-style-full-height","layout":{"inherit":true}} -->
-				<div class="wp-block-group alignfull is-style-full-height has-black-background-color has-background"><!-- wp:group -->
+	'content'    => '<!-- wp:group {"align":"full","style":{"elements":{"link":{"color":{"text":"var:preset|color|white"}}}},"backgroundColor":"black","textColor":"white","className":"is-style-full-height","layout":{"inherit":true}} -->
+				<div class="wp-block-group alignfull is-style-full-height has-white-color has-black-background-color has-text-color has-background has-link-color"><!-- wp:group -->
 				<div class="wp-block-group"><!-- wp:spacer -->
 				<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer -->
@@ -18,12 +18,12 @@ return array(
 				<div class="wp-block-image is-style-rounded"><figure class="aligncenter size-full is-resized"><img src="https://frostwp.com/wp-content/uploads/2021/12/sample-white_800x800.jpg" alt="Frost WordPress Theme" class="wp-image-3488" width="120" height="120"/></figure></div>
 				<!-- /wp:image -->
 				
-				<!-- wp:heading {"textAlign":"center","textColor":"white","fontSize":"x-large"} -->
-				<h2 class="has-text-align-center has-white-color has-text-color has-x-large-font-size" id="your-name">Your Name</h2>
+				<!-- wp:heading {"textAlign":"center","fontSize":"x-large"} -->
+				<h2 class="has-text-align-center has-x-large-font-size" id="your-name">Your Name</h2>
 				<!-- /wp:heading -->
 				
-				<!-- wp:paragraph {"align":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|white"}}}},"textColor":"white"} -->
-				<p class="has-text-align-center has-white-color has-text-color has-link-color">Company Name<br><a href="mailto:name@company.com">name@company.com</a></p>
+				<!-- wp:paragraph {"align":"center"} -->
+				<p class="has-text-align-center">Company Name<br><a href="mailto:name@company.com">name@company.com</a></p>
 				<!-- /wp:paragraph -->
 				
 				<!-- wp:social-links {"iconColor":"black","iconColorValue":"#000","iconBackgroundColor":"white","iconBackgroundColorValue":"#fff","size":"has-normal-icon-size","align":"center"} -->
@@ -38,7 +38,7 @@ return array(
 				<!-- wp:social-link {"url":"#","service":"linkedin"} /--></ul>
 				<!-- /wp:social-links -->
 				
-				<!-- wp:spacer {"height":60} -->
+				<!-- wp:spacer {"height":"60px"} -->
 				<div style="height:60px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer -->
 				
@@ -64,15 +64,15 @@ return array(
 				<!-- /wp:button --></div>
 				<!-- /wp:buttons -->
 				
-				<!-- wp:spacer {"height":40} -->
+				<!-- wp:spacer {"height":"40px"} -->
 				<div style="height:40px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer -->
 				
-				<!-- wp:paragraph {"align":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|white"}}}}} -->
-				<p class="has-text-align-center has-link-color">m<a href="https://frostwp.com/">Made with Frost</a></p>
+				<!-- wp:paragraph {"align":"center"} -->
+				<p class="has-text-align-center"><a href="https://frostwp.com/">Made with Frost</a></p>
 				<!-- /wp:paragraph -->
 				
-				<!-- wp:spacer {"height":70} -->
+				<!-- wp:spacer {"height":"70px"} -->
 				<div style="height:70px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer --></div>
 				<!-- /wp:group --></div>

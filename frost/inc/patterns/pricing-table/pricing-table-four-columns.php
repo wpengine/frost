@@ -8,8 +8,8 @@
 return array(
 	'title'      => __( 'Pricing table with list, buttons.', 'frost' ),
 	'categories' => array( 'frost-pricing-table' ),
-	'content'    => '<!-- wp:group {"align":"full","backgroundColor":"white","layout":{"inherit":true}} -->
-				<div class="wp-block-group alignfull has-white-background-color has-background"><!-- wp:spacer -->
+	'content'    => '<!-- wp:group {"align":"full","layout":{"inherit":true}} -->
+				<div class="wp-block-group alignfull"><!-- wp:spacer -->
 				<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer -->
 				
@@ -33,7 +33,7 @@ return array(
 				<ul class="pricing-table has-small-font-size"><li>Feature #1</li><li>Feature #2</li><li>Feature #3</li><li>Feature #4</li><li>Feature #5</li></ul>
 				<!-- /wp:list -->
 				
-				<!-- wp:spacer {"height":30} -->
+				<!-- wp:spacer {"height":"30px"} -->
 				<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer -->
 				
@@ -57,7 +57,7 @@ return array(
 				<ul class="pricing-table has-small-font-size"><li>Feature #1</li><li>Feature #2</li><li>Feature #3</li><li>Feature #4</li><li>Feature #5</li></ul>
 				<!-- /wp:list -->
 				
-				<!-- wp:spacer {"height":30} -->
+				<!-- wp:spacer {"height":"30px"} -->
 				<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer -->
 				
@@ -81,7 +81,7 @@ return array(
 				<ul class="pricing-table has-small-font-size"><li>Feature #1</li><li>Feature #2</li><li>Feature #3</li><li>Feature #4</li><li>Feature #5</li></ul>
 				<!-- /wp:list -->
 				
-				<!-- wp:spacer {"height":30} -->
+				<!-- wp:spacer {"height":"30px"} -->
 				<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer -->
 				
@@ -105,7 +105,7 @@ return array(
 				<ul class="pricing-table has-small-font-size"><li>Feature #1</li><li>Feature #2</li><li>Feature #3</li><li>Feature #4</li><li>Feature #5</li></ul>
 				<!-- /wp:list -->
 				
-				<!-- wp:spacer {"height":30} -->
+				<!-- wp:spacer {"height":"30px"} -->
 				<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer -->
 				
@@ -119,7 +119,7 @@ return array(
 				<!-- /wp:column --></div>
 				<!-- /wp:columns -->
 				
-				<!-- wp:spacer {"height":70} -->
+				<!-- wp:spacer {"height":"70px"} -->
 				<div style="height:70px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer --></div>
 				<!-- /wp:group -->',
