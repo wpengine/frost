@@ -535,9 +535,6 @@
 				}
 			}
 		},
-		"spacing": {
-			"margin": "0"
-		},
 		"typography": {
 			"fontFamily": "var(--wp--preset--font-family--jost)",
 			"fontSize": "var(--wp--preset--font-size--medium)",
