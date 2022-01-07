@@ -15,11 +15,11 @@ return array(
 				
 				<!-- wp:group {"align":"wide"} -->
 				<div class="wp-block-group alignwide"><!-- wp:heading {"fontSize":"x-large"} -->
-				<h2 class="has-x-large-font-size" id="our-team">Our Team</h2>
+				<h2 class="has-x-large-font-size" id="our-team">' . esc_html__( 'Our Team', 'frost' ) . '</h2>
 				<!-- /wp:heading -->
 				
 				<!-- wp:paragraph -->
-				<p>The people who are ready to serve you.</p>
+				<p>' . esc_html__( 'The people who are ready to serve you.', 'frost' ) . '</p>
 				<!-- /wp:paragraph --></div>
 				<!-- /wp:group -->
 				
@@ -32,13 +32,13 @@ return array(
 				<div class="wp-block-column"><!-- wp:columns -->
 				<div class="wp-block-columns"><!-- wp:column {"width":"22%"} -->
 				<div class="wp-block-column" style="flex-basis:22%"><!-- wp:image {"id":3489,"sizeSlug":"full","linkDestination":"none"} -->
-				<figure class="wp-block-image size-full"><img src="https://frostwp.com/wp-content/uploads/2021/12/sample-black_800x800.jpg" alt="Frost WordPress Theme" class="wp-image-3489"/></figure>
+				<figure class="wp-block-image size-full"><img src="https://frostwp.com/wp-content/uploads/2021/12/sample-black_800x800.jpg" alt="' . esc_attr__( 'Sample Image', 'frost' ) . '" class="wp-image-3489"/></figure>
 				<!-- /wp:image --></div>
 				<!-- /wp:column -->
 				
 				<!-- wp:column {"width":"75%"} -->
 				<div class="wp-block-column" style="flex-basis:75%"><!-- wp:heading {"level":4,"fontSize":"medium"} -->
-				<h4 class="has-medium-font-size" id="member-name">Member Name</h4>
+				<h4 class="has-medium-font-size" id="member-name">' . esc_html__( 'Member Name', 'frost' ) . '</h4>
 				<!-- /wp:heading -->
 				
 				<!-- wp:paragraph {"style":{"typography":{"fontSize":"18px"}}} -->
@@ -50,13 +50,13 @@ return array(
 				<!-- wp:columns -->
 				<div class="wp-block-columns"><!-- wp:column {"width":"22%"} -->
 				<div class="wp-block-column" style="flex-basis:22%"><!-- wp:image {"id":3489,"sizeSlug":"full","linkDestination":"none"} -->
-				<figure class="wp-block-image size-full"><img src="https://frostwp.com/wp-content/uploads/2021/12/sample-black_800x800.jpg" alt="Frost WordPress Theme" class="wp-image-3489"/></figure>
+				<figure class="wp-block-image size-full"><img src="https://frostwp.com/wp-content/uploads/2021/12/sample-black_800x800.jpg" alt="' . esc_attr__( 'Sample Image', 'frost' ) . '" class="wp-image-3489"/></figure>
 				<!-- /wp:image --></div>
 				<!-- /wp:column -->
 				
 				<!-- wp:column {"width":"75%"} -->
 				<div class="wp-block-column" style="flex-basis:75%"><!-- wp:heading {"level":4,"fontSize":"medium"} -->
-				<h4 class="has-medium-font-size" id="member-name">Member Name</h4>
+				<h4 class="has-medium-font-size" id="member-name">' . esc_html__( 'Member Name', 'frost' ) . '</h4>
 				<!-- /wp:heading -->
 				
 				<!-- wp:paragraph {"style":{"typography":{"fontSize":"18px"}}} -->
@@ -68,13 +68,13 @@ return array(
 				<!-- wp:columns -->
 				<div class="wp-block-columns"><!-- wp:column {"width":"22%"} -->
 				<div class="wp-block-column" style="flex-basis:22%"><!-- wp:image {"id":3489,"sizeSlug":"full","linkDestination":"none"} -->
-				<figure class="wp-block-image size-full"><img src="https://frostwp.com/wp-content/uploads/2021/12/sample-black_800x800.jpg" alt="Frost WordPress Theme" class="wp-image-3489"/></figure>
+				<figure class="wp-block-image size-full"><img src="https://frostwp.com/wp-content/uploads/2021/12/sample-black_800x800.jpg" alt="' . esc_attr__( 'Sample Image', 'frost' ) . '" class="wp-image-3489"/></figure>
 				<!-- /wp:image --></div>
 				<!-- /wp:column -->
 				
 				<!-- wp:column {"width":"75%"} -->
 				<div class="wp-block-column" style="flex-basis:75%"><!-- wp:heading {"level":4,"fontSize":"medium"} -->
-				<h4 class="has-medium-font-size" id="member-name">Member Name</h4>
+				<h4 class="has-medium-font-size" id="member-name">' . esc_html__( 'Member Name', 'frost' ) . '</h4>
 				<!-- /wp:heading -->
 				
 				<!-- wp:paragraph {"style":{"typography":{"fontSize":"18px"}}} -->
@@ -88,13 +88,13 @@ return array(
 				<div class="wp-block-column"><!-- wp:columns -->
 				<div class="wp-block-columns"><!-- wp:column {"width":"22%"} -->
 				<div class="wp-block-column" style="flex-basis:22%"><!-- wp:image {"id":3489,"sizeSlug":"full","linkDestination":"none"} -->
-				<figure class="wp-block-image size-full"><img src="https://frostwp.com/wp-content/uploads/2021/12/sample-black_800x800.jpg" alt="Frost WordPress Theme" class="wp-image-3489"/></figure>
+				<figure class="wp-block-image size-full"><img src="https://frostwp.com/wp-content/uploads/2021/12/sample-black_800x800.jpg" alt="' . esc_attr__( 'Sample Image', 'frost' ) . '" class="wp-image-3489"/></figure>
 				<!-- /wp:image --></div>
 				<!-- /wp:column -->
 				
 				<!-- wp:column {"width":"75%"} -->
 				<div class="wp-block-column" style="flex-basis:75%"><!-- wp:heading {"level":4,"fontSize":"medium"} -->
-				<h4 class="has-medium-font-size" id="member-name">Member Name</h4>
+				<h4 class="has-medium-font-size" id="member-name">' . esc_html__( 'Member Name', 'frost' ) . '</h4>
 				<!-- /wp:heading -->
 				
 				<!-- wp:paragraph {"style":{"typography":{"fontSize":"18px"}}} -->
@@ -106,13 +106,13 @@ return array(
 				<!-- wp:columns -->
 				<div class="wp-block-columns"><!-- wp:column {"width":"22%"} -->
 				<div class="wp-block-column" style="flex-basis:22%"><!-- wp:image {"id":3489,"sizeSlug":"full","linkDestination":"none"} -->
-				<figure class="wp-block-image size-full"><img src="https://frostwp.com/wp-content/uploads/2021/12/sample-black_800x800.jpg" alt="Frost WordPress Theme" class="wp-image-3489"/></figure>
+				<figure class="wp-block-image size-full"><img src="https://frostwp.com/wp-content/uploads/2021/12/sample-black_800x800.jpg" alt="' . esc_attr__( 'Sample Image', 'frost' ) . '" class="wp-image-3489"/></figure>
 				<!-- /wp:image --></div>
 				<!-- /wp:column -->
 				
 				<!-- wp:column {"width":"75%"} -->
 				<div class="wp-block-column" style="flex-basis:75%"><!-- wp:heading {"level":4,"fontSize":"medium"} -->
-				<h4 class="has-medium-font-size" id="member-name">Member Name</h4>
+				<h4 class="has-medium-font-size" id="member-name">' . esc_html__( 'Member Name', 'frost' ) . '</h4>
 				<!-- /wp:heading -->
 				
 				<!-- wp:paragraph {"style":{"typography":{"fontSize":"18px"}}} -->
@@ -124,13 +124,13 @@ return array(
 				<!-- wp:columns -->
 				<div class="wp-block-columns"><!-- wp:column {"width":"22%"} -->
 				<div class="wp-block-column" style="flex-basis:22%"><!-- wp:image {"id":3489,"sizeSlug":"full","linkDestination":"none"} -->
-				<figure class="wp-block-image size-full"><img src="https://frostwp.com/wp-content/uploads/2021/12/sample-black_800x800.jpg" alt="Frost WordPress Theme" class="wp-image-3489"/></figure>
+				<figure class="wp-block-image size-full"><img src="https://frostwp.com/wp-content/uploads/2021/12/sample-black_800x800.jpg" alt="' . esc_attr__( 'Sample Image', 'frost' ) . '" class="wp-image-3489"/></figure>
 				<!-- /wp:image --></div>
 				<!-- /wp:column -->
 				
 				<!-- wp:column {"width":"75%"} -->
 				<div class="wp-block-column" style="flex-basis:75%"><!-- wp:heading {"level":4,"fontSize":"medium"} -->
-				<h4 class="has-medium-font-size" id="member-name">Member Name</h4>
+				<h4 class="has-medium-font-size" id="member-name">' . esc_html__( 'Member Name', 'frost' ) . '</h4>
 				<!-- /wp:heading -->
 				
 				<!-- wp:paragraph {"style":{"typography":{"fontSize":"18px"}}} -->

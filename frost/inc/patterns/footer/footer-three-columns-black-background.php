@@ -16,7 +16,7 @@ return array(
 				<!-- /wp:paragraph -->
 				
 				<!-- wp:paragraph -->
-				<p><a href="#">Privacy Policy</a> · <a href="#">Terms of Service</a> · <a href="#">Contact Us</a></p>
+				<p><a href="#">' . esc_html__( 'Privacy Policy', 'frost' ) . '</a> · <a href="#">' . esc_html__( 'Terms of Service', 'frost' ) . '</a> · <a href="#">' . esc_html__( 'Contact Us', 'frost' ) . '</a></p>
 				<!-- /wp:paragraph -->
 				
 				<!-- wp:social-links {"iconColor":"black","iconColorValue":"#000","iconBackgroundColor":"white","iconBackgroundColorValue":"#fff","className":"is-style-default"} -->

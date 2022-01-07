@@ -14,16 +14,16 @@ return array(
 				<div class="wp-block-group alignwide"><!-- wp:paragraph -->
 				<p>© 2022 Your Company LLC</p>
 				<!-- /wp:paragraph -->
-				
+
 				<!-- wp:paragraph -->
-				<p><a href="#">Privacy Policy</a> · <a href="#">Terms of Service</a> · <a href="#">Contact Us</a></p>
+				<p><a href="#">' . esc_html__( 'Privacy Policy', 'frost' ) . '</a> · <a href="#">' . esc_html__( 'Terms of Service', 'frost' ) . '</a> · <a href="#">' . esc_html__( 'Contact Us', 'frost' ) . '</a></p>
 				<!-- /wp:paragraph -->
-				
+
 				<!-- wp:social-links {"iconColor":"white","iconColorValue":"#fff","iconBackgroundColor":"black","iconBackgroundColorValue":"#000","className":"is-style-default"} -->
 				<ul class="wp-block-social-links has-icon-color has-icon-background-color is-style-default"><!-- wp:social-link {"url":"#","service":"facebook"} /-->
-				
+
 				<!-- wp:social-link {"url":"#","service":"instagram"} /-->
-				
+
 				<!-- wp:social-link {"url":"#","service":"twitter"} /--></ul>
 				<!-- /wp:social-links --></div>
 				<!-- /wp:group --></div>

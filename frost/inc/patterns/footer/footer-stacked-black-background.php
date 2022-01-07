@@ -20,7 +20,7 @@ return array(
 				
 				<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center","orientation":"horizontal"}} -->
 				<div class="wp-block-buttons"><!-- wp:button {"style":{"border":{"radius":0}},"className":"is-style-outline-white"} -->
-				<div class="wp-block-button is-style-outline-white"><a class="wp-block-button__link no-border-radius" href="#">Get in Touch →</a></div>
+				<div class="wp-block-button is-style-outline-white"><a class="wp-block-button__link no-border-radius" href="#">' . esc_html__( 'Get in Touch', 'frost' ) . ' →</a></div>
 				<!-- /wp:button --></div>
 				<!-- /wp:buttons -->
 				
@@ -29,7 +29,7 @@ return array(
 				<!-- /wp:spacer -->
 				
 				<!-- wp:paragraph {"align":"center","fontSize":"small"} -->
-				<p class="has-text-align-center has-small-font-size">© 2022 Your Company LLC · <a href="#">Contact Us</a></p>
+				<p class="has-text-align-center has-small-font-size">© 2022 Your Company LLC · <a href="#">' . esc_html__( 'Contact Us', 'frost' ) . '</a></p>
 				<!-- /wp:paragraph --></div>
 				<!-- /wp:group -->',
 );

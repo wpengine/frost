@@ -15,15 +15,15 @@ return array(
 				<!-- /wp:spacer -->
 				
 				<!-- wp:image {"align":"center","id":3488,"width":120,"height":120,"sizeSlug":"full","linkDestination":"none","className":"is-style-rounded"} -->
-				<div class="wp-block-image is-style-rounded"><figure class="aligncenter size-full is-resized"><img src="https://frostwp.com/wp-content/uploads/2021/12/sample-white_800x800.jpg" alt="Frost WordPress Theme" class="wp-image-3488" width="120" height="120"/></figure></div>
+				<div class="wp-block-image is-style-rounded"><figure class="aligncenter size-full is-resized"><img src="https://frostwp.com/wp-content/uploads/2021/12/sample-white_800x800.jpg" alt="' . esc_attr__( 'Sample Image', 'frost' ) . '" class="wp-image-3488" width="120" height="120"/></figure></div>
 				<!-- /wp:image -->
 				
 				<!-- wp:heading {"textAlign":"center","fontSize":"x-large"} -->
-				<h2 class="has-text-align-center has-x-large-font-size" id="your-name">Your Name</h2>
+				<h2 class="has-text-align-center has-x-large-font-size" id="your-name">' . esc_html__( 'Your Name', 'frost' ) . '</h2>
 				<!-- /wp:heading -->
 				
 				<!-- wp:paragraph {"align":"center"} -->
-				<p class="has-text-align-center">Company Name<br><a href="mailto:name@company.com">name@company.com</a></p>
+				<p class="has-text-align-center">' . esc_html__( 'Company Name', 'frost' ) . '<br><a href="mailto:name@company.com">name@company.com</a></p>
 				<!-- /wp:paragraph -->
 				
 				<!-- wp:social-links {"iconColor":"black","iconColorValue":"#000","iconBackgroundColor":"white","iconBackgroundColorValue":"#fff","size":"has-normal-icon-size","align":"center"} -->
@@ -44,23 +44,23 @@ return array(
 				
 				<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center","orientation":"horizontal"}} -->
 				<div class="wp-block-buttons"><!-- wp:button {"width":100,"style":{"border":{"radius":0}},"className":"is-style-fill-white"} -->
-				<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-fill-white"><a class="wp-block-button__link no-border-radius">Visit My Website</a></div>
+				<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-fill-white"><a class="wp-block-button__link no-border-radius">' . esc_html__( 'Visit My Website', 'frost' ) . '</a></div>
 				<!-- /wp:button -->
 				
 				<!-- wp:button {"width":100,"style":{"border":{"radius":0}},"className":"is-style-fill-white"} -->
-				<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-fill-white"><a class="wp-block-button__link no-border-radius">Read My Blog</a></div>
+				<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-fill-white"><a class="wp-block-button__link no-border-radius">' . esc_html__( 'Read My Blog', 'frost' ) . '</a></div>
 				<!-- /wp:button -->
 				
 				<!-- wp:button {"width":100,"style":{"border":{"radius":0}},"className":"is-style-fill-white"} -->
-				<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-fill-white"><a class="wp-block-button__link no-border-radius">Download My Ebook</a></div>
+				<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-fill-white"><a class="wp-block-button__link no-border-radius">' . esc_html__( 'Download My Ebook', 'frost' ) . '</a></div>
 				<!-- /wp:button -->
 				
 				<!-- wp:button {"width":100,"style":{"border":{"radius":0}},"className":"is-style-fill-white"} -->
-				<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-fill-white"><a class="wp-block-button__link no-border-radius">Follow My Newsletter</a></div>
+				<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-fill-white"><a class="wp-block-button__link no-border-radius">' . esc_html__( 'Follow My Newsletter', 'frost' ) . '</a></div>
 				<!-- /wp:button -->
 				
 				<!-- wp:button {"width":100,"style":{"border":{"radius":0}},"className":"is-style-fill-white"} -->
-				<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-fill-white"><a class="wp-block-button__link no-border-radius">Listen to My Podcast</a></div>
+				<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-fill-white"><a class="wp-block-button__link no-border-radius">' . esc_html__( 'Listen to My Podcast', 'frost' ) . '</a></div>
 				<!-- /wp:button --></div>
 				<!-- /wp:buttons -->
 				
@@ -69,7 +69,7 @@ return array(
 				<!-- /wp:spacer -->
 				
 				<!-- wp:paragraph {"align":"center"} -->
-				<p class="has-text-align-center"><a href="https://frostwp.com/">Made with Frost</a></p>
+				<p class="has-text-align-center"><a href="https://frostwp.com/">' . esc_html__( 'Made with Frost', 'frost' ) . '</a></p>
 				<!-- /wp:paragraph -->
 				
 				<!-- wp:spacer {"height":"70px"} -->
