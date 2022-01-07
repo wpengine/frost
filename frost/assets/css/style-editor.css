@@ -206,6 +206,14 @@ h6.has-background {
 	padding: 20px 30px;
 }
 
+/* List
+--------------------------------------------- */
+
+.wp-block-list li,
+.wp-block-list li {
+	margin-left: 30px;
+}
+
 /* Navigation
 --------------------------------------------- */
 
