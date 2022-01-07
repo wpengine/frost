@@ -37,7 +37,12 @@ return array(
 				<!-- /wp:heading -->
 
 				<!-- wp:list {"fontSize":"small"} -->
-				<ul class="has-small-font-size"><li><a style="font-family: var(--font-family-primary);font-size: var(--font-size-regular);font-weight: var(--font-weight-regular)" href="#">' . esc_html__( 'Start Here', 'frost' ) . '</a></li><li><a style="font-family: var(--font-family-primary);font-size: var(--font-size-regular);font-weight: var(--font-weight-regular)" href="#">' . esc_html__( 'Our Mission', 'frost' ) . '</a></li><li><a style="font-family: var(--font-family-primary);font-size: var(--font-size-regular);font-weight: var(--font-weight-regular)" href="#">' . esc_html__( 'Brand Guide', 'frost' ) . '</a></li><li><a style="font-family: var(--font-family-primary);font-size: var(--font-size-regular);font-weight: var(--font-weight-regular)" href="#">Newsletter</a></li><li><a href="#">' . esc_html__( 'Accessibility', 'frost' ) . '</a></li></ul>
+				<ul class="has-small-font-size">
+				<li><a href="#">' . esc_html__( 'Start Here', 'frost' ) . '</a></li>
+				<li><a href="#">' . esc_html__( 'Our Mission', 'frost' ) . '</a></li>
+				<li><a href="#">' . esc_html__( 'Brand Guide', 'frost' ) . '</a></li>
+				<li><a href="#">' . esc_html__( 'Newsletter', 'frost' ) . '</a></li>
+				<li><a href="#">' . esc_html__( 'Accessibility', 'frost' ) . '</a></li></ul>
 				<!-- /wp:list --></div>
 				<!-- /wp:column -->
 
@@ -47,7 +52,12 @@ return array(
 				<!-- /wp:heading -->
 
 				<!-- wp:list {"fontSize":"small"} -->
-				<ul class="has-small-font-size"><li><a style="font-family: var(--font-family-primary);font-size: var(--font-size-regular);font-weight: var(--font-weight-regular)" href="#">' . esc_html__( 'Web Design', 'frost' ) . '</a></li><li><a style="font-family: var(--font-family-primary);font-size: var(--font-size-regular);font-weight: var(--font-weight-regular)" href="#">' . esc_html__( 'Development', 'frost' ) . '</a></li><li><a style="font-family: var(--font-family-primary);font-size: var(--font-size-regular);font-weight: var(--font-weight-regular)" href="#">' . esc_html__( 'Copywriting', 'frost' ) . '</a></li><li><a style="font-family: var(--font-family-primary);font-size: var(--font-size-regular);font-weight: var(--font-weight-regular)" href="#">' . esc_html__( 'Marketing', 'frost' ) . '</a></li><li><a href="#">' . esc_html__( 'Social Media', 'frost' ) . '</a></li></ul>
+				<ul class="has-small-font-size">
+				<li><a href="#">' . esc_html__( 'Web Design', 'frost' ) . '</a></li>
+				<li><a href="#">' . esc_html__( 'Development', 'frost' ) . '</a></li>
+				<li><a href="#">' . esc_html__( 'Copywriting', 'frost' ) . '</a></li>
+				<li><a href="#">' . esc_html__( 'Marketing', 'frost' ) . '</a></li>
+				<li><a href="#">' . esc_html__( 'Social Media', 'frost' ) . '</a></li></ul>
 				<!-- /wp:list --></div>
 				<!-- /wp:column -->
 

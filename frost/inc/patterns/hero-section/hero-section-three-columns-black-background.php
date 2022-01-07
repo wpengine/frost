@@ -28,11 +28,11 @@ return array(
 				<!-- wp:columns {"align":"wide"} -->
 				<div class="wp-block-columns alignwide"><!-- wp:column -->
 				<div class="wp-block-column"><!-- wp:image {"id":242,"sizeSlug":"full","linkDestination":"none"} -->
-				<figure class="wp-block-image size-full"><img src="https://frostwp.com/demo/wp-content/uploads/sites/2/2021/05/sample-white_1200x1200.jpg" alt="' . esc_attr__( 'Sample Image', 'frost' ) . '" class="wp-image-242"/></figure>
+				<figure class="wp-block-image size-full"><img src="' . esc_url( __( 'https://frostwp.com/demo/wp-content/uploads/sites/2/2021/05/sample-white_1200x1200.jpg', 'frost' ) ) . '"  alt="' . esc_attr__( 'Sample Image', 'frost' ) . '" class="wp-image-242"/></figure>
 				<!-- /wp:image -->
 
 				<!-- wp:heading {"textAlign":"center","level":3} -->
-				<h3 class="has-text-align-center" id="sample-heading">' . esc_html__( 'Sample Heading', 'frost' ) . '</h3>
+				<h3 class="has-text-align-center" id="sample-heading-1">' . esc_html__( 'Sample Heading', 'frost' ) . '</h3>
 				<!-- /wp:heading -->
 
 				<!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":"18px"}}} -->
@@ -48,11 +48,11 @@ return array(
 
 				<!-- wp:column -->
 				<div class="wp-block-column"><!-- wp:image {"id":242,"sizeSlug":"full","linkDestination":"none"} -->
-				<figure class="wp-block-image size-full"><img src="https://frostwp.com/demo/wp-content/uploads/sites/2/2021/05/sample-white_1200x1200.jpg" alt="' . esc_attr__( 'Sample Image', 'frost' ) . '" class="wp-image-242"/></figure>
+				<figure class="wp-block-image size-full"><img src="' . esc_url( __( 'https://frostwp.com/demo/wp-content/uploads/sites/2/2021/05/sample-white_1200x1200.jpg', 'frost' ) ) . '"  alt="' . esc_attr__( 'Sample Image', 'frost' ) . '" class="wp-image-242"/></figure>
 				<!-- /wp:image -->
 
 				<!-- wp:heading {"textAlign":"center","level":3} -->
-				<h3 class="has-text-align-center" id="sample-heading">' . esc_html__( 'Sample Heading', 'frost' ) . '</h3>
+				<h3 class="has-text-align-center" id="sample-heading-2">' . esc_html__( 'Sample Heading', 'frost' ) . '</h3>
 				<!-- /wp:heading -->
 
 				<!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":"18px"}}} -->
@@ -68,11 +68,11 @@ return array(
 
 				<!-- wp:column -->
 				<div class="wp-block-column"><!-- wp:image {"id":242,"sizeSlug":"full","linkDestination":"none"} -->
-				<figure class="wp-block-image size-full"><img src="https://frostwp.com/demo/wp-content/uploads/sites/2/2021/05/sample-white_1200x1200.jpg" alt="' . esc_attr__( 'Sample Image', 'frost' ) . '" class="wp-image-242"/></figure>
+				<figure class="wp-block-image size-full"><img src="' . esc_url( __( 'https://frostwp.com/demo/wp-content/uploads/sites/2/2021/05/sample-white_1200x1200.jpg', 'frost' ) ) . '"  alt="' . esc_attr__( 'Sample Image', 'frost' ) . '" class="wp-image-242"/></figure>
 				<!-- /wp:image -->
 
 				<!-- wp:heading {"textAlign":"center","level":3} -->
-				<h3 class="has-text-align-center" id="sample-heading">' . esc_html__( 'Sample Heading', 'frost' ) . '</h3>
+				<h3 class="has-text-align-center" id="sample-heading-3">' . esc_html__( 'Sample Heading', 'frost' ) . '</h3>
 				<!-- /wp:heading -->
 
 				<!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":"18px"}}} -->

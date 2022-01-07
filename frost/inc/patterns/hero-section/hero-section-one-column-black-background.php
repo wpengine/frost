@@ -14,7 +14,7 @@ return array(
 				<!-- /wp:spacer -->
 
 				<!-- wp:image {"id":3482,"sizeSlug":"full","linkDestination":"none"} -->
-				<figure class="wp-block-image size-full"><img src="https://frostwp.com/wp-content/uploads/2021/12/sample-white_1920x1200.jpg" alt="' . esc_attr__( 'Sample Image', 'frost' ) . '" class="wp-image-3482"/></figure>
+				<figure class="wp-block-image size-full"><img src="' . esc_url( __( 'https://frostwp.com/wp-content/uploads/2021/12/sample-white_1920x1200.jpg', 'frost' ) ) . '"  alt="' . esc_attr__( 'Sample Image', 'frost' ) . '" class="wp-image-3482"/></figure>
 				<!-- /wp:image -->
 
 				<!-- wp:spacer {"height":"30px"} -->

@@ -11,7 +11,7 @@ return array(
 	'blockTypes' => array( 'core/template-part/footer' ),
 	'content'    => '<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"100px","bottom":"40px"}}},"layout":{"inherit":true}} -->
 				<div class="wp-block-group alignfull" style="padding-top:100px;padding-bottom:40px"><!-- wp:heading {"textAlign":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"400"},"spacing":{"margin":{"bottom":"20px"}}},"fontSize":"max-48"} -->
-				<h2 class="has-text-align-center has-max-48-font-size" id="let-s-connect" style="font-style:normal;font-weight:400;margin-bottom:20px">Let’s Connect</h2>
+				<h2 class="has-text-align-center has-max-48-font-size" id="let-s-connect" style="font-style:normal;font-weight:400;margin-bottom:20px">' . esc_html__( 'Let’s Connect', 'frost' ) . '</h2>
 				<!-- /wp:heading -->
 
 				<!-- wp:paragraph {"align":"center"} -->
@@ -29,7 +29,7 @@ return array(
 				<!-- /wp:spacer -->
 
 				<!-- wp:paragraph {"align":"center","fontSize":"small"} -->
-				<p class="has-text-align-center has-small-font-size">© 2022 Your Company LLC · <a href="#">' . esc_html__( 'Contact Us', 'frost' ) . '</a></p>
+				<p class="has-text-align-center has-small-font-size">© ' . date( 'Y' ) . ' Your Company LLC · <a href="#">' . esc_html__( 'Contact Us', 'frost' ) . '</a></p>
 				<!-- /wp:paragraph --></div>
 				<!-- /wp:group -->',
 );

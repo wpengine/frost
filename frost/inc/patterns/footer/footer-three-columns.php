@@ -12,7 +12,7 @@ return array(
 	'content'    => '<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"40px","bottom":"40px"}}},"layout":{"inherit":true},"fontSize":"small"} -->
 				<div class="wp-block-group alignfull has-small-font-size" style="padding-top:40px;padding-bottom:40px"><!-- wp:group {"align":"wide","layout":{"type":"flex","allowOrientation":false,"justifyContent":"space-between"}} -->
 				<div class="wp-block-group alignwide"><!-- wp:paragraph -->
-				<p>© 2022 Your Company LLC</p>
+				<p>© ' . date( 'Y' ) . ' Your Company LLC</p>
 				<!-- /wp:paragraph -->
 
 				<!-- wp:paragraph -->
