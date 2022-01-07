@@ -453,6 +453,19 @@ img {
 	margin-left: 30px;
 }
 
+/* List
+--------------------------------------------- */
+
+.site-content ol,
+.site-content ul {
+	margin-bottom: 30px;
+}
+
+.site-content ol li,
+.site-content ul li {
+	margin-left: 30px;
+}
+
 /* Paragraph
 --------------------------------------------- */
 
