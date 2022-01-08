@@ -42,7 +42,7 @@ return array(
 				<!-- /wp:heading -->
 
 				<!-- wp:paragraph {"style":{"typography":{"fontSize":"18px"}}} -->
-				<p style="font-size:18px">Lorem ipsum dolor sit amet, consectetur adipiscing lectus. Vestibulum mi justo, luctus eu pellentesque vitae gravida non et aliquam volutpat. <a href="#">Read more</a>.</p>
+				<p style="font-size:18px">Lorem ipsum dolor sit amet, consectetur adipiscing lectus. Vestibulum mi justo, luctus eu pellentesque vitae gravida non et aliquam volutpat. <a href="#">' . esc_html__( 'Read more', 'frost' ) . '</a>.</p>
 				<!-- /wp:paragraph --></div>
 				<!-- /wp:column --></div>
 				<!-- /wp:columns -->
@@ -60,7 +60,7 @@ return array(
 				<!-- /wp:heading -->
 
 				<!-- wp:paragraph {"style":{"typography":{"fontSize":"18px"}}} -->
-				<p style="font-size:18px">Lorem ipsum dolor sit amet, consectetur adipiscing lectus. Vestibulum mi justo, luctus eu pellentesque vitae gravida non et aliquam volutpat. <a href="https://frostwp.com/demo/wp-admin/post.php?post=1284&amp;action=edit#">Read more</a>.</p>
+				<p style="font-size:18px">Lorem ipsum dolor sit amet, consectetur adipiscing lectus. Vestibulum mi justo, luctus eu pellentesque vitae gravida non et aliquam volutpat. <a href="#">' . esc_html__( 'Read more', 'frost' ) . '</a>.</p>
 				<!-- /wp:paragraph --></div>
 				<!-- /wp:column --></div>
 				<!-- /wp:columns -->
@@ -78,7 +78,7 @@ return array(
 				<!-- /wp:heading -->
 
 				<!-- wp:paragraph {"style":{"typography":{"fontSize":"18px"}}} -->
-				<p style="font-size:18px">Lorem ipsum dolor sit amet, consectetur adipiscing lectus. Vestibulum mi justo, luctus eu pellentesque vitae gravida non et aliquam volutpat. <a href="#">Read more</a>.</p>
+				<p style="font-size:18px">Lorem ipsum dolor sit amet, consectetur adipiscing lectus. Vestibulum mi justo, luctus eu pellentesque vitae gravida non et aliquam volutpat. <a href="#">' . esc_html__( 'Read more', 'frost' ) . '</a>.</p>
 				<!-- /wp:paragraph --></div>
 				<!-- /wp:column --></div>
 				<!-- /wp:columns --></div>
@@ -98,7 +98,7 @@ return array(
 				<!-- /wp:heading -->
 
 				<!-- wp:paragraph {"style":{"typography":{"fontSize":"18px"}}} -->
-				<p style="font-size:18px">Lorem ipsum dolor sit amet, consectetur adipiscing lectus. Vestibulum mi justo, luctus eu pellentesque vitae gravida non et aliquam volutpat. <a href="https://frostwp.com/demo/wp-admin/post.php?post=1284&amp;action=edit#">Read more</a>.</p>
+				<p style="font-size:18px">Lorem ipsum dolor sit amet, consectetur adipiscing lectus. Vestibulum mi justo, luctus eu pellentesque vitae gravida non et aliquam volutpat. <a href="#">' . esc_html__( 'Read more', 'frost' ) . '</a>.</p>
 				<!-- /wp:paragraph --></div>
 				<!-- /wp:column --></div>
 				<!-- /wp:columns -->
@@ -116,7 +116,7 @@ return array(
 				<!-- /wp:heading -->
 
 				<!-- wp:paragraph {"style":{"typography":{"fontSize":"18px"}}} -->
-				<p style="font-size:18px">Lorem ipsum dolor sit amet, consectetur adipiscing lectus. Vestibulum mi justo, luctus eu pellentesque vitae gravida non et aliquam volutpat. <a href="https://frostwp.com/demo/wp-admin/post.php?post=1284&amp;action=edit#">Read more</a>.</p>
+				<p style="font-size:18px">Lorem ipsum dolor sit amet, consectetur adipiscing lectus. Vestibulum mi justo, luctus eu pellentesque vitae gravida non et aliquam volutpat. <a href="#">' . esc_html__( 'Read more', 'frost' ) . '</a>.</p>
 				<!-- /wp:paragraph --></div>
 				<!-- /wp:column --></div>
 				<!-- /wp:columns -->
@@ -134,7 +134,7 @@ return array(
 				<!-- /wp:heading -->
 
 				<!-- wp:paragraph {"style":{"typography":{"fontSize":"18px"}}} -->
-				<p style="font-size:18px">Lorem ipsum dolor sit amet, consectetur adipiscing lectus. Vestibulum mi justo, luctus eu pellentesque vitae gravida non et aliquam volutpat. <a href="#">Read more</a>.</p>
+				<p style="font-size:18px">Lorem ipsum dolor sit amet, consectetur adipiscing lectus. Vestibulum mi justo, luctus eu pellentesque vitae gravida non et aliquam volutpat. <a href="#">' . esc_html__( 'Read more', 'frost' ) . '</a>.</p>
 				<!-- /wp:paragraph --></div>
 				<!-- /wp:column --></div>
 				<!-- /wp:columns --></div>
