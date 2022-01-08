@@ -18,7 +18,7 @@ return array(
 				<!-- /wp:heading -->
 
 				<!-- wp:paragraph {"align":"center"} -->
-				<p class="has-text-align-center">' . esc_html__( 'Create a three-column table, full-width', 'frost' ) . ' (1200px).</p>
+				<p class="has-text-align-center">' . esc_html__( 'Create a three-column table, wide-width', 'frost' ) . ' (1200px).</p>
 				<!-- /wp:paragraph -->
 
 				<!-- wp:columns {"align":"wide","className":"has-smaller-left-margin"} -->
