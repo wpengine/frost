@@ -150,7 +150,7 @@ return array(
 				<!-- wp:columns {"align":"wide"} -->
 				<div class="wp-block-columns alignwide"><!-- wp:column -->
 				<div class="wp-block-column"><!-- wp:image {"id":676,"sizeSlug":"full","linkDestination":"none"} -->
-				<figure class="wp-block-image size-full"><img src="' . esc_url( __( 'https://frostwp.com/demo/wp-content/uploads/sites/2/2021/05/sample-black_1200x1200.jpg', 'frost' ) ) . '"  alt="' . esc_attr__( 'Sample Image', 'frost' ) . '" class="wp-image-676"/></figure>
+				<figure class="wp-block-image size-full"><img src="' . esc_url( __( 'https://frostwp.com/wp-content/uploads/2021/12/sample-black_1200x1200.jpg', 'frost' ) ) . '"  alt="' . esc_attr__( 'Sample Image', 'frost' ) . '" class="wp-image-676"/></figure>
 				<!-- /wp:image -->
 
 				<!-- wp:heading {"textAlign":"center","level":3} -->
@@ -170,7 +170,7 @@ return array(
 
 				<!-- wp:column -->
 				<div class="wp-block-column"><!-- wp:image {"id":676,"sizeSlug":"full","linkDestination":"none"} -->
-				<figure class="wp-block-image size-full"><img src="' . esc_url( __( 'https://frostwp.com/demo/wp-content/uploads/sites/2/2021/05/sample-black_1200x1200.jpg', 'frost' ) ) . '"  alt="' . esc_attr__( 'Sample Image', 'frost' ) . '" class="wp-image-676"/></figure>
+				<figure class="wp-block-image size-full"><img src="' . esc_url( __( 'https://frostwp.com/wp-content/uploads/2021/12/sample-black_1200x1200.jpg', 'frost' ) ) . '"  alt="' . esc_attr__( 'Sample Image', 'frost' ) . '" class="wp-image-676"/></figure>
 				<!-- /wp:image -->
 
 				<!-- wp:heading {"textAlign":"center","level":3} -->
@@ -190,7 +190,7 @@ return array(
 
 				<!-- wp:column -->
 				<div class="wp-block-column"><!-- wp:image {"id":676,"sizeSlug":"full","linkDestination":"none"} -->
-				<figure class="wp-block-image size-full"><img src="' . esc_url( __( 'https://frostwp.com/demo/wp-content/uploads/sites/2/2021/05/sample-black_1200x1200.jpg', 'frost' ) ) . '"  alt="' . esc_attr__( 'Sample Image', 'frost' ) . '" class="wp-image-676"/></figure>
+				<figure class="wp-block-image size-full"><img src="' . esc_url( __( 'https://frostwp.com/wp-content/uploads/2021/12/sample-black_1200x1200.jpg', 'frost' ) ) . '"  alt="' . esc_attr__( 'Sample Image', 'frost' ) . '" class="wp-image-676"/></figure>
 				<!-- /wp:image -->
 
 				<!-- wp:heading {"textAlign":"center","level":3} -->
