@@ -462,7 +462,7 @@ img {
 }
 
 .site-content ol li,
-.site-content ul li {
+.site-content ul li:not(.wp-block-social-link) {
 	margin-left: 30px;
 }
 
