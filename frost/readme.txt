@@ -3,7 +3,7 @@ Contributors: bgardner, ndiego
 Requires at least: 5.8
 Tested up to: 5.8
 Requires PHP: 5.6
-Stable tag: 0.8.1
+Stable tag: 0.8.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -13,7 +13,9 @@ An experimental block theme for designers, developers, and creators.
 
 == Changelog ==
 
-= 0.8.1 - 2022-01-03 =
+= 0.8.2 - TBD =
+
+= 0.8.1 - 2022-01-10 =
 
 [Release Notes](https://github.com/wpengine/themes/releases/tag/2022.01.10)
 
