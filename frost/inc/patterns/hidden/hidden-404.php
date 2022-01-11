@@ -6,9 +6,9 @@
  */
 
 return array(
-	'title'      => __( '404 error content.', 'frost' ),
+	'title'    => __( '404 error content.', 'frost' ),
 	'inserter' => false,
-	'content'    => '<!-- wp:heading {"level":1} -->
+	'content'  => '<!-- wp:heading {"level":1} -->
 				<h1>' . esc_html__( 'Not found, error 404', 'frost' ) . '</h1>
 				<!-- /wp:heading -->
 				<!-- wp:paragraph -->
