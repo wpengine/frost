@@ -17,48 +17,48 @@ function frost_register_block_patterns() {
 	}
 
 	$block_pattern_categories = array(
-		'frost-call-to-action' => array(
-			'label' => __( 'Call-to-Action', 'frost' ),
+		'frost-call-to-action'  => array(
+			'label'         => __( 'Call-to-Action', 'frost' ),
 			'categoryTypes' => array( 'frost' ),
 		),
-		'frost-featured-boxes' => array(
-			'label' => __( 'Featured Boxes', 'frost' ),
+		'frost-featured-boxes'  => array(
+			'label'         => __( 'Featured Boxes', 'frost' ),
 			'categoryTypes' => array( 'frost' ),
 		),
-		'frost-footer' => array(
-			'label' => __( 'Footer', 'frost' ),
+		'frost-footer'          => array(
+			'label'         => __( 'Footer', 'frost' ),
 			'categoryTypes' => array( 'frost' ),
 		),
-		'frost-header' => array(
-			'label' => __( 'Header', 'frost' ),
+		'frost-header'          => array(
+			'label'         => __( 'Header', 'frost' ),
 			'categoryTypes' => array( 'frost' ),
 		),
-		'frost-hero-section' => array(
-			'label' => __( 'Hero Section', 'frost' ),
+		'frost-hero-section'    => array(
+			'label'         => __( 'Hero Section', 'frost' ),
 			'categoryTypes' => array( 'frost' ),
 		),
 		'frost-podcast-episode' => array(
-			'label' => __( 'Podcast Episode', 'frost' ),
+			'label'         => __( 'Podcast Episode', 'frost' ),
 			'categoryTypes' => array( 'frost' ),
 		),
-		'frost-page' => array(
-			'label' => __( 'Page', 'frost' ),
+		'frost-page'            => array(
+			'label'         => __( 'Page', 'frost' ),
 			'categoryTypes' => array( 'frost' ),
 		),
-		'frost-portfolio' => array(
-			'label' => __( 'Portfolio', 'frost' ),
+		'frost-portfolio'       => array(
+			'label'         => __( 'Portfolio', 'frost' ),
 			'categoryTypes' => array( 'frost' ),
 		),
-		'frost-pricing-table' => array(
-			'label' => __( 'Pricing Table', 'frost' ),
+		'frost-pricing-table'   => array(
+			'label'         => __( 'Pricing Table', 'frost' ),
 			'categoryTypes' => array( 'frost' ),
 		),
-		'frost-team-members' => array(
-			'label' => __( 'Team Members', 'frost' ),
+		'frost-team-members'    => array(
+			'label'         => __( 'Team Members', 'frost' ),
 			'categoryTypes' => array( 'frost' ),
 		),
-		'frost-testimonials' => array(
-			'label' => __( 'Testimonials', 'frost' ),
+		'frost-testimonials'    => array(
+			'label'         => __( 'Testimonials', 'frost' ),
 			'categoryTypes' => array( 'frost' ),
 		),
 	);
@@ -151,5 +151,6 @@ function frost_register_block_patterns() {
 			require get_theme_file_path( '/inc/patterns/' . $block_pattern . '.php' )
 		);
 	}
+
 }
 add_action( 'init', 'frost_register_block_patterns', 9 );

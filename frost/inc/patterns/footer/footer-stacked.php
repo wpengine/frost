@@ -29,7 +29,7 @@ return array(
 				<!-- /wp:spacer -->
 
 				<!-- wp:paragraph {"align":"center","fontSize":"small"} -->
-				<p class="has-text-align-center has-small-font-size">© ' . date( 'Y' ) . ' Your Company LLC · <a href="#">' . esc_html__( 'Contact Us', 'frost' ) . '</a></p>
+				<p class="has-text-align-center has-small-font-size">© ' . gmdate( 'Y' ) . ' Your Company LLC · <a href="#">' . esc_html__( 'Contact Us', 'frost' ) . '</a></p>
 				<!-- /wp:paragraph --></div>
 				<!-- /wp:group -->',
 );

@@ -9,6 +9,7 @@
  */
 
 if ( ! function_exists( 'frost_setup' ) ) {
+
 	/**
 	 * Sets up theme defaults and registers support for various WordPress features.
 	 *
@@ -21,6 +22,7 @@ if ( ! function_exists( 'frost_setup' ) ) {
 	 * @return void
 	 */
 	function frost_setup() {
+
 		// Make theme available for translation.
 		load_theme_textdomain( 'frost', get_template_directory() . '/languages' );
 
@@ -31,16 +33,19 @@ if ( ! function_exists( 'frost_setup' ) ) {
 		add_theme_support( 'editor-styles' );
 
 		// Enqueue editor styles and fonts.
-		add_editor_style( array(
-			'./assets/css/style-editor.css',
-			frost_fonts_url()
-		) );
+		add_editor_style(
+			array(
+				'./assets/css/style-editor.css',
+				frost_fonts_url(),
+			)
+		);
 
 		// Disable loading core block inline styles.
 		add_filter( 'should_load_separate_core_block_assets', '__return_false' );
 
 		// Remove core block patterns.
 		remove_theme_support( 'core-block-patterns' );
+
 	}
 }
 add_action( 'after_setup_theme', 'frost_setup' );
@@ -71,20 +76,21 @@ function frost_fonts_url() {
 		return '';
 	}
 
-	$fonts = [
+	$fonts = array(
 		'family=Jost:wght@100;200;300;400;500;600;700;800;900',
-		'family=Outfit:wght@100;200;300;400;500;600;700;800;900'
-	];
+		'family=Outfit:wght@100;200;300;400;500;600;700;800;900',
+	);
 
 	// Make a single request for all Google Fonts.
 	return esc_url_raw( 'https://fonts.googleapis.com/css2?' . implode( '&', array_unique( $fonts ) ) . '&display=swap' );
+
 }
 
 // Add site favicon.
 add_action( 'wp_head', 'frost_add_favicon' );
 function frost_add_favicon() {
 
-	echo '<link rel="shortcut icon" type="image/x-icon" href="'.get_template_directory_uri().'/assets/images/favicon.ico" />';
+	echo '<link rel="shortcut icon" type="image/x-icon" href="' . get_template_directory_uri() . '/assets/images/favicon.ico" />';
 
 }
 
