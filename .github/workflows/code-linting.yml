@@ -4,7 +4,7 @@ on:
   pull_request:
     branches: [trunk]
   push:
-    branches: [trunk, add/linting-github-action]
+    branches: [trunk]
 
 jobs:
   lint:
