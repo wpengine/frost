@@ -38,7 +38,6 @@ img {
  * https://github.com/WordPress/gutenberg/issues/35607
  * https://github.com/WordPress/gutenberg/issues/35884
 ---------------------------------------------*/
-
 body > .is-root-container,
 .edit-post-visual-editor__post-title-wrapper,
 .is-root-container .wp-block[data-align="full"] > .wp-block-group,
@@ -51,6 +50,19 @@ body > .is-root-container,
 	margin-left: calc(-1 * var(--wp--custom--spacing--outer)) !important;
 	margin-right: calc(-1 * var(--wp--custom--spacing--outer)) !important;
 	width: unset;
+}
+
+/*
+ * Temporary fix for pattern previews due to a
+ * Gutenberg bug. The .is-root-container is the
+ * first child in the Site Editor and is
+ * generally the third child in the Block Editor.
+ * Only in the preview component does it seem to
+ * be the second child, hence this CSS.
+---------------------------------------------*/
+body > .is-root-container:nth-child(2) {
+	padding-left: 0;
+	padding-right: 0;
 }
 
 /* Buttons
