@@ -86,14 +86,6 @@ function frost_fonts_url() {
 
 }
 
-// Add site favicon.
-add_action( 'wp_head', 'frost_add_favicon' );
-function frost_add_favicon() {
-
-	echo '<link rel="shortcut icon" type="image/x-icon" href="' . get_template_directory_uri() . '/assets/images/favicon.ico" />';
-
-}
-
 // Include block styles.
 require get_template_directory() . '/inc/block-styles.php';
 
