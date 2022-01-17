@@ -35,7 +35,7 @@ if ( ! function_exists( 'frost_setup' ) ) {
 		// Enqueue editor styles and fonts.
 		add_editor_style(
 			array(
-				'./assets/css/style-editor.css',
+				'./style-editor.css',
 				frost_fonts_url(),
 			)
 		);
