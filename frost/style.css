@@ -461,8 +461,10 @@ img {
 	margin-bottom: 30px;
 }
 
-.site-content ol li,
-.site-content ul li:not(.wp-block-social-link) {
+.site-content ol:where(:not([class*='wp-block'])),
+.site-content ol:where(.wp-block-list),
+.site-content ul:where(:not([class*='wp-block'])),
+.site-content ul:where(.wp-block-list) {
 	margin-left: 30px;
 }
 
