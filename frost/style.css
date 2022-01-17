@@ -133,107 +133,10 @@ body > .is-root-container:nth-child(2) {
 
 }
 
-/* Site Content
----------------------------------------------------------------------------- */
-
-/* Post Comments
---------------------------------------------- */
-
-.wp-block-post-comments input:not([type=submit]),
-.wp-block-post-comments textarea {
-	border-color: var(--wp--preset--color--black);
-}
-
-.wp-block-post-comments .commentlist {
-	margin-bottom: 40px;
-	margin-top: 40px;
-}
-
-.wp-block-post-comments .form-submit {
-	margin-bottom: 0;
-}
-
-.wp-block-post-comments .comment-form-cookies-consent {
-	font-size: var(--wp--preset--font-size--small);
-}
-
-/* Pricing Table
---------------------------------------------- */
-
-.pricing-table {
-	text-align: center;
-}
-
-.pricing-table > li {
-	border-bottom: 1px solid var(--wp--preset--color--gray);
-	list-style-type: none;
-	margin-bottom: 10px;
-	padding-bottom: 10px;
-}
-
-/* Objects
---------------------------------------------- */
-
-embed,
-iframe,
-object,
-video {
-	max-width: 100%;
-}
-
-figure {
-	margin: 0;
-}
-
-/* Inputs
---------------------------------------------- */
-
-input,
-select,
-textarea,
-.wp-block-search__input {
-	background-color: var(--wp--preset--color--white);
-	border: 1px solid var(--wp--preset--color--black);
-	border-radius: 0;
-	color: var(--wp--preset--color--black);
-	font-family: var(--wp--preset--font-family--jost);
-	font-size: var(--wp--preset--font-size--medium);
-	font-weight: var(--wp--custom--font-weight--regular);
-	line-height: var(--wp--custom--line-height--body);
-	padding: 10px 20px;
-	width: 100%;
-}
-
-input:focus,
-textarea:focus {
-	background-color: var(--wp--preset--color--gray);
-}
-
-input[type="checkbox"],
-input[type="image"],
-input[type="radio"] {
-	width: auto;
-}
-
-input[type="button"],
-input[type="email"],
-input[type="search"],
-input[type="submit"],
-input[type="text"],
-textarea {
-	-webkit-appearance: none;
-}
-
-::placeholder {
-	color: var(--wp--preset--color--black);
-	font-size: var(--wp--preset--font-size--small);
-	opacity: 0.6;
-}
-
 /* Blocks
 ---------------------------------------------------------------------------- */
 
-/* Buttons
+/* Button
 --------------------------------------------- */
 
 button,
@@ -283,7 +186,7 @@ input[type="submit"]:hover,
 	color: var(--wp--preset--color--black);
 }
 
-/* Buttons - Fill White
+/* Button - Fill White
 --------------------------------------------- */
 
 .wp-block-button.is-style-fill-white .wp-block-button__link {
@@ -299,7 +202,7 @@ input[type="submit"]:hover,
 	color: var(--wp--preset--color--white);
 }
 
-/* Buttons - Outline
+/* Button - Outline
 --------------------------------------------- */
 
 .wp-block-button.is-style-outline .wp-block-button__link {
@@ -317,7 +220,7 @@ input[type="submit"]:hover,
 	color: var(--wp--preset--color--white);
 }
 
-/* Buttons - Outline White
+/* Button - Outline White
 --------------------------------------------- */
 
 .wp-block-button.is-style-outline-white .wp-block-button__link {
@@ -390,13 +293,6 @@ input[type="submit"]:hover,
 	top: -1px;
 }
 
-/* Forms
---------------------------------------------- */
-
-.nf-field-container {
-	margin-bottom: 10px;
-}
-
 /* Heading
 --------------------------------------------- */
 
@@ -409,7 +305,7 @@ h6.has-background {
 	padding: 20px 30px;
 }
 
-/* Images
+/* Image
 --------------------------------------------- */
 
 img {
@@ -495,6 +391,27 @@ p.has-background {
 	overflow-wrap: normal;
 	overflow-x: scroll;
 	white-space: pre;
+}
+
+/* Post Comments
+--------------------------------------------- */
+
+.wp-block-post-comments input:not([type=submit]),
+.wp-block-post-comments textarea {
+	border-color: var(--wp--preset--color--black);
+}
+
+.wp-block-post-comments .commentlist {
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
+
+.wp-block-post-comments .form-submit {
+	margin-bottom: 0;
+}
+
+.wp-block-post-comments .comment-form-cookies-consent {
+	font-size: var(--wp--preset--font-size--small);
 }
 
 /* Pullquote
@@ -628,7 +545,95 @@ p.has-background {
 	background-color: var(--wp--preset--color--gray);
 }
 
-/* Custom Styles
+/* Custom
+---------------------------------------------------------------------------- */
+
+/* Accessibility
+--------------------------------------------- */
+
+:focus {
+	color: var(--wp--preset--color--black);
+	outline: none;
+}
+
+/* Forms
+--------------------------------------------- */
+
+input,
+select,
+textarea,
+.wp-block-search__input {
+	background-color: var(--wp--preset--color--white);
+	border: 1px solid var(--wp--preset--color--black);
+	border-radius: 0;
+	color: var(--wp--preset--color--black);
+	font-family: var(--wp--preset--font-family--jost);
+	font-size: var(--wp--preset--font-size--medium);
+	font-weight: var(--wp--custom--font-weight--regular);
+	line-height: var(--wp--custom--line-height--body);
+	padding: 10px 20px;
+	width: 100%;
+}
+
+input:focus,
+textarea:focus {
+	background-color: var(--wp--preset--color--gray);
+}
+
+input[type="checkbox"],
+input[type="image"],
+input[type="radio"] {
+	width: auto;
+}
+
+input[type="button"],
+input[type="email"],
+input[type="search"],
+input[type="submit"],
+input[type="text"],
+textarea {
+	-webkit-appearance: none;
+}
+
+::placeholder {
+	color: var(--wp--preset--color--black);
+	font-size: var(--wp--preset--font-size--small);
+	opacity: 0.6;
+}
+
+.nf-field-container {
+	margin-bottom: 10px;
+}
+
+/* Objects
+--------------------------------------------- */
+
+embed,
+iframe,
+object,
+video {
+	max-width: 100%;
+}
+
+figure {
+	margin: 0;
+}
+
+/* Pricing Table
+--------------------------------------------- */
+
+.pricing-table {
+	text-align: center;
+}
+
+.pricing-table > li {
+	border-bottom: 1px solid var(--wp--preset--color--gray);
+	list-style-type: none;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+}
+
+/* Styles
 --------------------------------------------- */
 
 .is-style-boxshadow {
@@ -643,21 +648,6 @@ p.has-background {
 
 .is-style-no-margin {
 	margin: 0;
-}
-
-/* Accessability
----------------------------------------------------------------------------- */
-
-:focus {
-	color: var(--wp--preset--color--black);
-	outline: none;
-}
-
-/* Site Footer
----------------------------------------------------------------------------- */
-
-.site-footer p:last-child {
-	margin-bottom: 0;
 }
 
 /* Media Queries
