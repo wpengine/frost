@@ -217,13 +217,6 @@
 					"fontWeight": "var(--wp--custom--font-weight--medium)"
 				}
 			},
-			"core/buttons": {
-				"spacing": {
-					"margin": {
-						"bottom": "0"
-					}
-				}
-			},
 			"core/calendar": {
 				"spacing": {
 					"margin": {
@@ -398,7 +391,6 @@
 			"core/quote": {
 				"border": {
 					"color": "var(--wp--preset--color--black)",
-					"radius": "0",
 					"style": "solid",
 					"width": "1px"
 				},
@@ -458,13 +450,6 @@
 					"fontSize": "var(--wp--preset--font-size--large)",
 					"fontWeight": "var(--wp--custom--font-weight--medium)",
 					"lineHeight": "var(--wp--custom--line-height--one)"
-				}
-			},
-			"core/social-links": {
-				"spacing": {
-					"margin": {
-						"bottom": "0"
-					}
 				}
 			},
 			"core/table": {
