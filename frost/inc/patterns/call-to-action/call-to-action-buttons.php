@@ -6,9 +6,10 @@
  */
 
 return array(
-	'title'      => __( 'Call-to-action with text, buttons.', 'frost' ),
-	'categories' => array( 'frost-call-to-action' ),
-	'content'    => '<!-- wp:group {"align":"full","layout":{"inherit":true}} -->
+	'title'         => __( 'Call-to-action with text, buttons.', 'frost' ),
+	'categories'    => array( 'frost-call-to-action' ),
+	'viewportWidth' => 1280,
+	'content'       => '<!-- wp:group {"align":"full","layout":{"inherit":true}} -->
 				<div class="wp-block-group alignfull"><!-- wp:spacer {"height":100} -->
 				<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer -->

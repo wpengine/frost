@@ -6,9 +6,10 @@
  */
 
 return array(
-	'title'      => __( 'Featured boxes with text, button.', 'frost' ),
-	'categories' => array( 'frost-featured-boxes' ),
-	'content'    => '<!-- wp:group {"align":"full","backgroundColor":"black","layout":{"inherit":true}} -->
+	'title'         => __( 'Featured boxes with text, button.', 'frost' ),
+	'categories'    => array( 'frost-featured-boxes' ),
+	'viewportWidth' => 1280,
+	'content'       => '<!-- wp:group {"align":"full","backgroundColor":"black","layout":{"inherit":true}} -->
 				<div class="wp-block-group alignfull has-black-background-color has-background"><!-- wp:spacer {"height":100} -->
 				<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer -->

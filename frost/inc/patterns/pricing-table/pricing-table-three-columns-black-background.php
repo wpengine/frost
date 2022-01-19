@@ -6,9 +6,10 @@
  */
 
 return array(
-	'title'      => __( 'Pricing table with list, buttons.', 'frost' ),
-	'categories' => array( 'frost-pricing-table' ),
-	'content'    => '<!-- wp:group {"align":"full","backgroundColor":"black","textColor":"white","layout":{"inherit":true}} -->
+	'title'         => __( 'Pricing table with list, buttons.', 'frost' ),
+	'categories'    => array( 'frost-pricing-table' ),
+	'viewportWidth' => 1280,
+	'content'       => '<!-- wp:group {"align":"full","backgroundColor":"black","textColor":"white","layout":{"inherit":true}} -->
 				<div class="wp-block-group alignfull has-white-color has-black-background-color has-text-color has-background"><!-- wp:spacer {"height":100} -->
 				<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer -->

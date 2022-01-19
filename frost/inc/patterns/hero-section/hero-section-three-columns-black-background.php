@@ -6,9 +6,10 @@
  */
 
 return array(
-	'title'      => __( 'Section with image, text, button.', 'frost' ),
-	'categories' => array( 'frost-hero-section' ),
-	'content'    => '<!-- wp:group {"align":"full","backgroundColor":"black","textColor":"white","layout":{"inherit":true}} -->
+	'title'         => __( 'Section with image, text, button.', 'frost' ),
+	'categories'    => array( 'frost-hero-section' ),
+	'viewportWidth' => 1280,
+	'content'       => '<!-- wp:group {"align":"full","backgroundColor":"black","textColor":"white","layout":{"inherit":true}} -->
 				<div class="wp-block-group alignfull has-white-color has-black-background-color has-text-color has-background"><!-- wp:spacer {"height":100} -->
 				<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer -->

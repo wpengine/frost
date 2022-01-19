@@ -6,9 +6,10 @@
  */
 
 return array(
-	'title'      => __( 'Podcast episode with media, text.', 'frost' ),
-	'categories' => array( 'frost-podcast-episode' ),
-	'content'    => '<!-- wp:group {"align":"full","layout":{"inherit":true}} -->
+	'title'         => __( 'Podcast episode with media, text.', 'frost' ),
+	'categories'    => array( 'frost-podcast-episode' ),
+	'viewportWidth' => 1280,
+	'content'       => '<!-- wp:group {"align":"full","layout":{"inherit":true}} -->
 				<div class="wp-block-group alignfull"><!-- wp:spacer {"height":100} -->
 				<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer -->

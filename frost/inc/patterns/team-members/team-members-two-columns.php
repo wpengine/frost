@@ -6,9 +6,10 @@
  */
 
 return array(
-	'title'      => __( 'Team with image, text, link.', 'frost' ),
-	'categories' => array( 'frost-team-members' ),
-	'content'    => '<!-- wp:group {"align":"full","layout":{"inherit":true}} -->
+	'title'         => __( 'Team with image, text, link.', 'frost' ),
+	'categories'    => array( 'frost-team-members' ),
+	'viewportWidth' => 1280,
+	'content'       => '<!-- wp:group {"align":"full","layout":{"inherit":true}} -->
 				<div class="wp-block-group alignfull"><!-- wp:spacer {"height":100} -->
 				<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer -->

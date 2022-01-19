@@ -6,9 +6,10 @@
  */
 
 return array(
-	'title'      => __( 'Sample home page.', 'frost' ),
-	'categories' => array( 'frost-page' ),
-	'content'    => '<!-- wp:group {"align":"full","layout":{"wideSize":"800px"}} -->
+	'title'         => __( 'Sample home page.', 'frost' ),
+	'categories'    => array( 'frost-page' ),
+	'viewportWidth' => 1280,
+	'content'       => '<!-- wp:group {"align":"full","layout":{"wideSize":"800px"}} -->
 				<div class="wp-block-group alignfull"><!-- wp:spacer {"height":70} -->
 				<div style="height:70px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer -->

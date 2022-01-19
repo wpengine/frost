@@ -6,9 +6,10 @@
  */
 
 return array(
-	'title'      => __( 'Testimonials with text.', 'frost' ),
-	'categories' => array( 'frost-testimonials' ),
-	'content'    => '<!-- wp:group {"align":"full","backgroundColor":"black","layout":{"inherit":true}} -->
+	'title'         => __( 'Testimonials with text.', 'frost' ),
+	'categories'    => array( 'frost-testimonials' ),
+	'viewportWidth' => 1280,
+	'content'       => '<!-- wp:group {"align":"full","backgroundColor":"black","layout":{"inherit":true}} -->
 				<div class="wp-block-group alignfull has-black-background-color has-background"><!-- wp:spacer {"height":100} -->
 				<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer -->
