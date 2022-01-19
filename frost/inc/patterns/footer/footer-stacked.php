@@ -24,7 +24,7 @@ return array(
 				<!-- /wp:button --></div>
 				<!-- /wp:buttons -->
 
-				<!-- wp:spacer {"height":"70px"} -->
+				<!-- wp:spacer {"height":70} -->
 				<div style="height:70px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer -->
 

@@ -9,7 +9,7 @@ return array(
 	'title'      => __( 'Section with image, text, button.', 'frost' ),
 	'categories' => array( 'frost-hero-section' ),
 	'content'    => '<!-- wp:group {"align":"full","layout":{"inherit":true}} -->
-				<div class="wp-block-group alignfull"><!-- wp:spacer -->
+				<div class="wp-block-group alignfull"><!-- wp:spacer {"height":100} -->
 				<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer -->
 
@@ -21,7 +21,7 @@ return array(
 				<p class="has-text-align-center is-style-no-margin">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 				<!-- /wp:paragraph -->
 
-				<!-- wp:spacer {"height":"40px"} -->
+				<!-- wp:spacer {"height":40} -->
 				<div style="height:40px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer -->
 
@@ -87,7 +87,7 @@ return array(
 				<!-- /wp:column --></div>
 				<!-- /wp:columns -->
 
-				<!-- wp:spacer {"height":"70px"} -->
+				<!-- wp:spacer {"height":70} -->
 				<div style="height:70px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer --></div>
 				<!-- /wp:group -->',

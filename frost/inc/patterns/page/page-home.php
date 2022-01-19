@@ -9,7 +9,7 @@ return array(
 	'title'      => __( 'Sample home page.', 'frost' ),
 	'categories' => array( 'frost-page' ),
 	'content'    => '<!-- wp:group {"align":"full","layout":{"wideSize":"800px"}} -->
-				<div class="wp-block-group alignfull"><!-- wp:spacer {"height":"70px"} -->
+				<div class="wp-block-group alignfull"><!-- wp:spacer {"height":70} -->
 				<div style="height:70px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer -->
 
@@ -17,7 +17,7 @@ return array(
 				<figure class="wp-block-image size-full"><img src="' . esc_url( __( 'https://frostwp.com/wp-content/uploads/2021/12/sample-black_1920x1200.jpg', 'frost' ) ) . '"  alt="' . esc_attr__( 'Sample Image', 'frost' ) . '" class="wp-image-3480"/></figure>
 				<!-- /wp:image -->
 
-				<!-- wp:spacer {"height":"30px"} -->
+				<!-- wp:spacer {"height":30} -->
 				<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer -->
 
@@ -39,13 +39,13 @@ return array(
 				<!-- /wp:button --></div>
 				<!-- /wp:buttons -->
 
-				<!-- wp:spacer -->
+				<!-- wp:spacer {"height":100} -->
 				<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer --></div>
 				<!-- /wp:group -->
 
 				<!-- wp:group {"align":"full","backgroundColor":"black","textColor":"white","layout":{"inherit":true}} -->
-				<div class="wp-block-group alignfull has-white-color has-black-background-color has-text-color has-background"><!-- wp:spacer -->
+				<div class="wp-block-group alignfull has-white-color has-black-background-color has-text-color has-background"><!-- wp:spacer {"height":100} -->
 				<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer -->
 
@@ -69,13 +69,13 @@ return array(
 				<!-- /wp:buttons --></div></div>
 				<!-- /wp:media-text -->
 
-				<!-- wp:spacer -->
+				<!-- wp:spacer {"height":100} -->
 				<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer --></div>
 				<!-- /wp:group -->
 
 				<!-- wp:group {"align":"full","layout":{"inherit":true}} -->
-				<div class="wp-block-group alignfull"><!-- wp:spacer -->
+				<div class="wp-block-group alignfull"><!-- wp:spacer {"height":100} -->
 				<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer -->
 
@@ -99,13 +99,13 @@ return array(
 				<!-- /wp:buttons --></div></div>
 				<!-- /wp:media-text -->
 
-				<!-- wp:spacer -->
+				<!-- wp:spacer {"height":100} -->
 				<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer --></div>
 				<!-- /wp:group -->
 
 				<!-- wp:group {"align":"full","backgroundColor":"black","textColor":"white","layout":{"inherit":true}} -->
-				<div class="wp-block-group alignfull has-white-color has-black-background-color has-text-color has-background"><!-- wp:spacer -->
+				<div class="wp-block-group alignfull has-white-color has-black-background-color has-text-color has-background"><!-- wp:spacer {"height":100} -->
 				<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer -->
 
@@ -125,13 +125,13 @@ return array(
 				<!-- /wp:column --></div>
 				<!-- /wp:columns -->
 
-				<!-- wp:spacer {"height":"70px"} -->
+				<!-- wp:spacer {"height":70} -->
 				<div style="height:70px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer --></div>
 				<!-- /wp:group -->
 
 				<!-- wp:group {"align":"full","layout":{"inherit":true}} -->
-				<div class="wp-block-group alignfull"><!-- wp:spacer -->
+				<div class="wp-block-group alignfull"><!-- wp:spacer {"height":100} -->
 				<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer -->
 
@@ -143,7 +143,7 @@ return array(
 				<p class="has-text-align-center is-style-no-margin">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 				<!-- /wp:paragraph -->
 
-				<!-- wp:spacer {"height":"40px"} -->
+				<!-- wp:spacer {"height":40} -->
 				<div style="height:40px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer -->
 
@@ -209,7 +209,7 @@ return array(
 				<!-- /wp:column --></div>
 				<!-- /wp:columns -->
 
-				<!-- wp:spacer {"height":"70px"} -->
+				<!-- wp:spacer {"height":70} -->
 				<div style="height:70px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer --></div>
 				<!-- /wp:group -->',
