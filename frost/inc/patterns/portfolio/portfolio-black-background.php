@@ -9,7 +9,7 @@ return array(
 	'title'      => __( 'Portfolio with images, text.', 'frost' ),
 	'categories' => array( 'frost-portfolio' ),
 	'content'    => '<!-- wp:group {"align":"full","style":{"elements":{"link":{"color":{"text":"var:preset|color|white"}}}},"backgroundColor":"black","textColor":"white","layout":{"inherit":true}} -->
-				<div class="wp-block-group alignfull has-white-color has-black-background-color has-text-color has-background has-link-color"><!-- wp:spacer -->
+				<div class="wp-block-group alignfull has-white-color has-black-background-color has-text-color has-background has-link-color"><!-- wp:spacer {"height":100} -->
 				<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer -->
 
@@ -49,7 +49,7 @@ return array(
 				<!-- /wp:column --></div>
 				<!-- /wp:columns -->
 
-				<!-- wp:spacer {"height":"30px"} -->
+				<!-- wp:spacer {"height":30} -->
 				<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer --></div>
 				<!-- /wp:group -->',

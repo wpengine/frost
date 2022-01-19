@@ -10,7 +10,7 @@ return array(
 	'categories' => array( 'frost-page' ),
 	'content'    => '<!-- wp:group {"align":"full","className":"is-style-full-height","layout":{"inherit":true}} -->
 				<div class="wp-block-group alignfull is-style-full-height"><!-- wp:group -->
-				<div class="wp-block-group"><!-- wp:spacer -->
+				<div class="wp-block-group"><!-- wp:spacer {"height":100} -->
 				<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer -->
 
@@ -38,7 +38,7 @@ return array(
 				<!-- wp:social-link {"url":"#","service":"linkedin"} /--></ul>
 				<!-- /wp:social-links -->
 
-				<!-- wp:spacer {"height":"60px"} -->
+				<!-- wp:spacer {"height":60} -->
 				<div style="height:60px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer -->
 
@@ -64,7 +64,7 @@ return array(
 				<!-- /wp:button --></div>
 				<!-- /wp:buttons -->
 
-				<!-- wp:spacer {"height":"40px"} -->
+				<!-- wp:spacer {"height":40} -->
 				<div style="height:40px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer -->
 
@@ -72,7 +72,7 @@ return array(
 				<p class="has-text-align-center"><a href="https://frostwp.com/">' . esc_html__( 'Made with Frost', 'frost' ) . '</a></p>
 				<!-- /wp:paragraph -->
 
-				<!-- wp:spacer {"height":"70px"} -->
+				<!-- wp:spacer {"height":70} -->
 				<div style="height:70px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer --></div>
 				<!-- /wp:group --></div>
