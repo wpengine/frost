@@ -139,7 +139,6 @@ body > .is-root-container:nth-child(2) {
 /* Button
 --------------------------------------------- */
 
-button,
 input[type="button"],
 input[type="submit"],
 .wp-block-button__link,
@@ -159,8 +158,6 @@ input[type="submit"],
 	width: auto;
 }
 
-button:focus,
-button:hover,
 input[type="button"]:focus,
 input[type="button"]:hover,
 input[type="submit"]:focus,
