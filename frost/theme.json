@@ -328,6 +328,24 @@
 					}
 				}
 			},
+			"core/post-author": {
+				"border": {
+					"color": "var(--wp--preset--color--black)",
+					"style": "solid",
+					"width": "1px"
+				},
+				"spacing": {
+					"padding": {
+						"top": "30px",
+						"right": "30px",
+						"bottom": "30px",
+						"left": "30px"
+					}
+				},
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--medium)"
+				}
+			},
 			"core/post-comments": {
 				"spacing": {
 					"margin": {
