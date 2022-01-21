@@ -21,10 +21,6 @@ Frost is distributed under the terms of the GNU GPL.
 /* Defaults
 ---------------------------------------------------------------------------- */
 
-body {
-	overflow-x: hidden;
-}
-
 html {
 	box-sizing: border-box;
 	-moz-osx-font-smoothing: grayscale;
@@ -107,20 +103,6 @@ body > .is-root-container > .wp-block-template-part > .wp-block-group.has-backgr
 	margin-left: calc(-1 * var(--wp--custom--spacing--outer)) !important;
 	margin-right: calc(-1 * var(--wp--custom--spacing--outer)) !important;
 	width: unset;
-}
-
-/*
- * Temporary fix for pattern previews due to a
- * Gutenberg bug. The .is-root-container is the
- * first child in the Site Editor and is
- * generally the third child in the Block Editor.
- * Only in the preview component does it seem to
- * be the second child, hence this CSS.
----------------------------------------------*/
-
-body > .is-root-container:nth-child(2) {
-	padding-left: 0;
-	padding-right: 0;
 }
 
 /* Blocks
@@ -328,12 +310,6 @@ h6.has-background {
 
 /* Image
 --------------------------------------------- */
-
-img {
-	height: auto;
-	max-width: 100%;
-	vertical-align: top;
-}
 
 .wp-block-image .alignleft {
 	margin-right: 30px;
@@ -602,20 +578,6 @@ textarea {
 
 .nf-field-container {
 	margin-bottom: 10px;
-}
-
-/* Objects
---------------------------------------------- */
-
-embed,
-iframe,
-object,
-video {
-	max-width: 100%;
-}
-
-figure {
-	margin: 0;
 }
 
 /* Pricing Table
