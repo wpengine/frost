@@ -470,7 +470,7 @@ p.has-background {
 }
 
 .wp-block-separator:not(.is-style-dots) {
-	border-bottom: 1px solid var(--wp--preset--color--black);
+	border-bottom: 1px solid currentColor;
 }
 
 .wp-block-separator.is-style-dots:before {
