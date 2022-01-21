@@ -53,6 +53,10 @@ function frost_register_block_patterns() {
 			'label'         => __( 'Pricing Table', 'frost' ),
 			'categoryTypes' => array( 'frost' ),
 		),
+		'frost-query'       => array(
+			'label'         => __( 'Query', 'frost' ),
+			'categoryTypes' => array( 'frost' ),
+		),
 		'frost-team-members'    => array(
 			'label'         => __( 'Team Members', 'frost' ),
 			'categoryTypes' => array( 'frost' ),
@@ -126,6 +130,9 @@ function frost_register_block_patterns() {
 		'pricing-table/pricing-table-three-columns-black-background',
 		'pricing-table/pricing-table-four-columns',
 		'pricing-table/pricing-table-four-columns-black-background',
+		'query/query-default',
+		'query/query-grid',
+		'query/query-list',
 		'team-members/team-members-two-columns',
 		'team-members/team-members-two-columns-black-background',
 		'team-members/team-members-four-columns',
