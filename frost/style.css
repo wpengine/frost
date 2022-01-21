@@ -469,8 +469,10 @@ p.has-background {
 	opacity: 1;
 }
 
-.wp-block-separator:not(.is-style-dots) {
+.wp-block-separator:not(.is-style-dots),
+.wp-block-separator.has-background:not(.is-style-dots) {
 	border-bottom: 1px solid currentColor;
+	height: 1px;
 }
 
 .wp-block-separator.is-style-dots:before {
