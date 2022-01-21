@@ -117,22 +117,6 @@ body > .is-root-container:nth-child(2) {
 /* Site Blocks
 ---------------------------------------------------------------------------- */
 
-.wp-site-blocks {
-	animation: fadein 1s;
-}
-
-@keyframes fadein {
-
-	from {
-		opacity: 0;
-	}
-
-	to {
-		opacity: 1;
-	}
-
-}
-
 /* Blocks
 ---------------------------------------------------------------------------- */
 
