@@ -418,27 +418,8 @@ p.has-background {
 /* Post Author
 --------------------------------------------- */
 
-.wp-block-post-author {
-	box-shadow: 5px 5px var(--wp--preset--color--black);
-}
-
-.wp-block-post-author__bio {
-	font-size: var(--wp--preset--font-size--medium);
-}
-
 .wp-block-post-author__name {
-	font-size: var(--wp--preset--font-size--large);
-	font-weight: var(--wp--custom--font-weight--medium);
-}
-
-.wp-block-post-author__bio,
-.wp-block-post-author__name {
-	line-height: var(--wp--custom--line-height--medium);
 	margin-bottom: 0;
-}
-
-.wp-block-post-author__avatar img {
-	border-radius: 50%;
 }
 
 /* Preformatted
