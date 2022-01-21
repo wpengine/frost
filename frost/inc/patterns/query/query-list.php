@@ -10,6 +10,10 @@ return array(
 	'categories'    => array( 'frost-query' ),
 	'viewportWidth' => 1280,
 	'content'       => '<!-- wp:group {"align":"full","layout":{"inherit":true}} -->
+				<div class="wp-block-group alignwide"><!-- wp:spacer -->
+				<div style="height:70px" aria-hidden="true" class="wp-block-spacer"></div>
+				<!-- /wp:spacer -->
+
 				<div class="wp-block-group alignfull"><!-- wp:query {"queryId":1,"query":{"perPage":"6","pages":0,"offset":0,"postType":"post","categoryIds":[],"tagIds":[],"order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false},"align":"wide"} -->
 				<div class="wp-block-query alignwide"><!-- wp:post-template -->
 				<!-- wp:separator {"className":"is-style-wide"} -->
@@ -37,5 +41,9 @@ return array(
 				<!-- /wp:columns -->
 				<!-- /wp:post-template --></div>
 				<!-- /wp:query --></div>
+
+				<!-- wp:spacer -->
+				<div style="height:70px" aria-hidden="true" class="wp-block-spacer"></div>
+				<!-- /wp:spacer --></div>
 				<!-- /wp:group -->',
 );
