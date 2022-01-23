@@ -42,7 +42,7 @@ return array(
 				<!-- /wp:post-template --></div>
 				<!-- /wp:query --></div>
 
-				<!-- wp:spacer -->
+				<!-- wp:spacer {"height":70} -->
 				<div style="height:70px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer --></div>
 				<!-- /wp:group -->',

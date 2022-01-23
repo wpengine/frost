@@ -9,13 +9,13 @@ return array(
 	'title'         => __( 'List of posts in one column.', 'frost' ),
 	'categories'    => array( 'frost-query' ),
 	'viewportWidth' => 1280,
-	'content'       => '<!-- wp:query {"queryId":0,"query":{"perPage":"3","pages":0,"offset":0,"postType":"post","categoryIds":[],"tagIds":[],"order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true},"layout":{"inherit":true}} -->
+	'content'       => '<!-- wp:query {"queryId":0,"query":{"perPage":"5","pages":0,"offset":0,"postType":"post","categoryIds":[],"tagIds":[],"order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true},"layout":{"inherit":true}} -->
 				<div class="wp-block-query"><!-- wp:post-template -->
 				<!-- wp:post-title {"isLink":true} /-->
 				
 				<!-- wp:post-content /-->
 				
-				<!-- wp:group {"className":"post-meta has-small-font-size","layout":{"type":"flex"}} -->
+				<!-- wp:group {"className":"post-meta","layout":{"type":"flex"},"fontSize":"small"} -->
 				<div class="wp-block-group post-meta has-small-font-size"><!-- wp:post-date /-->
 				
 				<!-- wp:paragraph -->
