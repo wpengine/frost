@@ -40,9 +40,6 @@ if ( ! function_exists( 'frost_setup' ) ) {
 			)
 		);
 
-		// Disable loading core block inline styles.
-		add_filter( 'should_load_separate_core_block_assets', '__return_false' );
-
 		// Remove core block patterns.
 		remove_theme_support( 'core-block-patterns' );
 
