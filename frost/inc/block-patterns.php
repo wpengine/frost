@@ -17,19 +17,19 @@ function frost_register_block_patterns() {
 	}
 
 	$block_pattern_categories = array(
-		'frost-footer'          => array(
+		'frost-footer'		=> array(
 			'label'         => __( 'Footer', 'frost' ),
 			'categoryTypes' => array( 'frost' ),
 		),
-		'frost-general'          => array(
+		'frost-general'		=> array(
 			'label'         => __( 'General', 'frost' ),
 			'categoryTypes' => array( 'frost' ),
 		),
-		'frost-header'          => array(
+		'frost-header'		=> array(
 			'label'         => __( 'Header', 'frost' ),
 			'categoryTypes' => array( 'frost' ),
 		),
-		'frost-page'            => array(
+		'frost-page'		=> array(
 			'label'         => __( 'Page', 'frost' ),
 			'categoryTypes' => array( 'frost' ),
 		),
