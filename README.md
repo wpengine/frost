@@ -8,7 +8,7 @@ A collection of experimental block-based WordPress themes by WP Engine.
 
 You can download the latest stable release of each experimental theme using the links below.
 
-- [Frost v0.8.2](https://github.com/wpengine/themes/releases/download/2022.01.24/frost-0.8.3.zip)
+- [Frost v0.8.4](https://github.com/wpengine/themes/releases/download/2022.01.31/frost-0.8.4.zip)
 - *more coming soon...*
 
 Alternatively, install the entire repository for development purposes:
