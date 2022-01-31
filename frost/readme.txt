@@ -13,6 +13,10 @@ An experimental block theme for designers, developers, and creators.
 
 == Changelog ==
 
+= 0.8.4 - 2022-01-31 =
+
+[Release Notes](https://github.com/wpengine/themes/releases/tag/2022.01.31)
+
 = 0.8.3 - 2022-01-24 =
 
 [Release Notes](https://github.com/wpengine/themes/releases/tag/2022.01.24)
