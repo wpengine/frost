@@ -8,86 +8,46 @@
  * @link    https://frostwp.com/
  */
 
-// Add button styles: Fill White, Outline White.
-register_block_style(
-	'core/button',
-	array(
-		'name'  => 'fill-white',
-		'label' => __( 'Fill White', 'frost' ),
-	)
-);
+/**
+ * Register block styles.
+ *
+ * @since 0.8.5
+ */
+function frost_register_block_styles() {
 
-register_block_style(
-	'core/button',
-	array(
-		'name'  => 'outline-white',
-		'label' => __( 'Outline White', 'frost' ),
-	)
-);
+	$block_styles = array(
+		'core/button'          => array(
+			'fill-white'    => __( 'Fill White', 'frost' ),
+			'outline-white' => __( 'Outline White', 'frost' ),
+		),
+		'core/group'           => array(
+			'boxshadow'   => __( 'Boxshadow', 'frost' ),
+			'full-height' => __( 'Full-height', 'frost' ),
+		),
+		'core/image'           => array(
+			'no-margin' => __( 'No Margin', 'frost' ),
+		),
+		'core/navigation-link' => array(
+			'fill'          => __( 'Fill', 'frost' ),
+			'fill-white'    => __( 'Fill White', 'frost' ),
+			'outline'       => __( 'Outline', 'frost' ),
+			'outline-white' => __( 'Outline White', 'frost' ),
+		),
+		'core/paragraph'       => array(
+			'no-margin' => __( 'No Margin', 'frost' ),
+		),
+	);
 
-// Add group styles: Boxshadow.
-register_block_style(
-	'core/group',
-	array(
-		'name'  => 'boxshadow',
-		'label' => __( 'Boxshadow', 'frost' ),
-	)
-);
-register_block_style(
-	'core/group',
-	array(
-		'name'  => 'full-height',
-		'label' => __( 'Full-height', 'frost' ),
-	)
-);
-
-// Add image styles: Margin.
-register_block_style(
-	'core/image',
-	array(
-		'name'  => 'no-margin',
-		'label' => __( 'No Margin', 'frost' ),
-	)
-);
-
-// Add navigation styles: Fill, Outline.
-register_block_style(
-	'core/navigation-link',
-	array(
-		'name'  => 'fill',
-		'label' => __( 'Fill', 'frost' ),
-	)
-);
-
-register_block_style(
-	'core/navigation-link',
-	array(
-		'name'  => 'outline',
-		'label' => __( 'Outline', 'frost' ),
-	)
-);
-
-register_block_style(
-	'core/navigation-link',
-	array(
-		'name'  => 'fill-white',
-		'label' => __( 'Fill White', 'frost' ),
-	)
-);
-
-register_block_style(
-	'core/navigation-link',
-	array(
-		'name'  => 'outline-white',
-		'label' => __( 'Outline White', 'frost' ),
-	)
-);
-
-// Add paragraph styles: Margin.
-register_block_style(
-	'core/paragraph',
-	array(
-		'name'  => 'no-margin',
-		'label' => __( 'No Margin', 'frost' ),
-	)
-);
+	foreach ( $block_styles as $block => $styles ) {
+		foreach ( $styles as $style_name => $style_label ) {
+			register_block_style(
+				$block,
+				array(
+					'name'  => $style_name,
+					'label' => $style_label,
+				)
+			);
+		}
+	}
+}
+add_action( 'init', 'frost_register_block_styles' );

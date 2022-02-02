@@ -610,7 +610,9 @@ textarea {
 	min-height: 100vh;
 }
 
-.is-style-no-margin {
+p.is-style-no-margin,
+.is-style-no-margin,
+.wp-block-image.is-style-no-margin {
 	margin: 0;
 }
 
