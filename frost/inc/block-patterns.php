@@ -109,6 +109,8 @@ function frost_register_block_patterns() {
 		'page/page-home',
 		'page/page-link',
 		'page/page-link-black-background',
+		'page/page-split-cover-text',
+		'page/page-split-text-cover',
 		'query/query-default',
 		'query/query-grid',
 		'query/query-list',
