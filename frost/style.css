@@ -612,6 +612,7 @@ textarea {
 
 p.is-style-no-margin,
 .is-style-no-margin,
+.wp-block-column.is-style-no-margin,
 .wp-block-image.is-style-no-margin {
 	margin: 0;
 }
