@@ -43,8 +43,6 @@ if ( ! function_exists( 'frost_setup' ) ) {
 		// Remove core block patterns.
 		remove_theme_support( 'core-block-patterns' );
 
-		remove_theme_support( 'block-templates');
-
 	}
 }
 add_action( 'after_setup_theme', 'frost_setup' );
