@@ -339,7 +339,7 @@ ul li:where(.wp-block-list) {
 /* Navigation
 --------------------------------------------- */
 
-.wp-block-page-list,
+.wp-block-navigation .wp-block-page-list,
 .wp-block-navigation__container {
 	gap: 5px 20px;
 }
