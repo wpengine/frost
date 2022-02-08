@@ -247,6 +247,10 @@ input[type="submit"]:hover,
 /* Code
 --------------------------------------------- */
 
+.wp-block-code {
+	border: none;
+}
+
 .wp-block-code code {
 	overflow-wrap: normal;
 	overflow-x: scroll;
