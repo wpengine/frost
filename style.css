@@ -4,7 +4,7 @@ Theme URI: https://frostwp.com/
 Author: WP Engine
 Author URI: https://wpengine.com/
 Description: An experimental block theme for designers, developers, and creators.
-Tags: accessibility-ready, block-patterns, block-styles, custom-colors, custom-logo, custom-menu, editor-style, full-site-editing, one-column, template-editing, translation-ready, threaded-comments, wide-blocks
+Tags: accessibility-ready, block-patterns, block-styles, custom-colors, custom-logo, custom-menu, editor-style, full-site-editing, one-column, template-editing, threaded-comments, translation-ready, wide-blocks
 Requires at least: 5.8
 Tested up to: 5.9
 Requires PHP: 5.6
@@ -80,8 +80,8 @@ blockquote {
 
 body > .is-root-container,
 .edit-post-visual-editor__post-title-wrapper,
-.is-root-container .wp-block[data-align="full"] > .wp-block-group,
 .is-root-container .wp-block[data-align="full"] > .wp-block-cover,
+.is-root-container .wp-block[data-align="full"] > .wp-block-group,
 .wp-block-cover.alignfull,
 .wp-block-group.alignfull,
 .wp-block-group.has-background,

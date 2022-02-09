@@ -1,6 +1,6 @@
 <?php
 /**
- * This file adds block styles to the Frost theme for WordPress.
+ * This file adds block styles to the Frost WordPress theme.
  *
  * @package Frost
  * @author  WP Engine
