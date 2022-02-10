@@ -133,17 +133,17 @@
 				{
 					"fontFamily": "\"Jost\", sans-serif",
 					"name": "Jost",
-					"slug": "primary-sans-serif"
+					"slug": "primary"
 				},
 				{
 					"fontFamily": "\"Outfit\", sans-serif",
 					"name": "Outfit",
-					"slug": "secondary-sans-serif"
+					"slug": "secondary"
 				},
 				{
 					"fontFamily": "monospace",
 					"name": "Monospace",
-					"slug": "primary-monospace"
+					"slug": "monospace"
 				}
 			],
 			"fontSizes": [
@@ -248,7 +248,7 @@
 					}
 				},
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--primary-monospace)",
+					"fontFamily": "var(--wp--preset--font-family--monospace)",
 					"fontSize": "var(--wp--preset--font-size--small)"
 				}
 			},
@@ -303,7 +303,7 @@
 					}
 				},
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--secondary-sans-serif)",
+					"fontFamily": "var(--wp--preset--font-family--secondary)",
 					"fontWeight": "var(--wp--custom--font-weight--medium)",
 					"lineHeight": "var(--wp--custom--line-height--heading)"
 				}
@@ -366,7 +366,7 @@
 					}
 				},
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--primary-monospace)",
+					"fontFamily": "var(--wp--preset--font-family--monospace)",
 					"fontSize": "var(--wp--preset--font-size--small)"
 				}
 			},
@@ -505,7 +505,7 @@
 			}
 		},
 		"typography": {
-			"fontFamily": "var(--wp--preset--font-family--primary-sans-serif)",
+			"fontFamily": "var(--wp--preset--font-family--primary)",
 			"fontSize": "var(--wp--preset--font-size--medium)",
 			"fontWeight": "var(--wp--custom--font-weight--regular)",
 			"lineHeight": "var(--wp--custom--line-height--body)"

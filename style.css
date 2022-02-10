@@ -121,7 +121,7 @@ input[type="submit"],
 	border-radius: 0;
 	color: var(--wp--preset--color--white);
 	cursor: pointer;
-	font-family: var(--wp--preset--font-family--primary-sans-serif);
+	font-family: var(--wp--preset--font-family--primary);
 	font-size: var(--wp--preset--font-size--small);
 	font-weight: var(--wp--custom--font-weight--medium);
 	padding: 10px 25px;
@@ -548,7 +548,7 @@ textarea,
 	border: 1px solid var(--wp--preset--color--black);
 	border-radius: 0;
 	color: var(--wp--preset--color--black);
-	font-family: var(--wp--preset--font-family--primary-sans-serif);
+	font-family: var(--wp--preset--font-family--primary);
 	font-size: var(--wp--preset--font-size--medium);
 	font-weight: var(--wp--custom--font-weight--regular);
 	line-height: var(--wp--custom--line-height--body);
