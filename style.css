@@ -352,17 +352,6 @@ ul li:where(.wp-block-list) {
 	padding: 30px var(--wp--custom--spacing--outer);
 }
 
-.wp-block-navigation:not(.has-background) .wp-block-navigation__submenu-container {
-	background-color: var(--wp--preset--color--black);
-	border: var(--wp--preset--color--black);
-	color: var(--wp--preset--color--white);
-	padding: 10px;
-}
-
-.wp-block-navigation :where(.wp-block-navigation__submenu-container) a {
-	padding: 2px 10px;
-}
-
 .wp-block-navigation__responsive-container-close,
 .wp-block-navigation__responsive-container-open {
 	border: 1px solid var(--wp--preset--color--black);
@@ -376,6 +365,20 @@ ul li:where(.wp-block-list) {
 .has-background .wp-block-navigation__responsive-container-open:focus,
 .has-background .wp-block-navigation__responsive-container-open:hover {
 	color: var(--wp--preset--color--white);
+}
+
+/* Navigation Submenu
+--------------------------------------------- */
+
+.wp-block-navigation:not(.has-background) .wp-block-navigation__submenu-container {
+	background-color: var(--wp--preset--color--black);
+	border: var(--wp--preset--color--black);
+	color: var(--wp--preset--color--white);
+	padding: 10px;
+}
+
+.wp-block-navigation :where(.wp-block-navigation__submenu-container) a {
+	padding: 2px 10px;
 }
 
 /* Paragraph
