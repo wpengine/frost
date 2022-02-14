@@ -8,7 +8,7 @@ An experimental block theme for designers, developers, and creators.
 
 Frost is a Full Site Editing theme for WordPress that extends the incredible power of the editor, enables builders to create amazing sites with little effort, and elevates the potential for freelancers and entrepreneurs. See the Frost theme in action at [frostwp.com](https://frostwp.com/).
 
-Download the latest stable release: [frost-0.8.5.zip](https://github.com/wpengine/frost/releases/download/v0.8.6/frost-0.8.6.zip)
+Download the latest stable release: [frost-0.8.6.zip](https://github.com/wpengine/frost/releases/download/v0.8.6/frost-0.8.6.zip)
 
 ## Requirements
 
