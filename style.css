@@ -257,7 +257,8 @@ input[type="submit"]:hover,
 	white-space: pre;
 }
 
-*:not(.wp-block-code) > code {
+*:not(.wp-block-code) > code,
+kbd {
 	background-color: var(--wp--preset--color--black);
 	color: var(--wp--preset--color--white);
 	font-size: var(--wp--preset--font-size--small);
@@ -265,6 +266,16 @@ input[type="submit"]:hover,
 	position: relative;
 	top: -1px;
 }
+
+/*
+ * When inline code is selected, the Editor applies contextual styling. Since
+ * our code color is near white, we need to reset to the default text color.
+ */
+.rich-text:focus > code[data-rich-text-format-boundary],
+.rich-text:focus > kbd[data-rich-text-format-boundary] {
+	color: currentColor;
+}
+
 
 /* Comments
 --------------------------------------------- */
