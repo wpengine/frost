@@ -65,6 +65,8 @@ function frost_register_block_patterns() {
 		'footer/footer-default-black-background',
 		'footer/footer-mega',
 		'footer/footer-mega-black-background',
+		'footer/footer-split',
+		'footer/footer-split-black-background',
 		'footer/footer-stacked',
 		'footer/footer-stacked-black-background',
 		'footer/footer-three-columns',
