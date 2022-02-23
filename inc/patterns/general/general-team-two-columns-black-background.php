@@ -39,7 +39,7 @@ return array(
 
 				<!-- wp:column {"width":"75%"} -->
 				<div class="wp-block-column" style="flex-basis:75%"><!-- wp:heading {"level":4,"fontSize":"medium"} -->
-				<h3 class="has-medium-font-size" id="member-name">' . esc_html__( 'Member Name', 'frost' ) . '</h3>
+				<h4 class="has-medium-font-size" id="member-name">' . esc_html__( 'Member Name', 'frost' ) . '</h4>
 				<!-- /wp:heading -->
 
 				<!-- wp:paragraph {"style":{"typography":{"fontSize":"18px"}}} -->
@@ -57,7 +57,7 @@ return array(
 
 				<!-- wp:column {"width":"75%"} -->
 				<div class="wp-block-column" style="flex-basis:75%"><!-- wp:heading {"level":4,"fontSize":"medium"} -->
-				<h3 class="has-medium-font-size" id="member-name">' . esc_html__( 'Member Name', 'frost' ) . '</h3>
+				<h4 class="has-medium-font-size" id="member-name">' . esc_html__( 'Member Name', 'frost' ) . '</h4>
 				<!-- /wp:heading -->
 
 				<!-- wp:paragraph {"style":{"typography":{"fontSize":"18px"}}} -->
@@ -75,7 +75,7 @@ return array(
 
 				<!-- wp:column {"width":"75%"} -->
 				<div class="wp-block-column" style="flex-basis:75%"><!-- wp:heading {"level":4,"fontSize":"medium"} -->
-				<h3 class="has-medium-font-size" id="member-name-1">' . esc_html__( 'Member Name', 'frost' ) . '</h3>
+				<h4 class="has-medium-font-size" id="member-name-1">' . esc_html__( 'Member Name', 'frost' ) . '</h4>
 				<!-- /wp:heading -->
 
 				<!-- wp:paragraph {"style":{"typography":{"fontSize":"18px"}}} -->
@@ -95,7 +95,7 @@ return array(
 
 				<!-- wp:column {"width":"75%"} -->
 				<div class="wp-block-column" style="flex-basis:75%"><!-- wp:heading {"level":4,"fontSize":"medium"} -->
-				<h3 class="has-medium-font-size" id="member-name-2">' . esc_html__( 'Member Name', 'frost' ) . '</h3>
+				<h4 class="has-medium-font-size" id="member-name-2">' . esc_html__( 'Member Name', 'frost' ) . '</h4>
 				<!-- /wp:heading -->
 
 				<!-- wp:paragraph {"style":{"typography":{"fontSize":"18px"}}} -->
@@ -113,7 +113,7 @@ return array(
 
 				<!-- wp:column {"width":"75%"} -->
 				<div class="wp-block-column" style="flex-basis:75%"><!-- wp:heading {"level":4,"fontSize":"medium"} -->
-				<h3 class="has-medium-font-size" id="member-name">' . esc_html__( 'Member Name', 'frost' ) . '</h3>
+				<h4 class="has-medium-font-size" id="member-name">' . esc_html__( 'Member Name', 'frost' ) . '</h4>
 				<!-- /wp:heading -->
 
 				<!-- wp:paragraph {"style":{"typography":{"fontSize":"18px"}}} -->
@@ -131,7 +131,7 @@ return array(
 
 				<!-- wp:column {"width":"75%"} -->
 				<div class="wp-block-column" style="flex-basis:75%"><!-- wp:heading {"level":4,"fontSize":"medium"} -->
-				<h3 class="has-medium-font-size" id="member-name">' . esc_html__( 'Member Name', 'frost' ) . '</h3>
+				<h4 class="has-medium-font-size" id="member-name">' . esc_html__( 'Member Name', 'frost' ) . '</h4>
 				<!-- /wp:heading -->
 
 				<!-- wp:paragraph {"style":{"typography":{"fontSize":"18px"}}} -->

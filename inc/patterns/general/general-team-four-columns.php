@@ -33,7 +33,7 @@ return array(
 				<!-- /wp:image -->
 
 				<!-- wp:heading {"textAlign":"center","level":4,"fontSize":"medium"} -->
-				<h3 class="has-text-align-center has-medium-font-size" id="member-name-1">' . esc_html__( 'Member Name', 'frost' ) . '</h3>
+				<h4 class="has-text-align-center has-medium-font-size" id="member-name-1">' . esc_html__( 'Member Name', 'frost' ) . '</h4>
 				<!-- /wp:heading -->
 
 				<!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":"18px"}}} -->
@@ -51,7 +51,7 @@ return array(
 				<!-- /wp:image -->
 
 				<!-- wp:heading {"textAlign":"center","level":4,"fontSize":"medium"} -->
-				<h3 class="has-text-align-center has-medium-font-size" id="member-name-2">' . esc_html__( 'Member Name', 'frost' ) . '</h3>
+				<h4 class="has-text-align-center has-medium-font-size" id="member-name-2">' . esc_html__( 'Member Name', 'frost' ) . '</h4>
 				<!-- /wp:heading -->
 
 				<!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":"18px"}}} -->
@@ -69,7 +69,7 @@ return array(
 				<!-- /wp:image -->
 
 				<!-- wp:heading {"textAlign":"center","level":4,"fontSize":"medium"} -->
-				<h3 class="has-text-align-center has-medium-font-size" id="member-name-3">' . esc_html__( 'Member Name', 'frost' ) . '</h3>
+				<h4 class="has-text-align-center has-medium-font-size" id="member-name-3">' . esc_html__( 'Member Name', 'frost' ) . '</h4>
 				<!-- /wp:heading -->
 
 				<!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":"18px"}}} -->
@@ -87,7 +87,7 @@ return array(
 				<!-- /wp:image -->
 
 				<!-- wp:heading {"textAlign":"center","level":4,"fontSize":"medium"} -->
-				<h3 class="has-text-align-center has-medium-font-size" id="member-name-4">' . esc_html__( 'Member Name', 'frost' ) . '</h3>
+				<h4 class="has-text-align-center has-medium-font-size" id="member-name-4">' . esc_html__( 'Member Name', 'frost' ) . '</h4>
 				<!-- /wp:heading -->
 
 				<!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":"18px"}}} -->
