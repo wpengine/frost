@@ -32,8 +32,8 @@ return array(
 				<figure class="wp-block-image size-full"><img src="' . esc_url( __( 'https://frostwp.com/wp-content/uploads/2021/12/sample-white_800x800.jpg', 'frost' ) ) . '"  alt="' . esc_attr__( 'Sample Image', 'frost' ) . '" class="wp-image-3488"/></figure>
 				<!-- /wp:image -->
 
-				<!-- wp:heading {"textAlign":"center","level":4,"fontSize":"medium"} -->
-				<h4 class="has-text-align-center has-medium-font-size" id="member-name-1">' . esc_html__( 'Member Name', 'frost' ) . '</h4>
+				<!-- wp:heading {"textAlign":"center","level":3,"fontSize":"medium"} -->
+				<h3 class="has-text-align-center has-medium-font-size" id="member-name-1">' . esc_html__( 'Member Name', 'frost' ) . '</h3>
 				<!-- /wp:heading -->
 
 				<!-- wp:paragraph {"align":"center","style":{"elements":{"link":{"color":[]}},"typography":{"fontSize":"18px"}}} -->
@@ -50,8 +50,8 @@ return array(
 				<figure class="wp-block-image size-full"><img src="' . esc_url( __( 'https://frostwp.com/wp-content/uploads/2021/12/sample-white_800x800.jpg', 'frost' ) ) . '"  alt="' . esc_attr__( 'Sample Image', 'frost' ) . '" class="wp-image-3488"/></figure>
 				<!-- /wp:image -->
 
-				<!-- wp:heading {"textAlign":"center","level":4,"fontSize":"medium"} -->
-				<h4 class="has-text-align-center has-medium-font-size" id="member-name-2">' . esc_html__( 'Member Name', 'frost' ) . '</h4>
+				<!-- wp:heading {"textAlign":"center","level":3,"fontSize":"medium"} -->
+				<h3 class="has-text-align-center has-medium-font-size" id="member-name-2">' . esc_html__( 'Member Name', 'frost' ) . '</h3>
 				<!-- /wp:heading -->
 
 				<!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":"18px"}}} -->
@@ -68,8 +68,8 @@ return array(
 				<figure class="wp-block-image size-full"><img src="' . esc_url( __( 'https://frostwp.com/wp-content/uploads/2021/12/sample-white_800x800.jpg', 'frost' ) ) . '"  alt="' . esc_attr__( 'Sample Image', 'frost' ) . '" class="wp-image-3488"/></figure>
 				<!-- /wp:image -->
 
-				<!-- wp:heading {"textAlign":"center","level":4,"fontSize":"medium"} -->
-				<h4 class="has-text-align-center has-medium-font-size" id="member-name-3">' . esc_html__( 'Member Name', 'frost' ) . '</h4>
+				<!-- wp:heading {"textAlign":"center","level":3,"fontSize":"medium"} -->
+				<h3 class="has-text-align-center has-medium-font-size" id="member-name-3">' . esc_html__( 'Member Name', 'frost' ) . '</h3>
 				<!-- /wp:heading -->
 
 				<!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":"18px"}}} -->
@@ -86,8 +86,8 @@ return array(
 				<figure class="wp-block-image size-full"><img src="' . esc_url( __( 'https://frostwp.com/wp-content/uploads/2021/12/sample-white_800x800.jpg', 'frost' ) ) . '"  alt="' . esc_attr__( 'Sample Image', 'frost' ) . '" class="wp-image-3488"/></figure>
 				<!-- /wp:image -->
 
-				<!-- wp:heading {"textAlign":"center","level":4,"fontSize":"medium"} -->
-				<h4 class="has-text-align-center has-medium-font-size" id="member-name-4">' . esc_html__( 'Member Name', 'frost' ) . '</h4>
+				<!-- wp:heading {"textAlign":"center","level":3,"fontSize":"medium"} -->
+				<h3 class="has-text-align-center has-medium-font-size" id="member-name-4">' . esc_html__( 'Member Name', 'frost' ) . '</h3>
 				<!-- /wp:heading -->
 
 				<!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":"18px"}}} -->
