@@ -8,7 +8,7 @@ An experimental block theme for designers, developers, and creators.
 
 Frost is a Full Site Editing theme for WordPress that extends the incredible power of the editor, enables builders to create amazing sites with little effort, and elevates the potential for freelancers and entrepreneurs. See the Frost theme in action at [frostwp.com](https://frostwp.com/).
 
-Download the latest stable release: [frost-0.8.7.zip](https://github.com/wpengine/frost/releases/download/v0.8.7/frost-0.8.7.zip)
+Download the latest stable release: [frost-0.8.8.zip](https://github.com/wpengine/frost/releases/download/v0.8.8/frost-0.8.8.zip)
 
 ## Requirements
 
@@ -22,7 +22,7 @@ Download the latest stable release: [frost-0.8.7.zip](https://github.com/wpengin
 You can download the latest stable release of Frost using the link above. Alternatively, install the entire repository for development purposes:
 
 1. Set up a local WordPress development environment, we recommend using [Local](https://localwp.com/).
-2. Ensure you are using WordPress 5.9 or version 5.9+ with the [Gutenberg plugin](https://wordpress.org/plugins/gutenberg/) active.
+2. Ensure you are using WordPress 5.9+ with the [Gutenberg plugin](https://wordpress.org/plugins/gutenberg/) active.
 3. Clone / download this repository into the `/wp-content/themes/` directory of your new WordPress instance.
 4. In the WordPress admin, use the Appearance > Themes screen to activate Frost.
 
