@@ -634,6 +634,27 @@ p.is-style-no-margin,
 	margin: 0;
 }
 
+/* Experimental Styles
+--------------------------------------------- */
+p:last-child {
+    margin-bottom: 0;
+}
+
+.wp-block-post-content h1 + p,
+.wp-block-post-content h2 + p,
+.wp-block-post-content h3 + p,
+.wp-block-post-content h4 + p,
+.wp-block-post-content h5 + p,
+.wp-block-post-content h6 + p,
+.wp-block-post-content h1 + span,
+.wp-block-post-content h2 + span,
+.wp-block-post-content h3 + span,
+.wp-block-post-content h4 + span,
+.wp-block-post-content h5 + span,
+.wp-block-post-content h6 + span {
+    margin-top: 10px !important;
+}
+
 /* Media Queries
 ---------------------------------------------------------------------------- */
 
