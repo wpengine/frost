@@ -714,14 +714,12 @@ p:last-child {
 
 	.wp-block-pullquote.alignleft {
 		float: left;
-		margin-left: -100px !important;
 		margin-right: 30px !important;
 	}
 
 	.wp-block-pullquote.alignright {
 		float: right;
 		margin-left: 30px !important;
-		margin-right: -100px !important;
 	}
 
 }
