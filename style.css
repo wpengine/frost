@@ -632,22 +632,23 @@ p.is-style-no-margin,
 
 /* Experimental Styles
 --------------------------------------------- */
+
 p:last-child {
     margin-bottom: 0;
 }
 
-.is-root-container h1 + p,
-.is-root-container h2 + p,
-.is-root-container h3 + p,
-.is-root-container h4 + p,
-.is-root-container h5 + p,
-.is-root-container h6 + p,
-.wp-block-post-content h1 + p,
-.wp-block-post-content h2 + p,
-.wp-block-post-content h3 + p,
-.wp-block-post-content h4 + p,
-.wp-block-post-content h5 + p,
-.wp-block-post-content h6 + p {
+.is-root-container h1 + *,
+.is-root-container h2 + *,
+.is-root-container h3 + *,
+.is-root-container h4 + *,
+.is-root-container h5 + *,
+.is-root-container h6 + *,
+.wp-block-post-content h1 + *,
+.wp-block-post-content h2 + *,
+.wp-block-post-content h3 + *,
+.wp-block-post-content h4 + *,
+.wp-block-post-content h5 + *,
+.wp-block-post-content h6 + * {
     margin-top: 10px !important;
 }
 
