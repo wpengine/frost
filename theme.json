@@ -352,6 +352,13 @@
 					"lineHeight": "var(--wp--custom--line-height--medium)"
 				}
 			},
+			"core/spacer": {
+				"spacing": {
+					"margin": {
+						"top": "0 !important"
+					}
+				}
+			},
 			"core/separator": {
 				"color": {
 					"text": "var(--wp--preset--color--black)"
