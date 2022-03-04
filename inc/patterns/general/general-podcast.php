@@ -10,14 +10,14 @@ return array(
 	'categories'    => array( 'frost-general' ),
 	'viewportWidth' => 1280,
 	'content'       => '<!-- wp:group {"align":"full","layout":{"inherit":true}} -->
-				<div class="wp-block-group alignfull"><!-- wp:spacer {"height":100} -->
-				<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
+				<div class="wp-block-group alignfull"><!-- wp:spacer {"height":70} -->
+				<div style="height:70px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer -->
 
 				<!-- wp:columns {"verticalAlignment":"center","align":"wide"} -->
 				<div class="wp-block-columns alignwide are-vertically-aligned-center"><!-- wp:column {"verticalAlignment":"center","width":"30%"} -->
-				<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:30%"><!-- wp:image {"id":3489,"sizeSlug":"full","linkDestination":"none","className":"is-style-no-margin"} -->
-				<figure class="wp-block-image size-full is-style-no-margin"><img src="' . esc_url( __( 'https://frostwp.com/wp-content/uploads/2021/12/sample-black_800x800.jpg', 'frost' ) ) . '"  alt="' . esc_attr__( 'Sample Image', 'frost' ) . '" class="wp-image-3489"/></figure>
+				<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:30%"><!-- wp:image {"id":3489,"sizeSlug":"full","linkDestination":"none"} -->
+				<figure class="wp-block-image size-full"><img src="' . esc_url( __( 'https://frostwp.com/wp-content/uploads/2021/12/sample-black_800x800.jpg', 'frost' ) ) . '"  alt="' . esc_attr__( 'Sample Image', 'frost' ) . '" class="wp-image-3489"/></figure>
 				<!-- /wp:image --></div>
 				<!-- /wp:column -->
 
@@ -34,7 +34,7 @@ return array(
 				<figure class="wp-block-audio"><audio controls src="' . esc_url( __( 'https://frostwp.com/wp-content/uploads/2021/12/sample-audio-file.mp3', 'frost' ) ) . '"></audio></figure>
 				<!-- /wp:audio -->
 
-				<!-- wp:buttons -->
+				<!-- wp:buttons {"style":{"spacing":{"blockGap":"10px"}}} -->
 				<div class="wp-block-buttons"><!-- wp:button {"className":"is-style-outline"} -->
 				<div class="wp-block-button is-style-outline"><a class="wp-block-button__link" href="#">Apple Podcasts</a></div>
 				<!-- /wp:button -->

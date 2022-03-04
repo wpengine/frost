@@ -10,8 +10,8 @@ return array(
 	'categories'    => array( 'frost-general' ),
 	'viewportWidth' => 1280,
 	'content'       => '<!-- wp:group {"align":"full","layout":{"inherit":true}} -->
-				<div class="wp-block-group alignfull"><!-- wp:spacer {"height":100} -->
-				<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
+				<div class="wp-block-group alignfull"><!-- wp:spacer {"height":70} -->
+				<div style="height:70px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer -->
 
 				<!-- wp:media-text {"mediaPosition":"right","mediaId":3485,"mediaLink":"https://frostwp.com/patterns/hero-section/sample-black_1200x1200/","mediaType":"image","mediaWidth":40} -->
@@ -23,7 +23,7 @@ return array(
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing vestibulum. Fringilla nec accumsan eget, facilisis mi justo, luctus pellentesque gravida vitae non diam accumsan posuere, venenatis mi turpis.</p>
 				<!-- /wp:paragraph -->
 
-				<!-- wp:buttons -->
+				<!-- wp:buttons {"style":{"spacing":{"blockGap":"10px"}}} -->
 				<div class="wp-block-buttons"><!-- wp:button {"style":{"border":{"radius":0}},"className":"is-style-fill"} -->
 				<div class="wp-block-button is-style-fill"><a class="wp-block-button__link no-border-radius">' . esc_html__( 'Get Started', 'frost' ) . '</a></div>
 				<!-- /wp:button -->

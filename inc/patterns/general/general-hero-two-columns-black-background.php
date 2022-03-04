@@ -23,7 +23,7 @@ return array(
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing vestibulum. Fringilla nec accumsan eget, facilisis mi justo, luctus pellentesque gravida vitae non diam accumsan posuere, venenatis mi turpis.</p>
 				<!-- /wp:paragraph -->
 
-				<!-- wp:buttons -->
+				<!-- wp:buttons {"style":{"spacing":{"blockGap":"10px"}}} -->
 				<div class="wp-block-buttons"><!-- wp:button {"style":{"border":{"radius":0}},"className":"is-style-fill-white"} -->
 				<div class="wp-block-button is-style-fill-white"><a class="wp-block-button__link no-border-radius">' . esc_html__( 'Get Started', 'frost' ) . '</a></div>
 				<!-- /wp:button -->

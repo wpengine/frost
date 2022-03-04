@@ -18,8 +18,8 @@ return array(
 				<h2 class="has-text-align-center has-x-large-font-size" id="image-heading-text-button">' . esc_html__( 'Image, heading, text, button.', 'frost' ) . '</h2>
 				<!-- /wp:heading -->
 
-				<!-- wp:paragraph {"align":"center","className":"is-style-no-margin"} -->
-				<p class="has-text-align-center is-style-no-margin">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				<!-- wp:paragraph {"align":"center"} -->
+				<p class="has-text-align-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 				<!-- /wp:paragraph -->
 
 				<!-- wp:spacer {"height":40} -->
@@ -88,8 +88,8 @@ return array(
 				<!-- /wp:column --></div>
 				<!-- /wp:columns -->
 
-				<!-- wp:spacer {"height":70} -->
-				<div style="height:70px" aria-hidden="true" class="wp-block-spacer"></div>
+				<!-- wp:spacer {"height":100} -->
+				<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer --></div>
 				<!-- /wp:group -->',
 );

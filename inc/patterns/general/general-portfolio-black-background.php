@@ -50,8 +50,8 @@ return array(
 				<!-- /wp:column --></div>
 				<!-- /wp:columns -->
 
-				<!-- wp:spacer {"height":30} -->
-				<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+				<!-- wp:spacer {"height":90} -->
+				<div style="height:90px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer --></div>
 				<!-- /wp:group -->',
 );

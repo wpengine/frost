@@ -24,8 +24,8 @@ return array(
 				<!-- /wp:paragraph --></div>
 				<!-- /wp:group -->
 
-				<!-- wp:spacer {"height":30} -->
-				<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+				<!-- wp:spacer {"height":60} -->
+				<div style="height:60px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer -->
 
 				<!-- wp:columns {"align":"wide"} -->
@@ -142,8 +142,8 @@ return array(
 				<!-- /wp:column --></div>
 				<!-- /wp:columns -->
 
-				<!-- wp:spacer {"height":10} -->
-				<div style="height:10px" aria-hidden="true" class="wp-block-spacer"></div>
+				<!-- wp:spacer {"height":100} -->
+				<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer --></div>
 				<!-- /wp:group -->',
 );
