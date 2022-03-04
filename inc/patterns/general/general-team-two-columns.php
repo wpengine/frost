@@ -10,8 +10,8 @@ return array(
 	'categories'    => array( 'frost-general' ),
 	'viewportWidth' => 1280,
 	'content'       => '<!-- wp:group {"align":"full","layout":{"inherit":true}} -->
-				<div class="wp-block-group alignfull"><!-- wp:spacer {"height":70} -->
-				<div style="height:70px" aria-hidden="true" class="wp-block-spacer"></div>
+				<div class="wp-block-group alignfull"><!-- wp:spacer {"height":100} -->
+				<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer -->
 
 				<!-- wp:group {"align":"wide"} -->
@@ -142,8 +142,8 @@ return array(
 				<!-- /wp:column --></div>
 				<!-- /wp:columns -->
 
-				<!-- wp:spacer {"height":70} -->
-				<div style="height:70px" aria-hidden="true" class="wp-block-spacer"></div>
+				<!-- wp:spacer {"height":100} -->
+				<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer --></div>
 				<!-- /wp:group -->',
 );

@@ -9,7 +9,7 @@ return array(
 	'title'      => __( 'Call-to-action with text, button.', 'frost' ),
 	'categories' => array( 'frost-general' ),
 	'content'    => '<!-- wp:group {"align":"full","backgroundColor":"black","textColor":"white","layout":{"inherit":true}} -->
-				<div class="wp-block-group alignfull has-white-color has-black-background-color has-text-color has-background"><!-- wp:spacer -->
+				<div class="wp-block-group alignfull has-white-color has-black-background-color has-text-color has-background"><!-- wp:spacer {"height":100} -->
 				<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer -->
 
@@ -27,7 +27,7 @@ return array(
 				<!-- /wp:button --></div>
 				<!-- /wp:buttons -->
 
-				<!-- wp:spacer -->
+				<!-- wp:spacer {"height":100} -->
 				<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer --></div>
 				<!-- /wp:group -->',
