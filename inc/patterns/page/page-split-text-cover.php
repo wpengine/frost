@@ -18,7 +18,7 @@ return array(
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing vestibulum. Fringilla nec accumsan eget, facilisis mi justo, luctus pellentesque gravida vitae non diam accumsan posuere, venenatis mi turpis.</p>
 				<!-- /wp:paragraph -->
 
-				<!-- wp:buttons -->
+				<!-- wp:buttons {"style":{"spacing":{"blockGap":"10px"}}} -->
 				<div class="wp-block-buttons"><!-- wp:button {"style":{"border":{"radius":0}},"className":"is-style-fill"} -->
 				<div class="wp-block-button is-style-fill"><a class="wp-block-button__link no-border-radius">' . esc_html__( 'Get Started', 'frost' ) . '</a></div>
 				<!-- /wp:button -->
@@ -29,8 +29,8 @@ return array(
 				<!-- /wp:buttons --></div>
 				<!-- /wp:column -->
 
-				<!-- wp:column {"width":"50%","className":"is-style-no-margin"} -->
-				<div class="wp-block-column is-style-no-margin" style="flex-basis:50%"><!-- wp:cover {"url":"https://frostwp.com/wp-content/uploads/2021/12/sample-black_1200x1200.jpg","id":3485,"dimRatio":0,"minHeight":100,"minHeightUnit":"vh"} -->
+				<!-- wp:column {"width":"50%"} -->
+				<div class="wp-block-column" style="flex-basis:50%"><!-- wp:cover {"url":"https://frostwp.com/wp-content/uploads/2021/12/sample-black_1200x1200.jpg","id":3485,"dimRatio":0,"minHeight":100,"minHeightUnit":"vh"} -->
 				<div class="wp-block-cover" style="min-height:100vh"><span aria-hidden="true" class="has-background-dim-0 wp-block-cover__gradient-background has-background-dim"></span><img class="wp-block-cover__image-background wp-image-3485" alt="Frost WordPress Theme" src="https://frostwp.com/wp-content/uploads/2021/12/sample-black_1200x1200.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:paragraph {"align":"center","placeholder":"Write title…","fontSize":"large"} -->
 				<p class="has-text-align-center has-large-font-size"></p>
 				<!-- /wp:paragraph --></div></div>
