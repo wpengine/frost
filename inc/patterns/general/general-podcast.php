@@ -9,15 +9,15 @@ return array(
 	'title'         => __( 'Podcast episode with media, text.', 'frost' ),
 	'categories'    => array( 'frost-general' ),
 	'viewportWidth' => 1280,
-	'content'       => '<!-- wp:group {"align":"full","layout":{"inherit":true}} -->
-				<div class="wp-block-group alignfull"><!-- wp:spacer {"height":100} -->
+	'content'       => '<!-- wp:group {"align":"full","style":{"spacing":{"margin":{"top":"0px"}}},"layout":{"inherit":true}} -->
+				<div class="wp-block-group alignfull" style="margin-top:0px"><!-- wp:spacer {"height":100} -->
 				<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer -->
 
-				<!-- wp:columns {"verticalAlignment":"center","align":"wide"} -->
+				<!-- wp:columns {"verticalAlignment":"center","align":"wide","style":{"spacing":{"blockGap":"60px"}}} -->
 				<div class="wp-block-columns alignwide are-vertically-aligned-center"><!-- wp:column {"verticalAlignment":"center","width":"30%"} -->
-				<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:30%"><!-- wp:image {"id":3489,"sizeSlug":"full","linkDestination":"none"} -->
-				<figure class="wp-block-image size-full"><img src="' . esc_url( __( 'https://frostwp.com/wp-content/uploads/2021/12/sample-black_800x800.jpg', 'frost' ) ) . '"  alt="' . esc_attr__( 'Sample Image', 'frost' ) . '" class="wp-image-3489"/></figure>
+				<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:30%"><!-- wp:image {"id":3489,"sizeSlug":"full","linkDestination":"none","className":"is-style-no-margin"} -->
+				<figure class="wp-block-image size-full is-style-no-margin"><img src="' . esc_url( __( 'https://frostwp.com/wp-content/uploads/2021/12/sample-black_800x800.jpg', 'frost' ) ) . '"  alt="' . esc_attr__( 'Sample Image', 'frost' ) . '" class="wp-image-3489"/></figure>
 				<!-- /wp:image --></div>
 				<!-- /wp:column -->
 
