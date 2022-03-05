@@ -25,6 +25,9 @@ return array(
 				<!-- /wp:spacer -->
 				
 				<!-- wp:post-excerpt {"moreText":"Read More"} /-->
+				<!-- wp:spacer {"height":30} -->
+				<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+				<!-- /wp:spacer -->
 				<!-- /wp:post-template -->
 				
 				<!-- wp:query-pagination -->

@@ -15,8 +15,8 @@ return array(
 				
 				<!-- wp:post-content /-->
 				
-				<!-- wp:group {"className":"post-meta","layout":{"type":"flex"},"fontSize":"small"} -->
-				<div class="wp-block-group post-meta has-small-font-size"><!-- wp:post-date /-->
+				<!-- wp:group {"style":{"spacing":{"blockGap":"10px","margin":{"top":"30px"}}},"className":"post-meta","layout":{"type":"flex"},"fontSize":"small"} -->
+				<div class="wp-block-group post-meta has-small-font-size" style="margin-top:30px"><!-- wp:post-date /-->
 				
 				<!-- wp:paragraph -->
 				<p>•</p>
@@ -33,8 +33,8 @@ return array(
 				<!-- wp:post-terms {"term":"post_tag"} /--></div>
 				<!-- /wp:group -->
 				
-				<!-- wp:spacer {"height":60} -->
-				<div style="height:60px" aria-hidden="true" class="wp-block-spacer"></div>
+				<!-- wp:spacer {"height":30} -->
+				<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer -->
 				<!-- /wp:post-template -->
 				

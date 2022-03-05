@@ -20,8 +20,8 @@ return array(
 				<hr class="wp-block-separator is-style-wide"/>
 				<!-- /wp:separator -->
 
-				<!-- wp:spacer {"height":"30px"} -->
-				<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+				<!-- wp:spacer {"height":50} -->
+				<div style="height:50px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer -->
 
 				<!-- wp:columns -->
@@ -39,10 +39,14 @@ return array(
 				<div class="wp-block-column" style="flex-basis:25%"><!-- wp:post-terms {"term":"post_tag","textAlign":"right","fontSize":"small"} /--></div>
 				<!-- /wp:column --></div>
 				<!-- /wp:columns -->
+
+				<!-- wp:spacer {"height":30} -->
+				<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+				<!-- /wp:spacer -->
 				<!-- /wp:post-template --></div>
 				<!-- /wp:query -->
 
-				<!-- wp:spacer {"height":"70px"} -->
+				<!-- wp:spacer {"height":70} -->
 				<div style="height:70px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer --></div>
 				<!-- /wp:group -->',
