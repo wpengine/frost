@@ -10,8 +10,8 @@ return array(
 	'categories'    => array( 'frost-footer' ),
 	'blockTypes'    => array( 'core/template-part/footer' ),
 	'viewportWidth' => 1280,
-	'content'       => '<!-- wp:group {"align":"full","style":{"elements":{"link":{"color":{"text":"var:preset|color|white"}}},"typography":{"fontSize":"18px"}},"backgroundColor":"black","textColor":"white","layout":{"inherit":true}} -->
-				<div class="wp-block-group alignfull has-white-color has-black-background-color has-text-color has-background has-link-color" style="font-size:18px"><!-- wp:columns {"align":"wide","style":{"elements":{"link":{"color":[]}},"spacing":{"padding":{"top":"100px","bottom":"100px"},"blockGap":"100px"}}} -->
+	'content'       => '<!-- wp:group {"align":"full","style":{"elements":{"link":{"color":{"text":"var:preset|color|white"}}},"typography":{"fontSize":"18px"},"spacing":{"margin":{"top":"0px"}}},"backgroundColor":"black","textColor":"white","layout":{"inherit":true}} -->
+				<div class="wp-block-group alignfull has-white-color has-black-background-color has-text-color has-background has-link-color" style="font-size:18px;margin-top:0px""><!-- wp:columns {"align":"wide","style":{"elements":{"link":{"color":[]}},"spacing":{"padding":{"top":"100px","bottom":"100px"},"blockGap":"100px"}}} -->
 				<div class="wp-block-columns alignwide has-link-color" style="padding-top:100px;padding-bottom:100px"><!-- wp:column {"width":"50%"} -->
 				<div class="wp-block-column" style="flex-basis:50%"><!-- wp:heading {"level":4} -->
 				<h4 id="our-company">' . esc_html__( 'Our Company', 'frost' ) . '</h4>

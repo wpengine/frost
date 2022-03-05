@@ -9,8 +9,8 @@ return array(
 	'title'      => __( 'Footer with heading, links, text.', 'frost' ),
 	'categories' => array( 'frost-footer' ),
 	'blockTypes' => array( 'core/template-part/footer' ),
-	'content'    => '<!-- wp:group {"align":"full","style":{"elements":{"link":{"color":{"text":"var:preset|color|white"}}},"spacing":{"padding":{"top":"40vh","bottom":"40px"}}},"backgroundColor":"black","textColor":"white","layout":{"inherit":true},"fontSize":"small"} -->
-				<div class="wp-block-group alignfull has-white-color has-black-background-color has-text-color has-background has-link-color has-small-font-size" style="padding-top:40vh;padding-bottom:40px"><!-- wp:columns {"verticalAlignment":"center","align":"wide"} -->
+	'content'    => '<!-- wp:group {"align":"full","style":{"elements":{"link":{"color":{"text":"var:preset|color|white"}}},"spacing":{"padding":{"top":"40vh","bottom":"40px"},"margin":{"top":"0px"}}},"backgroundColor":"black","textColor":"white","layout":{"inherit":true},"fontSize":"small"} -->
+				<div class="wp-block-group alignfull has-white-color has-black-background-color has-text-color has-background has-link-color has-small-font-size" style="margin-top:0px;padding-top:40vh;padding-bottom:40px"><!-- wp:columns {"verticalAlignment":"center","align":"wide"} -->
 				<div class="wp-block-columns alignwide are-vertically-aligned-center"><!-- wp:column {"verticalAlignment":"center","width":"75%"} -->
 				<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:75%"><!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.25"}},"fontSize":"max-48"} -->
 				<p class="has-max-48-font-size" id="design-with-courage" style="line-height:1.25">' . esc_html__( 'Design with courage.', 'frost' ) . '</p>
