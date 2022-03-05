@@ -111,15 +111,13 @@ body > .is-root-container,
 
 input[type="button"],
 input[type="submit"],
-.wp-block-button__link,
 .wp-block-post-comments input[type="submit"],
 .wp-block-search__button {
-	background-color: var(--wp--preset--color--black);
 	border: 1px solid var(--wp--preset--color--black);
 	border-radius: 0;
+	background-color: var(--wp--preset--color--black);
 	color: var(--wp--preset--color--white);
 	cursor: pointer;
-	font-family: var(--wp--preset--font-family--primary);
 	font-size: var(--wp--preset--font-size--small);
 	font-weight: var(--wp--custom--font-weight--medium);
 	padding: 10px 25px;
@@ -389,13 +387,6 @@ p.has-background {
 	padding: 20px 30px;
 }
 
-/* Post Author
---------------------------------------------- */
-
-.wp-block-post-author__name {
-	margin-bottom: 0;
-}
-
 /* Preformatted
 --------------------------------------------- */
 
@@ -407,10 +398,6 @@ p.has-background {
 
 /* Pullquote
 --------------------------------------------- */
-
-.wp-block-pullquote {
-	text-align: center;
-}
 
 .wp-block-pullquote p,
 .wp-block-pullquote.alignleft p,
@@ -440,7 +427,6 @@ p.has-background {
 .wp-block-quote.has-text-align-left,
 .wp-block-quote.has-text-align-right {
 	border: 1px solid var(--wp--preset--color--black);
-	margin-bottom: 35px;
 	padding: 30px 40px;
 }
 

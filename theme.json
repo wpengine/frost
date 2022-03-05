@@ -186,7 +186,6 @@
 			"core/button": {
 				"border": {
 					"color": "var(--wp--preset--color--black)",
-					"radius": "0",
 					"style": "solid",
 					"width": "1px"
 				},
@@ -340,12 +339,6 @@
 				"spacing": {
 					"margin": {
 						"bottom": "35px"
-					},
-					"padding": {
-						"top": "30px",
-						"right": "40px",
-						"bottom": "30px",
-						"left": "40px"
 					}
 				},
 				"typography": {
