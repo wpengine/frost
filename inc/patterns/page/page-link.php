@@ -8,8 +8,8 @@
 return array(
 	'title'      => __( 'Sample link page.', 'frost' ),
 	'categories' => array( 'frost-page' ),
-	'content'    => '<!-- wp:group {"align":"full","className":"is-style-full-height","layout":{"inherit":true}} -->
-				<div class="wp-block-group alignfull is-style-full-height"><!-- wp:spacer -->
+	'content'    => '<!-- wp:group {"align":"full","style":{"spacing":{"margin":{"top":"0px"}}},"className":"is-style-full-height","layout":{"inherit":true}} -->
+				<div class="wp-block-group alignfull is-style-full-height" style="margin-top:0px"><!-- wp:spacer -->
 				<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer -->
 
