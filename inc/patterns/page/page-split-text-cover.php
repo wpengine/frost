@@ -8,7 +8,7 @@
 return array(
 	'title'      => __( 'Sample split page.', 'frost' ),
 	'categories' => array( 'frost-page' ),
-	'content'    => '<!-- wp:columns {"align":"full","style":{"spacing":{"margin":{"bottom":"0px","top":"0px"}}}} -->
+	'content'    => '<!-- wp:columns {"align":"full","style":{"spacing":{"margin":{"bottom":"0px","top":"0px"},"blockGap":"0px"}}} -->
 				<div class="wp-block-columns alignfull" style="margin-top:0px;margin-bottom:0px"><!-- wp:column {"verticalAlignment":"center","width":"50%","style":{"spacing":{"padding":{"right":"5%","left":"5%","top":"5%","bottom":"5%"}}},"className":"is-style-no-margin"} -->
 				<div class="wp-block-column is-vertically-aligned-center is-style-no-margin" style="padding-top:5%;padding-right:5%;padding-bottom:5%;padding-left:5%;flex-basis:50%"><!-- wp:heading {"fontSize":"x-large"} -->
 				<h2 class="has-x-large-font-size" id="text-on-left-image-on-right">' . esc_html__( 'Text on left, cover on right.', 'frost' ) . '</h2>
