@@ -438,8 +438,7 @@ p.has-background {
 
 .wp-block-quote.has-text-align-center,
 .wp-block-quote.has-text-align-left,
-.wp-block-quote.has-text-align-right,
-.wp-block-quote.is-style-large {
+.wp-block-quote.has-text-align-right {
 	border: 1px solid var(--wp--preset--color--black);
 	margin-bottom: 35px;
 	padding: 30px 40px;
@@ -449,21 +448,10 @@ p.has-background {
 	margin-bottom: 0;
 }
 
-.wp-block-quote cite,
-.wp-block-quote.is-style-large p,
-.wp-block-quote.is-style-large cite {
-	font-style: inherit;
-}
-
-.wp-block-quote.is-style-large p {
-	font-size: var(--wp--preset--font-size--x-large);
-	line-height: var(--wp--custom--line-height--medium);
-}
-
-.wp-block-quote cite,
-.wp-block-quote.is-style-large cite {
+.wp-block-quote cite {
 	display: block;
 	font-size: var(--wp--preset--font-size--small);
+	font-style: inherit;
 	margin-top: 10px;
 	text-align: inherit;
 }
@@ -588,21 +576,6 @@ textarea {
 	margin-bottom: 10px;
 }
 
-/* Pricing Table
---------------------------------------------- */
-
-.pricing-table {
-	text-align: center;
-}
-
-.pricing-table > li {
-	border-bottom: 1px solid var(--wp--preset--color--gray);
-	list-style-type: none;
-	margin-bottom: 10px;
-	margin-left: 0;
-	padding-bottom: 10px;
-}
-
 /* Styles
 --------------------------------------------- */
 
@@ -627,7 +600,7 @@ p.is-style-no-margin,
 --------------------------------------------- */
 
 p:last-child {
-    margin-bottom: 0;
+	margin-bottom: 0;
 }
 
 .is-root-container h1 + *,
@@ -642,7 +615,7 @@ p:last-child {
 .wp-block-post-content h4 + *,
 .wp-block-post-content h5 + *,
 .wp-block-post-content h6 + * {
-    margin-top: 10px !important;
+	margin-top: 10px !important;
 }
 
 .wp-block-spacer + * {
@@ -670,9 +643,9 @@ p:last-child {
 		color: var(--wp--preset--color--white);
 	}
 
-	.wp-block-navigation-item.is-style-outline a,
 	.wp-block-navigation-item.is-style-fill a:focus,
-	.wp-block-navigation-item.is-style-fill a:hover {
+	.wp-block-navigation-item.is-style-fill a:hover,
+	.wp-block-navigation-item.is-style-outline a {
 		background-color: var(--wp--preset--color--white);
 		color: var(--wp--preset--color--black);
 	}
@@ -690,9 +663,9 @@ p:last-child {
 		color: var(--wp--preset--color--black);
 	}
 
-	.wp-block-navigation-item.is-style-outline-white a,
 	.wp-block-navigation-item.is-style-fill-white a:focus,
-	.wp-block-navigation-item.is-style-fill-white a:hover {
+	.wp-block-navigation-item.is-style-fill-white a:hover,
+	.wp-block-navigation-item.is-style-outline-white a {
 		background-color: var(--wp--preset--color--black);
 		color: var(--wp--preset--color--white);
 	}
