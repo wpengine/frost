@@ -186,6 +186,7 @@
 			"core/button": {
 				"border": {
 					"color": "var(--wp--preset--color--black)",
+					"radius": "0",
 					"style": "solid",
 					"width": "1px"
 				},
