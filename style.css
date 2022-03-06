@@ -423,13 +423,6 @@ p.has-background {
 	box-shadow: 5px 5px var(--wp--preset--color--black);
 }
 
-.wp-block-quote.has-text-align-center,
-.wp-block-quote.has-text-align-left,
-.wp-block-quote.has-text-align-right {
-	border: 1px solid var(--wp--preset--color--black);
-	padding: 30px 40px;
-}
-
 .wp-block-quote p:last-of-type {
 	margin-bottom: 0;
 }
