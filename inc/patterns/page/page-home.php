@@ -40,13 +40,13 @@ return array(
 				<!-- /wp:button --></div>
 				<!-- /wp:buttons -->
 
-				<!-- wp:spacer {"height":70} -->
-				<div style="height:70px" aria-hidden="true" class="wp-block-spacer"></div>
+				<!-- wp:spacer {"height":100} -->
+				<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer --></div>
 				<!-- /wp:group -->
 
-				<!-- wp:group {"align":"full","backgroundColor":"black","textColor":"white","layout":{"inherit":true}} -->
-				<div class="wp-block-group alignfull has-white-color has-black-background-color has-text-color has-background"><!-- wp:spacer {"height":100} -->
+				<!-- wp:group {"align":"full","style":{"spacing":{"margin":{"top":"0px"}}},"backgroundColor":"black","textColor":"white","layout":{"inherit":true}} -->
+				<div class="wp-block-group alignfull has-white-color has-black-background-color has-text-color has-background" style="margin-top:0px"><!-- wp:spacer {"height":100} -->
 				<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer -->
 
@@ -75,9 +75,9 @@ return array(
 				<!-- /wp:spacer --></div>
 				<!-- /wp:group -->
 
-				<!-- wp:group {"align":"full","layout":{"inherit":true}} -->
-				<div class="wp-block-group alignfull"><!-- wp:spacer {"height":70} -->
-				<div style="height:70px" aria-hidden="true" class="wp-block-spacer"></div>
+				<!-- wp:group {"align":"full","style":{"spacing":{"margin":{"top":"0px"}}},"layout":{"inherit":true}} -->
+				<div class="wp-block-group alignfull" style="margin-top:0px"><!-- wp:spacer {"height":100} -->
+				<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer -->
 
 				<!-- wp:media-text {"mediaId":3485,"mediaLink":"https://frostwp.com/patterns/hero-section/sample-black_1200x1200/","mediaType":"image","mediaWidth":40} -->
@@ -100,13 +100,13 @@ return array(
 				<!-- /wp:buttons --></div></div>
 				<!-- /wp:media-text -->
 
-				<!-- wp:spacer {"height":70} -->
-				<div style="height:70px" aria-hidden="true" class="wp-block-spacer"></div>
+				<!-- wp:spacer {"height":100} -->
+				<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer --></div>
 				<!-- /wp:group -->
 
-				<!-- wp:group {"align":"full","backgroundColor":"black","textColor":"white","layout":{"inherit":true}} -->
-				<div class="wp-block-group alignfull has-white-color has-black-background-color has-text-color has-background"><!-- wp:spacer {"height":100} -->
+				<!-- wp:group {"align":"full","style":{"spacing":{"margin":{"top":"0px"}}},"backgroundColor":"black","textColor":"white","layout":{"inherit":true}} -->
+				<div class="wp-block-group alignfull has-white-color has-black-background-color has-text-color has-background" style="margin-top:0px"><!-- wp:spacer {"height":100} -->
 				<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer -->
 
@@ -131,9 +131,9 @@ return array(
 				<!-- /wp:spacer --></div>
 				<!-- /wp:group -->
 
-				<!-- wp:group {"align":"full","layout":{"inherit":true}} -->
-				<div class="wp-block-group alignfull"><!-- wp:spacer {"height":70} -->
-				<div style="height:70px" aria-hidden="true" class="wp-block-spacer"></div>
+				<!-- wp:group {"align":"full","style":{"spacing":{"margin":{"top":"0px"}}},"layout":{"inherit":true}} -->
+				<div class="wp-block-group alignfull" style="margin-top:0px"><!-- wp:spacer {"height":100} -->
+				<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer -->
 
 				<!-- wp:heading {"textAlign":"center","fontSize":"x-large"} -->
