@@ -326,12 +326,17 @@ h6.has-background {
 /* Image
 --------------------------------------------- */
 
-.wp-block-image .alignleft {
-	margin-right: 30px;
+.wp-block-image.aligncenter {
+	margin-left: auto !important;
+	margin-right: auto !important;
 }
 
-.wp-block-image .alignright {
-	margin-left: 30px;
+.wp-block-image.alignleft {
+	margin-right: 30px !important;
+}
+
+.wp-block-image.alignright {
+	margin-left: 30px !important;
 }
 
 /* List
