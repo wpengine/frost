@@ -9,8 +9,8 @@ return array(
 	'title'         => __( 'Team with image, text, link.', 'frost' ),
 	'categories'    => array( 'frost-general' ),
 	'viewportWidth' => 1280,
-	'content'       => '<!-- wp:group {"align":"full","layout":{"inherit":true}} -->
-				<div class="wp-block-group alignfull"><!-- wp:spacer {"height":100} -->
+	'content'       => '<!-- wp:group {"align":"full","style":{"spacing":{"margin":{"top":"0px"}}},"layout":{"inherit":true}} -->
+				<div class="wp-block-group alignfull" style="margin-top:0px"><!-- wp:spacer {"height":100} -->
 				<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer -->
 
@@ -22,8 +22,8 @@ return array(
 				<p class="has-text-align-center">' . esc_html__( 'The people who are ready to serve you.', 'frost' ) . '</p>
 				<!-- /wp:paragraph -->
 
-				<!-- wp:spacer {"height":30} -->
-				<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+				<!-- wp:spacer {"height":60} -->
+				<div style="height:60px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer -->
 
 				<!-- wp:columns {"align":"wide"} -->
@@ -100,8 +100,8 @@ return array(
 				<!-- /wp:column --></div>
 				<!-- /wp:columns -->
 
-				<!-- wp:spacer {"height":40} -->
-				<div style="height:40px" aria-hidden="true" class="wp-block-spacer"></div>
+				<!-- wp:spacer {"height":100} -->
+				<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer --></div>
 				<!-- /wp:group -->',
 );
