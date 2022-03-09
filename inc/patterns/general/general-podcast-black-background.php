@@ -16,8 +16,8 @@ return array(
 
 				<!-- wp:columns {"verticalAlignment":"center","align":"wide","style":{"spacing":{"blockGap":"60px"}}} -->
 				<div class="wp-block-columns alignwide are-vertically-aligned-center"><!-- wp:column {"verticalAlignment":"center","width":"30%"} -->
-				<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:30%"><!-- wp:image {"id":3488,"sizeSlug":"full","linkDestination":"none","className":"is-style-no-margin"} -->
-				<figure class="wp-block-image size-full is-style-no-margin"><img src="' . esc_url( __( 'https://frostwp.com/wp-content/uploads/2021/12/sample-white_800x800.jpg', 'frost' ) ) . '"  alt="' . esc_attr__( 'Sample Image', 'frost' ) . '" class="wp-image-3488"/></figure>
+				<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:30%"><!-- wp:image {"id":3488,"sizeSlug":"full","linkDestination":"none"} -->
+				<figure class="wp-block-image size-full"><img src="' . esc_url( __( 'https://frostwp.com/wp-content/uploads/2021/12/sample-white_800x800.jpg', 'frost' ) ) . '"  alt="' . esc_attr__( 'Sample Image', 'frost' ) . '" class="wp-image-3488"/></figure>
 				<!-- /wp:image --></div>
 				<!-- /wp:column -->
 
