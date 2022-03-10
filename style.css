@@ -579,16 +579,25 @@ textarea {
 }
 
 p.is-style-no-margin,
-.is-style-no-margin,
-.wp-block-column.is-style-no-margin,
-.wp-block-image.is-style-no-margin {
+.is-style-no-margin {
 	margin: 0;
 }
 
 /* Experimental Styles
 --------------------------------------------- */
 
-p:last-child {
+/*
+ * Remove bottom margin when blocks are placed in container blocks that do not
+ * support blockGap (i.e. Column, Cover, Media & Text)
+ */
+h1:last-child,
+h2:last-child,
+h3:last-child,
+h4:last-child,
+h5:last-child,
+h6:last-child,
+p:last-child,
+.wp-block-image:last-child {
 	margin-bottom: 0;
 }
 
