@@ -24,17 +24,11 @@ function frost_register_block_styles() {
 			'boxshadow'   => __( 'Boxshadow', 'frost' ),
 			'full-height' => __( 'Full-height', 'frost' ),
 		),
-		'core/image'           => array(
-			'no-margin' => __( 'No Margin', 'frost' ),
-		),
 		'core/navigation-link' => array(
 			'fill'          => __( 'Fill', 'frost' ),
 			'fill-white'    => __( 'Fill White', 'frost' ),
 			'outline'       => __( 'Outline', 'frost' ),
 			'outline-white' => __( 'Outline White', 'frost' ),
-		),
-		'core/paragraph'       => array(
-			'no-margin' => __( 'No Margin', 'frost' ),
 		),
 	);
 
