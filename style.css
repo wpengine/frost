@@ -579,11 +579,6 @@ textarea {
 	min-height: 100vh;
 }
 
-p.is-style-no-margin,
-.is-style-no-margin {
-	margin: 0;
-}
-
 /* Experimental Styles
 --------------------------------------------- */
 
