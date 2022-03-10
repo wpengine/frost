@@ -24,6 +24,12 @@ function frost_register_block_styles() {
 			'boxshadow'   => __( 'Boxshadow', 'frost' ),
 			'full-height' => __( 'Full-height', 'frost' ),
 		),
+		'core/image'           => array(
+			'boxshadow' => __( 'Boxshadow', 'frost' ),
+		),
+		'core/media-text'      => array(
+			'boxshadow-media' => __( 'Boxshadow', 'frost' ),
+		),
 		'core/navigation-link' => array(
 			'fill'          => __( 'Fill', 'frost' ),
 			'fill-white'    => __( 'Fill White', 'frost' ),
