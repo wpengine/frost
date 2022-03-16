@@ -61,11 +61,6 @@ strong {
 	font-weight: var(--wp--custom--font-weight--medium);
 }
 
-img {
-	height: auto;
-	max-width: 100%;
-}
-
 blockquote {
 	margin: 0;
 }
