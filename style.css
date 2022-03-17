@@ -246,8 +246,12 @@ input[type="submit"]:hover,
 }
 
 .wp-block-code code {
+	border: none;
+	color: var(--wp--preset--color--white);
+	font-family: var(--wp--preset--font-family--monospace);
 	overflow-wrap: normal;
 	overflow-x: scroll;
+	padding: 0;
 	white-space: pre;
 }
 
