@@ -38,6 +38,23 @@
 			"customGradient": true,
 			"defaultGradients": false,
 			"defaultPalette": false,
+			"duotone": [
+				{
+					"name": "Black and Primary",
+					"slug": "black-and-primary",
+					"colors": [ "#000", "#990099" ]
+				},
+				{
+					"name": "Black and Secondary",
+					"slug": "black-and-secondary",
+					"colors": [ "#000", "#0099ff" ]
+				},
+				{
+					"name": "Black and Tertiary",
+					"slug": "black-and-tertiary",
+					"colors": [ "#000", "#00cccc" ]
+				}
+			],
 			"gradients": [
 					{
 					"name": "Black to Primary",
