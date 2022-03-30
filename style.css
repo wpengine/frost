@@ -414,8 +414,7 @@ p.has-background {
 	margin-bottom: 0;
 }
 
-.wp-block-pullquote cite,
-.wp-block-pullquote__citation {
+.wp-block-pullquote cite {
 	display: block;
 	font-size: var(--wp--preset--font-size--small);
 	font-style: inherit;
