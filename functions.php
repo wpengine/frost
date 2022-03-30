@@ -86,7 +86,7 @@ function frost_fonts_url() {
 /**
  * Register block styles.
  *
- * @since 0.8.5
+ * @since 0.9.2
  */
 function frost_register_block_styles() {
 
@@ -130,7 +130,7 @@ add_action( 'init', 'frost_register_block_styles' );
 /**
  * Registers block categories, and type.
  *
- * @since Frost 0.9.2
+ * @since 0.9.2
  */
 function frost_register_block_pattern_categories() {
 
