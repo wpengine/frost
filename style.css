@@ -339,9 +339,9 @@ h6.has-background {
 /* List
 --------------------------------------------- */
 
-ol li:where(:not([class*='wp-block'])),
+ol li:where(:not([class*='block'])),
 ol li:where(.wp-block-list),
-ul li:where(:not([class*='wp-block'])),
+ul li:where(:not([class*='block'])),
 ul li:where(.wp-block-list) {
 	margin-left: 30px;
 }
