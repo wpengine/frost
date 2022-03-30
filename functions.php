@@ -127,5 +127,43 @@ function frost_register_block_styles() {
 }
 add_action( 'init', 'frost_register_block_styles' );
 
-// Include block patterns.
-require get_template_directory() . '/inc/block-patterns.php';
+/**
+ * Registers block categories, and type.
+ *
+ * @since Frost 0.9.2
+ */
+function frost_register_block_pattern_categories() {
+
+	/* Functionality specific to the Block Pattern Explorer plugin. */
+	if ( function_exists( 'register_block_pattern_category_type' ) ) {
+		register_block_pattern_category_type( 'frost', array( 'label' => __( 'Frost', 'frost' ) ) );
+	}
+
+	$block_pattern_categories = array(
+		'frost-footer'  => array(
+			'label'         => __( 'Footer', 'frost' ),
+			'categoryTypes' => array( 'frost' ),
+		),
+		'frost-general' => array(
+			'label'         => __( 'General', 'frost' ),
+			'categoryTypes' => array( 'frost' ),
+		),
+		'frost-header'  => array(
+			'label'         => __( 'Header', 'frost' ),
+			'categoryTypes' => array( 'frost' ),
+		),
+		'frost-page'    => array(
+			'label'         => __( 'Page', 'frost' ),
+			'categoryTypes' => array( 'frost' ),
+		),
+		'frost-query'   => array(
+			'label'         => __( 'Query', 'frost' ),
+			'categoryTypes' => array( 'frost' ),
+		),
+	);
+
+	foreach ( $block_pattern_categories as $name => $properties ) {
+		register_block_pattern_category( $name, $properties );
+	}
+}
+add_action( 'init', 'frost_register_block_pattern_categories', 9 );
