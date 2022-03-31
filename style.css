@@ -604,7 +604,8 @@ p:last-child,
 .wp-block-post-content h3 + *,
 .wp-block-post-content h4 + *,
 .wp-block-post-content h5 + *,
-.wp-block-post-content h6 + * {
+.wp-block-post-content h6 + *,
+.wp-block-query-title + * {
 	margin-top: 10px !important;
 }
 

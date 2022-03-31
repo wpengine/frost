@@ -9,11 +9,13 @@
 ?>
 <!-- wp:group {"align":"full","layout":{"inherit":true}} -->
 <div class="wp-block-group alignfull">
-<!-- wp:spacer {"height":"70px"} -->
-<div style="height:70px" aria-hidden="true" class="wp-block-spacer"></div>
-<!-- /wp:spacer -->
 <!-- wp:query {"queryId":1,"query":{"perPage":"6","pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false},"displayLayout":{"type":"list"},"align":"wide"} -->
 <div class="wp-block-query alignwide">
+<!-- wp:query-title {"type":"archive"} /-->
+<!-- wp:term-description /-->
+<!-- wp:spacer {"height":60} -->
+<div style="height:60px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
 <!-- wp:post-template -->
 <!-- wp:separator {"className":"is-style-wide"} -->
 <hr class="wp-block-separator is-style-wide"/>
