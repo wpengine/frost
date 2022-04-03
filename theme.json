@@ -351,7 +351,7 @@
 			"core/quote": {
 				"border": {
 					"color": "var(--wp--preset--color--black)",
-					"style": "solid",
+					"style": "solid !important",
 					"width": "1px"
 				},
 				"spacing": {
@@ -360,9 +360,9 @@
 					},
 					"padding": {
 						"top": "30px",
-						"right": "40px",
+						"right": "40px !important",
 						"bottom": "30px",
-						"left": "40px"
+						"left": "40px !important"
 					}
 				},
 				"typography": {
