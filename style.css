@@ -111,7 +111,6 @@ body > .is-root-container,
 
 input[type="button"],
 input[type="submit"],
-.wp-block-post-comments input[type="submit"],
 .wp-block-search__button {
 	border: 1px solid var(--wp--preset--color--black);
 	border-radius: 0;
@@ -241,12 +240,12 @@ input[type="submit"]:hover,
 /* Code
 --------------------------------------------- */
 
-.wp-block-code {
+.wp-block-code,
+.wp-block-code code {
 	border: none;
 }
 
 .wp-block-code code {
-	border: none;
 	color: var(--wp--preset--color--white);
 	font-family: var(--wp--preset--font-family--monospace);
 	overflow-wrap: normal;
