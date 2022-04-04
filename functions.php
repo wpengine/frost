@@ -1,6 +1,6 @@
 <?php
 /**
- * This file adds functions to the Frost theme for WordPress.
+ * This file adds functions to the Frost WordPress theme.
  *
  * @package Frost
  * @author  WP Engine
