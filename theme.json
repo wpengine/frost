@@ -56,7 +56,7 @@
 				}
 			],
 			"gradients": [
-					{
+				{
 					"name": "Black to Primary",
 					"slug": "black-primary",
 					"gradient": "linear-gradient(135deg,var(--wp--preset--color--black) 50%,var(--wp--preset--color--primary) 100%)"
