@@ -621,43 +621,59 @@ p:last-child,
 	--------------------------------------------- */
 
 	.wp-block-navigation-item.is-style-fill a,
-	.wp-block-navigation-item.is-style-outline a {
-		border: 1px solid var(--wp--preset--color--black);
+	.wp-block-navigation-item.is-style-fill-white a,
+	.wp-block-navigation-item.is-style-outline a,
+	.wp-block-navigation-item.is-style-outline-white a {
 		padding: 5px 15px;
 	}
 
-	.wp-block-navigation-item.is-style-fill,
+	.wp-block-navigation-item.is-style-fill a,
 	.wp-block-navigation-item.is-style-outline a:focus,
 	.wp-block-navigation-item.is-style-outline a:hover {
 		background-color: var(--wp--preset--color--black);
-		color: var(--wp--preset--color--white);
 	}
 
-	.wp-block-navigation-item.is-style-fill a:focus,
-	.wp-block-navigation-item.is-style-fill a:hover,
-	.wp-block-navigation-item.is-style-outline a {
+	.wp-block-navigation-item.is-style-fill-white a,
+	.wp-block-navigation-item.is-style-outline-white a:focus,
+	.wp-block-navigation-item.is-style-outline-white a:hover {
 		background-color: var(--wp--preset--color--white);
-		color: var(--wp--preset--color--black);
+	}
+
+	.wp-block-navigation-item.is-style-fill a,
+	.wp-block-navigation-item.is-style-outline a {
+		border: 1px solid var(--wp--preset--color--black);
 	}
 
 	.wp-block-navigation-item.is-style-fill-white a,
 	.wp-block-navigation-item.is-style-outline-white a {
 		border: 1px solid var(--wp--preset--color--white);
-		padding: 5px 15px;
 	}
 
-	.wp-block-navigation-item.is-style-fill-white,
+	.wp-block-navigation-item.is-style-fill a:focus,
+	.wp-block-navigation-item.is-style-fill a:hover,
+	.wp-block-navigation-item.is-style-fill-white a,
+	.wp-block-navigation-item.is-style-outline a,
 	.wp-block-navigation-item.is-style-outline-white a:focus,
 	.wp-block-navigation-item.is-style-outline-white a:hover {
-		background-color: var(--wp--preset--color--white);
 		color: var(--wp--preset--color--black);
 	}
 
+	.wp-block-navigation-item.is-style-fill a,
 	.wp-block-navigation-item.is-style-fill-white a:focus,
 	.wp-block-navigation-item.is-style-fill-white a:hover,
+	.wp-block-navigation-item.is-style-outline a:focus,
+	.wp-block-navigation-item.is-style-outline a:hover,
 	.wp-block-navigation-item.is-style-outline-white a {
-		background-color: var(--wp--preset--color--black);
 		color: var(--wp--preset--color--white);
+	}
+
+	.wp-block-navigation-item.is-style-fill a:focus,
+	.wp-block-navigation-item.is-style-fill a:hover,
+	.wp-block-navigation-item.is-style-fill-white a:focus,
+	.wp-block-navigation-item.is-style-fill-white a:hover,
+	.wp-block-navigation-item.is-style-outline a,
+	.wp-block-navigation-item.is-style-outline-white a {
+		background-color: transparent;
 	}
 
 	/* Pullquote
