@@ -74,6 +74,11 @@
 			],
 			"palette": [
 				{
+					"name": "White",
+					"slug": "white",
+					"color": "#fff"
+				},
+				{
 					"name": "Black",
 					"slug": "black",
 					"color": "#000"
@@ -92,16 +97,6 @@
 					"name": "Tertiary",
 					"slug": "tertiary",
 					"color": "#00cccc"
-				},
-				{
-					"name": "Gray",
-					"slug": "gray",
-					"color": "#eee"
-				},
-				{
-					"name": "White",
-					"slug": "white",
-					"color": "#fff"
 				}
 			]
 		},

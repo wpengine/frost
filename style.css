@@ -505,7 +505,7 @@ p.has-background {
 }
 
 .wp-block-table.is-style-stripes tbody tr:nth-child(odd) {
-	background-color: var(--wp--preset--color--gray);
+	background-color: #eee;
 }
 
 /* Custom
@@ -532,7 +532,7 @@ textarea,
 
 input:focus,
 textarea:focus {
-	background-color: var(--wp--preset--color--gray);
+	background-color: #eee;
 }
 
 input[type="checkbox"],
