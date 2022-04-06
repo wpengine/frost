@@ -1,21 +1,21 @@
 <?php
 /**
  * Title: Featured boxes with text, button.
- * Slug: frost/general-boxes-two-black-background
+ * Slug: frost/general-boxes-two-main-background
  * Categories: frost-general
  * Viewport Width: 1280
  */
 
 ?>
-<!-- wp:group {"align":"full","style":{"spacing":{"margin":{"top":"0px"}}},"backgroundColor":"black","layout":{"inherit":true}} -->
-<div class="wp-block-group alignfull has-black-background-color has-background" style="margin-top:0px">
+<!-- wp:group {"align":"full","style":{"spacing":{"margin":{"top":"0px"}}},"backgroundColor":"main","layout":{"inherit":true}} -->
+<div class="wp-block-group alignfull has-main-background-color has-background" style="margin-top:0px">
 <!-- wp:spacer {"height":100} -->
 <div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 <!-- wp:columns {"align":"wide"} -->
 <div class="wp-block-columns alignwide">
-<!-- wp:column {"style":{"spacing":{"padding":{"top":"60px","right":"60px","bottom":"60px","left":"60px"}}},"backgroundColor":"white"} -->
-<div class="wp-block-column has-white-background-color has-background" style="padding-top:60px;padding-right:60px;padding-bottom:60px;padding-left:60px">
+<!-- wp:column {"style":{"spacing":{"padding":{"top":"60px","right":"60px","bottom":"60px","left":"60px"}}},"backgroundColor":"base"} -->
+<div class="wp-block-column has-base-background-color has-background" style="padding-top:60px;padding-right:60px;padding-bottom:60px;padding-left:60px">
 <!-- wp:heading {"level":3,"fontSize":"large"} -->
 <h3 class="has-large-font-size" id="sample-heading-1"><?php echo esc_html__( 'Sample Heading', 'frost' ); ?></h3>
 <!-- /wp:heading -->
@@ -31,8 +31,8 @@
 <!-- /wp:buttons -->
 </div>
 <!-- /wp:column -->
-<!-- wp:column {"style":{"spacing":{"padding":{"top":"60px","right":"60px","bottom":"60px","left":"60px"}}},"backgroundColor":"white"} -->
-<div class="wp-block-column has-white-background-color has-background" style="padding-top:60px;padding-right:60px;padding-bottom:60px;padding-left:60px">
+<!-- wp:column {"style":{"spacing":{"padding":{"top":"60px","right":"60px","bottom":"60px","left":"60px"}}},"backgroundColor":"base"} -->
+<div class="wp-block-column has-base-background-color has-background" style="padding-top:60px;padding-right:60px;padding-bottom:60px;padding-left:60px">
 <!-- wp:heading {"level":3,"fontSize":"large"} -->
 <h3 class="has-large-font-size" id="sample-heading-2"><?php echo esc_html__( 'Sample Heading', 'frost' ); ?></h3>
 <!-- /wp:heading -->

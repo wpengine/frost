@@ -1,13 +1,13 @@
 <?php
 /**
  * Title: Sample link page.
- * Slug: frost/page-link-black-background
+ * Slug: frost/page-link-main-background
  * Categories: frost-page
  */
 
 ?>
-<!-- wp:group {"align":"full","style":{"elements":{"link":{"color":{"text":"var:preset|color|white"}}},"spacing":{"margin":{"top":"0px"}}},"backgroundColor":"black","textColor":"white","className":"is-style-full-height","layout":{"inherit":true}} -->
-<div class="wp-block-group alignfull is-style-full-height has-white-color has-black-background-color has-text-color has-background has-link-color" style="margin-top:0px">
+<!-- wp:group {"align":"full","style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}},"spacing":{"margin":{"top":"0px"}}},"backgroundColor":"main","textColor":"base","className":"is-style-full-height","layout":{"inherit":true}} -->
+<div class="wp-block-group alignfull is-style-full-height has-base-color has-main-background-color has-text-color has-background has-link-color" style="margin-top:0px">
 <!-- wp:spacer {"height":100} -->
 <div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
@@ -20,7 +20,7 @@
 <!-- wp:paragraph {"align":"center"} -->
 <p class="has-text-align-center"><?php echo esc_html__( 'Company Name', 'frost' ); ?><br><a href="mailto:name@company.com">name@company.com</a></p>
 <!-- /wp:paragraph -->
-<!-- wp:social-links {"iconColor":"black","iconColorValue":"#000","iconBackgroundColor":"white","iconBackgroundColorValue":"#fff","size":"has-normal-icon-size","align":"center","layout":{"type":"flex","justifyContent":"center"},"style":{"spacing":{"blockGap":"10px"}}} -->
+<!-- wp:social-links {"iconColor":"main","iconColorValue":"#000","iconBackgroundColor":"base","iconBackgroundColorValue":"#fff","size":"has-normal-icon-size","align":"center","layout":{"type":"flex","justifyContent":"center"},"style":{"spacing":{"blockGap":"10px"}}} -->
 <ul class="wp-block-social-links aligncenter has-normal-icon-size has-icon-color has-icon-background-color">
 <!-- wp:social-link {"url":"#","service":"facebook"} /-->
 <!-- wp:social-link {"url":"#","service":"instagram"} /-->
@@ -34,20 +34,20 @@
 <!-- /wp:spacer -->
 <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center","orientation":"horizontal"},"style":{"spacing":{"blockGap":"10px"}}} -->
 <div class="wp-block-buttons">
-<!-- wp:button {"width":100,"style":{"border":{"radius":0}},"className":"is-style-fill-white"} -->
-<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-fill-white"><a class="wp-block-button__link no-border-radius"><?php echo esc_html__( 'Visit My Website', 'frost' ); ?></a></div>
+<!-- wp:button {"width":100,"style":{"border":{"radius":0}},"className":"is-style-fill-base"} -->
+<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-fill-base"><a class="wp-block-button__link no-border-radius"><?php echo esc_html__( 'Visit My Website', 'frost' ); ?></a></div>
 <!-- /wp:button -->
-<!-- wp:button {"width":100,"style":{"border":{"radius":0}},"className":"is-style-fill-white"} -->
-<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-fill-white"><a class="wp-block-button__link no-border-radius"><?php echo esc_html__( 'Read My Blog', 'frost' ); ?></a></div>
+<!-- wp:button {"width":100,"style":{"border":{"radius":0}},"className":"is-style-fill-base"} -->
+<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-fill-base"><a class="wp-block-button__link no-border-radius"><?php echo esc_html__( 'Read My Blog', 'frost' ); ?></a></div>
 <!-- /wp:button -->
-<!-- wp:button {"width":100,"style":{"border":{"radius":0}},"className":"is-style-fill-white"} -->
-<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-fill-white"><a class="wp-block-button__link no-border-radius"><?php echo esc_html__( 'Download My Ebook', 'frost' ); ?></a></div>
+<!-- wp:button {"width":100,"style":{"border":{"radius":0}},"className":"is-style-fill-base"} -->
+<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-fill-base"><a class="wp-block-button__link no-border-radius"><?php echo esc_html__( 'Download My Ebook', 'frost' ); ?></a></div>
 <!-- /wp:button -->
-<!-- wp:button {"width":100,"style":{"border":{"radius":0}},"className":"is-style-fill-white"} -->
-<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-fill-white"><a class="wp-block-button__link no-border-radius"><?php echo esc_html__( 'Follow My Newsletter', 'frost' ); ?></a></div>
+<!-- wp:button {"width":100,"style":{"border":{"radius":0}},"className":"is-style-fill-base"} -->
+<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-fill-base"><a class="wp-block-button__link no-border-radius"><?php echo esc_html__( 'Follow My Newsletter', 'frost' ); ?></a></div>
 <!-- /wp:button -->
-<!-- wp:button {"width":100,"style":{"border":{"radius":0}},"className":"is-style-fill-white"} -->
-<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-fill-white"><a class="wp-block-button__link no-border-radius"><?php echo esc_html__( 'Listen to My Podcast', 'frost' ); ?></a></div>
+<!-- wp:button {"width":100,"style":{"border":{"radius":0}},"className":"is-style-fill-base"} -->
+<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-fill-base"><a class="wp-block-button__link no-border-radius"><?php echo esc_html__( 'Listen to My Podcast', 'frost' ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
 <!-- wp:spacer {"height":"40px"} -->

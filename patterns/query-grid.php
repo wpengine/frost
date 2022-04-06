@@ -13,9 +13,6 @@
 <div class="wp-block-query alignwide">
 <!-- wp:query-title {"type":"archive"} /-->
 <!-- wp:term-description /-->
-<!-- wp:spacer {"height":60} -->
-<div style="height:60px" aria-hidden="true" class="wp-block-spacer"></div>
-<!-- /wp:spacer -->
 <!-- wp:post-template -->
 <!-- wp:post-title {"isLink":true,"style":{"spacing":{"margin":{"bottom":"10px"}}}} /-->
 <!-- wp:post-date {"fontSize":"small"} /-->

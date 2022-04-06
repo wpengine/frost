@@ -1,14 +1,14 @@
 <?php
 /**
  * Title: Team with image, text, link.
- * Slug: frost/general-team-two-columns-black-background
+ * Slug: frost/general-team-two-columns-main-background
  * Categories: frost-general
  * Viewport Width: 1280
  */
 
 ?>
-<!-- wp:group {"align":"full","style":{"elements":{"link":{"color":{"text":"var:preset|color|white"}}},"spacing":{"margin":{"top":"0px"}}},"backgroundColor":"black","textColor":"white","layout":{"inherit":true}} -->
-<div class="wp-block-group alignfull has-white-color has-black-background-color has-text-color has-background has-link-color" style="margin-top:0px">
+<!-- wp:group {"align":"full","style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}},"spacing":{"margin":{"top":"0px"}}},"backgroundColor":"main","textColor":"base","layout":{"inherit":true}} -->
+<div class="wp-block-group alignfull has-base-color has-main-background-color has-text-color has-background has-link-color" style="margin-top:0px">
 <!-- wp:spacer {"height":100} -->
 <div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->

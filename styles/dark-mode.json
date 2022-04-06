@@ -1,0 +1,34 @@
+{
+	"version": 2,
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"name": "Base",
+					"slug": "base",
+					"color": "#000"
+				},
+				{
+					"name": "Main",
+					"slug": "main",
+					"color": "#fff"
+				},
+				{
+					"name": "Primary",
+					"slug": "primary",
+					"color": "#990099"
+				},
+				{
+					"name": "Secondary",
+					"slug": "secondary",
+					"color": "#0099ff"
+				},
+				{
+					"name": "Tertiary",
+					"slug": "tertiary",
+					"color": "#00cccc"
+				}
+			]
+		}
+	}
+}

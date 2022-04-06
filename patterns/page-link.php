@@ -20,7 +20,7 @@
 <!-- wp:paragraph {"align":"center"} -->
 <p class="has-text-align-center"><?php echo esc_html__( 'Company Name', 'frost' ); ?><br><a href="mailto:name@company.com">name@company.com</a></p>
 <!-- /wp:paragraph -->
-<!-- wp:social-links {"iconBackgroundColor":"black","iconBackgroundColorValue":"#000","size":"has-normal-icon-size","align":"center","layout":{"type":"flex","justifyContent":"center"},"style":{"spacing":{"blockGap":"10px"}}} -->
+<!-- wp:social-links {"iconBackgroundColor":"main","iconBackgroundColorValue":"#000","size":"has-normal-icon-size","align":"center","layout":{"type":"flex","justifyContent":"center"},"style":{"spacing":{"blockGap":"10px"}}} -->
 <ul class="wp-block-social-links aligncenter has-normal-icon-size has-icon-background-color">
 <!-- wp:social-link {"url":"#","service":"facebook"} /-->
 <!-- wp:social-link {"url":"#","service":"instagram"} /-->

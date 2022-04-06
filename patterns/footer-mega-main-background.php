@@ -1,14 +1,14 @@
 <?php
 /**
  * Title: Footer with text, button, links.
- * Slug: frost/footer-mega-black-background
+ * Slug: frost/footer-mega-main-background
  * Categories: frost-footer
  * Viewport Width: 1280
  */
 
 ?>
-<!-- wp:group {"align":"full","style":{"elements":{"link":{"color":{"text":"var:preset|color|white"}}},"typography":{"fontSize":"18px"},"spacing":{"margin":{"top":"0px"}}},"backgroundColor":"black","textColor":"white","layout":{"inherit":true}} -->
-<div class="wp-block-group alignfull has-white-color has-black-background-color has-text-color has-background has-link-color" style="font-size:18px;margin-top:0px">
+<!-- wp:group {"align":"full","style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}},"typography":{"fontSize":"18px"},"spacing":{"margin":{"top":"0px"}}},"backgroundColor":"main","textColor":"base","layout":{"inherit":true}} -->
+<div class="wp-block-group alignfull has-base-color has-main-background-color has-text-color has-background has-link-color" style="font-size:18px;margin-top:0px">
 <!-- wp:columns {"align":"wide","style":{"elements":{"link":{"color":[]}},"spacing":{"padding":{"top":"100px","bottom":"100px"},"blockGap":"100px"}}} -->
 <div class="wp-block-columns alignwide has-link-color" style="padding-top:100px;padding-bottom:100px">
 <!-- wp:column {"width":"50%"} -->
@@ -21,8 +21,8 @@
 <!-- /wp:paragraph -->
 <!-- wp:buttons -->
 <div class="wp-block-buttons">
-<!-- wp:button {"style":{"border":{"radius":0}},"className":"is-style-fill-white"} -->
-<div class="wp-block-button is-style-fill-white">
+<!-- wp:button {"style":{"border":{"radius":0}},"className":"is-style-fill-base"} -->
+<div class="wp-block-button is-style-fill-base">
 <a class="wp-block-button__link no-border-radius" href="#"><?php echo esc_html__( 'Learn More', 'frost' ); ?></a>
 </div>
 <!-- /wp:button -->

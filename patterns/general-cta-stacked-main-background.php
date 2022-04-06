@@ -1,13 +1,13 @@
 <?php
 /**
  * Title: Call-to-action with text, button.
- * Slug: frost/general-cta-stacked-black-background
+ * Slug: frost/general-cta-stacked-main-background
  * Categories: frost-general
  */
 
 ?>
-<!-- wp:group {"align":"full","style":{"spacing":{"margin":{"top":"0px"}}},"backgroundColor":"black","textColor":"white","layout":{"inherit":true}} -->
-<div class="wp-block-group alignfull has-white-color has-black-background-color has-text-color has-background" style="margin-top:0px">
+<!-- wp:group {"align":"full","style":{"spacing":{"margin":{"top":"0px"}}},"backgroundColor":"main","textColor":"base","layout":{"inherit":true}} -->
+<div class="wp-block-group alignfull has-base-color has-main-background-color has-text-color has-background" style="margin-top:0px">
 <!-- wp:spacer {"height":100} -->
 <div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
@@ -19,8 +19,8 @@
 <!-- /wp:paragraph -->
 <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
 <div class="wp-block-buttons">
-<!-- wp:button {"className":"is-style-outline-white"} -->
-<div class="wp-block-button is-style-outline-white"><a class="wp-block-button__link"><?php echo esc_html__( 'Get in Touch', 'frost' ); ?> →</a></div>
+<!-- wp:button {"className":"is-style-outline-base"} -->
+<div class="wp-block-button is-style-outline-base"><a class="wp-block-button__link"><?php echo esc_html__( 'Get in Touch', 'frost' ); ?> →</a></div>
 <!-- /wp:button -->
 </div>
 <!-- /wp:buttons -->

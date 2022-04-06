@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Pricing table with list, buttons.
- * Slug: frost/general-pricing-two-columns-black
+ * Slug: frost/general-pricing-two-columns-main
  * Categories: frost-general
  * Viewport Width: 1280
  */
@@ -22,10 +22,10 @@
 <div class="wp-block-columns">
 <!-- wp:column -->
 <div class="wp-block-column">
-<!-- wp:group {"style":{"border":{"width":"1px","style":"solid"}},"borderColor":"black","className":"has-black-border"} -->
-<div class="wp-block-group has-black-border has-border-color has-black-border-color" style="border-style:solid;border-width:1px">
-<!-- wp:heading {"textAlign":"center","level":4,"style":{"spacing":{"margin":{"bottom":"0px"}}},"backgroundColor":"black","textColor":"white"} -->
-<h4 class="has-text-align-center has-white-color has-black-background-color has-text-color has-background" id="personal-95" style="margin-bottom:0px"><?php echo esc_html__( 'Personal', 'frost' ); ?> - $95</h4>
+<!-- wp:group {"style":{"border":{"width":"1px","style":"solid"}},"borderColor":"main","className":"has-main-border"} -->
+<div class="wp-block-group has-main-border has-border-color has-main-border-color" style="border-style:solid;border-width:1px">
+<!-- wp:heading {"textAlign":"center","level":4,"style":{"spacing":{"margin":{"bottom":"0px"}}},"backgroundColor":"main","textColor":"base"} -->
+<h4 class="has-text-align-center has-base-color has-main-background-color has-text-color has-background" id="personal-95" style="margin-bottom:0px"><?php echo esc_html__( 'Personal', 'frost' ); ?> - $95</h4>
 <!-- /wp:heading -->
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"30px","right":"40px","bottom":"40px","left":"40px"},"blockGap":"10px"}}} -->
 <div class="wp-block-group" style="padding-top:30px;padding-right:40px;padding-bottom:40px;padding-left:40px">
@@ -77,10 +77,10 @@
 <!-- /wp:column -->
 <!-- wp:column -->
 <div class="wp-block-column">
-<!-- wp:group {"style":{"border":{"width":"1px","style":"solid"}},"borderColor":"black","className":"has-black-border"} -->
-<div class="wp-block-group has-black-border has-border-color has-black-border-color" style="border-style:solid;border-width:1px">
-<!-- wp:heading {"textAlign":"center","level":4,"style":{"spacing":{"margin":{"bottom":"0px"}}},"backgroundColor":"black","textColor":"white"} -->
-<h4 class="has-text-align-center has-white-color has-black-background-color has-text-color has-background" id="professional-295" style="margin-bottom:0px"><?php echo esc_html__( 'Professional', 'frost' ); ?> - $295</h4>
+<!-- wp:group {"style":{"border":{"width":"1px","style":"solid"}},"borderColor":"main","className":"has-main-border"} -->
+<div class="wp-block-group has-main-border has-border-color has-main-border-color" style="border-style:solid;border-width:1px">
+<!-- wp:heading {"textAlign":"center","level":4,"style":{"spacing":{"margin":{"bottom":"0px"}}},"backgroundColor":"main","textColor":"base"} -->
+<h4 class="has-text-align-center has-base-color has-main-background-color has-text-color has-background" id="professional-295" style="margin-bottom:0px"><?php echo esc_html__( 'Professional', 'frost' ); ?> - $295</h4>
 <!-- /wp:heading -->
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"30px","right":"40px","bottom":"40px","left":"40px"},"blockGap":"10px"}}} -->
 <div class="wp-block-group" style="padding-top:30px;padding-right:40px;padding-bottom:40px;padding-left:40px">
