@@ -28,6 +28,20 @@
 				"page",
 				"post"
 			]
+		},
+		{
+			"name": "page-cover",
+			"title": "Cover Image",
+			"postTypes": [
+				"page"
+			]
+		},
+		{
+			"name": "single-cover",
+			"title": "Cover Image",
+			"postTypes": [
+				"post"
+			]
 		}
 	],
 	"settings": {
