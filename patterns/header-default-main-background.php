@@ -12,7 +12,7 @@
 <!-- wp:group {"align":"wide","layout":{"type":"flex","justifyContent":"space-between"}} -->
 <div class="wp-block-group alignwide">
 <!-- wp:site-title {"style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}}}} /-->
-<!-- wp:navigation {"textColor":"base","isResponsive":true} -->
+<!-- wp:navigation {"textColor":"base","isResponsive":true,"style":{"spacing":{"blockGap":"20px"}}} -->
 <!-- wp:page-list {"isNavigationChild":true,"showSubmenuIcon":true,"openSubmenusOnClick":false} /-->
 <!-- /wp:navigation -->
 </div>

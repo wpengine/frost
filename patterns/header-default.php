@@ -12,7 +12,7 @@
 <!-- wp:group {"align":"wide","layout":{"type":"flex","justifyContent":"space-between"}} -->
 <div class="wp-block-group alignwide">
 <!-- wp:site-title /-->
-<!-- wp:navigation {"isResponsive":true} -->
+<!-- wp:navigation {"isResponsive":true,"style":{"spacing":{"blockGap":"20px"}}} -->
 <!-- wp:page-list {"isNavigationChild":true,"showSubmenuIcon":true,"openSubmenusOnClick":false} /-->
 <!-- /wp:navigation -->
 </div>
