@@ -226,7 +226,6 @@
 			},
 			"core/code": {
 				"border": {
-					"color": "var(--wp--preset--color--main)",
 					"radius": "0"
 				},
 				"color": {
