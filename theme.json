@@ -346,7 +346,7 @@
 				"border": {
 					"color": "var(--wp--preset--color--main)",
 					"style": "solid !important",
-					"width": "1px"
+					"width": "1px !important"
 				},
 				"spacing": {
 					"margin": {
