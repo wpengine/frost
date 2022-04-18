@@ -13,7 +13,11 @@ An experimental block theme for designers, developers, and creators.
 
 == Changelog ==
 
-= 0.9.2 - 2022-04-11 =
+= 0.9.4 - 2022-04-18 =
+
+[Release Notes](https://github.com/wpengine/frost/releases/tag/v0.9.4)
+
+= 0.9.3 - 2022-04-11 =
 
 [Release Notes](https://github.com/wpengine/frost/releases/tag/v0.9.3)
 
