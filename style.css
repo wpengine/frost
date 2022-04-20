@@ -562,10 +562,19 @@ textarea {
 	box-shadow: 0 0 50px rgb(0 0 0 / 10%);
 }
 
+.is-style-boxshadow-solid {
+	box-shadow: 5px 5px var(--wp--preset--color--main);
+}
+
 .is-style-full-height {
 	align-items: center;
 	display: grid;
 	min-height: 100vh;
+}
+
+.is-style-no-disc li {
+	list-style-type: none;
+	margin-left: 0;
 }
 
 /* Experimental Styles

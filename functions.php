@@ -95,11 +95,15 @@ function frost_register_block_styles() {
 			'outline-base' => __( 'Outline Base', 'frost' ),
 		),
 		'core/group'           => array(
-			'boxshadow'   => __( 'Boxshadow', 'frost' ),
-			'full-height' => __( 'Full-height', 'frost' ),
+			'boxshadow'       => __( 'Boxshadow', 'frost' ),
+			'boxshadow-solid' => __( 'Boxshadow Solid', 'frost' ),
+			'full-height'     => __( 'Full-height', 'frost' ),
 		),
 		'core/image'           => array(
 			'boxshadow' => __( 'Boxshadow', 'frost' ),
+		),
+		'core/list'           => array(
+			'no-disc' => __( 'No Disc', 'frost' ),
 		),
 		'core/media-text'      => array(
 			'boxshadow-media' => __( 'Boxshadow', 'frost' ),
