@@ -148,14 +148,9 @@
 			"dropCap": false,
 			"fontFamilies": [
 				{
-					"fontFamily": "\"Jost\", sans-serif",
-					"name": "Jost",
-					"slug": "primary"
-				},
-				{
 					"fontFamily": "\"Outfit\", sans-serif",
 					"name": "Outfit",
-					"slug": "secondary"
+					"slug": "primary"
 				},
 				{
 					"fontFamily": "monospace",
@@ -289,7 +284,6 @@
 					}
 				},
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--secondary)",
 					"fontWeight": "var(--wp--custom--font-weight--medium)",
 					"lineHeight": "var(--wp--custom--line-height--heading)"
 				}
