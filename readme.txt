@@ -3,7 +3,7 @@ Contributors: bgardner, ndiego
 Requires at least: 5.9
 Tested up to: 5.9
 Requires PHP: 5.6
-Stable tag: 0.9.5
+Stable tag: 0.9.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -12,6 +12,10 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 An experimental block theme for designers, developers, and creators.
 
 == Changelog ==
+
+= 0.9.6 - 2022-05-13 =
+
+[Release Notes](https://github.com/wpengine/frost/releases/tag/v0.9.6)
 
 = 0.9.5 - 2022-04-25 =
 
