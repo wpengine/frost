@@ -95,18 +95,18 @@ function frost_register_block_styles() {
 			'outline-base' => __( 'Outline Base', 'frost' ),
 		),
 		'core/group'           => array(
-			'boxshadow'       => __( 'Boxshadow', 'frost' ),
-			'boxshadow-solid' => __( 'Boxshadow Solid', 'frost' ),
+			'shadow'       => __( 'Shadow', 'frost' ),
+			'shadow-solid' => __( 'Shadow Solid', 'frost' ),
 			'full-height'     => __( 'Full-height', 'frost' ),
 		),
 		'core/image'           => array(
-			'boxshadow' => __( 'Boxshadow', 'frost' ),
+			'shadow' => __( 'Shadow', 'frost' ),
 		),
-		'core/list'           => array(
+		'core/list'            => array(
 			'no-disc' => __( 'No Disc', 'frost' ),
 		),
 		'core/media-text'      => array(
-			'boxshadow-media' => __( 'Boxshadow', 'frost' ),
+			'shadow-media' => __( 'Shadow', 'frost' ),
 		),
 		'core/navigation-link' => array(
 			'fill'         => __( 'Fill', 'frost' ),

@@ -288,6 +288,14 @@ kbd {
 	margin-top: 40px;
 }
 
+.wp-block-post-comments .commentlist li {
+	margin-left: 0;
+}
+
+.wp-block-post-comments .commentlist .comment {
+	padding-left: 0;
+}
+
 .wp-block-post-comments .commentlist .comment p {
 	line-height: var(--wp--custom--line-height--body);
 }
@@ -309,6 +317,19 @@ kbd {
 	width: 48px;
 }
 
+/* Group
+--------------------------------------------- */
+
+.is-style-full-height {
+	align-items: center;
+	display: grid;
+	min-height: 100vh;
+}
+
+.is-style-shadow-solid {
+	box-shadow: 5px 5px var(--wp--preset--color--main);
+}
+
 /* Image
 --------------------------------------------- */
 
@@ -325,6 +346,10 @@ kbd {
 	margin-left: 30px !important;
 }
 
+.is-style-shadow {
+	box-shadow: 0 0 50px rgb(0 0 0 / 10%);
+}
+
 /* List
 --------------------------------------------- */
 
@@ -333,6 +358,19 @@ ol li:where(.wp-block-list),
 ul li:where(:not([class*='block'])),
 ul li:where(.wp-block-list) {
 	margin-left: 30px;
+}
+
+.is-style-no-disc li {
+	list-style-type: none;
+	margin-left: 0;
+}
+
+
+/* Media & Text
+--------------------------------------------- */
+
+.is-style-shadow-media img {
+	box-shadow: 0 0 50px rgb(0 0 0 / 10%);
 }
 
 /* Navigation
@@ -552,29 +590,6 @@ textarea {
 
 .nf-field-container {
 	margin-bottom: 10px;
-}
-
-/* Styles
---------------------------------------------- */
-
-.is-style-boxshadow,
-.is-style-boxshadow-media img {
-	box-shadow: 0 0 50px rgb(0 0 0 / 10%);
-}
-
-.is-style-boxshadow-solid {
-	box-shadow: 5px 5px var(--wp--preset--color--main);
-}
-
-.is-style-full-height {
-	align-items: center;
-	display: grid;
-	min-height: 100vh;
-}
-
-.is-style-no-disc li {
-	list-style-type: none;
-	margin-left: 0;
 }
 
 /* Experimental Styles
