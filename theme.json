@@ -88,16 +88,6 @@
 			],
 			"palette": [
 				{
-					"name": "Base",
-					"slug": "base",
-					"color": "#fff"
-				},
-				{
-					"name": "Main",
-					"slug": "main",
-					"color": "#000"
-				},
-				{
 					"name": "Primary",
 					"slug": "primary",
 					"color": "#990099"
@@ -111,6 +101,16 @@
 					"name": "Tertiary",
 					"slug": "tertiary",
 					"color": "#00cccc"
+				},
+				{
+					"name": "Main",
+					"slug": "main",
+					"color": "#000"
+				},
+				{
+					"name": "Base",
+					"slug": "base",
+					"color": "#fff"
 				}
 			]
 		},
