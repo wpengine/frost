@@ -3,6 +3,7 @@
  * Title: Footer with heading, text, button.
  * Slug: frost/footer-stacked-main-background
  * Categories: frost-footer
+ * Block Types: core/template-part/footer
  */
 
 ?>

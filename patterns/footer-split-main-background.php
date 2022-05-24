@@ -3,6 +3,7 @@
  * Title: Footer with heading, links, text.
  * Slug: frost/footer-split-main-background
  * Categories: frost-footer
+ * Block Types: core/template-part/footer
  * Viewport Width: 1280
  */
 

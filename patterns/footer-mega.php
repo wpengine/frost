@@ -3,6 +3,7 @@
  * Title: Footer with text, button, links.
  * Slug: frost/footer-mega
  * Categories: frost-footer
+ * Block Types: core/template-part/footer
  * Viewport Width: 1280
  */
 

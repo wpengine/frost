@@ -3,6 +3,7 @@
  * Title: Header with site title, navigation.
  * Slug: frost/header-default
  * Categories: frost-header
+ * Block Types: core/template-part/header
  * Viewport Width: 1280
  */
 
