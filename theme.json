@@ -38,7 +38,7 @@
 		},
 		{
 			"name": "single-cover",
-			"title": "Single Post(Cover Image)",
+			"title": "Single Post (Cover Image)",
 			"postTypes": [
 				"post"
 			]
