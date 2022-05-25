@@ -1,17 +1,5 @@
 {
 	"version": 2,
-	"templateParts": [
-		{
-			"name": "header",
-			"title": "Header",
-			"area": "header"
-		},
-		{
-			"name": "footer",
-			"title": "Footer",
-			"area": "footer"
-		}
-	],
 	"customTemplates": [
 		{
 			"name": "blank",
@@ -466,5 +454,17 @@
 			"fontWeight": "var(--wp--custom--font-weight--regular)",
 			"lineHeight": "var(--wp--custom--line-height--body)"
 		}
-	}
+	},
+	"templateParts": [
+		{
+			"name": "header",
+			"title": "Header",
+			"area": "header"
+		},
+		{
+			"name": "footer",
+			"title": "Footer",
+			"area": "footer"
+		}
+	]
 }
