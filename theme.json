@@ -31,14 +31,14 @@
 		},
 		{
 			"name": "page-cover",
-			"title": "Cover Image",
+			"title": "Page with Cover Image",
 			"postTypes": [
 				"page"
 			]
 		},
 		{
 			"name": "single-cover",
-			"title": "Cover Image",
+			"title": "Single Post with Cover Image",
 			"postTypes": [
 				"post"
 			]
