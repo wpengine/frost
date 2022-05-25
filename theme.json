@@ -31,14 +31,14 @@
 		},
 		{
 			"name": "page-cover",
-			"title": "Page with Cover Image",
+			"title": "Page (Cover Image)",
 			"postTypes": [
 				"page"
 			]
 		},
 		{
 			"name": "single-cover",
-			"title": "Single Post with Cover Image",
+			"title": "Single Post(Cover Image)",
 			"postTypes": [
 				"post"
 			]
@@ -73,17 +73,17 @@
 				{
 					"name": "Black to Primary",
 					"slug": "black-primary",
-					"gradient": "linear-gradient(135deg, rgba(0,0,0,1) 50%, rgba(153,0,153,1) 100%)"
+					"gradient": "linear-gradient(135deg,rgba(0,0,0,1) 50%,var(--wp--preset--color--primary) 100%)"
 				},
 				{
 					"name": "Black to Secondary",
 					"slug": "black-secondary",
-					"gradient": "linear-gradient(135deg, rgba(0,0,0,1) 50%, rgba(0,153,255,1) 100%)"
+					"gradient": "linear-gradient(135deg,rgba(0,0,0,1) 50%,var(--wp--preset--color--secondary) 100%)"
 				},
 				{
 					"name": "Black to Tertiary",
 					"slug": "black-tertiary",
-					"gradient": "linear-gradient(135deg, rgba(0,0,0,1) 50%, rgba(0,204,204,1) 100%)"
+					"gradient": "linear-gradient(135deg,rgba(0,0,0,1) 50%,var(--wp--preset--color--tertiary) 100%)"
 				}
 			],
 			"palette": [
