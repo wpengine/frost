@@ -278,43 +278,17 @@ kbd {
 /* Comments
 --------------------------------------------- */
 
-.wp-block-post-comments input:not([type=submit]),
-.wp-block-post-comments textarea {
-	border-color: var(--wp--preset--color--main);
-}
-
-.wp-block-post-comments .commentlist {
-	margin-bottom: 40px;
-	margin-top: 40px;
-}
-
-.wp-block-post-comments .commentlist li {
+.wp-block-comment-template li {
 	margin-left: 0;
 }
 
-.wp-block-post-comments .commentlist .comment {
-	padding-left: 0;
+.wp-block-post-comments-form input:not([type=submit]),
+.wp-block-post-comments-form textarea {
+	border-color: var(--wp--preset--color--main);
 }
 
-.wp-block-post-comments .commentlist .comment p {
-	line-height: var(--wp--custom--line-height--body);
-}
-
-.wp-block-post-comments .form-submit {
-	margin-bottom: 0;
-}
-
-.wp-block-post-comments .comment-form-cookies-consent {
-	font-size: var(--wp--preset--font-size--small);
-}
-
-/* Comment Author Avatar
---------------------------------------------- */
-
-.wp-block-post-comments .comment-author .avatar {
-	height: 48px;
-	margin-top: 2px;
-	width: 48px;
+.wp-block-post-comments-form input[type=submit] {
+	border: 1px solid var(--wp--preset--color--main);
 }
 
 /* Group
