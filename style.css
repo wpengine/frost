@@ -246,10 +246,6 @@ input[type="submit"]:hover,
 	border: none;
 }
 
-.wp-block-code {
-	padding: 0;
-}
-
 .wp-block-code code {
 	overflow-wrap: normal;
 	overflow-x: scroll;
