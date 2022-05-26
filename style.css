@@ -291,6 +291,10 @@ kbd {
 	border: 1px solid var(--wp--preset--color--main);
 }
 
+.wp-block-post-comments-form .form-submit {
+	margin-bottom: 0;
+}
+
 /* Group
 --------------------------------------------- */
 
