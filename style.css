@@ -294,13 +294,17 @@ kbd {
 /* Group
 --------------------------------------------- */
 
-.is-style-full-height {
+.wp-block-group.is-style-full-height {
 	align-items: center;
 	display: grid;
 	min-height: 100vh;
 }
 
-.is-style-shadow-solid {
+.wp-block-group.is-style-shadow {
+	box-shadow: 0 0 50px rgb(0 0 0 / 10%);
+}
+
+.wp-block-group.is-style-shadow-solid {
 	box-shadow: 5px 5px var(--wp--preset--color--main);
 }
 
@@ -320,7 +324,7 @@ kbd {
 	margin-left: 30px !important;
 }
 
-.is-style-shadow {
+.wp-block-image.is-style-shadow {
 	box-shadow: 0 0 50px rgb(0 0 0 / 10%);
 }
 
@@ -342,7 +346,7 @@ ul li:where(.wp-block-list) {
 /* Media & Text
 --------------------------------------------- */
 
-.is-style-shadow-media img {
+.wp-block-media-text.is-style-shadow-media img {
 	box-shadow: 0 0 50px rgb(0 0 0 / 10%);
 }
 
