@@ -38,6 +38,7 @@
 			"custom": true,
 			"customDuotone": true,
 			"customGradient": true,
+			"defaultDuotone": false,
 			"defaultGradients": false,
 			"defaultPalette": false,
 			"duotone": [
