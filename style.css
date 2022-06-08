@@ -249,7 +249,8 @@ input[type="submit"]:hover,
 .wp-block-code code {
 	overflow-wrap: normal;
 	overflow-x: scroll;
-	white-space: pre;
+	tab-size: 4;
+	white-space: pre !important;
 }
 
 *:not(.wp-block-code) > code,
