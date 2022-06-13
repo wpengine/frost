@@ -71,7 +71,7 @@
 <!-- wp:column {"verticalAlignment":"top","width":"25%"} -->
 <div class="wp-block-column is-vertically-aligned-top" style="flex-basis:25%">
 <!-- wp:paragraph -->
-<p>© <?php echo gmdate( 'Y' ); ?> Your Company Name LLC</p>
+<p>© <?php echo esc_html( gmdate( 'Y' ) ); ?> Your Company Name LLC</p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:column -->
