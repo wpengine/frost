@@ -137,9 +137,19 @@
 			"dropCap": false,
 			"fontFamilies": [
 				{
-					"fontFamily": "\"Outfit\", sans-serif",
+					"fontFamily": "Outfit, sans-serif",
 					"name": "Outfit",
-					"slug": "primary"
+					"slug": "primary",
+					"fontFace": [
+						{
+							"fontDisplay": "block",
+							"fontFamily": "Outfit",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "100 900",
+							"src": [ "file:./assets/fonts/Outfit-Variable.ttf.woff2" ]
+						}
+					]
 				},
 				{
 					"fontFamily": "monospace",

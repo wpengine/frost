@@ -33,7 +33,6 @@ if ( ! function_exists( 'frost_setup' ) ) {
 		add_editor_style(
 			array(
 				'./style.css',
-				frost_fonts_url(),
 			)
 		);
 
@@ -49,33 +48,6 @@ add_action( 'wp_enqueue_scripts', 'frost_enqueue_style_sheet' );
 function frost_enqueue_style_sheet() {
 
 	wp_enqueue_style( 'frost', get_template_directory_uri() . '/style.css', array(), wp_get_theme()->get( 'Version' ) );
-
-}
-
-// Enqueue fonts.
-add_action( 'wp_enqueue_scripts', 'frost_enqueue_fonts' );
-function frost_enqueue_fonts() {
-
-	wp_enqueue_style( 'frost-fonts', frost_fonts_url(), array(), null );
-
-}
-
-// Define fonts.
-function frost_fonts_url() {
-
-	// Allow child themes to disable to the default Frost fonts.
-	$dequeue_fonts = apply_filters( 'frost_dequeue_fonts', false );
-
-	if ( $dequeue_fonts ) {
-		return '';
-	}
-
-	$fonts = array(
-		'family=Outfit:wght@100;200;300;400;500;600;700;800;900',
-	);
-
-	// Make a single request for all Google Fonts.
-	return esc_url_raw( 'https://fonts.googleapis.com/css2?' . implode( '&', array_unique( $fonts ) ) . '&display=swap' );
 
 }
 
