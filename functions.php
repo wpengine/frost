@@ -66,7 +66,7 @@ function frost_register_block_styles() {
 		'core/group'           => array(
 			'shadow'       => __( 'Shadow', 'frost' ),
 			'shadow-solid' => __( 'Shadow Solid', 'frost' ),
-			'full-height'     => __( 'Full-height', 'frost' ),
+			'full-height'  => __( 'Full-height', 'frost' ),
 		),
 		'core/image'           => array(
 			'shadow' => __( 'Shadow', 'frost' ),
