@@ -143,7 +143,7 @@
 							"fontStretch": "normal",
 							"fontStyle": "normal",
 							"fontWeight": "100 900",
-							"src": [ "file:./assets/fonts/Outfit-Variable.ttf.woff2" ]
+							"src": [ "file:./assets/fonts/Outfit-Variable.woff2" ]
 						}
 					]
 				},
