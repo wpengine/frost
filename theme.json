@@ -285,7 +285,10 @@
 			"core/image": {
 				"spacing": {
 					"margin": {
-						"bottom": "30px"
+						"top": "0",
+						"right": "0",
+						"bottom": "30px",
+						"left": "0"
 					}
 				}
 			},
