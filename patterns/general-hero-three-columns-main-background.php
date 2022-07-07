@@ -26,7 +26,7 @@
 <!-- wp:column -->
 <div class="wp-block-column">
 <!-- wp:image {"id":242,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo esc_url( __( 'https://frostwp.com/wp-content/uploads/2021/12/sample-white_1200x1200.jpg', 'frost' ) ); ?>"  alt="<?php echo esc_attr__( 'Sample Image', 'frost' ); ?>" class="wp-image-242"/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/sample-white_1200x1200.jpg'; ?>"  alt="<?php echo esc_attr__( 'Sample Image', 'frost' ); ?>" class="wp-image-242"/></figure>
 <!-- /wp:image -->
 <!-- wp:heading {"textAlign":"center","level":3} -->
 <h3 class="has-text-align-center" id="sample-heading-1"><?php echo esc_html__( 'Sample Heading', 'frost' ); ?></h3>
@@ -46,7 +46,7 @@
 <!-- wp:column -->
 <div class="wp-block-column">
 <!-- wp:image {"id":242,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo esc_url( __( 'https://frostwp.com/wp-content/uploads/2021/12/sample-white_1200x1200.jpg', 'frost' ) ); ?>"  alt="<?php echo esc_attr__( 'Sample Image', 'frost' ); ?>" class="wp-image-242"/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/sample-white_1200x1200.jpg'; ?>"  alt="<?php echo esc_attr__( 'Sample Image', 'frost' ); ?>" class="wp-image-242"/></figure>
 <!-- /wp:image -->
 <!-- wp:heading {"textAlign":"center","level":3} -->
 <h3 class="has-text-align-center" id="sample-heading-2"><?php echo esc_html__( 'Sample Heading', 'frost' ); ?></h3>
@@ -66,7 +66,7 @@
 <!-- wp:column -->
 <div class="wp-block-column">
 <!-- wp:image {"id":242,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo esc_url( __( 'https://frostwp.com/wp-content/uploads/2021/12/sample-white_1200x1200.jpg', 'frost' ) ); ?>"  alt="<?php echo esc_attr__( 'Sample Image', 'frost' ); ?>" class="wp-image-242"/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/sample-white_1200x1200.jpg'; ?>"  alt="<?php echo esc_attr__( 'Sample Image', 'frost' ); ?>" class="wp-image-242"/></figure>
 <!-- /wp:image -->
 <!-- wp:heading {"textAlign":"center","level":3} -->
 <h3 class="has-text-align-center" id="sample-heading-3"><?php echo esc_html__( 'Sample Heading', 'frost' ); ?></h3>

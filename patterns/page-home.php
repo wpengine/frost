@@ -13,7 +13,7 @@
 <div style="height:70px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 <!-- wp:image {"id":3480,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo esc_url( __( 'https://frostwp.com/wp-content/uploads/2021/12/sample-black_1920x1200.jpg', 'frost' ) ); ?>"  alt="<?php echo esc_attr__( 'Sample Image', 'frost' ); ?>" class="wp-image-3480"/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/sample-black_1920x1200.jpg'; ?>"  alt="<?php echo esc_attr__( 'Sample Image', 'frost' ); ?>" class="wp-image-3480"/></figure>
 <!-- /wp:image -->
 <!-- wp:spacer {"height":60} -->
 <div style="height:60px" aria-hidden="true" class="wp-block-spacer"></div>
@@ -46,7 +46,7 @@
 <!-- /wp:spacer -->
 <!-- wp:media-text {"mediaPosition":"right","mediaId":3484,"mediaLink":"https://frostwp.com/patterns/hero-section/sample-white_1200x1200/","mediaType":"image","mediaWidth":40} -->
 <div class="wp-block-media-text alignwide has-media-on-the-right is-stacked-on-mobile" style="grid-template-columns:auto 40%">
-<figure class="wp-block-media-text__media"><img src="<?php echo esc_url( __( 'https://frostwp.com/wp-content/uploads/2021/12/sample-white_1200x1200-1024x1024.jpg', 'frost' ) ); ?>"  alt="<?php echo esc_attr__( 'Sample Image', 'frost' ); ?>" class="wp-image-3484 size-full"/></figure>
+<figure class="wp-block-media-text__media"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/sample-white_1200x1200.jpg'; ?>"  alt="<?php echo esc_attr__( 'Sample Image', 'frost' ); ?>" class="wp-image-3484 size-full"/></figure>
 <div class="wp-block-media-text__content"><!-- wp:heading {"fontSize":"x-large"} -->
 <h2 class="has-x-large-font-size" id="text-on-left-media-on-right"><?php echo esc_html__( 'Text on left, media on right.', 'frost' ); ?></h2>
 <!-- /wp:heading -->
@@ -78,7 +78,7 @@
 <!-- /wp:spacer -->
 <!-- wp:media-text {"mediaId":3485,"mediaLink":"https://frostwp.com/patterns/hero-section/sample-black_1200x1200/","mediaType":"image","mediaWidth":40} -->
 <div class="wp-block-media-text alignwide is-stacked-on-mobile" style="grid-template-columns:40% auto">
-<figure class="wp-block-media-text__media"><img src="<?php echo esc_url( __( 'https://frostwp.com/wp-content/uploads/2021/12/sample-black_1200x1200-1024x1024.jpg', 'frost' ) ); ?>"  alt="<?php echo esc_attr__( 'Sample Image', 'frost' ); ?>" class="wp-image-3485 size-full"/></figure>
+<figure class="wp-block-media-text__media"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/sample-black_1200x1200.jpg'; ?>"  alt="<?php echo esc_attr__( 'Sample Image', 'frost' ); ?>" class="wp-image-3485 size-full"/></figure>
 <div class="wp-block-media-text__content">
 <!-- wp:heading {"fontSize":"x-large"} -->
 <h2 class="has-x-large-font-size" id="text-on-left-media-on-right"><?php echo esc_html__( 'Media on left, text on right.', 'frost' ); ?></h2>
@@ -155,7 +155,7 @@
 <!-- wp:column -->
 <div class="wp-block-column">
 <!-- wp:image {"id":676,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo esc_url( __( 'https://frostwp.com/wp-content/uploads/2021/12/sample-black_1200x1200.jpg', 'frost' ) ); ?>"  alt="<?php echo esc_attr__( 'Sample Image', 'frost' ); ?>" class="wp-image-676"/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/sample-black_1200x1200.jpg'; ?>"  alt="<?php echo esc_attr__( 'Sample Image', 'frost' ); ?>" class="wp-image-676"/></figure>
 <!-- /wp:image -->
 <!-- wp:heading {"textAlign":"center","level":3} -->
 <h3 class="has-text-align-center" id="sample-heading-1"><?php echo esc_html__( 'Sample Heading', 'frost' ); ?></h3>
@@ -175,7 +175,7 @@
 <!-- wp:column -->
 <div class="wp-block-column">
 <!-- wp:image {"id":676,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo esc_url( __( 'https://frostwp.com/wp-content/uploads/2021/12/sample-black_1200x1200.jpg', 'frost' ) ); ?>"  alt="<?php echo esc_attr__( 'Sample Image', 'frost' ); ?>" class="wp-image-676"/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/sample-black_1200x1200.jpg'; ?>"  alt="<?php echo esc_attr__( 'Sample Image', 'frost' ); ?>" class="wp-image-676"/></figure>
 <!-- /wp:image -->
 <!-- wp:heading {"textAlign":"center","level":3} -->
 <h3 class="has-text-align-center" id="sample-heading-2"><?php echo esc_html__( 'Sample Heading', 'frost' ); ?></h3>
@@ -195,7 +195,7 @@
 <!-- wp:column -->
 <div class="wp-block-column">
 <!-- wp:image {"id":676,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo esc_url( __( 'https://frostwp.com/wp-content/uploads/2021/12/sample-black_1200x1200.jpg', 'frost' ) ); ?>"  alt="<?php echo esc_attr__( 'Sample Image', 'frost' ); ?>" class="wp-image-676"/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/sample-black_1200x1200.jpg'; ?>"  alt="<?php echo esc_attr__( 'Sample Image', 'frost' ); ?>" class="wp-image-676"/></figure>
 <!-- /wp:image -->
 <!-- wp:heading {"textAlign":"center","level":3} -->
 <h3 class="has-text-align-center" id="sample-heading-3"><?php echo esc_html__( 'Sample Heading', 'frost' ); ?></h3>
