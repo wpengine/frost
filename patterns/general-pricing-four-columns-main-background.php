@@ -7,8 +7,8 @@
  */
 
 ?>
-<!-- wp:group {"align":"full","style":{"spacing":{"margin":{"top":"0px"}}},"backgroundColor":"main","textColor":"background","layout":{"inherit":true}} -->
-<div class="wp-block-group alignfull has-background-color has-main-background-color has-text-color has-background" style="margin-top:0px">
+<!-- wp:group {"align":"full","style":{"spacing":{"margin":{"top":"0px"}}},"backgroundColor":"foreground","textColor":"background","layout":{"inherit":true}} -->
+<div class="wp-block-group alignfull has-background-color has-foreground-background-color has-text-color has-background" style="margin-top:0px">
 <!-- wp:spacer -->
 <div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
@@ -22,8 +22,8 @@
 <div class="wp-block-columns alignwide has-smaller-left-margin">
 <!-- wp:column {"style":{"spacing":{"blockGap":"0px"}}} -->
 <div class="wp-block-column">
-<!-- wp:group {"style":{"spacing":{"padding":{"top":"20px","right":"30px","bottom":"20px","left":"30px"}}},"backgroundColor":"background","textColor":"main"} -->
-<div class="wp-block-group has-main-color has-background-background-color has-text-color has-background" style="padding-top:20px;padding-right:30px;padding-bottom:20px;padding-left:30px">
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"20px","right":"30px","bottom":"20px","left":"30px"}}},"backgroundColor":"background","textColor":"foreground"} -->
+<div class="wp-block-group has-foreground-color has-background-background-color has-text-color has-background" style="padding-top:20px;padding-right:30px;padding-bottom:20px;padding-left:30px">
 <!-- wp:heading {"textAlign":"center","level":4} -->
 <h4 class="has-text-align-center" id="personal-95"><?php echo esc_html__( 'Personal', 'frost' ); ?> - $95</h4>
 <!-- /wp:heading -->
@@ -63,8 +63,8 @@
 <!-- /wp:separator -->
 <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center","orientation":"horizontal"},"style":{"spacing":{"margin":{"top":"40px"}}}} -->
 <div class="wp-block-buttons" style="margin-top:40px">
-<!-- wp:button {"backgroundColor":"background","textColor":"main"} -->
-<div class="wp-block-button"><a class="wp-block-button__link has-main-color has-background-background-color has-text-color has-background"><?php echo esc_html__( 'Sign Up Now', 'frost' ); ?></a></div>
+<!-- wp:button {"backgroundColor":"background","textColor":"foreground"} -->
+<div class="wp-block-button"><a class="wp-block-button__link has-foreground-color has-background-background-color has-text-color has-background"><?php echo esc_html__( 'Sign Up Now', 'frost' ); ?></a></div>
 <!-- /wp:button -->
 </div>
 <!-- /wp:buttons -->
@@ -74,8 +74,8 @@
 <!-- /wp:column -->
 <!-- wp:column {"style":{"spacing":{"blockGap":"0px"}}} -->
 <div class="wp-block-column">
-<!-- wp:group {"style":{"spacing":{"padding":{"top":"20px","right":"30px","bottom":"20px","left":"30px"}}},"backgroundColor":"background","textColor":"main"} -->
-<div class="wp-block-group has-main-color has-background-background-color has-text-color has-background" style="padding-top:20px;padding-right:30px;padding-bottom:20px;padding-left:30px">
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"20px","right":"30px","bottom":"20px","left":"30px"}}},"backgroundColor":"background","textColor":"foreground"} -->
+<div class="wp-block-group has-foreground-color has-background-background-color has-text-color has-background" style="padding-top:20px;padding-right:30px;padding-bottom:20px;padding-left:30px">
 <!-- wp:heading {"textAlign":"center","level":4} -->
 <h4 class="has-text-align-center" id="personal-95"><?php echo esc_html__( 'Professional', 'frost' ); ?> - $295</h4>
 <!-- /wp:heading -->
@@ -115,8 +115,8 @@
 <!-- /wp:separator -->
 <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center","orientation":"horizontal"},"style":{"spacing":{"margin":{"top":"40px"}}}} -->
 <div class="wp-block-buttons" style="margin-top:40px">
-<!-- wp:button {"backgroundColor":"background","textColor":"main"} -->
-<div class="wp-block-button"><a class="wp-block-button__link has-main-color has-background-background-color has-text-color has-background"><?php echo esc_html__( 'Sign Up Now', 'frost' ); ?></a></div>
+<!-- wp:button {"backgroundColor":"background","textColor":"foreground"} -->
+<div class="wp-block-button"><a class="wp-block-button__link has-foreground-color has-background-background-color has-text-color has-background"><?php echo esc_html__( 'Sign Up Now', 'frost' ); ?></a></div>
 <!-- /wp:button -->
 </div>
 <!-- /wp:buttons -->
@@ -126,8 +126,8 @@
 <!-- /wp:column -->
 <!-- wp:column {"style":{"spacing":{"blockGap":"0px"}}} -->
 <div class="wp-block-column">
-<!-- wp:group {"style":{"spacing":{"padding":{"top":"20px","right":"30px","bottom":"20px","left":"30px"}}},"backgroundColor":"background","textColor":"main"} -->
-<div class="wp-block-group has-main-color has-background-background-color has-text-color has-background" style="padding-top:20px;padding-right:30px;padding-bottom:20px;padding-left:30px">
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"20px","right":"30px","bottom":"20px","left":"30px"}}},"backgroundColor":"background","textColor":"foreground"} -->
+<div class="wp-block-group has-foreground-color has-background-background-color has-text-color has-background" style="padding-top:20px;padding-right:30px;padding-bottom:20px;padding-left:30px">
 <!-- wp:heading {"textAlign":"center","level":4} -->
 <h4 class="has-text-align-center" id="personal-95"><?php echo esc_html__( 'Enterprise', 'frost' ); ?> - $495</h4>
 <!-- /wp:heading -->
@@ -167,8 +167,8 @@
 <!-- /wp:separator -->
 <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center","orientation":"horizontal"},"style":{"spacing":{"margin":{"top":"40px"}}}} -->
 <div class="wp-block-buttons" style="margin-top:40px">
-<!-- wp:button {"backgroundColor":"background","textColor":"main"} -->
-<div class="wp-block-button"><a class="wp-block-button__link has-main-color has-background-background-color has-text-color has-background"><?php echo esc_html__( 'Sign Up Now', 'frost' ); ?></a></div>
+<!-- wp:button {"backgroundColor":"background","textColor":"foreground"} -->
+<div class="wp-block-button"><a class="wp-block-button__link has-foreground-color has-background-background-color has-text-color has-background"><?php echo esc_html__( 'Sign Up Now', 'frost' ); ?></a></div>
 <!-- /wp:button -->
 </div>
 <!-- /wp:buttons -->
@@ -178,8 +178,8 @@
 <!-- /wp:column -->
 <!-- wp:column {"style":{"spacing":{"blockGap":"0px"}}} -->
 <div class="wp-block-column">
-<!-- wp:group {"style":{"spacing":{"padding":{"top":"20px","right":"30px","bottom":"20px","left":"30px"}}},"backgroundColor":"background","textColor":"main"} -->
-<div class="wp-block-group has-main-color has-background-background-color has-text-color has-background" style="padding-top:20px;padding-right:30px;padding-bottom:20px;padding-left:30px">
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"20px","right":"30px","bottom":"20px","left":"30px"}}},"backgroundColor":"background","textColor":"foreground"} -->
+<div class="wp-block-group has-foreground-color has-background-background-color has-text-color has-background" style="padding-top:20px;padding-right:30px;padding-bottom:20px;padding-left:30px">
 <!-- wp:heading {"textAlign":"center","level":4} -->
 <h4 class="has-text-align-center" id="personal-95"><?php echo esc_html__( 'Ultimate', 'frost' ); ?> - $995</h4>
 <!-- /wp:heading -->
@@ -219,8 +219,8 @@
 <!-- /wp:separator -->
 <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center","orientation":"horizontal"},"style":{"spacing":{"margin":{"top":"40px"}}}} -->
 <div class="wp-block-buttons" style="margin-top:40px">
-<!-- wp:button {"backgroundColor":"background","textColor":"main"} -->
-<div class="wp-block-button"><a class="wp-block-button__link has-main-color has-background-background-color has-text-color has-background"><?php echo esc_html__( 'Sign Up Now', 'frost' ); ?></a></div>
+<!-- wp:button {"backgroundColor":"background","textColor":"foreground"} -->
+<div class="wp-block-button"><a class="wp-block-button__link has-foreground-color has-background-background-color has-text-color has-background"><?php echo esc_html__( 'Sign Up Now', 'frost' ); ?></a></div>
 <!-- /wp:button -->
 </div>
 <!-- /wp:buttons -->
