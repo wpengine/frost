@@ -20,13 +20,13 @@
 					"color": "#00cccc"
 				},
 				{
-					"name": "Main",
-					"slug": "main",
+					"name": "Foreground",
+					"slug": "foreground",
 					"color": "#fff"
 				},
 				{
-					"name": "Base",
-					"slug": "base",
+					"name": "Background",
+					"slug": "background",
 					"color": "#000"
 				}
 			]

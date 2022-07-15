@@ -7,8 +7,8 @@
  */
 
 ?>
-<!-- wp:group {"align":"full","style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}},"spacing":{"padding":{"top":"100px","bottom":"40px"},"margin":{"top":"0px"}}},"backgroundColor":"main","textColor":"base","layout":{"inherit":true}} -->
-<div class="wp-block-group alignfull has-base-color has-main-background-color has-text-color has-background has-link-color" style="margin-top:0px;padding-top:100px;padding-bottom:40px">
+<!-- wp:group {"align":"full","style":{"elements":{"link":{"color":{"text":"var:preset|color|background"}}},"spacing":{"padding":{"top":"100px","bottom":"40px"},"margin":{"top":"0px"}}},"backgroundColor":"main","textColor":"background","layout":{"inherit":true}} -->
+<div class="wp-block-group alignfull has-background-color has-main-background-color has-text-color has-background has-link-color" style="margin-top:0px;padding-top:100px;padding-bottom:40px">
 <!-- wp:heading {"textAlign":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"400"},"spacing":{"margin":{"bottom":"20px"}}},"fontSize":"max-48"} -->
 <h2 class="has-text-align-center has-max-48-font-size" id="let-s-connect" style="font-style:normal;font-weight:400;margin-bottom:20px"><?php echo esc_html__( 'Let’s Connect', 'frost' ); ?></h2>
 <!-- /wp:heading -->
@@ -17,8 +17,8 @@
 <!-- /wp:paragraph -->
 <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center","orientation":"horizontal"}} -->
 <div class="wp-block-buttons">
-<!-- wp:button {"style":{"border":{"radius":0}},"className":"is-style-outline-base"} -->
-<div class="wp-block-button is-style-outline-base"><a class="wp-block-button__link no-border-radius" href="#"><?php echo esc_html__( 'Get in Touch', 'frost' ); ?> →</a></div>
+<!-- wp:button {"style":{"border":{"radius":0}},"className":"is-style-outline-background"} -->
+<div class="wp-block-button is-style-outline-background"><a class="wp-block-button__link no-border-radius" href="#"><?php echo esc_html__( 'Get in Touch', 'frost' ); ?> →</a></div>
 <!-- /wp:button -->
 </div>
 <!-- /wp:buttons -->

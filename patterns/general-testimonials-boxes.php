@@ -7,8 +7,8 @@
  */
 
 ?>
-<!-- wp:group {"align":"full","style":{"spacing":{"margin":{"top":"0px"}}},"textColor":"base","layout":{"inherit":true}} -->
-<div class="wp-block-group alignfull has-base-color has-text-color" style="margin-top:0px">
+<!-- wp:group {"align":"full","style":{"spacing":{"margin":{"top":"0px"}}},"textColor":"background","layout":{"inherit":true}} -->
+<div class="wp-block-group alignfull has-background-color has-text-color" style="margin-top:0px">
 <!-- wp:spacer {"height":100} -->
 <div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->

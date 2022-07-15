@@ -116,7 +116,7 @@ input[type="submit"],
 	border: 1px solid var(--wp--preset--color--main);
 	border-radius: 0;
 	background-color: var(--wp--preset--color--main);
-	color: var(--wp--preset--color--base);
+	color: var(--wp--preset--color--background);
 	cursor: pointer;
 	font-size: var(--wp--preset--font-size--small);
 	font-weight: var(--wp--custom--font-weight--medium);
@@ -142,7 +142,7 @@ input[type="submit"]:hover,
 
 .wp-block-button__link.has-background:focus,
 .wp-block-button__link.has-background:hover {
-	color: var(--wp--preset--color--base);
+	color: var(--wp--preset--color--background);
 	filter: brightness(110%);
 }
 
@@ -151,20 +151,20 @@ input[type="submit"]:hover,
 	color: var(--wp--preset--color--main);
 }
 
-/* Button - Fill Base
+/* Button - Fill Background
 --------------------------------------------- */
 
-.wp-block-button.is-style-fill-base .wp-block-button__link {
-	background-color: var(--wp--preset--color--base);
-	border: 1px solid var(--wp--preset--color--base);
+.wp-block-button.is-style-fill-background .wp-block-button__link {
+	background-color: var(--wp--preset--color--background);
+	border: 1px solid var(--wp--preset--color--background);
 	color: var(--wp--preset--color--main);
 }
 
-.wp-block-button.is-style-fill-base .wp-block-button__link:focus,
-.wp-block-button.is-style-fill-base .wp-block-button__link:hover {
+.wp-block-button.is-style-fill-background .wp-block-button__link:focus,
+.wp-block-button.is-style-fill-background .wp-block-button__link:hover {
 	background-color: transparent;
-	border: 1px solid var(--wp--preset--color--base);
-	color: var(--wp--preset--color--base);
+	border: 1px solid var(--wp--preset--color--background);
+	color: var(--wp--preset--color--background);
 }
 
 /* Button - Outline
@@ -182,22 +182,22 @@ input[type="submit"]:hover,
 .wp-block-button.is-style-outline .wp-block-button__link:hover {
 	background-color: var(--wp--preset--color--main);
 	border-color: var(--wp--preset--color--main);
-	color: var(--wp--preset--color--base);
+	color: var(--wp--preset--color--background);
 }
 
-/* Button - Outline Base
+/* Button - Outline Background
 --------------------------------------------- */
 
-.wp-block-button.is-style-outline-base .wp-block-button__link {
+.wp-block-button.is-style-outline-background .wp-block-button__link {
 	background-color: transparent;
 	border: 1px solid;
-	border-color: var(--wp--preset--color--base);
-	color: var(--wp--preset--color--base);
+	border-color: var(--wp--preset--color--background);
+	color: var(--wp--preset--color--background);
 }
 
-.wp-block-button.is-style-outline-base .wp-block-button__link:focus,
-.wp-block-button.is-style-outline-base .wp-block-button__link:hover {
-	background-color: var(--wp--preset--color--base);
+.wp-block-button.is-style-outline-background .wp-block-button__link:focus,
+.wp-block-button.is-style-outline-background .wp-block-button__link:hover {
+	background-color: var(--wp--preset--color--background);
 	color: var(--wp--preset--color--main);
 }
 
@@ -211,7 +211,7 @@ input[type="submit"]:hover,
 
 .wp-block-calendar table th {
 	background-color: var(--wp--preset--color--main);
-	color: var(--wp--preset--color--base);
+	color: var(--wp--preset--color--background);
 }
 
 .wp-block-calendar tbody td,
@@ -256,7 +256,7 @@ input[type="submit"]:hover,
 *:not(.wp-block-code) > code,
 kbd {
 	background-color: var(--wp--preset--color--main);
-	color: var(--wp--preset--color--base);
+	color: var(--wp--preset--color--background);
 	font-size: var(--wp--preset--font-size--small);
 	padding: 5px 8px;
 	position: relative;
@@ -365,12 +365,12 @@ ul li:where(.wp-block-list) {
 }
 
 .has-background .wp-block-navigation__responsive-container-open {
-	border: 1px solid var(--wp--preset--color--base);
+	border: 1px solid var(--wp--preset--color--background);
 }
 
 .has-background .wp-block-navigation__responsive-container-open:focus,
 .has-background .wp-block-navigation__responsive-container-open:hover {
-	color: var(--wp--preset--color--base);
+	color: var(--wp--preset--color--background);
 }
 
 .wp-block-navigation:not([style*=text-decoration]) a,
@@ -385,7 +385,7 @@ ul li:where(.wp-block-list) {
 .wp-block-navigation:not(.has-background) .wp-block-navigation__submenu-container {
 	background-color: var(--wp--preset--color--main);
 	border: var(--wp--preset--color--main);
-	color: var(--wp--preset--color--base);
+	color: var(--wp--preset--color--background);
 	padding: 10px;
 }
 
@@ -533,7 +533,7 @@ input,
 select,
 textarea,
 .wp-block-search__input {
-	background-color: var(--wp--preset--color--base);
+	background-color: var(--wp--preset--color--background);
 	border: 1px solid var(--wp--preset--color--main);
 	border-radius: 0;
 	color: var(--wp--preset--color--main);
@@ -617,9 +617,9 @@ p:last-child,
 	--------------------------------------------- */
 
 	.wp-block-navigation-item.is-style-fill a,
-	.wp-block-navigation-item.is-style-fill-base a,
+	.wp-block-navigation-item.is-style-fill-background a,
 	.wp-block-navigation-item.is-style-outline a,
-	.wp-block-navigation-item.is-style-outline-base a {
+	.wp-block-navigation-item.is-style-outline-background a {
 		padding: 5px 15px;
 	}
 
@@ -629,10 +629,10 @@ p:last-child,
 		background-color: var(--wp--preset--color--main);
 	}
 
-	.wp-block-navigation-item.is-style-fill-base a,
-	.wp-block-navigation-item.is-style-outline-base a:focus,
-	.wp-block-navigation-item.is-style-outline-base a:hover {
-		background-color: var(--wp--preset--color--base);
+	.wp-block-navigation-item.is-style-fill-background a,
+	.wp-block-navigation-item.is-style-outline-background a:focus,
+	.wp-block-navigation-item.is-style-outline-background a:hover {
+		background-color: var(--wp--preset--color--background);
 	}
 
 	.wp-block-navigation-item.is-style-fill a,
@@ -640,35 +640,35 @@ p:last-child,
 		border: 1px solid var(--wp--preset--color--main);
 	}
 
-	.wp-block-navigation-item.is-style-fill-base a,
-	.wp-block-navigation-item.is-style-outline-base a {
-		border: 1px solid var(--wp--preset--color--base);
+	.wp-block-navigation-item.is-style-fill-background a,
+	.wp-block-navigation-item.is-style-outline-background a {
+		border: 1px solid var(--wp--preset--color--background);
 	}
 
 	.wp-block-navigation-item.is-style-fill a:focus,
 	.wp-block-navigation-item.is-style-fill a:hover,
-	.wp-block-navigation-item.is-style-fill-base a,
+	.wp-block-navigation-item.is-style-fill-background a,
 	.wp-block-navigation-item.is-style-outline a,
-	.wp-block-navigation-item.is-style-outline-base a:focus,
-	.wp-block-navigation-item.is-style-outline-base a:hover {
+	.wp-block-navigation-item.is-style-outline-background a:focus,
+	.wp-block-navigation-item.is-style-outline-background a:hover {
 		color: var(--wp--preset--color--main);
 	}
 
 	.wp-block-navigation-item.is-style-fill a,
-	.wp-block-navigation-item.is-style-fill-base a:focus,
-	.wp-block-navigation-item.is-style-fill-base a:hover,
+	.wp-block-navigation-item.is-style-fill-background a:focus,
+	.wp-block-navigation-item.is-style-fill-background a:hover,
 	.wp-block-navigation-item.is-style-outline a:focus,
 	.wp-block-navigation-item.is-style-outline a:hover,
-	.wp-block-navigation-item.is-style-outline-base a {
-		color: var(--wp--preset--color--base);
+	.wp-block-navigation-item.is-style-outline-background a {
+		color: var(--wp--preset--color--background);
 	}
 
 	.wp-block-navigation-item.is-style-fill a:focus,
 	.wp-block-navigation-item.is-style-fill a:hover,
-	.wp-block-navigation-item.is-style-fill-base a:focus,
-	.wp-block-navigation-item.is-style-fill-base a:hover,
+	.wp-block-navigation-item.is-style-fill-background a:focus,
+	.wp-block-navigation-item.is-style-fill-background a:hover,
 	.wp-block-navigation-item.is-style-outline a,
-	.wp-block-navigation-item.is-style-outline-base a {
+	.wp-block-navigation-item.is-style-outline-background a {
 		background-color: transparent;
 	}
 

@@ -22,8 +22,8 @@
 <div class="wp-block-columns alignwide has-smaller-left-margin">
 <!-- wp:column {"style":{"spacing":{"blockGap":"0px"}}} -->
 <div class="wp-block-column">
-<!-- wp:group {"style":{"spacing":{"padding":{"top":"20px","right":"30px","bottom":"20px","left":"30px"}}},"backgroundColor":"main","textColor":"base"} -->
-<div class="wp-block-group has-base-color has-main-background-color has-text-color has-background" style="padding-top:20px;padding-right:30px;padding-bottom:20px;padding-left:30px">
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"20px","right":"30px","bottom":"20px","left":"30px"}}},"backgroundColor":"main","textColor":"background"} -->
+<div class="wp-block-group has-background-color has-main-background-color has-text-color has-background" style="padding-top:20px;padding-right:30px;padding-bottom:20px;padding-left:30px">
 <!-- wp:heading {"textAlign":"center","level":4} -->
 <h4 class="has-text-align-center" id="personal-95"><?php echo esc_html__( 'Personal', 'frost' ); ?> - $95</h4>
 <!-- /wp:heading -->
@@ -74,8 +74,8 @@
 <!-- /wp:column -->
 <!-- wp:column {"style":{"spacing":{"blockGap":"0px"}}} -->
 <div class="wp-block-column">
-<!-- wp:group {"style":{"spacing":{"padding":{"top":"20px","right":"30px","bottom":"20px","left":"30px"}}},"backgroundColor":"main","textColor":"base"} -->
-<div class="wp-block-group has-base-color has-main-background-color has-text-color has-background" style="padding-top:20px;padding-right:30px;padding-bottom:20px;padding-left:30px">
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"20px","right":"30px","bottom":"20px","left":"30px"}}},"backgroundColor":"main","textColor":"background"} -->
+<div class="wp-block-group has-background-color has-main-background-color has-text-color has-background" style="padding-top:20px;padding-right:30px;padding-bottom:20px;padding-left:30px">
 <!-- wp:heading {"textAlign":"center","level":4} -->
 <h4 class="has-text-align-center" id="personal-95"><?php echo esc_html__( 'Professional', 'frost' ); ?> - $295</h4>
 <!-- /wp:heading -->
@@ -126,8 +126,8 @@
 <!-- /wp:column -->
 <!-- wp:column {"style":{"spacing":{"blockGap":"0px"}}} -->
 <div class="wp-block-column">
-<!-- wp:group {"style":{"spacing":{"padding":{"top":"20px","right":"30px","bottom":"20px","left":"30px"}}},"backgroundColor":"main","textColor":"base"} -->
-<div class="wp-block-group has-base-color has-main-background-color has-text-color has-background" style="padding-top:20px;padding-right:30px;padding-bottom:20px;padding-left:30px">
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"20px","right":"30px","bottom":"20px","left":"30px"}}},"backgroundColor":"main","textColor":"background"} -->
+<div class="wp-block-group has-background-color has-main-background-color has-text-color has-background" style="padding-top:20px;padding-right:30px;padding-bottom:20px;padding-left:30px">
 <!-- wp:heading {"textAlign":"center","level":4} -->
 <h4 class="has-text-align-center" id="personal-95"><?php echo esc_html__( 'Enterprise', 'frost' ); ?> - $495</h4>
 <!-- /wp:heading -->
@@ -178,8 +178,8 @@
 <!-- /wp:column -->
 <!-- wp:column {"style":{"spacing":{"blockGap":"0px"}}} -->
 <div class="wp-block-column">
-<!-- wp:group {"style":{"spacing":{"padding":{"top":"20px","right":"30px","bottom":"20px","left":"30px"}}},"backgroundColor":"main","textColor":"base"} -->
-<div class="wp-block-group has-base-color has-main-background-color has-text-color has-background" style="padding-top:20px;padding-right:30px;padding-bottom:20px;padding-left:30px">
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"20px","right":"30px","bottom":"20px","left":"30px"}}},"backgroundColor":"main","textColor":"background"} -->
+<div class="wp-block-group has-background-color has-main-background-color has-text-color has-background" style="padding-top:20px;padding-right:30px;padding-bottom:20px;padding-left:30px">
 <!-- wp:heading {"textAlign":"center","level":4} -->
 <h4 class="has-text-align-center" id="personal-95"><?php echo esc_html__( 'Ultimate', 'frost' ); ?> - $995</h4>
 <!-- /wp:heading -->

@@ -16,8 +16,8 @@
 <div class="wp-block-columns alignwide">
 <!-- wp:column -->
 <div class="wp-block-column">
-<!-- wp:group {"style":{"spacing":{"padding":{"top":"40px","right":"40px","bottom":"40px","left":"40px"}}},"backgroundColor":"base"} -->
-<div class="wp-block-group has-base-background-color has-background" style="padding-top:40px;padding-right:40px;padding-bottom:40px;padding-left:40px">
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"40px","right":"40px","bottom":"40px","left":"40px"}}},"backgroundColor":"background"} -->
+<div class="wp-block-group has-background-background-color has-background" style="padding-top:40px;padding-right:40px;padding-bottom:40px;padding-left:40px">
 <!-- wp:heading {"textAlign":"center","level":4,"style":{"typography":{"fontSize":72,"lineHeight":"1"}}} -->
 <h4 class="has-text-align-center" style="font-size:72px;line-height:1">“</h4>
 <!-- /wp:heading -->
@@ -33,8 +33,8 @@
 <!-- /wp:column -->
 <!-- wp:column -->
 <div class="wp-block-column">
-<!-- wp:group {"style":{"spacing":{"padding":{"top":"40px","right":"40px","bottom":"40px","left":"40px"}}},"backgroundColor":"base"} -->
-<div class="wp-block-group has-base-background-color has-background" style="padding-top:40px;padding-right:40px;padding-bottom:40px;padding-left:40px">
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"40px","right":"40px","bottom":"40px","left":"40px"}}},"backgroundColor":"background"} -->
+<div class="wp-block-group has-background-background-color has-background" style="padding-top:40px;padding-right:40px;padding-bottom:40px;padding-left:40px">
 <!-- wp:heading {"textAlign":"center","level":4,"style":{"typography":{"fontSize":72,"lineHeight":"1"}}} -->
 <h4 class="has-text-align-center" style="font-size:72px;line-height:1">“</h4>
 <!-- /wp:heading -->
@@ -50,8 +50,8 @@
 <!-- /wp:column -->
 <!-- wp:column -->
 <div class="wp-block-column">
-<!-- wp:group {"style":{"spacing":{"padding":{"top":"40px","right":"40px","bottom":"40px","left":"40px"}}},"backgroundColor":"base"} -->
-<div class="wp-block-group has-base-background-color has-background" style="padding-top:40px;padding-right:40px;padding-bottom:40px;padding-left:40px">
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"40px","right":"40px","bottom":"40px","left":"40px"}}},"backgroundColor":"background"} -->
+<div class="wp-block-group has-background-background-color has-background" style="padding-top:40px;padding-right:40px;padding-bottom:40px;padding-left:40px">
 <!-- wp:heading {"textAlign":"center","level":4,"style":{"typography":{"fontSize":72,"lineHeight":"1"}}} -->
 <h4 class="has-text-align-center" style="font-size:72px;line-height:1">“</h4>
 <!-- /wp:heading -->

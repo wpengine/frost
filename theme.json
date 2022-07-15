@@ -89,13 +89,13 @@
 					"color": "#00cccc"
 				},
 				{
-					"name": "Main",
-					"slug": "main",
+					"name": "Foreground",
+					"slug": "foreground",
 					"color": "#000"
 				},
 				{
-					"name": "Base",
-					"slug": "base",
+					"name": "Background",
+					"slug": "background",
 					"color": "#fff"
 				}
 			]
@@ -210,7 +210,7 @@
 				},
 				"color": {
 					"background": "var(--wp--preset--color--main)",
-					"text": "var(--wp--preset--color--base)"
+					"text": "var(--wp--preset--color--background)"
 				},
 				"spacing": {
 					"padding": {
@@ -318,7 +318,7 @@
 				},
 				"color": {
 					"background": "var(--wp--preset--color--main)",
-					"text": "var(--wp--preset--color--base)"
+					"text": "var(--wp--preset--color--background)"
 				},
 				"spacing": {
 					"padding": {
@@ -415,7 +415,7 @@
 			}
 		},
 		"color": {
-			"background": "var(--wp--preset--color--base)",
+			"background": "var(--wp--preset--color--background)",
 			"text": "var(--wp--preset--color--main)"
 		},
 		"elements": {
@@ -428,7 +428,7 @@
 				},
 				"color": {
 					"background": "var(--wp--preset--color--main)",
-					"text": "var(--wp--preset--color--base)"
+					"text": "var(--wp--preset--color--background)"
 				},
 				"spacing": {
 					"padding": {
