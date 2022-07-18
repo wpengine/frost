@@ -9,8 +9,6 @@
 ?>
 <!-- wp:query {"queryId":0,"query":{"perPage":"5","pages":0,"offset":0,"postType":"post","categoryIds":[],"tagIds":[],"order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true},"layout":{"inherit":true}} -->
 <div class="wp-block-query">
-<!-- wp:query-title {"type":"archive","fontSize":"large"} /-->
-<!-- wp:term-description /-->
 <!-- wp:post-template -->
 <!-- wp:post-title {"isLink":true} /-->
 <!-- wp:post-content /-->
