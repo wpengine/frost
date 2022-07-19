@@ -16,20 +16,6 @@
 				"page",
 				"post"
 			]
-		},
-		{
-			"name": "page-cover",
-			"title": "Page (Cover Image)",
-			"postTypes": [
-				"page"
-			]
-		},
-		{
-			"name": "single-cover",
-			"title": "Single Post (Cover Image)",
-			"postTypes": [
-				"post"
-			]
 		}
 	],
 	"settings": {
