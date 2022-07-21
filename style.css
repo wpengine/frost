@@ -44,6 +44,7 @@ textarea:focus,
 }
 
 a,
+a:not(.wp-element-button),
 a:focus,
 a:hover {
 	text-decoration: underline;
