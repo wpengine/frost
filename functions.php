@@ -60,8 +60,8 @@ function frost_register_block_styles() {
 
 	$block_styles = array(
 		'core/button'          => array(
-			'fill-base'    => __( 'Fill Base', 'frost' ),
-			'outline-base' => __( 'Outline Base', 'frost' ),
+			'fill-background'    => __( 'Fill Background', 'frost' ),
+			'outline-background' => __( 'Outline Background', 'frost' ),
 		),
 		'core/group'           => array(
 			'shadow'       => __( 'Shadow', 'frost' ),
@@ -79,9 +79,9 @@ function frost_register_block_styles() {
 		),
 		'core/navigation-link' => array(
 			'fill'         => __( 'Fill', 'frost' ),
-			'fill-base'    => __( 'Fill Base', 'frost' ),
+			'fill-background'    => __( 'Fill Background', 'frost' ),
 			'outline'      => __( 'Outline', 'frost' ),
-			'outline-base' => __( 'Outline Base', 'frost' ),
+			'outline-background' => __( 'Outline Background', 'frost' ),
 		),
 	);
 

@@ -17,7 +17,7 @@
 <!-- wp:column {"verticalAlignment":"center","width":"30%"} -->
 <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:30%">
 <!-- wp:image {"id":3489,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo esc_url( __( 'https://frostwp.com/wp-content/uploads/2021/12/sample-black_800x800.jpg', 'frost' ) ); ?>"  alt="<?php echo esc_attr__( 'Sample Image', 'frost' ); ?>" class="wp-image-3489"/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/sample-black_800x800.jpg'; ?>"  alt="<?php echo esc_attr__( 'Sample Image', 'frost' ); ?>" class="wp-image-3489"/></figure>
 <!-- /wp:image -->
 </div>
 <!-- /wp:column -->
@@ -30,7 +30,7 @@
 <p style="line-height:1.5">Lorem ipsum dolor sit amet, consectetur adipiscing vestibulum. Quisque vitae mi pellentesque arcu fermentum, dignissim velit vitae, malesuad elit condimentum. Vestibulum et faucibus.</p>
 <!-- /wp:paragraph -->
 <!-- wp:audio {"id":3546} -->
-<figure class="wp-block-audio"><audio controls src="<?php echo esc_url( __( 'https://frostwp.com/wp-content/uploads/2021/12/sample-audio-file.mp3', 'frost' ) ); ?>"></audio></figure>
+<figure class="wp-block-audio"><audio controls src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/audio/sample-audio-file.mp3'; ?>"></audio></figure>
 <!-- /wp:audio -->
 <!-- wp:buttons {"style":{"spacing":{"blockGap":"10px"}}} -->
 <div class="wp-block-buttons">

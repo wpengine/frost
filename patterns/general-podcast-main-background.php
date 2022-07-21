@@ -7,8 +7,8 @@
  */
 
 ?>
-<!-- wp:group {"align":"full","style":{"spacing":{"margin":{"top":"0px"}}},"backgroundColor":"main","textColor":"base","layout":{"inherit":true}} -->
-<div class="wp-block-group alignfull has-base-color has-main-background-color has-text-color has-background" style="margin-top:0px">
+<!-- wp:group {"align":"full","style":{"spacing":{"margin":{"top":"0px"}}},"backgroundColor":"foreground","textColor":"background","layout":{"inherit":true}} -->
+<div class="wp-block-group alignfull has-background-color has-foreground-background-color has-text-color has-background" style="margin-top:0px">
 <!-- wp:spacer {"height":100} -->
 <div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
@@ -17,7 +17,7 @@
 <!-- wp:column {"verticalAlignment":"center","width":"30%"} -->
 <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:30%">
 <!-- wp:image {"id":3488,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo esc_url( __( 'https://frostwp.com/wp-content/uploads/2021/12/sample-white_800x800.jpg', 'frost' ) ); ?>"  alt="<?php echo esc_attr__( 'Sample Image', 'frost' ); ?>" class="wp-image-3488"/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/sample-white_800x800.jpg'; ?>"  alt="<?php echo esc_attr__( 'Sample Image', 'frost' ); ?>" class="wp-image-3488"/></figure>
 <!-- /wp:image -->
 </div>
 <!-- /wp:column -->
@@ -30,21 +30,21 @@
 <p style="line-height:1.5">Lorem ipsum dolor sit amet, consectetur adipiscing vestibulum. Quisque vitae mi pellentesque arcu fermentum, dignissim velit vitae, malesuad elit condimentum. Vestibulum et faucibus.</p>
 <!-- /wp:paragraph -->
 <!-- wp:audio {"id":3546} -->
-<figure class="wp-block-audio"><audio controls src="<?php echo esc_url( __( 'https://frostwp.com/wp-content/uploads/2021/12/sample-audio-file.mp3', 'frost' ) ); ?>"></audio></figure>
+<figure class="wp-block-audio"><audio controls src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/audio/sample-audio-file.mp3'; ?>"></audio></figure>
 <!-- /wp:audio -->
 <!-- wp:buttons {"style":{"spacing":{"blockGap":"10px"}}} -->
 <div class="wp-block-buttons">
-<!-- wp:button {"className":"is-style-outline-base"} -->
-<div class="wp-block-button is-style-outline-base"><a class="wp-block-button__link" href="#">Apple Podcasts</a></div>
+<!-- wp:button {"className":"is-style-outline-background"} -->
+<div class="wp-block-button is-style-outline-background"><a class="wp-block-button__link" href="#">Apple Podcasts</a></div>
 <!-- /wp:button -->
-<!-- wp:button {"className":"is-style-outline-base"} -->
-<div class="wp-block-button is-style-outline-base"><a class="wp-block-button__link" href="#">Google Podcasts</a></div>
+<!-- wp:button {"className":"is-style-outline-background"} -->
+<div class="wp-block-button is-style-outline-background"><a class="wp-block-button__link" href="#">Google Podcasts</a></div>
 <!-- /wp:button -->
-<!-- wp:button {"className":"is-style-outline-base"} -->
-<div class="wp-block-button is-style-outline-base"><a class="wp-block-button__link" href="#">Spotify</a></div>
+<!-- wp:button {"className":"is-style-outline-background"} -->
+<div class="wp-block-button is-style-outline-background"><a class="wp-block-button__link" href="#">Spotify</a></div>
 <!-- /wp:button -->
-<!-- wp:button {"className":"is-style-outline-base"} -->
-<div class="wp-block-button is-style-outline-base"><a class="wp-block-button__link" href="#">Stitcher</a></div>
+<!-- wp:button {"className":"is-style-outline-background"} -->
+<div class="wp-block-button is-style-outline-background"><a class="wp-block-button__link" href="#">Stitcher</a></div>
 <!-- /wp:button -->
 </div>
 <!-- /wp:buttons -->

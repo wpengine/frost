@@ -7,8 +7,8 @@
  */
 
 ?>
-<!-- wp:group {"align":"full","style":{"spacing":{"margin":{"top":"0px"}}},"backgroundColor":"main","textColor":"base","layout":{"inherit":true}} -->
-<div class="wp-block-group alignfull has-base-color has-main-background-color has-text-color has-background" style="margin-top:0px">
+<!-- wp:group {"align":"full","style":{"spacing":{"margin":{"top":"0px"}}},"backgroundColor":"foreground","textColor":"background","layout":{"inherit":true}} -->
+<div class="wp-block-group alignfull has-background-color has-foreground-background-color has-text-color has-background" style="margin-top:0px">
 <!-- wp:spacer {"height":100} -->
 <div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
@@ -26,7 +26,7 @@
 <!-- wp:column -->
 <div class="wp-block-column">
 <!-- wp:image {"id":242,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo esc_url( __( 'https://frostwp.com/wp-content/uploads/2021/12/sample-white_1200x1200.jpg', 'frost' ) ); ?>"  alt="<?php echo esc_attr__( 'Sample Image', 'frost' ); ?>" class="wp-image-242"/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/sample-white_1200x1200.jpg'; ?>"  alt="<?php echo esc_attr__( 'Sample Image', 'frost' ); ?>" class="wp-image-242"/></figure>
 <!-- /wp:image -->
 <!-- wp:heading {"textAlign":"center","level":3} -->
 <h3 class="has-text-align-center" id="sample-heading-1"><?php echo esc_html__( 'Sample Heading', 'frost' ); ?></h3>
@@ -36,8 +36,8 @@
 <!-- /wp:paragraph -->
 <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center","orientation":"horizontal"}} -->
 <div class="wp-block-buttons">
-<!-- wp:button {"style":{"border":{"radius":0}},"className":"is-style-outline-base"} -->
-<div class="wp-block-button is-style-outline-base"><a class="wp-block-button__link no-border-radius"><?php echo esc_html__( 'Learn More', 'frost' ); ?></a></div>
+<!-- wp:button {"style":{"border":{"radius":0}},"className":"is-style-outline-background"} -->
+<div class="wp-block-button is-style-outline-background"><a class="wp-block-button__link no-border-radius"><?php echo esc_html__( 'Learn More', 'frost' ); ?></a></div>
 <!-- /wp:button -->
 </div>
 <!-- /wp:buttons -->
@@ -46,7 +46,7 @@
 <!-- wp:column -->
 <div class="wp-block-column">
 <!-- wp:image {"id":242,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo esc_url( __( 'https://frostwp.com/wp-content/uploads/2021/12/sample-white_1200x1200.jpg', 'frost' ) ); ?>"  alt="<?php echo esc_attr__( 'Sample Image', 'frost' ); ?>" class="wp-image-242"/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/sample-white_1200x1200.jpg'; ?>"  alt="<?php echo esc_attr__( 'Sample Image', 'frost' ); ?>" class="wp-image-242"/></figure>
 <!-- /wp:image -->
 <!-- wp:heading {"textAlign":"center","level":3} -->
 <h3 class="has-text-align-center" id="sample-heading-2"><?php echo esc_html__( 'Sample Heading', 'frost' ); ?></h3>
@@ -56,8 +56,8 @@
 <!-- /wp:paragraph -->
 <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center","orientation":"horizontal"}} -->
 <div class="wp-block-buttons">
-<!-- wp:button {"style":{"border":{"radius":0}},"className":"is-style-outline-base"} -->
-<div class="wp-block-button is-style-outline-base"><a class="wp-block-button__link no-border-radius"><?php echo esc_html__( 'Learn More', 'frost' ); ?></a></div>
+<!-- wp:button {"style":{"border":{"radius":0}},"className":"is-style-outline-background"} -->
+<div class="wp-block-button is-style-outline-background"><a class="wp-block-button__link no-border-radius"><?php echo esc_html__( 'Learn More', 'frost' ); ?></a></div>
 <!-- /wp:button -->
 </div>
 <!-- /wp:buttons -->
@@ -66,7 +66,7 @@
 <!-- wp:column -->
 <div class="wp-block-column">
 <!-- wp:image {"id":242,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo esc_url( __( 'https://frostwp.com/wp-content/uploads/2021/12/sample-white_1200x1200.jpg', 'frost' ) ); ?>"  alt="<?php echo esc_attr__( 'Sample Image', 'frost' ); ?>" class="wp-image-242"/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/sample-white_1200x1200.jpg'; ?>"  alt="<?php echo esc_attr__( 'Sample Image', 'frost' ); ?>" class="wp-image-242"/></figure>
 <!-- /wp:image -->
 <!-- wp:heading {"textAlign":"center","level":3} -->
 <h3 class="has-text-align-center" id="sample-heading-3"><?php echo esc_html__( 'Sample Heading', 'frost' ); ?></h3>
@@ -76,8 +76,8 @@
 <!-- /wp:paragraph -->
 <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center","orientation":"horizontal"}} -->
 <div class="wp-block-buttons">
-<!-- wp:button {"style":{"border":{"radius":0}},"className":"is-style-outline-base"} -->
-<div class="wp-block-button is-style-outline-base"><a class="wp-block-button__link no-border-radius"><?php echo esc_html__( 'Learn More', 'frost' ); ?></a></div>
+<!-- wp:button {"style":{"border":{"radius":0}},"className":"is-style-outline-background"} -->
+<div class="wp-block-button is-style-outline-background"><a class="wp-block-button__link no-border-radius"><?php echo esc_html__( 'Learn More', 'frost' ); ?></a></div>
 <!-- /wp:button -->
 </div>
 <!-- /wp:buttons -->

@@ -12,7 +12,7 @@
 <div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 <!-- wp:image {"align":"center","id":3489,"width":120,"height":120,"sizeSlug":"full","linkDestination":"none","className":"is-style-rounded"} -->
-<figure class="wp-block-image aligncenter size-full is-resized is-style-rounded"><img src="<?php echo esc_url( __( 'https://frostwp.com/wp-content/uploads/2021/12/sample-black_800x800.jpg', 'frost' ) ); ?>"  alt="' . esc_attr__( 'Sample Image', 'frost' ); ?>" class="wp-image-3489" width="120" height="120"/></figure>
+<figure class="wp-block-image aligncenter size-full is-resized is-style-rounded"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/sample-black_800x800.jpg'; ?>"  alt="' . esc_attr__( 'Sample Image', 'frost' ); ?>" class="wp-image-3489" width="120" height="120"/></figure>
 <!-- /wp:image -->
 <!-- wp:heading {"textAlign":"center","fontSize":"x-large"} -->
 <h2 class="has-text-align-center has-x-large-font-size" id="your-name-1"><?php echo esc_html__( 'Your Name', 'frost' ); ?></h2>
@@ -20,7 +20,7 @@
 <!-- wp:paragraph {"align":"center"} -->
 <p class="has-text-align-center"><?php echo esc_html__( 'Company Name', 'frost' ); ?><br><a href="mailto:name@company.com">name@company.com</a></p>
 <!-- /wp:paragraph -->
-<!-- wp:social-links {"iconBackgroundColor":"main","iconBackgroundColorValue":"#000","size":"has-normal-icon-size","align":"center","layout":{"type":"flex","justifyContent":"center"},"style":{"spacing":{"blockGap":"10px"}}} -->
+<!-- wp:social-links {"iconBackgroundColor":"foreground","iconBackgroundColorValue":"#000","size":"has-normal-icon-size","align":"center","layout":{"type":"flex","justifyContent":"center"},"style":{"spacing":{"blockGap":"10px"}}} -->
 <ul class="wp-block-social-links aligncenter has-normal-icon-size has-icon-background-color">
 <!-- wp:social-link {"url":"#","service":"facebook"} /-->
 <!-- wp:social-link {"url":"#","service":"instagram"} /-->
