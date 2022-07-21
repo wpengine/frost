@@ -10,6 +10,14 @@
 			]
 		},
 		{
+			"name": "leftmenu",
+			"title": "Page (Left Menu)",
+			"postTypes": [
+				"page",
+				"post"
+			]
+		},
+		{
 			"name": "no-title",
 			"title": "No Title",
 			"postTypes": [
@@ -45,24 +53,29 @@
 				{
 					"name": "Black and Primary",
 					"slug": "black-and-primary",
-					"colors": [ "#000", "#990099" ]
+					"colors": [ "#000", "#3fc1d0" ]
+				},
+				{
+					"name": "White and Primary",
+					"slug": "white-and-primary",
+					"colors": [ "#fff", "#3fc1d0" ]
 				},
 				{
 					"name": "Black and Secondary",
 					"slug": "black-and-secondary",
-					"colors": [ "#000", "#0099ff" ]
+					"colors": [ "#000", "#7d58c6" ]
 				},
 				{
-					"name": "Black and Tertiary",
-					"slug": "black-and-tertiary",
-					"colors": [ "#000", "#00cccc" ]
+					"name": "White and Secondary",
+					"slug": "white-and-secondary",
+					"colors": [ "#fff", "#7d58c6" ]
 				}
 			],
 			"gradients": [
 				{
 					"name": "Black to Primary",
 					"slug": "black-primary",
-					"gradient": "linear-gradient(135deg,rgba(0,0,0,1) 50%,var(--wp--preset--color--primary) 100%)"
+					"gradient": "linear-gradient(143deg, var(--wp--preset--color--secondary), var(--wp--preset--color--tertiary) 50%, var(--wp--preset--color--secondary) 100%);"
 				},
 				{
 					"name": "Black to Secondary",
@@ -79,27 +92,67 @@
 				{
 					"name": "Primary",
 					"slug": "primary",
-					"color": "#990099"
+					"color": "#3fc1d0"
 				},
 				{
 					"name": "Secondary",
 					"slug": "secondary",
-					"color": "#0099ff"
+					"color": "#7d58c6"
 				},
 				{
 					"name": "Tertiary",
 					"slug": "tertiary",
-					"color": "#00cccc"
+					"color": "#3aa1ce"
 				},
 				{
-					"name": "Main",
-					"slug": "main",
-					"color": "#000"
+					"name": "Magenta",
+					"slug": "magenta",
+					"color": "#e5336a"
 				},
 				{
-					"name": "Base",
+					"name": "Green",
+					"slug": "green",
+					"color": "#8fca52"
+				},
+				{
+					"name": "Violet",
+					"slug": "violet",
+					"color": "#7d58c6"
+				},
+				{
+					"name": "White",
 					"slug": "base",
-					"color": "#fff"
+					"color": "#ffffff"
+				},
+				{
+					"name": "Lightest Gray",
+					"slug": "lightest-gray",
+					"color": "#fafafa"
+				},
+				{
+					"name": "Light Gray",
+					"slug": "light-gray",
+					"color": "#d9d9d9"
+				},
+				{
+					"name": "Gray",
+					"slug": "gray",
+					"color": "#8e949a"
+				},
+				{
+					"name": "Medium Gray",
+					"slug": "medium-gray",
+					"color": "#646c76"
+				},
+				{
+					"name": "Off Black",
+					"slug": "off-black",
+					"color": "#001e1e"
+				},
+				{
+					"name": "True Black",
+					"slug": "main",
+					"color": "#000000"
 				}
 			]
 		},
@@ -111,8 +164,6 @@
 				"regular": 400,
 				"medium": 500,
 				"semi-bold": 600,
-				"bold": 700,
-				"extra-bold": 800,
 				"black": 900
 			},
 			"lineHeight": {
@@ -137,17 +188,65 @@
 			"dropCap": false,
 			"fontFamilies": [
 				{
-					"fontFamily": "Outfit, sans-serif",
-					"name": "Outfit",
+					"fontFamily": "Gilmer, sans-serif",
+					"name": "Gilmer Regular",
 					"slug": "primary",
 					"fontFace": [
 						{
 							"fontDisplay": "block",
-							"fontFamily": "Outfit",
+							"fontFamily": "Gilmer",
 							"fontStretch": "normal",
 							"fontStyle": "normal",
-							"fontWeight": "100 900",
-							"src": [ "file:./assets/fonts/Outfit-Variable.ttf.woff2" ]
+							"fontWeight": "normal",
+							"src": [
+								"file:./assets/fonts/gilmer-regular.eot",
+								"file:./assets/fonts/gilmer-regular.woff2",
+								"file:./assets/fonts/gilmer-regular.woff",
+								"file:./assets/fonts/gilmer-regular.ttf",
+								"file:./assets/fonts/gilmer-regular.woff2"
+							]
+						}
+					]
+				},
+				{
+					"fontFamily": "Gilmer, sans-serif",
+					"name": "Gilmer Medium",
+					"slug": "medium",
+					"fontFace": [
+						{
+							"fontDisplay": "block",
+							"fontFamily": "Gilmer",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "500",
+							"src": [
+								"file:./assets/fonts/gilmer-medium.eot",
+								"file:./assets/fonts/gilmer-medium.woff2",
+								"file:./assets/fonts/gilmer-medium.woff",
+								"file:./assets/fonts/gilmer-medium.ttf",
+								"file:./assets/fonts/gilmer-medium.woff2"
+							]
+						}
+					]
+				},
+				{
+					"fontFamily": "Gilmer, sans-serif",
+					"name": "Gilmer Bold",
+					"slug": "bold",
+					"fontFace": [
+						{
+							"fontDisplay": "block",
+							"fontFamily": "Gilmer",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "500",
+							"src": [
+								"file:./assets/fonts/gilmer-bold.eot",
+								"file:./assets/fonts/gilmer-bold.woff2",
+								"file:./assets/fonts/gilmer-bold.woff",
+								"file:./assets/fonts/gilmer-bold.ttf",
+								"file:./assets/fonts/gilmer-bold.woff2"
+							]
 						}
 					]
 				},
