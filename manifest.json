@@ -1,0 +1,12 @@
+{
+    "name": "Fluval Aquatics",
+    "short_name": "Fluval",
+    "description": "Fluval Aquatics",
+    "display": "standalone",
+    "start_url": "/?utm_source=app",
+    "background_color": "#000000",
+    "orientation": "any",
+    "theme_color": "#222932",
+    "icons": [
+    ]
+  }

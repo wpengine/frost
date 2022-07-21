@@ -1,0 +1,60 @@
+{
+  "name": "@linchpin/ash",
+  "version": "0.1.0",
+  "main": "gulpfile.babel.js",
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp build:production"
+  },
+  "author": "Linchpin <sayhi@linchpin.com>",
+  "license": "proprietary",
+  "dependencies": {
+    "chokidar": "3.5.3",
+    "webpack-cli": "^4.10.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.18.6",
+    "@babel/preset-env": "7.18.6",
+    "@babel/register": "7.18.6",
+    "autoprefixer": "10.4.7",
+    "babel-loader": "8.2.5",
+    "gulp": "4.0.2",
+    "gulp-babel": "8.0.0",
+    "gulp-clean-css": "4.3.0",
+    "gulp-cli": "2.3.0",
+    "gulp-concat": "2.6.1",
+    "gulp-extname": "0.2.2",
+    "gulp-if": "3.0.0",
+    "gulp-load-plugins": "2.0.7",
+    "gulp-postcss": "9.0.1",
+    "gulp-sass": "5.1.0",
+    "gulp-sourcemaps": "3.0.0",
+    "gulp-uglify": "3.0.2",
+    "js-yaml": "4.1.0",
+    "sass": "1.53.0",
+    "postcss": "8.4.14",
+    "rimraf": "3.0.2",
+    "vinyl-named": "1.1.0",
+    "webpack": "^5.73.0",
+    "webpack-stream": "7.0.0",
+    "yargs": "17.5.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/linchpin/ash.git"
+  },
+  "bugs": {
+    "url": "https://github.com/linchpin/ash/issues",
+    "email": "dev@linchpin.com"
+  },
+  "engines": {
+    "node": ">=14.8.0"
+  },
+  "browserslist": [
+    "defaults"
+  ],
+  "resolutions": {
+    "chokidar": "3.5.2"
+  },
+  "private": true
+}

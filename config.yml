@@ -1,0 +1,23 @@
+# Your project's server will run on localhost:xxxx at this port
+PORT: 8000
+
+# Autoprefixer will make sure your CSS works with these browsers
+COMPATIBILITY:
+  - "last 2 versions"
+  - "ios >= 14"
+
+# Gulp will reference these paths when it copies files
+PATHS:
+  # Path to dist folder
+  dist: ""
+  # Paths to static assets that aren't CSS or JavaScript
+  assets:
+    - "assets/**/*"
+    - "!assets/{js,scss}/**/*"
+  # Paths to Sass libraries, which can then be loaded with @import
+  sass:
+  # Paths to JavaScript entry points for webpack to bundle modules
+  entries:
+    - "assets/js/ash.js"
+
+LOCAL_PATH: "https://fluval.local"

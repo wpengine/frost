@@ -1,0 +1,27 @@
+/*
+Font: 		Gilmer
+Style: 		Outline
+URL: 		https://www.youworkforthem.com/font/T9758/gilmer
+Foundry: 	Piotr Lapa
+Foundry: 	https://www.youworkforthem.com/designer/1166/piotr-lapa
+Copyright:	Copyright © 2018 by Piotr _apa. All rights reserved.
+Version: 	17
+Created:	August 17, 2018
+License: 	https://www.youworkforthem.com/font-license 
+License: 	The WebFont(s) listed in this document must follow the YouWorkForThem
+			WebFont license rules. All other parties are strictly restricted 
+			from using the WebFonts(s) listed without a purchased license. 
+			All details above must always remain unaltered and visible in your CSS.
+*/
+
+@font-face {
+	font-family: 'Gilmer-Outline';
+	src: url('gilmer-outline.eot');
+	src: url('gilmer-outline.eot?#iefix') format('embedded-opentype'),
+             url('gilmer-outline.woff2') format('woff2'),
+	     url('gilmer-outline.woff') format('woff'),
+	     url('gilmer-outline.ttf') format('truetype'),
+	     url('gilmer-outline.svg#youworkforthem') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}

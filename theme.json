@@ -180,13 +180,13 @@
 			"dropCap": false,
 			"fontFamilies": [
 				{
-					"fontFamily": "Gilmer, sans-serif",
+					"fontFamily": "Gilmer-Regular, sans-serif",
 					"name": "Gilmer Regular",
 					"slug": "primary",
 					"fontFace": [
 						{
 							"fontDisplay": "block",
-							"fontFamily": "Gilmer",
+							"fontFamily": "Gilmer-Regular",
 							"fontStretch": "normal",
 							"fontStyle": "normal",
 							"fontWeight": "normal",
@@ -201,13 +201,13 @@
 					]
 				},
 				{
-					"fontFamily": "Gilmer, sans-serif",
+					"fontFamily": "Gilmer-Medium, sans-serif",
 					"name": "Gilmer Medium",
 					"slug": "medium",
 					"fontFace": [
 						{
 							"fontDisplay": "block",
-							"fontFamily": "Gilmer",
+							"fontFamily": "Gilmer-Medium",
 							"fontStretch": "normal",
 							"fontStyle": "normal",
 							"fontWeight": "500",
@@ -222,13 +222,13 @@
 					]
 				},
 				{
-					"fontFamily": "Gilmer, sans-serif",
+					"fontFamily": "Gilmer-Bold, sans-serif",
 					"name": "Gilmer Bold",
 					"slug": "bold",
 					"fontFace": [
 						{
 							"fontDisplay": "block",
-							"fontFamily": "Gilmer",
+							"fontFamily": "Gilmer-Bold",
 							"fontStretch": "normal",
 							"fontStyle": "normal",
 							"fontWeight": "normal",
