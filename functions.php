@@ -131,6 +131,10 @@ function frost_register_block_pattern_categories() {
 			'label'         => __( 'Query', 'frost' ),
 			'categoryTypes' => array( 'frost' ),
 		),
+		'frost-proposals'   => array(
+			'label'         => __( 'Proposals', 'frost' ),
+			'categoryTypes' => array( 'frost' ),
+		),
 	);
 
 	foreach ( $block_pattern_categories as $name => $properties ) {
