@@ -1,0 +1,11 @@
+.post-type-proposal-page {
+  .editor-styles-wrapper h1.wp-block-post-title {
+	font-size: 24px;
+
+	::after {
+	  content: "hidden";
+	  color:$white-50;
+	  background-color: $black-25;
+	}
+  }
+}
