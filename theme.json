@@ -313,54 +313,19 @@
 			],
 			"fontSizes": [
 				{
-					"name": "Small",
-					"slug": "small",
+					"name": "Eyebrow",
+					"slug": "eyebrow",
 					"size": "14px"
 				},
 				{
-					"name": "Medium",
-					"slug": "medium",
+					"name": "Large",
+					"slug": "large",
 					"size": "20px"
 				},
 				{
-					"name": "Large (40px)",
-					"slug": "large",
-					"size": "40px"
-				},
-				{
-					"name": "xLarge (90px)",
-					"slug": "x-large",
-					"size": "90px"
-				},
-				{
-					"name": "32px (Responsive)",
-					"slug": "max-32",
-					"size": "clamp(20px, 3vw, 32px)"
-				},
-				{
-					"name": "36px (Responsive)",
-					"slug": "max-36",
-					"size": "clamp(24px, 3vw, 36px)"
-				},
-				{
-					"name": "30px (Responsive)",
-					"slug": "max-40",
-					"size": "clamp(24px, 3vw, 40px)"
-				},
-				{
-					"name": "48px (Responsive)",
-					"slug": "max-48",
-					"size": "clamp(30px, 4vw, 48px)"
-				},
-				{
-					"name": "40px (Responsive)",
-					"slug": "max-40",
-					"size": "clamp(30px, 5vw, 40px)"
-				},
-				{
-					"name": "90px (Responsive)",
-					"slug": "max-90",
-					"size": "clamp(48px, 6vw, 90px)"
+					"name": "Subhead",
+					"slug": "subhead",
+					"size": "32px"
 				}
 			]
 		}

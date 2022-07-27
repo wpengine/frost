@@ -1,0 +1,85 @@
+/**
+ * 01. Headings
+ * 02. Weights
+ * 03. Paragraph
+ * 04. Link
+ */
+
+
+// 01. Headings
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 400;
+}
+
+h1, h2, h3, h5 {
+	font-family: $gilmer-heavy;
+}
+
+h1.wp-block-post-title {
+	font-size: map-get( $heading-size-map, h1 );
+}
+
+@each $tag, $size in $heading-size-map {
+	#{$tag} {
+		font-size: $size;
+		line-height: map-get( $line-height-map, $tag );
+	}
+}
+
+
+// 02. Weights
+
+@each $name, $weight in $font-weight-map {
+	.font-weight-#{$name} {
+		font-family: $weight;
+	}
+}
+
+strong {
+	font: {
+		family: $gilmer-bold;
+		weight: 400;
+	};
+}
+
+.heavy {
+	font-family: $gilmer-heavy;
+}
+
+
+// 03. Paragraph
+
+p {
+	font: {
+		family: $gilmer-regular;
+		size: 16px;
+	};
+	line-height: map-get( $line-height-map, p );
+
+	&.small,
+	small {
+		font-size: 14px;
+		line-height: map-get( $line-height-map, psmall );
+	}
+
+	&.cta {
+		font: {
+			family: $gilmer-heavy;
+			size: 14px;
+		};
+		line-height: map-get( $line-height-map, cta );
+	}
+}
+
+
+// 04. Link
+
+.entry-content a {
+	color: $blue;
+	font: {
+		family: $gilmer-heavy;
+		size: 18px;
+	};
+	line-height: map-get( $line-height-map, a );
+}

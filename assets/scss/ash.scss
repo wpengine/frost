@@ -1,7 +1,31 @@
-@import '../fonts/gilmer-bold.css';
-@import '../fonts/gilmer-heavy.css';
-@import '../fonts/gilmer-light.css';
-@import '../fonts/gilmer-medium.css';
-@import '../fonts/gilmer-regular.css';
+/**
+ * 01. Dependencies
+ * 02. Frost Base
+ * 03. Ash Base
+ */
+
+
+// 01. Dependencies
+
+@import
+	'../fonts/gilmer-bold.css',
+	'../fonts/gilmer-heavy.css',
+	'../fonts/gilmer-light.css',
+	'../fonts/gilmer-medium.css',
+	'../fonts/gilmer-outline.css',
+	'../fonts/gilmer-regular.css',
+	'config/variables'
+;
+
+
+// 02. Frost Base
 
 @import 'frost';
+
+
+// 03. Ash Base
+
+@import
+	'blocks/typography',
+	'components/typography'
+;

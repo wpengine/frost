@@ -1,0 +1,63 @@
+/**
+ * 01. Fonts
+ * 02. Colors
+ */
+
+
+// 01. Fonts
+
+$gilmer-light: Gilmer-Light, sans-serif;
+$gilmer-regular: Gilmer-Regular, sans-serif;
+$gilmer-medium: Gilmer-Medium, sans-serif;
+$gilmer-bold: Gilmer-Bold, sans-serif;
+$gilmer-heavy: Gilmer-Heavy, sans-serif;
+$gilmer-outline: Gilmer-Outline, sans-serif;
+
+$font-weight-map: (
+	'light': $gilmer-light,
+	'regular': $gilmer-regular,
+	'medium': $gilmer-medium,
+	'bold': $gilmer-bold,
+	'heavy': $gilmer-heavy
+);
+
+$heading-size-map: (
+	h1: 90px,
+	h2: 48px,
+	h3: 40px,
+	h4: 32px,
+	h5: 24px,
+	h6: 16px
+);
+
+$line-height-map: (
+	h1: 100px,
+	h2: 58px,
+	h3: 48px,
+	h4: 42px,
+	h5: 34px,
+	h6: 22px,
+	psmall: 18px,
+	plarge: 28px,
+	p: 24px,
+	a: 28px,
+	eyebrow: 16px,
+	cta: 28px
+);
+
+
+// 02. Colors
+
+$blue: #3fc1d0;
+$magenta: #e5336a;
+$green: #8fca52;
+$violet: #7d58c6;
+$light-violet: #f6f2ff;
+$dark-blue: #3aa1ce;
+$black: #001e1e;
+$black-50: rgba(3, 30, 30, .5);
+$black-25: rgba(3, 30, 30, .25);
+$light-gray: #fafafa;
+$white: #fff;
+$white-75: rgba($white, .75);
+$white-50: rgba($white, .5);
