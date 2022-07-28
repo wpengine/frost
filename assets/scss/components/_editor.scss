@@ -1,11 +1,11 @@
-.post-type-proposal-page {
-  .editor-styles-wrapper h1.wp-block-post-title {
-	font-size: 24px;
+.post-type-proposal-page h1.block-editor-block-list__block.editor-post-title.editor-post-title__input.rich-text.wp-block.wp-block-post-title {
+  font-size: 24px!important;
+  text-align:left;
+  width:100%;
+}
 
-	::after {
-	  content: "hidden";
-	  color:$white-50;
-	  background-color: $black-25;
-	}
-  }
+.post-type-proposal-page #editor div.edit-post-visual-editor__post-title-wrapper > h1.block-editor-block-list__block {
+  font-size: 24px!important;
+  text-align:left;
+  width:100%;
 }
