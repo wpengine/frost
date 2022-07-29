@@ -1,0 +1,24 @@
+.wp-block-post-terms {
+	[rel="tag"] {
+		font: {
+			family: $gilmer-regular;
+			size: 14px;
+		};
+		letter-spacing: .35px;
+		line-height: 1;
+		text-decoration: none;
+	}
+
+	&.taxonomy-lp_solution {
+		[rel="tag"] {
+			background: $white;
+			border-radius: 5px;
+			margin-right: 12px;
+			padding: 5px 9px;
+		}
+
+		.wp-block-post-terms__separator {
+			display: none;
+		}
+	}
+}

@@ -1,0 +1,7 @@
+.wp-block-button {
+	&.is-style-fill {
+		.wp-block-button__link {
+			border: none;
+		}
+	}
+}
