@@ -1,3 +1,7 @@
+.wp-block-post-title {
+	max-width: clamp(80%, 90vh, 100%);
+}
+
 .has-eyebrow-font-size {
 	font-family: $gilmer-heavy;
 	line-height: map-get( $line-height-map, eyebrow );

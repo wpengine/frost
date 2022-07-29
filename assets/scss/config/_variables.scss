@@ -22,21 +22,21 @@ $font-weight-map: (
 );
 
 $heading-size-map: (
-	h1: 90px,
-	h2: 48px,
-	h3: 40px,
-	h4: 32px,
-	h5: 24px,
+	h1: clamp(50px, 8vw, 90px),
+	h2: clamp(36px, 7vw, 48px),
+	h3: clamp(30px, 6vw, 40px),
+	h4: clamp(24px, 5vw, 32px),
+	h5: clamp(20px, 4vw, 24px),
 	h6: 16px
 );
 
 $line-height-map: (
-	h1: 100px,
-	h2: 58px,
-	h3: 48px,
-	h4: 42px,
-	h5: 34px,
-	h6: 22px,
+	h1: 1.125em,
+	h2: 1.2em,
+	h3: 1.2em,
+	h4: 1.3125em,
+	h5: 1.4em,
+	h6: 1.375em,
 	psmall: 18px,
 	plarge: 28px,
 	p: 24px,
