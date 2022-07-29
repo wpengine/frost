@@ -90,97 +90,6 @@ body > .is-root-container,
 /* Button
 --------------------------------------------- */
 
-input[type="button"],
-input[type="submit"],
-.wp-block-post-comments input[type=submit],
-.wp-block-search__button {
-    border: 1px solid var(--wp--preset--color--foreground);
-    border-radius: 0;
-    background-color: var(--wp--preset--color--foreground);
-    color: var(--wp--preset--color--background);
-    cursor: pointer;
-    font-size: var(--wp--preset--font-size--small);
-    font-weight: var(--wp--custom--font-weight--medium);
-    padding: 10px 25px;
-    text-decoration: none;
-    white-space: normal;
-    width: auto;
-}
-
-input[type="button"]:focus,
-input[type="button"]:hover,
-input[type="submit"]:focus,
-input[type="submit"]:hover,
-.wp-block-button__link:focus,
-.wp-block-button__link:hover,
-.wp-block-search__button:focus,
-.wp-block-search__button:hover {
-    background-color: transparent;
-    border: 1px solid var(--wp--preset--color--foreground);
-    color: var(--wp--preset--color--foreground);
-    text-decoration: none;
-}
-
-.wp-block-button__link.has-background:focus,
-.wp-block-button__link.has-background:hover {
-    color: var(--wp--preset--color--background);
-    filter: brightness(110%);
-}
-
-.wp-block-button__link.has-black-color.has-background:focus,
-.wp-block-button__link.has-black-color.has-background:hover {
-    color: var(--wp--preset--color--foreground);
-}
-
-/* Button - Fill Background
---------------------------------------------- */
-
-.wp-block-button.is-style-fill-background .wp-block-button__link {
-    background-color: var(--wp--preset--color--background);
-    border: 1px solid var(--wp--preset--color--background);
-    color: var(--wp--preset--color--foreground);
-}
-
-.wp-block-button.is-style-fill-background .wp-block-button__link:focus,
-.wp-block-button.is-style-fill-background .wp-block-button__link:hover {
-    background-color: transparent;
-    border: 1px solid var(--wp--preset--color--background);
-    color: var(--wp--preset--color--background);
-}
-
-/* Button - Outline
---------------------------------------------- */
-
-.wp-block-button.is-style-outline .wp-block-button__link {
-    background-color: transparent;
-    border: 1px solid;
-    border-color: currentColor;
-    color: var(--wp--preset--color--foreground);
-    padding: 10px 25px;
-}
-
-.wp-block-button.is-style-outline .wp-block-button__link:focus,
-.wp-block-button.is-style-outline .wp-block-button__link:hover {
-    background-color: var(--wp--preset--color--foreground);
-    border-color: var(--wp--preset--color--foreground);
-    color: var(--wp--preset--color--background);
-}
-
-/* Button - Outline Background
---------------------------------------------- */
-
-.wp-block-button.is-style-outline-background .wp-block-button__link {
-    background-color: transparent;
-    border: 1px solid;
-    border-color: var(--wp--preset--color--background);
-    color: var(--wp--preset--color--background);
-}
-
-.wp-block-button.is-style-outline-background .wp-block-button__link:focus,
-.wp-block-button.is-style-outline-background .wp-block-button__link:hover {
-    background-color: var(--wp--preset--color--background);
-    color: var(--wp--preset--color--foreground);
-}
 
 /* Calendar
 --------------------------------------------- */
@@ -307,7 +216,7 @@ kbd {
 }
 
 .wp-block-image.is-style-shadow {
-    box-shadow: 0 0 50px rgba(0 0 0 10%);
+    box-shadow: 0 0 50px rgba(0, 0, 0, .1);
 }
 
 /* List

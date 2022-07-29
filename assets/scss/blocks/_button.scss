@@ -1,7 +1,95 @@
+$fill-types: base, main, primary;
+$text-map: (
+	base: main,
+	main: base,
+	primary: base
+);
+
+//  Global block button settings
 .wp-block-button {
+	.wp-block-button__link {
+		font-size: 14px;
+		line-height: 16px;
+		letter-spacing: 1.05px;
+		text-transform: uppercase;
+		padding: 1.375rem 1.5rem;
+
+		&:hover {
+			text-decoration: none;
+		}
+	}
+
+	// Button style fill
 	&.is-style-fill {
 		.wp-block-button__link {
-			border: none;
+			background: $blue;
+			border: 2px solid $blue;
+			color: $white;
+
+			&:hover {
+				background: $white;
+				border-color: $white;
+				color: $blue;
+			}
+
+			@each $fill-type in $fill-types {
+				$text-color: map-get($text-map, $fill-type);
+
+				$fill: var(--wp--preset--color--#{$fill-type});
+				$text: var(--wp--preset--color--#{$text-color});
+
+				&.has-#{$fill-type}-background-color:not(.has-text-color) {
+					background: $fill;
+					border-color: $fill;
+					color: $text;
+
+					&:hover {
+						background: $text !important;
+						border-color: $text;
+						color: $fill;
+					}
+				}
+
+				&.has-#{$fill-type}-background-color.has-text-color {
+					border-color: $fill;
+
+					@each $fill-type in $fill-types {
+						&.has-#{$fill-type}-color {
+							$fill: var(--wp--preset--color--#{$fill-type});
+							$text-color: map-get($text-map, $fill-type);
+							$text: var(--wp--preset--color--#{$text-color});
+
+							&:hover {
+								background: $fill !important;
+								border-color: $fill;
+								color: $text !important;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	// Button style outline
+	&.is-style-outline {
+		.wp-block-button__link {
+			&:hover {
+				background: $white;
+				border-color: $white;
+			}
+
+			@each $fill-type in $fill-types {
+				&.has-#{$fill-type}-color {
+					$fill-hover-color: map-get($text-map, $fill-type);
+					$fill-hover: var(--wp--preset--color--#{$fill-hover-color});
+
+					&:hover {
+						background: $fill-hover !important;
+						border-color: $fill-hover;
+					}
+				}
+			}
 		}
 	}
 }
