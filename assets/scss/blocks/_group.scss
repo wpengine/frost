@@ -1,0 +1,21 @@
+.wp-block-group {
+	@media screen and ( min-width: 1024px ) {
+		&.flex-auto {
+			flex: 1 1 auto;
+		}
+
+		&.flex-sidebar {
+			flex: 0 0 400px;
+		}
+	}
+
+	@media screen and ( max-width: 1023px ) {
+		&.medium-flex-wrap {
+			flex-wrap: wrap !important;
+
+			&.flex-sidebar {
+				flex: 0 0 100%;
+			}
+		}
+	}
+}

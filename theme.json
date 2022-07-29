@@ -310,25 +310,43 @@
 					"name": "Monospace",
 					"slug": "monospace"
 				}
-			],
-			"fontSizes": [
-				{
-					"name": "Eyebrow",
-					"slug": "eyebrow",
-					"size": "14px"
-				},
-				{
-					"name": "Large",
-					"slug": "large",
-					"size": "20px"
-				},
-				{
-					"name": "Subhead",
-					"slug": "subhead",
-					"size": "32px"
-				}
 			]
-		}
+		},
+
+      "blocks": {
+        "core/heading": {
+          "typography": {
+            "fontSizes": [
+              {
+                "name": "Eyebrow",
+                "slug": "eyebrow",
+                "size": "14px"
+              }
+            ]
+          }
+        },
+        "core/paragraph": {
+          "typography": {
+            "fontSizes": [
+              {
+                "name": "Small",
+                "slug": "small",
+                "size": "14px"
+              },
+              {
+                "name": "Large",
+                "slug": "large",
+                "size": "20px"
+              },
+              {
+                "name": "Subhead",
+                "slug": "subhead",
+                "size": "32px"
+              }
+            ]
+          }
+        }
+      }
 	},
 	"styles": {
 		"blocks": {
