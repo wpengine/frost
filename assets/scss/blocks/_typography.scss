@@ -7,6 +7,16 @@
 	line-height: map-get( $line-height-map, eyebrow );
 }
 
+ul.has-eyebrow-font-size {
+	line-height: 1.25em;
+
+	li {
+		+ li {
+			margin-top: .375rem;
+		}
+	}
+}
+
 .has-large-font-size {
 	line-height: map-get( $line-height-map, plarge );
 }
