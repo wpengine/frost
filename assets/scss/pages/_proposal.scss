@@ -1,0 +1,46 @@
+/**
+ * 01. Layout
+ * 02. Dashboard Navigation
+ */
+
+.single-proposal {
+	// 01. Layout
+	.wp-site-blocks {
+		min-height: 100vh;
+		padding-left: 0;
+
+		.site-content {
+			min-height: 100vh;
+			padding: {
+				top: 0 !important;
+				bottom: 0 !important;
+			}
+		}
+
+		.site-footer {
+			margin: 0;
+		}
+	}
+
+
+	.site-content {
+		// 01. Dashboard Navigation
+
+		> .wp-block-page-list {
+			background: $light-gray;
+			min-height: 100vh;
+			width: 300px;
+			overflow: scroll;
+
+			position: sticky;
+			top: 0;
+
+			&__item {
+				&__link {
+					display: block;
+					padding: .5rem 1rem;
+				}
+			}
+		}
+	}
+}
