@@ -181,7 +181,8 @@
 					"size": "clamp(48px, 6vw, 72px)"
 				}
 			]
-		}
+		},
+		"useRootPaddingAwareAlignments": true
 	},
 	"styles": {
 		"blocks": {
@@ -466,7 +467,13 @@
 			}
 		},
 		"spacing": {
-			"blockGap": "30px"
+			"blockGap": "30px",
+			"padding": {
+				"top": "0px",
+				"right": "30px",
+				"bottom": "0px",
+				"left": "30px"
+			}
 		},
 		"typography": {
 			"fontFamily": "var(--wp--preset--font-family--primary)",
