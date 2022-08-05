@@ -5,7 +5,6 @@
  * Categories: frost-footer
  * Block Types: core/template-part/footer
  */
-
 ?>
 <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"100px","bottom":"40px"},"margin":{"top":"0px"}}},"layout":{"inherit":true}} -->
 <div class="wp-block-group alignfull" style="margin-top:0px;padding-top:100px;padding-bottom:40px">

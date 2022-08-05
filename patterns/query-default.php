@@ -5,7 +5,6 @@
  * Categories: frost-query
  * Viewport Width: 1280
  */
-
 ?>
 <!-- wp:query {"queryId":0,"query":{"pages":0,"offset":0,"postType":"post","categoryIds":[],"tagIds":[],"order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true},"layout":{"inherit":true}} -->
 <div class="wp-block-query">

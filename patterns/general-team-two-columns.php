@@ -5,7 +5,6 @@
  * Categories: frost-general
  * Viewport Width: 1280
  */
-
 ?>
 <!-- wp:group {"align":"full","style":{"spacing":{"margin":{"top":"0px"}}},"layout":{"inherit":true}} -->
 <div class="wp-block-group alignfull" style="margin-top:0px">
@@ -34,7 +33,7 @@
 <!-- wp:column {"width":"22%"} -->
 <div class="wp-block-column" style="flex-basis:22%">
 <!-- wp:image {"id":3489,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/sample-black_800x800.jpg'; ?>"  alt="<?php echo esc_attr__( 'Sample Image', 'frost' ); ?>" class="wp-image-3489"/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_theme_file_uri() ) . '/assets/images/sample-black_800x800.jpg'; ?>"  alt="<?php echo esc_attr__( 'Sample Image', 'frost' ); ?>" class="wp-image-3489"/></figure>
 <!-- /wp:image -->
 </div>
 <!-- /wp:column -->
@@ -55,7 +54,7 @@
 <!-- wp:column {"width":"22%"} -->
 <div class="wp-block-column" style="flex-basis:22%">
 <!-- wp:image {"id":3489,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/sample-black_800x800.jpg'; ?>"  alt="<?php echo esc_attr__( 'Sample Image', 'frost' ); ?>" class="wp-image-3489"/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_theme_file_uri() ) . '/assets/images/sample-black_800x800.jpg'; ?>"  alt="<?php echo esc_attr__( 'Sample Image', 'frost' ); ?>" class="wp-image-3489"/></figure>
 <!-- /wp:image -->
 </div>
 <!-- /wp:column -->
@@ -76,7 +75,7 @@
 <!-- wp:column {"width":"22%"} -->
 <div class="wp-block-column" style="flex-basis:22%">
 <!-- wp:image {"id":3489,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/sample-black_800x800.jpg'; ?>"  alt="<?php echo esc_attr__( 'Sample Image', 'frost' ); ?>" class="wp-image-3489"/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_theme_file_uri() ) . '/assets/images/sample-black_800x800.jpg'; ?>"  alt="<?php echo esc_attr__( 'Sample Image', 'frost' ); ?>" class="wp-image-3489"/></figure>
 <!-- /wp:image -->
 </div>
 <!-- /wp:column -->
@@ -101,7 +100,7 @@
 <!-- wp:column {"width":"22%"} -->
 <div class="wp-block-column" style="flex-basis:22%">
 <!-- wp:image {"id":3489,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/sample-black_800x800.jpg'; ?>"  alt="<?php echo esc_attr__( 'Sample Image', 'frost' ); ?>" class="wp-image-3489"/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_theme_file_uri() ) . '/assets/images/sample-black_800x800.jpg'; ?>"  alt="<?php echo esc_attr__( 'Sample Image', 'frost' ); ?>" class="wp-image-3489"/></figure>
 <!-- /wp:image -->
 </div>
 <!-- /wp:column -->
@@ -122,7 +121,7 @@
 <!-- wp:column {"width":"22%"} -->
 <div class="wp-block-column" style="flex-basis:22%">
 <!-- wp:image {"id":3489,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/sample-black_800x800.jpg'; ?>"  alt="<?php echo esc_attr__( 'Sample Image', 'frost' ); ?>" class="wp-image-3489"/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_theme_file_uri() ) . '/assets/images/sample-black_800x800.jpg'; ?>"  alt="<?php echo esc_attr__( 'Sample Image', 'frost' ); ?>" class="wp-image-3489"/></figure>
 <!-- /wp:image -->
 </div>
 <!-- /wp:column -->
@@ -143,7 +142,7 @@
 <!-- wp:column {"width":"22%"} -->
 <div class="wp-block-column" style="flex-basis:22%">
 <!-- wp:image {"id":3489,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/sample-black_800x800.jpg'; ?>"  alt="<?php echo esc_attr__( 'Sample Image', 'frost' ); ?>" class="wp-image-3489"/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_theme_file_uri() ) . '/assets/images/sample-black_800x800.jpg'; ?>"  alt="<?php echo esc_attr__( 'Sample Image', 'frost' ); ?>" class="wp-image-3489"/></figure>
 <!-- /wp:image -->
 </div>
 <!-- /wp:column -->

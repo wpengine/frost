@@ -5,7 +5,6 @@
  * Categories: frost-footer
  * Block Types: core/template-part/footer
  */
-
 ?>
 <!-- wp:group {"align":"full","style":{"elements":{"link":{"color":{"text":"var:preset|color|background"}}},"spacing":{"padding":{"top":"100px","bottom":"40px"},"margin":{"top":"0px"}}},"backgroundColor":"foreground","textColor":"background","layout":{"inherit":true}} -->
 <div class="wp-block-group alignfull has-background-color has-foreground-background-color has-text-color has-background has-link-color" style="margin-top:0px;padding-top:100px;padding-bottom:40px">

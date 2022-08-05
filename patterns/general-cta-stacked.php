@@ -4,7 +4,6 @@
  * Slug: frost/general-cta-stacked
  * Categories: frost-general
  */
-
 ?>
 <!-- wp:group {"align":"full","style":{"spacing":{"margin":{"top":"0px"}}},"layout":{"inherit":true}} -->
 <div class="wp-block-group alignfull" style="margin-top:0px">

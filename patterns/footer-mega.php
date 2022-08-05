@@ -6,7 +6,6 @@
  * Block Types: core/template-part/footer
  * Viewport Width: 1280
  */
-
 ?>
 <!-- wp:group {"align":"full","style":{"typography":{"fontSize":"18px"},"spacing":{"margin":{"top":"0px"}}},"layout":{"inherit":true}} -->
 <div class="wp-block-group alignfull" style="font-size:18px;margin-top:0px">

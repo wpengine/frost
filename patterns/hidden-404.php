@@ -4,7 +4,6 @@
  * Slug: frost/hidden-404
  * Inserter: false
  */
-
 ?>
 <!-- wp:heading {"level":1} -->
 <h1><?php echo esc_html__( 'Not found, error 404', 'frost' ); ?></h1>

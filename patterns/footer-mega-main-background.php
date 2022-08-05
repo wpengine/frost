@@ -6,7 +6,6 @@
  * Block Types: core/template-part/footer
  * Viewport Width: 1280
  */
-
 ?>
 <!-- wp:group {"align":"full","style":{"elements":{"link":{"color":{"text":"var:preset|color|background"}}},"typography":{"fontSize":"18px"},"spacing":{"margin":{"top":"0px"}}},"backgroundColor":"foreground","textColor":"background","layout":{"inherit":true}} -->
 <div class="wp-block-group alignfull has-background-color has-foreground-background-color has-text-color has-background has-link-color" style="font-size:18px;margin-top:0px">

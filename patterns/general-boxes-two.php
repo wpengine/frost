@@ -5,7 +5,6 @@
  * Categories: frost-general
  * Viewport Width: 1280
  */
-
 ?>
 <!-- wp:group {"align":"full","style":{"spacing":{"margin":{"top":"0px"}}},"textColor":"background","layout":{"inherit":true}} -->
 <div class="wp-block-group alignfull has-background-color has-text-color" style="margin-top:0px">
