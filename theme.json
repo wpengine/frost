@@ -117,6 +117,7 @@
 		},
 		"typography": {
 			"dropCap": false,
+			"fluid": true,
 			"fontFamilies": [
 				{
 					"fontFamily": "Outfit, sans-serif",
@@ -141,44 +142,103 @@
 			],
 			"fontSizes": [
 				{
+					"fluid": {
+						"min": "16px",
+						"max": "16px"
+					},
 					"name": "Small",
-					"slug": "small",
-					"size": "16px"
+					"size": "16px",
+					"slug": "small"
 				},
 				{
+					"fluid": {
+						"min": "18px",
+						"max": "20px"
+					},
 					"name": "Medium",
-					"slug": "medium",
-					"size": "20px"
+					"size": "20px",
+					"slug": "medium"
 				},
 				{
+					"fluid": {
+						"min": "21px",
+						"max": "24px"
+					},
 					"name": "Large",
-					"slug": "large",
-					"size": "24px"
+					"size": "24px",
+					"slug": "large"
 				},
 				{
+					"fluid": {
+						"min": "26px",
+						"max": "30px"
+					},
 					"name": "xLarge",
-					"slug": "x-large",
-					"size": "30px"
+					"size": "30px",
+					"slug": "x-large"
 				},
 				{
+					"fluid": {
+						"min": "24px",
+						"max": "36px"
+					},
 					"name": "36px",
-					"slug": "max-36",
-					"size": "clamp(24px, 3vw, 36px)"
+					"size": "36px",
+					"slug": "max-36"
 				},
 				{
+					"fluid": {
+						"min": "30px",
+						"max": "48px"
+					},
 					"name": "48px",
-					"slug": "max-48",
-					"size": "clamp(30px, 4vw, 48px)"
+					"size": "48px",
+					"slug": "max-48"
 				},
 				{
+					"fluid": {
+						"min": "36px",
+						"max": "60px"
+					},
 					"name": "60px",
-					"slug": "max-60",
-					"size": "clamp(36px, 5vw, 60px)"
+					"size": "60px",
+					"slug": "max-60"
 				},
 				{
+					"fluid": {
+						"min": "48px",
+						"max": "72px"
+					},
 					"name": "72px",
-					"slug": "max-72",
-					"size": "clamp(48px, 6vw, 72px)"
+					"size": "72px",
+					"slug": "max-72"
+				},
+				{
+					"fluid": {
+						"min": "24px",
+						"max": "36px"
+					},
+					"name": "Huge",
+					"size": "36px",
+					"slug": "huge"
+				},
+				{
+					"fluid": {
+						"min": "30px",
+						"max": "48px"
+					},
+					"name": "Gigantic",
+					"size": "48px",
+					"slug": "gigantic"
+				},
+				{
+					"fluid": {
+						"min": "36px",
+						"max": "60px"
+					},
+					"name": "Colossal",
+					"size": "60px",
+					"slug": "colossal"
 				}
 			]
 		},
