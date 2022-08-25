@@ -66,6 +66,44 @@ blockquote {
 	margin: 0;
 }
 
+/*
+ * Alignment Styles - Originally from TT2.
+ * These rules are temporary, and should not
+ * be relied on or modified too heavily by
+ * themes or plugins that build on Frost.
+ * These are meant to be a precursor to a
+ * global solution provided by the Block Editor.
+ *
+ * Relevant issues:
+ * https://github.com/WordPress/gutenberg/issues/35607
+ * https://github.com/WordPress/gutenberg/issues/35884
+---------------------------------------------*/
+
+body > .is-root-container,
+.edit-post-visual-editor__post-title-wrapper,
+.wp-block-cover.alignfull,
+.wp-block-group.alignfull,
+.wp-block-group.has-background,
+.wp-site-blocks {
+	padding-left: var(--wp--custom--spacing--outer);
+	padding-right: var(--wp--custom--spacing--outer);
+}
+
+.block-editor-block-list__layout.is-root-container > .alignfull,
+.is-root-container > .wp-block-cover,
+.is-root-container > .wp-block-group.has-background,
+.is-root-container > .wp-block-template-part > .wp-block-cover,
+.is-root-container > .wp-block-template-part > .wp-block-group.has-background,
+.wp-site-blocks .alignfull,
+.wp-site-blocks > .wp-block-cover,
+.wp-site-blocks > .wp-block-group.has-background,
+.wp-site-blocks > .wp-block-template-part > .wp-block-cover,
+.wp-site-blocks > .wp-block-template-part > .wp-block-group.has-background {
+	margin-left: calc(-1 * var(--wp--custom--spacing--outer)) !important;
+	margin-right: calc(-1 * var(--wp--custom--spacing--outer)) !important;
+	width: unset;
+}
+
 /* Blocks
 ---------------------------------------------------------------------------- */
 

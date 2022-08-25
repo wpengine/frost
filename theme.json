@@ -205,8 +205,7 @@
 					"slug": "max-72"
 				}
 			]
-		},
-		"useRootPaddingAwareAlignments": true
+		}
 	},
 	"styles": {
 		"blocks": {
@@ -491,13 +490,7 @@
 			}
 		},
 		"spacing": {
-			"blockGap": "30px",
-			"padding": {
-				"bottom": "0px",
-				"left": "30px",
-				"right": "30px",
-				"top": "0px"
-			}
+			"blockGap": "30px"
 		},
 		"typography": {
 			"fontFamily": "var(--wp--preset--font-family--primary)",
