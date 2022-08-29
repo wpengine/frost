@@ -221,31 +221,8 @@ input[type="submit"]:hover,
 	padding: 10px;
 }
 
-/* Caption
---------------------------------------------- */
-
-.wp-block-embed figcaption,
-.wp-block-gallery figcaption,
-.wp-block-image figcaption,
-.wp-block-table figcaption {
-	color: var(--wp--preset--color--foreground);
-	font-size: var(--wp--preset--font-size--small);
-	margin-bottom: 0;
-	margin-top: 10px;
-	text-align: center;
-}
-
-.wp-block-gallery figcaption {
-	margin-top: 0;
-}
-
 /* Code
 --------------------------------------------- */
-
-.wp-block-code,
-.wp-block-code code {
-	border: none;
-}
 
 .wp-block-code code {
 	overflow-wrap: normal;
@@ -413,11 +390,7 @@ p.has-background {
 /* Pullquote
 --------------------------------------------- */
 
-.wp-block-pullquote p,
-.wp-block-pullquote.alignleft p,
-.wp-block-pullquote.alignright p {
-	font-size: var(--wp--preset--font-size--large);
-	line-height: var(--wp--custom--line-height--medium);
+.wp-block-pullquote p:last-of-type {
 	margin-bottom: 0;
 }
 
@@ -456,17 +429,22 @@ p.has-background {
 	opacity: 1;
 }
 
-.wp-block-separator:not(.is-style-dots),
-.wp-block-separator.has-background:not(.is-style-dots) {
-	border-bottom: 1px solid currentColor;
-	height: 1px;
-}
-
 .wp-block-separator.is-style-dots:before {
 	font-family: inherit;
 	font-size: var(--wp--preset--font-size--large);
 	letter-spacing: 10px;
 	padding-left: 10px;
+}
+
+.wp-block-separator:not(.is-style-wide):not(.is-style-dots) {
+	width: 100px;
+}
+
+.wp-block-separator:not(.is-style-dots),
+.wp-block-separator.has-background:not(.is-style-dots) {
+	border-bottom: 1px solid currentColor;
+	border-top: none;
+	height: 1px;
 }
 
 /* Site Title
@@ -566,21 +544,6 @@ textarea {
 
 /* Experimental Styles
 --------------------------------------------- */
-
-/*
- * Remove bottom margin when blocks are placed in container blocks that do not
- * support blockGap (i.e. Column, Cover, Media & Text)
- */
-h1:last-child,
-h2:last-child,
-h3:last-child,
-h4:last-child,
-h5:last-child,
-h6:last-child,
-p:last-child,
-.wp-block-image:last-child {
-	margin-bottom: 0;
-}
 
 .is-root-container h1 + *,
 .is-root-container h2 + *,

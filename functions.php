@@ -26,9 +26,6 @@ if ( ! function_exists( 'frost_setup' ) ) {
 		// Make theme available for translation.
 		load_theme_textdomain( 'frost', get_template_directory() . '/languages' );
 
-		// Add support for Block Styles.
-		add_theme_support( 'wp-block-styles' );
-
 		// Enqueue editor styles and fonts.
 		add_editor_style(
 			array(
