@@ -97,6 +97,13 @@
 			"wideSize": "1200px"
 		},
 		"spacing": {
+			"spacingScale": {
+				"operator": "+",
+				"increment": 20,
+				"steps": 5,
+				"mediumStep": 40,
+				"unit": "px"
+			},
 			"units": [
 				"px",
 				"em",
