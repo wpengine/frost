@@ -6,7 +6,7 @@
  * Viewport Width: 1280
  */
 ?>
-<!-- wp:group {"align":"full","layout":{"wideSize":"800px"}} -->
+<!-- wp:group {"layout":{"type":"constrained","wideSize":"800px"},"align":"full"} -->
 <div class="wp-block-group alignfull">
 <!-- wp:spacer {"height":70} -->
 <div style="height:70px" aria-hidden="true" class="wp-block-spacer"></div>
