@@ -72,8 +72,6 @@
 		},
 		"custom": {
 			"fontWeight": {
-				"thin": 100,
-				"extra-light": 200,
 				"light": 300,
 				"regular": 400,
 				"medium": 500,
@@ -118,17 +116,17 @@
 			"fluid": true,
 			"fontFamilies": [
 				{
-					"fontFamily": "Outfit, sans-serif",
-					"name": "Outfit",
+					"fontFamily": "Figtree, sans-serif",
+					"name": "Figtree",
 					"slug": "primary",
 					"fontFace": [
 						{
 							"fontDisplay": "block",
-							"fontFamily": "Outfit",
+							"fontFamily": "Figtree",
 							"fontStretch": "normal",
 							"fontStyle": "normal",
-							"fontWeight": "100 900",
-							"src": [ "file:./assets/fonts/Outfit-Variable.woff2" ]
+							"fontWeight": "300 900",
+							"src": [ "file:./assets/fonts/Figtree-Variable.woff2" ]
 						}
 					]
 				},
