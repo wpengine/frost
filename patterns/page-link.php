@@ -5,7 +5,7 @@
  * Categories: frost-page
  */
 ?>
-<!-- wp:group {"align":"full","style":{"spacing":{"margin":{"top":"0px"}}},"className":"is-style-full-height","layout":{"inherit":true}} -->
+<!-- wp:group {"align":"full","style":{"spacing":{"margin":{"top":"0px"}}},"className":"is-style-full-height","layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignfull is-style-full-height" style="margin-top:0px"><!-- wp:group -->
 <div class="wp-block-group"><!-- wp:spacer -->
 <div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
