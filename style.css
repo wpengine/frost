@@ -388,14 +388,6 @@ p.has-background {
 	margin-bottom: 0;
 }
 
-.wp-block-pullquote cite {
-	display: block;
-	font-size: var(--wp--preset--font-size--small);
-	font-style: inherit;
-	margin-top: 10px;
-	text-transform: inherit;
-}
-
 /* Quote
 --------------------------------------------- */
 
@@ -405,14 +397,6 @@ p.has-background {
 
 .wp-block-quote p:last-of-type {
 	margin-bottom: 0;
-}
-
-.wp-block-quote cite {
-	display: block;
-	font-size: var(--wp--preset--font-size--small);
-	font-style: inherit;
-	margin-top: 10px;
-	text-align: inherit;
 }
 
 /* Separator
