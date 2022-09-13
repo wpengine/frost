@@ -41,7 +41,6 @@ a,
 a:not(.wp-element-button),
 a:focus,
 a:hover {
-	text-decoration: underline;
 	text-decoration-thickness: 1px;
 }
 
@@ -419,13 +418,6 @@ p.has-background {
 	border-bottom: 1px solid currentColor;
 	border-top: none;
 	height: 1px;
-}
-
-/* Site Title
---------------------------------------------- */
-
-.wp-block-site-title a {
-	text-decoration: none;
 }
 
 /* Table
