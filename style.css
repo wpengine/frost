@@ -21,12 +21,6 @@ Frost is distributed under the terms of the GNU GPL.
 /* Defaults
 ---------------------------------------------------------------------------- */
 
-html {
-	box-sizing: border-box;
-	-moz-osx-font-smoothing: grayscale;
-	-webkit-font-smoothing: antialiased;
-}
-
 *,
 *::before,
 *::after {
@@ -511,7 +505,7 @@ textarea,
 	color: var(--wp--preset--color--foreground);
 	font-family: var(--wp--preset--font-family--primary);
 	font-size: var(--wp--preset--font-size--medium);
-	font-weight: var(--wp--custom--font-weight--regular);
+	font-weight: var(--wp--custom--font-weight--light);
 	line-height: var(--wp--custom--line-height--body);
 	padding: 10px 20px;
 	width: 100%;
