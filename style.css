@@ -134,17 +134,6 @@ input[type="submit"]:hover,
 	text-decoration: none;
 }
 
-.wp-block-button__link.has-background:focus,
-.wp-block-button__link.has-background:hover {
-	color: var(--wp--preset--color--background);
-	filter: brightness(110%);
-}
-
-.wp-block-button__link.has-black-color.has-background:focus,
-.wp-block-button__link.has-black-color.has-background:hover {
-	color: var(--wp--preset--color--foreground);
-}
-
 /* Button - Fill Background
 --------------------------------------------- */
 
