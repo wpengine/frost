@@ -391,10 +391,6 @@ p.has-background {
 /* Quote
 --------------------------------------------- */
 
-.wp-block-quote {
-	box-shadow: 5px 5px var(--wp--preset--color--foreground);
-}
-
 .wp-block-quote p:last-of-type {
 	margin-bottom: 0;
 }
