@@ -113,7 +113,7 @@ input[type="submit"],
 	color: var(--wp--preset--color--background);
 	cursor: pointer;
 	font-size: var(--wp--preset--font-size--small);
-	font-weight: var(--wp--custom--font-weight--medium);
+	font-weight: var(--wp--custom--font-weight--regular);
 	padding: 10px 25px;
 	text-decoration: none;
 	white-space: normal;
@@ -438,7 +438,7 @@ p.has-background {
 }
 
 .wp-block-table th {
-	font-weight: var(--wp--custom--font-weight--medium);
+	font-weight: var(--wp--custom--font-weight--regular);
 }
 
 .wp-block-table td,
