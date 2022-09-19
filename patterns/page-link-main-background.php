@@ -5,11 +5,9 @@
  * Categories: frost-page
  */
 ?>
-<!-- wp:group {"align":"full","style":{"elements":{"link":{"color":{"text":"var:preset|color|background"}}},"spacing":{"margin":{"top":"0px"}}},"backgroundColor":"foreground","textColor":"background","className":"is-style-full-height","layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull is-style-full-height has-background-color has-foreground-background-color has-text-color has-background has-link-color" style="margin-top:0px"><!-- wp:group -->
-<div class="wp-block-group"><!-- wp:spacer -->
-<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
-<!-- /wp:spacer -->
+<!-- wp:group {"layout":{"inherit":true,"type":"constrained"},"align":"full","style":{"elements":{"link":{"color":{"text":"var:preset|color|background"}}},"spacing":{"margin":{"top":"0px"},"padding":{"top":"100px","right":"30px","bottom":"100px","left":"30px"}}},"backgroundColor":"foreground","textColor":"background","className":"is-style-full-height"} -->
+<div class="wp-block-group alignfull is-style-full-height has-background-color has-foreground-background-color has-text-color has-background has-link-color" style="margin-top:0px;padding-top:100px;padding-right:30px;padding-bottom:100px;padding-left:30px"><!-- wp:group -->
+<div class="wp-block-group">
 <!-- wp:image {"align":"center","id":3489,"width":120,"height":120,"sizeSlug":"full","linkDestination":"none","className":"is-style-rounded"} -->
 <figure class="wp-block-image aligncenter size-full is-resized is-style-rounded"><img src="<?php echo esc_url( get_theme_file_uri() ) . '/assets/images/sample-white_800x800.jpg'; ?>" class="wp-image-3489" width="120" height="120"/></figure>
 <!-- /wp:image -->
@@ -54,10 +52,6 @@
 <!-- /wp:spacer -->
 <!-- wp:paragraph {"align":"center"} -->
 <p class="has-text-align-center"><a href="https://frostwp.com/"><?php echo esc_html__( 'Made with Frost', 'frost' ); ?></a></p>
-<!-- /wp:paragraph -->
-<!-- wp:spacer -->
-<div style="height:100px" aria-hidden="true" class="wp-block-spacer">
-</div>
-<!-- /wp:spacer --></div>
+<!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
