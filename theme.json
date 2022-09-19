@@ -95,13 +95,33 @@
 			"wideSize": "1200px"
 		},
 		"spacing": {
-			"spacingScale": {
-				"operator": "+",
-				"increment": 20,
-				"steps": 5,
-				"mediumStep": 40,
-				"unit": "px"
-			},
+			"spacingSizes": [
+				{
+					"size": "20px",
+					"slug": "x-small",
+					"name": "xSmall"
+				},
+				{
+					"size": "40px",
+					"slug": "small",
+					"name": "Small"
+				},
+				{
+					"size": "60px",
+					"slug": "medium",
+					"name": "Medium"
+				},
+				{
+					"size": "80px",
+					"slug": "large",
+					"name": "Large"
+				},
+				{
+					"size": "100px",
+					"slug": "x-large",
+					"name": "xLarge"
+				}
+			],
 			"units": [
 				"px",
 				"em",
