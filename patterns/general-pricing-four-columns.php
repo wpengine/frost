@@ -6,12 +6,8 @@
  * Viewport Width: 1280
  */
 ?>
-<!-- wp:group {"align":"full","style":{"spacing":{"margin":{"top":"0px"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull" style="margin-top:0px">
-<!-- wp:spacer -->
-<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
-<!-- /wp:spacer -->
-<!-- wp:heading {"textAlign":"center","fontSize":"x-large"} -->
+<!-- wp:group {"layout":{"inherit":true,"type":"constrained"},"align":"full","style":{"spacing":{"margin":{"top":"0px"},"padding":{"top":"100px","right":"30px","bottom":"100px","left":"30px"}}}} -->
+<div class="wp-block-group alignfull" style="margin-top:0px;padding-top:100px;padding-right:30px;padding-bottom:100px;padding-left:30px"><!-- wp:heading {"textAlign":"center","fontSize":"x-large"} -->
 <h2 class="has-text-align-center has-x-large-font-size" id="pricing-table"><?php echo esc_html__( 'Pricing Table', 'frost' ); ?></h2>
 <!-- /wp:heading -->
 <!-- wp:paragraph {"align":"center"} -->
@@ -220,17 +216,9 @@
 <div class="wp-block-buttons" style="margin-top:40px">
 <!-- wp:button {"style":{"border":{"radius":0}}} -->
 <div class="wp-block-button"><a class="wp-block-button__link no-border-radius"><?php echo esc_html__( 'Sign Up Now', 'frost' ); ?></a></div>
-<!-- /wp:button -->
-</div>
-<!-- /wp:buttons -->
-</div>
-<!-- /wp:group -->
-</div>
-<!-- /wp:column -->
-</div>
-<!-- /wp:columns -->
-<!-- wp:spacer -->
-<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
-<!-- /wp:spacer -->
-</div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:group --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
 <!-- /wp:group -->
