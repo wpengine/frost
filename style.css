@@ -33,7 +33,7 @@ input:focus,
 input[type="button"],
 input[type="submit"],
 textarea:focus,
-.wp-block-button__link {
+.wp-element-button {
 	transition: all 0.2s ease-in-out;
 }
 
@@ -124,8 +124,8 @@ input[type="button"]:focus,
 input[type="button"]:hover,
 input[type="submit"]:focus,
 input[type="submit"]:hover,
-.wp-block-button__link:focus,
-.wp-block-button__link:hover,
+.wp-element-button:focus,
+.wp-element-button:hover,
 .wp-block-search__button:focus,
 .wp-block-search__button:hover {
 	background-color: transparent;
@@ -137,14 +137,14 @@ input[type="submit"]:hover,
 /* Button - Fill Background
 --------------------------------------------- */
 
-.wp-block-button.is-style-fill-background .wp-block-button__link {
+.wp-block-button.is-style-fill-background .wp-element-button {
 	background-color: var(--wp--preset--color--background);
 	border: 1px solid var(--wp--preset--color--background);
 	color: var(--wp--preset--color--foreground);
 }
 
-.wp-block-button.is-style-fill-background .wp-block-button__link:focus,
-.wp-block-button.is-style-fill-background .wp-block-button__link:hover {
+.wp-block-button.is-style-fill-background .wp-element-button:focus,
+.wp-block-button.is-style-fill-background .wp-element-button:hover {
 	background-color: transparent;
 	border: 1px solid var(--wp--preset--color--background);
 	color: var(--wp--preset--color--background);
@@ -153,7 +153,7 @@ input[type="submit"]:hover,
 /* Button - Outline
 --------------------------------------------- */
 
-.wp-block-button.is-style-outline .wp-block-button__link {
+.wp-block-button.is-style-outline .wp-element-button {
 	background-color: transparent;
 	border: 1px solid;
 	border-color: currentColor;
@@ -161,8 +161,8 @@ input[type="submit"]:hover,
 	padding: 10px 25px;
 }
 
-.wp-block-button.is-style-outline .wp-block-button__link:focus,
-.wp-block-button.is-style-outline .wp-block-button__link:hover {
+.wp-block-button.is-style-outline .wp-element-button:focus,
+.wp-block-button.is-style-outline .wp-element-button:hover {
 	background-color: var(--wp--preset--color--foreground);
 	border-color: var(--wp--preset--color--foreground);
 	color: var(--wp--preset--color--background);
@@ -171,15 +171,15 @@ input[type="submit"]:hover,
 /* Button - Outline Background
 --------------------------------------------- */
 
-.wp-block-button.is-style-outline-background .wp-block-button__link {
+.wp-block-button.is-style-outline-background .wp-element-button {
 	background-color: transparent;
 	border: 1px solid;
 	border-color: var(--wp--preset--color--background);
 	color: var(--wp--preset--color--background);
 }
 
-.wp-block-button.is-style-outline-background .wp-block-button__link:focus,
-.wp-block-button.is-style-outline-background .wp-block-button__link:hover {
+.wp-block-button.is-style-outline-background .wp-element-button:focus,
+.wp-block-button.is-style-outline-background .wp-element-button:hover {
 	background-color: var(--wp--preset--color--background);
 	color: var(--wp--preset--color--foreground);
 }
