@@ -277,7 +277,8 @@ ul li:where(.wp-block-list) {
 --------------------------------------------- */
 
 .wp-block-navigation__responsive-container.is-menu-open {
-	padding: 30px var(--wp--custom--spacing--outer);
+	padding-bottom: 30px;
+	padding-top: 30px
 }
 
 .wp-block-navigation__responsive-container-close,
