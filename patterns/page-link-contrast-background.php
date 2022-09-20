@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Sample link page.
- * Slug: frost/page-link-main-background
+ * Slug: frost/page-link-contrast-background
  * Categories: frost-page
  */
 ?>

@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Team with image, text, link.
- * Slug: frost/general-team-two-columns-main-background
+ * Slug: frost/general-team-two-columns-contrast-background
  * Categories: frost-general
  * Viewport Width: 1280
  */

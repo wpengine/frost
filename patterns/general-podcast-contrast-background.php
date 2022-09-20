@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Podcast episode with media, text.
- * Slug: frost/general-podcast-main-background
+ * Slug: frost/general-podcast-contrast-background
  * Categories: frost-general
  * Viewport Width: 1280
  */

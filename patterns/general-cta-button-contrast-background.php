@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Call-to-action with text, button.
- * Slug: frost/general-cta-button-main-background
+ * Slug: frost/general-cta-button-contrast-background
  * Categories: frost-general
  * Viewport Width: 1280
  */

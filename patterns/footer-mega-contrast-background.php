@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Footer with text, button, links.
- * Slug: frost/footer-mega-main-background
+ * Slug: frost/footer-mega-contrast-background
  * Categories: frost-footer
  * Block Types: core/template-part/footer
  * Viewport Width: 1280

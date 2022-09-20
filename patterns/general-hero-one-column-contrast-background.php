@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Section with image, text, buttons.
- * Slug: frost/general-hero-one-column-main-background
+ * Slug: frost/general-hero-one-column-contrast-background
  * Categories: frost-general
  */
 ?>

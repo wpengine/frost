@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Portfolio with images, text.
- * Slug: frost/general-portfolio-main-background
+ * Slug: frost/general-portfolio-contrast-background
  * Categories: frost-general
  * Viewport Width: 1280
  */

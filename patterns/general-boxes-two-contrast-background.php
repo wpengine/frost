@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Featured boxes with text, button.
- * Slug: frost/general-boxes-two-main-background
+ * Slug: frost/general-boxes-two-contrast-background
  * Categories: frost-general
  * Viewport Width: 1280
  */

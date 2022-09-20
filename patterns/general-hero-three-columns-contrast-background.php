@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Section with image, text, button.
- * Slug: frost/general-hero-three-columns-main-background
+ * Slug: frost/general-hero-three-columns-contrast-background
  * Categories: frost-general
  * Viewport Width: 1280
  */

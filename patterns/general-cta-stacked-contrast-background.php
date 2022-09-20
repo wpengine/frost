@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Call-to-action with text, button.
- * Slug: frost/general-cta-stacked-main-background
+ * Slug: frost/general-cta-stacked-contrast-background
  * Categories: frost-general
  */
 ?>

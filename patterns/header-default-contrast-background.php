@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Header with site title, navigation.
- * Slug: frost/header-default-main-background
+ * Slug: frost/header-default-contrast-background
  * Categories: frost-header
  * Block Types: core/template-part/header
  * Viewport Width: 1280

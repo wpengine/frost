@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Testimonials with text.
- * Slug: frost/general-testimonials-main-background
+ * Slug: frost/general-testimonials-contrast-background
  * Categories: frost-general
  * Viewport Width: 1280
  */

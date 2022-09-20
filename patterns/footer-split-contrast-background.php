@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Footer with heading, links, text.
- * Slug: frost/footer-split-main-background
+ * Slug: frost/footer-split-contrast-background
  * Categories: frost-footer
  * Block Types: core/template-part/footer
  * Viewport Width: 1280
