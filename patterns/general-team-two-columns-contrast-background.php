@@ -6,8 +6,8 @@
  * Viewport Width: 1280
  */
 ?>
-<!-- wp:group {"layout":{"inherit":true,"type":"constrained"},"align":"full","style":{"elements":{"link":{"color":{"text":"var:preset|color|background"}}},"spacing":{"margin":{"top":"0px"},"padding":{"top":"100px","right":"30px","bottom":"70px","left":"30px"}}},"backgroundColor":"foreground","textColor":"background"} -->
-<div class="wp-block-group alignfull has-background-color has-foreground-background-color has-text-color has-background has-link-color" style="margin-top:0px;padding-top:100px;padding-right:30px;padding-bottom:70px;padding-left:30px"><!-- wp:group {"align":"wide"} -->
+<!-- wp:group {"layout":{"inherit":true,"type":"constrained"},"align":"full","style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}},"spacing":{"margin":{"top":"0px"},"padding":{"top":"100px","right":"30px","bottom":"70px","left":"30px"}}},"backgroundColor":"contrast","textColor":"base","className":"has-background-color"} -->
+<div class="wp-block-group alignfull has-background-color has-base-color has-contrast-background-color has-text-color has-background has-link-color" style="margin-top:0px;padding-top:100px;padding-right:30px;padding-bottom:70px;padding-left:30px"><!-- wp:group {"align":"wide"} -->
 <div class="wp-block-group alignwide"><!-- wp:heading {"fontSize":"x-large"} -->
 <h2 class="has-x-large-font-size" id="our-team"><?php echo esc_html__( 'Our Team', 'frost' ); ?></h2>
 <!-- /wp:heading -->

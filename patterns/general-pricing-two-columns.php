@@ -17,15 +17,15 @@
 <div class="wp-block-columns alignwide has-smaller-left-margin">
 <!-- wp:column {"style":{"spacing":{"blockGap":"0px"}}} -->
 <div class="wp-block-column">
-<!-- wp:group {"style":{"spacing":{"padding":{"top":"20px","right":"30px","bottom":"20px","left":"30px"}}},"backgroundColor":"foreground","textColor":"background"} -->
-<div class="wp-block-group has-background-color has-foreground-background-color has-text-color has-background" style="padding-top:20px;padding-right:30px;padding-bottom:20px;padding-left:30px">
+<!-- wp:group {"layout":{"type":"constrained"},"style":{"spacing":{"padding":{"top":"20px","right":"30px","bottom":"20px","left":"30px"}}},"backgroundColor":"contrast","textColor":"base","className":"has-background-color"} -->
+<div class="wp-block-group has-background-color has-base-color has-contrast-background-color has-text-color has-background" style="padding-top:20px;padding-right:30px;padding-bottom:20px;padding-left:30px">
 <!-- wp:heading {"textAlign":"center","level":4} -->
 <h4 class="has-text-align-center" id="personal-95"><?php echo esc_html__( 'Personal', 'frost' ); ?> - $95</h4>
 <!-- /wp:heading -->
 </div>
 <!-- /wp:group -->
-<!-- wp:group {"style":{"spacing":{"padding":{"top":"40px","right":"40px","bottom":"40px","left":"40px"},"blockGap":"10px"},"border":{"width":"1px","style":"solid"}},"borderColor":"foreground"} -->
-<div class="wp-block-group has-border-color has-foreground-border-color" style="border-style:solid;border-width:1px;padding-top:40px;padding-right:40px;padding-bottom:40px;padding-left:40px">
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"40px","right":"40px","bottom":"40px","left":"40px"},"blockGap":"10px"},"border":{"width":"1px","style":"solid"}},"borderColor":"contrast"} -->
+<div class="wp-block-group has-border-color has-contrast-border-color" style="border-style:solid;border-width:1px;padding-top:40px;padding-right:40px;padding-bottom:40px;padding-left:40px">
 <!-- wp:paragraph {"align":"center","fontSize":"small"} -->
 <p class="has-text-align-center has-small-font-size"><?php echo esc_html__( 'Feature Item', 'frost' ); ?></p>
 <!-- /wp:paragraph -->
@@ -69,15 +69,15 @@
 <!-- /wp:column -->
 <!-- wp:column {"style":{"spacing":{"blockGap":"0px"}}} -->
 <div class="wp-block-column">
-<!-- wp:group {"style":{"spacing":{"padding":{"top":"20px","right":"30px","bottom":"20px","left":"30px"}}},"backgroundColor":"foreground","textColor":"background"} -->
-<div class="wp-block-group has-background-color has-foreground-background-color has-text-color has-background" style="padding-top:20px;padding-right:30px;padding-bottom:20px;padding-left:30px">
+<!-- wp:group {"layout":{"type":"constrained"},"style":{"spacing":{"padding":{"top":"20px","right":"30px","bottom":"20px","left":"30px"}}},"backgroundColor":"contrast","textColor":"base","className":"has-background-color"} -->
+<div class="wp-block-group has-background-color has-base-color has-contrast-background-color has-text-color has-background" style="padding-top:20px;padding-right:30px;padding-bottom:20px;padding-left:30px">
 <!-- wp:heading {"textAlign":"center","level":4} -->
 <h4 class="has-text-align-center" id="personal-95"><?php echo esc_html__( 'Professional', 'frost' ); ?> - $295</h4>
 <!-- /wp:heading -->
 </div>
 <!-- /wp:group -->
-<!-- wp:group {"style":{"spacing":{"padding":{"top":"40px","right":"40px","bottom":"40px","left":"40px"},"blockGap":"10px"},"border":{"width":"1px","style":"solid"}},"borderColor":"foreground"} -->
-<div class="wp-block-group has-border-color has-foreground-border-color" style="border-style:solid;border-width:1px;padding-top:40px;padding-right:40px;padding-bottom:40px;padding-left:40px">
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"40px","right":"40px","bottom":"40px","left":"40px"},"blockGap":"10px"},"border":{"width":"1px","style":"solid"}},"borderColor":"contrast"} -->
+<div class="wp-block-group has-border-color has-contrast-border-color" style="border-style:solid;border-width:1px;padding-top:40px;padding-right:40px;padding-bottom:40px;padding-left:40px">
 <!-- wp:paragraph {"align":"center","fontSize":"small"} -->
 <p class="has-text-align-center has-small-font-size"><?php echo esc_html__( 'Feature Item', 'frost' ); ?></p>
 <!-- /wp:paragraph -->
