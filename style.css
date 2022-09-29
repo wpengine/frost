@@ -24,7 +24,7 @@ Frost is distributed under the terms of the GNU GPL.
 *,
 *::before,
 *::after {
-	box-sizing: inherit;
+	box-sizing: border-box;
 }
 
 a,
