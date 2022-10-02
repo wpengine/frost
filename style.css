@@ -283,12 +283,8 @@ ul li:where(.wp-block-list) {
 
 .wp-block-navigation__responsive-container-close,
 .wp-block-navigation__responsive-container-open {
-	border: 1px solid var(--wp--preset--color--contrast);
+	border: 1px solid currentColor;
 	padding: 2px;
-}
-
-.has-background .wp-block-navigation__responsive-container-open {
-	border: 1px solid var(--wp--preset--color--base);
 }
 
 .has-background .wp-block-navigation__responsive-container-open:focus,
