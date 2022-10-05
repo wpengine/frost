@@ -21,6 +21,42 @@
 	],
 	"settings": {
 		"appearanceTools": true,
+		"blocks": {
+			"core/button": {
+				"spacing": {
+					"spacingScale": {
+						"steps": 0
+					},
+					"spacingSizes": [
+						{
+							"name": "xSmall",
+							"size": "10px",
+							"slug": "x-small"
+						},
+						{
+							"name": "Small",
+							"size": "15px",
+							"slug": "small"
+						},
+						{
+							"name": "Medium",
+							"size": "20px",
+							"slug": "medium"
+						},
+						{
+							"name": "Large",
+							"size": "30px",
+							"slug": "large"
+						},
+						{
+							"name": "xLarge",
+							"size": "40px",
+							"slug": "x-large"
+						}
+					]
+				}
+			}
+		},
 		"color": {
 			"defaultDuotone": false,
 			"defaultGradients": false,
@@ -97,29 +133,29 @@
 		"spacing": {
 			"spacingSizes": [
 				{
+					"name": "xSmall",
 					"size": "20px",
-					"slug": "x-small",
-					"name": "xSmall"
+					"slug": "x-small"
 				},
 				{
+					"name": "Small",
 					"size": "40px",
-					"slug": "small",
-					"name": "Small"
+					"slug": "small"
 				},
 				{
+					"name": "Medium",
 					"size": "60px",
-					"slug": "medium",
-					"name": "Medium"
+					"slug": "medium"
 				},
 				{
+					"name": "Large",
 					"size": "80px",
-					"slug": "large",
-					"name": "Large"
+					"slug": "large"
 				},
 				{
+					"name": "xLarge",
 					"size": "100px",
-					"slug": "x-large",
-					"name": "xLarge"
+					"slug": "x-large"
 				}
 			],
 			"units": [
