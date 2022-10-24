@@ -99,7 +99,7 @@ input[type="submit"],
 	border: 1px solid;
 	border-color: currentColor;
 	color: var(--wp--preset--color--contrast);
-	padding: 10px 25px;
+	padding: 9px 24px;
 }
 
 /* Button - Outline Base
