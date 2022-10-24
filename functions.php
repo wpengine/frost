@@ -65,9 +65,6 @@ function frost_register_block_styles() {
 			'shadow'       => __( 'Shadow', 'frost' ),
 			'shadow-solid' => __( 'Shadow Solid', 'frost' ),
 		),
-		'core/image'           => array(
-			'shadow' => __( 'Shadow', 'frost' ),
-		),
 		'core/list'            => array(
 			'no-disc' => __( 'No Disc', 'frost' ),
 		),
