@@ -484,63 +484,12 @@ textarea {
 
 @media only screen and (min-width: 800px) {
 
-	/* Navigation
+	/* Navigation Link
 	--------------------------------------------- */
 
-	.wp-block-navigation-item.is-style-fill a,
-	.wp-block-navigation-item.is-style-fill-base a,
-	.wp-block-navigation-item.is-style-outline a,
-	.wp-block-navigation-item.is-style-outline-base a {
-		padding: 5px 15px;
-	}
-
-	.wp-block-navigation-item.is-style-fill a,
-	.wp-block-navigation-item.is-style-outline a:focus,
-	.wp-block-navigation-item.is-style-outline a:hover {
-		background-color: var(--wp--preset--color--contrast);
-	}
-
-	.wp-block-navigation-item.is-style-fill-base a,
-	.wp-block-navigation-item.is-style-outline-base a:focus,
-	.wp-block-navigation-item.is-style-outline-base a:hover {
-		background-color: var(--wp--preset--color--base);
-	}
-
-	.wp-block-navigation-item.is-style-fill a,
 	.wp-block-navigation-item.is-style-outline a {
-		border: 1px solid var(--wp--preset--color--contrast);
-	}
-
-	.wp-block-navigation-item.is-style-fill-base a,
-	.wp-block-navigation-item.is-style-outline-base a {
-		border: 1px solid var(--wp--preset--color--base);
-	}
-
-	.wp-block-navigation-item.is-style-fill a:focus,
-	.wp-block-navigation-item.is-style-fill a:hover,
-	.wp-block-navigation-item.is-style-fill-base a,
-	.wp-block-navigation-item.is-style-outline a,
-	.wp-block-navigation-item.is-style-outline-base a:focus,
-	.wp-block-navigation-item.is-style-outline-base a:hover {
-		color: var(--wp--preset--color--contrast);
-	}
-
-	.wp-block-navigation-item.is-style-fill a,
-	.wp-block-navigation-item.is-style-fill-base a:focus,
-	.wp-block-navigation-item.is-style-fill-base a:hover,
-	.wp-block-navigation-item.is-style-outline a:focus,
-	.wp-block-navigation-item.is-style-outline a:hover,
-	.wp-block-navigation-item.is-style-outline-base a {
-		color: var(--wp--preset--color--base);
-	}
-
-	.wp-block-navigation-item.is-style-fill a:focus,
-	.wp-block-navigation-item.is-style-fill a:hover,
-	.wp-block-navigation-item.is-style-fill-base a:focus,
-	.wp-block-navigation-item.is-style-fill-base a:hover,
-	.wp-block-navigation-item.is-style-outline a,
-	.wp-block-navigation-item.is-style-outline-base a {
-		background-color: transparent;
+		border: 1px solid currentColor;
+		padding: 8px 15px;
 	}
 
 	/* Pullquote

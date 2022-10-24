@@ -75,10 +75,7 @@ function frost_register_block_styles() {
 			'shadow-media' => __( 'Shadow', 'frost' ),
 		),
 		'core/navigation-link' => array(
-			'fill'         => __( 'Fill', 'frost' ),
-			'fill-base'    => __( 'Fill Base', 'frost' ),
-			'outline'      => __( 'Outline', 'frost' ),
-			'outline-base' => __( 'Outline Base', 'frost' ),
+			'outline' => __( 'Outline', 'frost' ),
 		),
 	);
 
