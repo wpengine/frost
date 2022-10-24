@@ -191,10 +191,7 @@
 			],
 			"fontSizes": [
 				{
-					"fluid": {
-						"min": "16px",
-						"max": "16px"
-					},
+					"fluid": false,
 					"name": "Small",
 					"size": "16px",
 					"slug": "small"
