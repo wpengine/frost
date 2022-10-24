@@ -61,9 +61,9 @@ function frost_register_block_styles() {
 			'outline-base' => __( 'Outline Base', 'frost' ),
 		),
 		'core/group'           => array(
+			'full-height'  => __( 'Full-height', 'frost' ),
 			'shadow'       => __( 'Shadow', 'frost' ),
 			'shadow-solid' => __( 'Shadow Solid', 'frost' ),
-			'full-height'  => __( 'Full-height', 'frost' ),
 		),
 		'core/image'           => array(
 			'shadow' => __( 'Shadow', 'frost' ),
