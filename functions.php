@@ -68,9 +68,6 @@ function frost_register_block_styles() {
 		'core/list'            => array(
 			'no-disc' => __( 'No Disc', 'frost' ),
 		),
-		'core/media-text'      => array(
-			'shadow-media' => __( 'Shadow', 'frost' ),
-		),
 		'core/navigation-link' => array(
 			'outline' => __( 'Outline', 'frost' ),
 		),

@@ -228,13 +228,6 @@ ul li:where(.wp-block-list) {
 	margin-left: 0;
 }
 
-/* Media & Text
---------------------------------------------- */
-
-.wp-block-media-text.is-style-shadow-media img {
-	box-shadow: 0 0 50px rgb(0 0 0 / 10%);
-}
-
 /* Navigation
 --------------------------------------------- */
 
