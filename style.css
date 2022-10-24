@@ -82,20 +82,6 @@ input[type="submit"],
 	width: auto;
 }
 
-input[type="button"]:focus,
-input[type="button"]:hover,
-input[type="submit"]:focus,
-input[type="submit"]:hover,
-.wp-element-button:focus,
-.wp-element-button:hover,
-.wp-block-search__button:focus,
-.wp-block-search__button:hover {
-	background-color: transparent;
-	border: 1px solid var(--wp--preset--color--contrast);
-	color: var(--wp--preset--color--contrast);
-	text-decoration: none;
-}
-
 /* Button - Fill Base
 --------------------------------------------- */
 
@@ -103,13 +89,6 @@ input[type="submit"]:hover,
 	background-color: var(--wp--preset--color--base);
 	border: 1px solid var(--wp--preset--color--base);
 	color: var(--wp--preset--color--contrast);
-}
-
-.wp-block-button.is-style-fill-base .wp-element-button:focus,
-.wp-block-button.is-style-fill-base .wp-element-button:hover {
-	background-color: transparent;
-	border: 1px solid var(--wp--preset--color--base);
-	color: var(--wp--preset--color--base);
 }
 
 /* Button - Outline
@@ -123,13 +102,6 @@ input[type="submit"]:hover,
 	padding: 10px 25px;
 }
 
-.wp-block-button.is-style-outline .wp-element-button:focus,
-.wp-block-button.is-style-outline .wp-element-button:hover {
-	background-color: var(--wp--preset--color--contrast);
-	border-color: var(--wp--preset--color--contrast);
-	color: var(--wp--preset--color--base);
-}
-
 /* Button - Outline Base
 --------------------------------------------- */
 
@@ -138,12 +110,6 @@ input[type="submit"]:hover,
 	border: 1px solid;
 	border-color: var(--wp--preset--color--base);
 	color: var(--wp--preset--color--base);
-}
-
-.wp-block-button.is-style-outline-base .wp-element-button:focus,
-.wp-block-button.is-style-outline-base .wp-element-button:hover {
-	background-color: var(--wp--preset--color--base);
-	color: var(--wp--preset--color--contrast);
 }
 
 /* Calendar
