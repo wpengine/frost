@@ -330,7 +330,8 @@
 			"core/comments-title": {
 				"spacing": {
 					"margin": {
-						"bottom": "30px"
+						"bottom": "30px",
+						"top": "60px"
 					}
 				}
 			},
