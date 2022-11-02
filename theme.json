@@ -327,6 +327,13 @@
 					"fontSize": "var(--wp--preset--font-size--small)"
 				}
 			},
+			"core/comments-title": {
+				"spacing": {
+					"margin": {
+						"bottom": "30px"
+					}
+				}
+			},
 			"core/cover": {
 				"spacing": {
 					"padding": {
