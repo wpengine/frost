@@ -6,8 +6,8 @@
  * Viewport Width: 1280
  */
 ?>
-<!-- wp:group {"layout":{"inherit":false,"contentSize":"800px","type":"constrained"},"align":"full","style":{"spacing":{"margin":{"top":"0px"},"padding":{"top":"100px","right":"30px","bottom":"100px","left":"30px"}}}} -->
-<div class="wp-block-group alignfull" style="margin-top:0px;padding-top:100px;padding-right:30px;padding-bottom:100px;padding-left:30px"><!-- wp:heading {"textAlign":"center","fontSize":"x-large"} -->
+<!-- wp:group {"align":"full","style":{"spacing":{"margin":{"top":"0px"},"padding":{"top":"var:preset|spacing|x-large","right":"30px","bottom":"var:preset|spacing|x-large","left":"30px"}}},"layout":{"inherit":false,"contentSize":"800px","type":"constrained"}} -->
+<div class="wp-block-group alignfull" style="margin-top:0px;padding-top:var(--wp--preset--spacing--x-large);padding-right:30px;padding-bottom:var(--wp--preset--spacing--x-large);padding-left:30px"><!-- wp:heading {"textAlign":"center","fontSize":"x-large"} -->
 <h2 class="has-text-align-center has-x-large-font-size" id="pricing-table"><?php echo esc_html__( 'Pricing Table', 'frost' ); ?></h2>
 <!-- /wp:heading -->
 <!-- wp:paragraph {"align":"center"} -->
@@ -24,8 +24,8 @@
 <!-- /wp:heading -->
 </div>
 <!-- /wp:group -->
-<!-- wp:group {"style":{"spacing":{"padding":{"top":"40px","right":"40px","bottom":"40px","left":"40px"},"blockGap":"10px"},"border":{"width":"1px","style":"solid"}},"borderColor":"contrast"} -->
-<div class="wp-block-group has-border-color has-contrast-border-color" style="border-style:solid;border-width:1px;padding-top:40px;padding-right:40px;padding-bottom:40px;padding-left:40px">
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|small","right":"var:preset|spacing|small","bottom":"var:preset|spacing|small","left":"var:preset|spacing|small"},"blockGap":"10px"},"border":{"width":"1px","style":"solid"}},"borderColor":"contrast"} -->
+<div class="wp-block-group has-border-color has-contrast-border-color" style="border-style:solid;border-width:1px;padding-top:var(--wp--preset--spacing--small);padding-right:var(--wp--preset--spacing--small);padding-bottom:var(--wp--preset--spacing--small);padding-left:var(--wp--preset--spacing--small)">
 <!-- wp:paragraph {"align":"center","fontSize":"small"} -->
 <p class="has-text-align-center has-small-font-size"><?php echo esc_html__( 'Feature Item', 'frost' ); ?></p>
 <!-- /wp:paragraph -->
@@ -76,8 +76,8 @@
 <!-- /wp:heading -->
 </div>
 <!-- /wp:group -->
-<!-- wp:group {"style":{"spacing":{"padding":{"top":"40px","right":"40px","bottom":"40px","left":"40px"},"blockGap":"10px"},"border":{"width":"1px","style":"solid"}},"borderColor":"contrast"} -->
-<div class="wp-block-group has-border-color has-contrast-border-color" style="border-style:solid;border-width:1px;padding-top:40px;padding-right:40px;padding-bottom:40px;padding-left:40px">
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|small","right":"var:preset|spacing|small","bottom":"var:preset|spacing|small","left":"var:preset|spacing|small"},"blockGap":"10px"},"border":{"width":"1px","style":"solid"}},"borderColor":"contrast"} -->
+<div class="wp-block-group has-border-color has-contrast-border-color" style="border-style:solid;border-width:1px;padding-top:var(--wp--preset--spacing--small);padding-right:var(--wp--preset--spacing--small);padding-bottom:var(--wp--preset--spacing--small);padding-left:var(--wp--preset--spacing--small)">
 <!-- wp:paragraph {"align":"center","fontSize":"small"} -->
 <p class="has-text-align-center has-small-font-size"><?php echo esc_html__( 'Feature Item', 'frost' ); ?></p>
 <!-- /wp:paragraph -->
