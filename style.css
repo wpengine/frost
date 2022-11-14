@@ -197,6 +197,18 @@ kbd {
 	box-shadow: 5px 5px var(--wp--preset--color--contrast);
 }
 
+/* Heading
+--------------------------------------------- */
+
+.wp-block-post-content h1 + *,
+.wp-block-post-content h2 + *,
+.wp-block-post-content h3 + *,
+.wp-block-post-content h4 + *,
+.wp-block-post-content h5 + *,
+.wp-block-post-content h6 + * {
+	margin-top: 20px;
+}
+
 /* Image
 --------------------------------------------- */
 
@@ -323,6 +335,13 @@ p.has-background {
 	height: 1px;
 }
 
+/* Spacer
+--------------------------------------------- */
+
+.wp-block-spacer + * {
+	margin-top: 0 !important;
+}
+
 /* Table
 --------------------------------------------- */
 
@@ -409,29 +428,6 @@ textarea {
 
 .nf-field-container {
 	margin-bottom: 10px;
-}
-
-/* Experimental Styles
---------------------------------------------- */
-
-.is-root-container h1 + *,
-.is-root-container h2 + *,
-.is-root-container h3 + *,
-.is-root-container h4 + *,
-.is-root-container h5 + *,
-.is-root-container h6 + *,
-.wp-block-post-content h1 + *,
-.wp-block-post-content h2 + *,
-.wp-block-post-content h3 + *,
-.wp-block-post-content h4 + *,
-.wp-block-post-content h5 + *,
-.wp-block-post-content h6 + *,
-.wp-block-query-title + * {
-	margin-top: 10px !important;
-}
-
-.wp-block-spacer + * {
-	margin-top: 0 !important;
 }
 
 /* Media Queries
