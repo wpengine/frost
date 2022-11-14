@@ -6,8 +6,8 @@
  * Viewport Width: 1280
  */
 ?>
-<!-- wp:group {"layout":{"inherit":true,"type":"constrained"},"align":"full","style":{"spacing":{"margin":{"top":"0px"},"padding":{"top":"100px","right":"30px","bottom":"100px","left":"30px"}}}} -->
-<div class="wp-block-group alignfull" style="margin-top:0px;padding-top:100px;padding-right:30px;padding-bottom:100px;padding-left:30px"><!-- wp:heading {"textAlign":"center","fontSize":"x-large"} -->
+<!-- wp:group {"align":"full","style":{"spacing":{"margin":{"top":"0px"},"padding":{"top":"var:preset|spacing|x-large","right":"30px","bottom":"var:preset|spacing|x-large","left":"30px"}}},"layout":{"inherit":true,"type":"constrained"}} -->
+<div class="wp-block-group alignfull" style="margin-top:0px;padding-top:var(--wp--preset--spacing--x-large);padding-right:30px;padding-bottom:var(--wp--preset--spacing--x-large);padding-left:30px"><!-- wp:heading {"textAlign":"center","fontSize":"x-large"} -->
 <h2 class="has-text-align-center has-x-large-font-size" id="image-heading-text-button-1"><?php echo esc_html__( 'Image, heading, text, button.', 'frost' ); ?></h2>
 <!-- /wp:heading -->
 <!-- wp:paragraph {"align":"center"} -->
@@ -26,8 +26,8 @@
 <!-- wp:heading {"textAlign":"center","level":3} -->
 <h3 class="has-text-align-center" id="sample-heading-1"><?php echo esc_html__( 'Sample Heading', 'frost' ); ?></h3>
 <!-- /wp:heading -->
-<!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":"18px"}}} -->
-<p class="has-text-align-center" style="font-size:18px">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris finibus dolor ex, non hendrerit purus vulputate blandit.</p>
+<!-- wp:paragraph {"align":"center"} -->
+<p class="has-text-align-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris finibus dolor ex, non hendrerit purus vulputate blandit.</p>
 <!-- /wp:paragraph -->
 <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center","orientation":"horizontal"}} -->
 <div class="wp-block-buttons">
@@ -46,8 +46,8 @@
 <!-- wp:heading {"textAlign":"center","level":3} -->
 <h3 class="has-text-align-center" id="sample-heading-2"><?php echo esc_html__( 'Sample Heading', 'frost' ); ?></h3>
 <!-- /wp:heading -->
-<!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":"18px"}}} -->
-<p class="has-text-align-center" style="font-size:18px">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris finibus dolor ex, non hendrerit purus vulputate blandit.</p>
+<!-- wp:paragraph {"align":"center"} -->
+<p class="has-text-align-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris finibus dolor ex, non hendrerit purus vulputate blandit.</p>
 <!-- /wp:paragraph -->
 <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center","orientation":"horizontal"}} -->
 <div class="wp-block-buttons">
@@ -66,8 +66,8 @@
 <!-- wp:heading {"textAlign":"center","level":3} -->
 <h3 class="has-text-align-center" id="sample-heading-3"><?php echo esc_html__( 'Sample Heading', 'frost' ); ?></h3>
 <!-- /wp:heading -->
-<!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":"18px"}}} -->
-<p class="has-text-align-center" style="font-size:18px">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris finibus dolor ex, non hendrerit purus vulputate blandit.</p>
+<!-- wp:paragraph {"align":"center"} -->
+<p class="has-text-align-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris finibus dolor ex, non hendrerit purus vulputate blandit.</p>
 <!-- /wp:paragraph -->
 <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center","orientation":"horizontal"}} -->
 <div class="wp-block-buttons">

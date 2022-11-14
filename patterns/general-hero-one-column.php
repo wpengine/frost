@@ -5,15 +5,12 @@
  * Categories: frost-general
  */
 ?>
-<!-- wp:group {"layout":{"type":"constrained","wideSize":"800px"},"align":"full","style":{"spacing":{"margin":{"top":"0px"},"padding":{"top":"100px","right":"30px","bottom":"100px","left":"30px"}}}} -->
-<div class="wp-block-group alignfull" style="margin-top:0px;padding-top:100px;padding-right:30px;padding-bottom:100px;padding-left:30px"><!-- wp:image {"id":3480,"sizeSlug":"full","linkDestination":"none"} -->
+<!-- wp:group {"align":"full","style":{"spacing":{"margin":{"top":"0px"},"padding":{"top":"var:preset|spacing|x-large","right":"30px","bottom":"var:preset|spacing|x-large","left":"30px"}}},"layout":{"type":"constrained","wideSize":"800px"}} -->
+<div class="wp-block-group alignfull" style="margin-top:0px;padding-top:var(--wp--preset--spacing--x-large);padding-right:30px;padding-bottom:var(--wp--preset--spacing--x-large);padding-left:30px"><!-- wp:image {"id":3480,"sizeSlug":"full","linkDestination":"none"} -->
 <figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_theme_file_uri() ) . '/assets/images/sample-black_1920x1200.jpg'; ?>" alt="Sample Image" class="wp-image-3480"/></figure>
 <!-- /wp:image -->
-<!-- wp:spacer {"height":"60px"} -->
-<div style="height:60px" aria-hidden="true" class="wp-block-spacer"></div>
-<!-- /wp:spacer -->
-<!-- wp:heading {"textAlign":"center","fontSize":"x-large"} -->
-<h2 class="has-text-align-center has-x-large-font-size" id="image-heading-text-buttons"><?php echo esc_html__( 'Image, heading, text, buttons.', 'frost' ); ?></h2>
+<!-- wp:heading {"textAlign":"center","style":{"spacing":{"margin":{"top":"var:preset|spacing|large"}}},"fontSize":"x-large"} -->
+<h2 class="has-text-align-center has-x-large-font-size" id="image-heading-text-buttons" style="margin-top:var(--wp--preset--spacing--large)"><?php echo esc_html__( 'Image, heading, text, buttons.', 'frost' ); ?></h2>
 <!-- /wp:heading -->
 <!-- wp:paragraph {"align":"center"} -->
 <p class="has-text-align-center">Lorem ipsum dolor sit amet, consectetur adipiscing vestibulum. Fringilla nec accumsan eget, facilisis mi justo, luctus eu pellentesque vitae gravida non diam accumsan.</p>
