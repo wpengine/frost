@@ -136,22 +136,22 @@
 				},
 				{
 					"name": "Small",
-					"size": "40px",
+					"size": "clamp(20px, 4vw, 40px)",
 					"slug": "small"
 				},
 				{
 					"name": "Medium",
-					"size": "60px",
+					"size": "clamp(30px, 6vw, 60px)",
 					"slug": "medium"
 				},
 				{
 					"name": "Large",
-					"size": "80px",
+					"size": "clamp(40px, 8vw, 80px)",
 					"slug": "large"
 				},
 				{
 					"name": "xLarge",
-					"size": "100px",
+					"size": "clamp(50px, 10vw, 100px)",
 					"slug": "x-large"
 				}
 			],
