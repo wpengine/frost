@@ -20,7 +20,7 @@
 <div class="wp-block-column"><!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column {"width":"22%"} -->
 <div class="wp-block-column" style="flex-basis:22%"><!-- wp:image {"id":3488,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="https://frostwp.com/wp-content/themes/frost/assets/images/sample-white_800x800.jpg" alt="Sample Image" class="wp-image-3488"/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_theme_file_uri() ) . '/assets/images/sample-white_800x800.jpg'; ?>" alt="Sample Image" class="wp-image-3488"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column -->
 <!-- wp:column {"width":"75%"} -->
@@ -35,7 +35,7 @@
 <!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column {"width":"22%"} -->
 <div class="wp-block-column" style="flex-basis:22%"><!-- wp:image {"id":3488,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="https://frostwp.com/wp-content/themes/frost/assets/images/sample-white_800x800.jpg" alt="Sample Image" class="wp-image-3488"/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_theme_file_uri() ) . '/assets/images/sample-white_800x800.jpg'; ?>" alt="Sample Image" class="wp-image-3488"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column -->
 <!-- wp:column {"width":"75%"} -->
@@ -50,7 +50,7 @@
 <!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column {"width":"22%"} -->
 <div class="wp-block-column" style="flex-basis:22%"><!-- wp:image {"id":3488,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="https://frostwp.com/wp-content/themes/frost/assets/images/sample-white_800x800.jpg" alt="Sample Image" class="wp-image-3488"/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_theme_file_uri() ) . '/assets/images/sample-white_800x800.jpg'; ?>" alt="Sample Image" class="wp-image-3488"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column -->
 <!-- wp:column {"width":"75%"} -->
@@ -67,7 +67,7 @@
 <div class="wp-block-column"><!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column {"width":"22%"} -->
 <div class="wp-block-column" style="flex-basis:22%"><!-- wp:image {"id":3488,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="https://frostwp.com/wp-content/themes/frost/assets/images/sample-white_800x800.jpg" alt="Sample Image" class="wp-image-3488"/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_theme_file_uri() ) . '/assets/images/sample-white_800x800.jpg'; ?>" alt="Sample Image" class="wp-image-3488"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column -->
 <!-- wp:column {"width":"75%"} -->
@@ -82,7 +82,7 @@
 <!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column {"width":"22%"} -->
 <div class="wp-block-column" style="flex-basis:22%"><!-- wp:image {"id":3488,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="https://frostwp.com/wp-content/themes/frost/assets/images/sample-white_800x800.jpg" alt="Sample Image" class="wp-image-3488"/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_theme_file_uri() ) . '/assets/images/sample-white_800x800.jpg'; ?>" alt="Sample Image" class="wp-image-3488"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column -->
 <!-- wp:column {"width":"75%"} -->
@@ -97,7 +97,7 @@
 <!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column {"width":"22%"} -->
 <div class="wp-block-column" style="flex-basis:22%"><!-- wp:image {"id":3488,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="https://frostwp.com/wp-content/themes/frost/assets/images/sample-white_800x800.jpg" alt="Sample Image" class="wp-image-3488"/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_theme_file_uri() ) . '/assets/images/sample-white_800x800.jpg'; ?>" alt="Sample Image" class="wp-image-3488"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column -->
 <!-- wp:column {"width":"75%"} -->
