@@ -229,9 +229,8 @@ kbd {
 --------------------------------------------- */
 
 ol li:where(:not([class*='block'])),
-ol li:where(.wp-block-list),
 ul li:where(:not([class*='block'])),
-ul li:where(.wp-block-list) {
+.wp-block-list li {
 	margin-left: 30px;
 }
 
