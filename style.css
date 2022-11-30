@@ -200,12 +200,7 @@ kbd {
 /* Heading
 --------------------------------------------- */
 
-.wp-block-post-content h1 + *,
-.wp-block-post-content h2 + *,
-.wp-block-post-content h3 + *,
-.wp-block-post-content h4 + *,
-.wp-block-post-content h5 + *,
-.wp-block-post-content h6 + * {
+.wp-block-post-content .wp-block-heading + * {
 	margin-top: 20px;
 }
 
