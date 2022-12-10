@@ -1,6 +1,6 @@
 {
 	"name": "wpengine/themes",
-	"type": "package",
+	"type": "wordpress-theme",
 	"description": "A collection of experimental block-based WordPress themes by WP Engine.",
 	"homepage": "https://github.com/wpengine/themes",
 	"license": "GPL-2.0-or-later",
