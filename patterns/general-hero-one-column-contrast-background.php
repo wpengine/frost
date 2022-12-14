@@ -2,7 +2,7 @@
 /**
  * Title: Section with image, text, buttons.
  * Slug: frost/general-hero-one-column-contrast-background
- * Categories: frost-general
+ * Categories: featured
  */
 ?>
 <!-- wp:group {"align":"full","style":{"spacing":{"margin":{"top":"0px"},"padding":{"top":"var:preset|spacing|x-large","right":"30px","bottom":"var:preset|spacing|x-large","left":"30px"}}},"backgroundColor":"contrast","textColor":"base","className":"has-background-color","layout":{"type":"constrained","wideSize":"800px"}} -->

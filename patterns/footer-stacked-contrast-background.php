@@ -2,7 +2,7 @@
 /**
  * Title: Footer with heading, text, button.
  * Slug: frost/footer-stacked-contrast-background
- * Categories: frost-footer
+ * Categories: footer
  * Block Types: core/template-part/footer
  */
 ?>

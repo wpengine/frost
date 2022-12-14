@@ -2,7 +2,7 @@
 /**
  * Title: Sample link page.
  * Slug: frost/page-link
- * Categories: frost-page
+ * Categories: contact
  */
 ?>
 <!-- wp:group {"align":"full","style":{"spacing":{"margin":{"top":"0px"},"padding":{"left":"30px","top":"var:preset|spacing|x-large","right":"30px","bottom":"var:preset|spacing|x-large"}}},"className":"is-style-full-height","layout":{"inherit":true,"type":"constrained"}} -->

@@ -2,7 +2,7 @@
 /**
  * Title: Call-to-action with text, button.
  * Slug: frost/general-cta-stacked-contrast-background
- * Categories: frost-general
+ * Categories: call-to-action
  */
 ?>
 <!-- wp:group {"align":"full","style":{"spacing":{"margin":{"top":"0px"},"padding":{"top":"var:preset|spacing|x-large","bottom":"var:preset|spacing|x-large","right":"30px","left":"30px"}}},"backgroundColor":"contrast","textColor":"base","className":"has-background-color","layout":{"inherit":true,"type":"constrained"}} -->

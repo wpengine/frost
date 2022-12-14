@@ -2,7 +2,7 @@
 /**
  * Title: Footer with text, links, buttons.
  * Slug: frost/footer-three-columns-contrast-background
- * Categories: frost-footer
+ * Categories: footer
  * Block Types: core/template-part/footer
  * Viewport Width: 1280
  */

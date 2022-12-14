@@ -2,7 +2,7 @@
 /**
  * Title: List of posts in one column.
  * Slug: frost/query-default
- * Categories: frost-query
+ * Categories: posts
  * Viewport Width: 1280
  */
 ?>

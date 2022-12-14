@@ -2,7 +2,7 @@
 /**
  * Title: Brand guide with columns, text, buttons.
  * Slug: frost/general-brand-guide
- * Categories: frost-general
+ * Categories: featured
  * Viewport Width: 1280
  */
 ?>

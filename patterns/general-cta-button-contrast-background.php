@@ -2,7 +2,7 @@
 /**
  * Title: Call-to-action with text, button.
  * Slug: frost/general-cta-button-contrast-background
- * Categories: frost-general
+ * Categories: call-to-action
  * Viewport Width: 1280
  */
 ?>

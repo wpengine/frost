@@ -2,7 +2,7 @@
 /**
  * Title: Featured boxes with text, button.
  * Slug: frost/general-boxes-two-contrast-background
- * Categories: frost-general
+ * Categories: text
  * Viewport Width: 1280
  */
 ?>

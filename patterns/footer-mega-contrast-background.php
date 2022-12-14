@@ -2,7 +2,7 @@
 /**
  * Title: Footer with text, button, links.
  * Slug: frost/footer-mega-contrast-background
- * Categories: frost-footer
+ * Categories: footer
  * Block Types: core/template-part/footer
  * Viewport Width: 1280
  */

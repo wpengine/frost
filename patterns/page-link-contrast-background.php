@@ -2,7 +2,7 @@
 /**
  * Title: Sample link page.
  * Slug: frost/page-link-contrast-background
- * Categories: frost-page
+ * Categories: contact
  */
 ?>
 <!-- wp:group {"align":"full","style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}},"spacing":{"margin":{"top":"0px"},"padding":{"top":"var:preset|spacing|x-large","right":"30px","bottom":"var:preset|spacing|x-large","left":"30px"}}},"backgroundColor":"contrast","textColor":"base","className":"is-style-full-height has-background-color","layout":{"inherit":true,"type":"constrained"}} -->

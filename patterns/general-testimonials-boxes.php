@@ -2,7 +2,7 @@
 /**
  * Title: Testimonials with text.
  * Slug: frost/general-testimonials-boxes
- * Categories: frost-general
+ * Categories: testimonials
  * Viewport Width: 1280
  */
 ?>

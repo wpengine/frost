@@ -2,7 +2,7 @@
 /**
  * Title: Pricing table with list, buttons.
  * Slug: frost/general-pricing-four-columns-contrast-background
- * Categories: frost-general
+ * Categories: featured
  * Viewport Width: 1280
  */
 ?>

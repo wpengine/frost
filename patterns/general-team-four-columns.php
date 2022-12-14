@@ -2,7 +2,7 @@
 /**
  * Title: Team with image, text, link.
  * Slug: frost/general-team-four-columns
- * Categories: frost-general
+ * Categories: team
  * Viewport Width: 1280
  */
 ?>

@@ -2,7 +2,7 @@
 /**
  * Title: Sample home page.
  * Slug: frost/page-home
- * Categories: frost-page
+ * Categories: featured
  * Viewport Width: 1280
  */
 ?>

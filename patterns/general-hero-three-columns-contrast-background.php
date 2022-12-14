@@ -2,7 +2,7 @@
 /**
  * Title: Section with image, text, button.
  * Slug: frost/general-hero-three-columns-contrast-background
- * Categories: frost-general
+ * Categories: featured
  * Viewport Width: 1280
  */
 ?>

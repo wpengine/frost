@@ -2,7 +2,7 @@
 /**
  * Title: Podcast episode with media, text.
  * Slug: frost/general-podcast-contrast-background
- * Categories: frost-general
+ * Categories: media
  * Viewport Width: 1280
  */
 ?>

@@ -2,7 +2,7 @@
 /**
  * Title: Portfolio with images, text.
  * Slug: frost/general-portfolio
- * Categories: frost-general
+ * Categories: portfolio
  * Viewport Width: 1280
  */
 ?>
