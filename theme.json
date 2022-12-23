@@ -346,12 +346,6 @@
 				}
 			},
 			"core/heading": {
-				"spacing": {
-					"margin": {
-						"top": "0px",
-						"bottom": "10px"
-					}
-				},
 				"typography": {
 					"fontWeight": "var(--wp--custom--font-weight--regular)",
 					"lineHeight": "var(--wp--custom--line-height--heading)"
