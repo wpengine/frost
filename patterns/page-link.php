@@ -5,26 +5,23 @@
  * Categories: contact
  */
 ?>
-<!-- wp:group {"align":"full","style":{"spacing":{"margin":{"top":"0px"},"padding":{"left":"30px","top":"var:preset|spacing|x-large","right":"30px","bottom":"var:preset|spacing|x-large"}}},"className":"is-style-full-height","layout":{"inherit":true,"type":"constrained"}} -->
-<div class="wp-block-group alignfull is-style-full-height" style="margin-top:0px;padding-top:var(--wp--preset--spacing--x-large);padding-right:30px;padding-bottom:var(--wp--preset--spacing--x-large);padding-left:30px"><!-- wp:group -->
-<div class="wp-block-group">
-<!-- wp:image {"align":"center","id":3489,"width":120,"height":120,"sizeSlug":"full","linkDestination":"none","className":"is-style-rounded"} -->
-<figure class="wp-block-image aligncenter size-full is-resized is-style-rounded"><img src="<?php echo esc_url( get_theme_file_uri() ) . '/assets/images/sample-black_800x800.jpg'; ?>"  alt="' . esc_attr__( 'Sample Image', 'frost' ); ?>" class="wp-image-3489" width="120" height="120"/></figure>
+<!-- wp:group {"align":"full","style":{"spacing":{"margin":{"top":"0px"},"padding":{"left":"0px","top":"var:preset|spacing|x-large","right":"0px","bottom":"var:preset|spacing|x-large"}},"dimensions":{"minHeight":"100vh"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
+<div class="wp-block-group alignfull" style="min-height:100vh;margin-top:0px;padding-top:var(--wp--preset--spacing--x-large);padding-right:0px;padding-bottom:var(--wp--preset--spacing--x-large);padding-left:0px"><!-- wp:group {"layout":{"type":"constrained","wideSize":"600px"}} -->
+<div class="wp-block-group"><!-- wp:image {"align":"center","id":3489,"width":120,"height":120,"sizeSlug":"full","linkDestination":"none","className":"is-style-rounded"} -->
+<figure class="wp-block-image aligncenter size-full is-resized is-style-rounded"><img src="<?php echo esc_url( get_theme_file_uri() ) . '/assets/images/sample-black_800x800.jpg'; ?>" alt="' . esc_attr__( 'Sample Image', 'frost' ); ?&gt;" class="wp-image-3489" width="120" height="120"/></figure>
 <!-- /wp:image -->
 <!-- wp:heading {"textAlign":"center","fontSize":"x-large"} -->
-<h2 class="has-text-align-center has-x-large-font-size" id="your-name-1"><?php echo esc_html__( 'Your Name', 'frost' ); ?></h2>
+<h2 class="wp-block-heading has-text-align-center has-x-large-font-size" id="your-name-1"><?php echo esc_html__( 'Your Name', 'frost' ); ?></h2>
 <!-- /wp:heading -->
 <!-- wp:paragraph {"align":"center"} -->
 <p class="has-text-align-center"><?php echo esc_html__( 'Company Name', 'frost' ); ?><br><a href="mailto:name@company.com">name@company.com</a></p>
 <!-- /wp:paragraph -->
 <!-- wp:social-links {"iconBackgroundColor":"contrast","iconBackgroundColorValue":"#000","size":"has-normal-icon-size","align":"center","style":{"spacing":{"blockGap":"10px","margin":{"bottom":"var:preset|spacing|medium"}}},"className":"has-icon-base-color","layout":{"type":"flex","justifyContent":"center"}} -->
-<ul class="wp-block-social-links aligncenter has-normal-icon-size has-icon-background-color has-icon-base-color" style="margin-bottom:var(--wp--preset--spacing--medium)">
-<!-- wp:social-link {"url":"#","service":"facebook"} /-->
+<ul class="wp-block-social-links aligncenter has-normal-icon-size has-icon-background-color has-icon-base-color" style="margin-bottom:var(--wp--preset--spacing--medium)"><!-- wp:social-link {"url":"#","service":"facebook"} /-->
 <!-- wp:social-link {"url":"#","service":"instagram"} /-->
 <!-- wp:social-link {"url":"#","service":"twitter"} /-->
 <!-- wp:social-link {"url":"#","service":"dribbble"} /-->
-<!-- wp:social-link {"url":"#","service":"linkedin"} /-->
-</ul>
+<!-- wp:social-link {"url":"#","service":"linkedin"} /--></ul>
 <!-- /wp:social-links -->
 <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center","orientation":"horizontal"},"style":{"spacing":{"blockGap":"10px"}}} -->
 <div class="wp-block-buttons">

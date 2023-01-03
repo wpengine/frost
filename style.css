@@ -183,12 +183,6 @@ kbd {
 /* Group
 --------------------------------------------- */
 
-.wp-block-group.is-style-full-height {
-	align-items: center;
-	display: grid;
-	min-height: 100vh;
-}
-
 .wp-block-group.is-style-shadow {
 	box-shadow: 0 0 50px rgb(0 0 0 / 10%);
 }
