@@ -398,18 +398,6 @@
 					"lineHeight": "var(--wp--custom--line-height--medium)"
 				}
 			},
-			"core/separator": {
-				"border": {
-					"radius": "0",
-					"width": "0"
-				},
-				"color": {
-					"text": "var(--wp--preset--color--contrast)"
-				},
-				"typography": {
-					"fontSize": "var(--wp--preset--font-size--large)"
-				}
-			},
 			"core/site-tagline": {
 				"spacing": {
 					"margin": {
