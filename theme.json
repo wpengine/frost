@@ -269,13 +269,6 @@
 					"fontSize": "var(--wp--preset--font-size--small)"
 				}
 			},
-			"core/columns": {
-				"spacing": {
-					"margin": {
-						"bottom": "0px"
-					}
-				}
-			},
 			"core/comment-author-name": {
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--small)",
