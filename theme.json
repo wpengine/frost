@@ -3,16 +3,10 @@
 	"customTemplates": [
 		{
 			"name": "blank",
-			"postTypes": [
-				"page"
-			],
 			"title": "Blank"
 		},
 		{
 			"name": "no-title",
-			"postTypes": [
-				"page"
-			],
 			"title": "No Title"
 		}
 	],
