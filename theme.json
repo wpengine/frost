@@ -88,6 +88,8 @@
 		},
 		"custom": {
 			"fontWeight": {
+				"thin": 100,
+				"extra-light": 200,
 				"light": 300,
 				"regular": 400,
 				"medium": 500,
@@ -161,7 +163,7 @@
 							"fontFamily": "Outfit",
 							"fontStretch": "normal",
 							"fontStyle": "normal",
-							"fontWeight": "300 900",
+							"fontWeight": "100 900",
 							"src": [ "file:./assets/fonts/Outfit-Variable.woff2" ]
 						}
 					]
