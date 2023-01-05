@@ -398,16 +398,6 @@
 					"lineHeight": "var(--wp--custom--line-height--medium)"
 				}
 			},
-			"core/site-tagline": {
-				"spacing": {
-					"margin": {
-						"bottom": "20px"
-					}
-				},
-				"typography": {
-					"fontSize": "var(--wp--preset--font-size--small)"
-				}
-			},
 			"core/site-title": {
 				"elements": {
 					"link": {
