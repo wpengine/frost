@@ -391,6 +391,12 @@ textarea,
 	width: 100%;
 }
 
+input:focus,
+textarea:focus {
+	background-color: #eee;
+	outline: none;
+}
+
 input[type="checkbox"],
 input[type="image"],
 input[type="radio"] {
