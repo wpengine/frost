@@ -486,9 +486,6 @@
 				}
 			},
 			"caption": {
-				"color": {
-					"text": "var(--wp--preset--color--contrast)"
-				},
 				"spacing": {
 					"margin": {
 						"top": "10px",
