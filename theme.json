@@ -246,11 +246,6 @@
 					"blockGap": "10px"
 				}
 			},
-			"core/calendar": {
-				"typography": {
-					"fontSize": "var(--wp--preset--font-size--small)"
-				}
-			},
 			"core/code": {
 				"color": {
 					"background": "var(--wp--preset--color--contrast)",
