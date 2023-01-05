@@ -15,9 +15,6 @@
 		"blocks": {
 			"core/button": {
 				"spacing": {
-					"spacingScale": {
-						"steps": 0
-					},
 					"spacingSizes": [
 						{
 							"name": "xSmall",
