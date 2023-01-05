@@ -440,12 +440,10 @@ textarea {
 	}
 
 	.wp-block-pullquote.alignleft {
-		float: left;
 		margin-right: 30px !important;
 	}
 
 	.wp-block-pullquote.alignright {
-		float: right;
 		margin-left: 30px !important;
 	}
 
