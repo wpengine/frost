@@ -298,11 +298,6 @@ p.has-background {
 /* Separator
 --------------------------------------------- */
 
-.wp-block-separator,
-.wp-block-separator.has-css-opacity {
-	opacity: 1;
-}
-
 .wp-block-separator.is-style-dots:before {
 	font-family: inherit;
 	font-size: var(--wp--preset--font-size--large);
