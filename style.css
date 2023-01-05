@@ -62,26 +62,6 @@ blockquote {
 /* Blocks
 ---------------------------------------------------------------------------- */
 
-/* Button
---------------------------------------------- */
-
-input[type="button"],
-input[type="submit"],
-.wp-block-post-comments input[type=submit],
-.wp-block-search__button {
-	border: 1px solid var(--wp--preset--color--contrast);
-	border-radius: 0;
-	background-color: var(--wp--preset--color--contrast);
-	color: var(--wp--preset--color--base);
-	cursor: pointer;
-	font-size: var(--wp--preset--font-size--small);
-	font-weight: var(--wp--custom--font-weight--regular);
-	padding: 10px 25px;
-	text-decoration: none;
-	white-space: normal;
-	width: auto;
-}
-
 /* Button - Fill Base
 --------------------------------------------- */
 
@@ -167,17 +147,35 @@ kbd {
 	margin-left: 0;
 }
 
+.wp-block-post-comments-form .comment-reply-title {
+	font-weight: var(--wp--custom--font-weight--regular);
+}
+
+.wp-block-post-comments-form input:not([type=submit]):not([type=checkbox]),
+.wp-block-post-comments-form textarea {
+	font-weight: var(--wp--custom--font-weight--light);
+	padding: 10px 15px;
+}
+
 .wp-block-post-comments-form input:not([type=submit]),
 .wp-block-post-comments-form textarea {
 	border-color: var(--wp--preset--color--contrast);
 }
 
 .wp-block-post-comments-form input[type=submit] {
-	border: 1px solid var(--wp--preset--color--contrast);
+	width: auto;
+}
+
+.wp-block-post-comments-form p {
+	margin-bottom: 20px;
 }
 
 .wp-block-post-comments-form .form-submit {
 	margin-bottom: 0;
+}
+
+.wp-block-post-comments-form .comment-form-cookies-consent label {
+	font-size: var(--wp--preset--font-size--x-small);
 }
 
 /* Group
