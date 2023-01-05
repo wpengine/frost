@@ -252,10 +252,6 @@
 				}
 			},
 			"core/code": {
-				"border": {
-					"radius": "0",
-					"width": "0"
-				},
 				"color": {
 					"background": "var(--wp--preset--color--contrast)",
 					"text": "var(--wp--preset--color--base)"
