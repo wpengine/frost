@@ -38,16 +38,10 @@ textarea:focus,
 }
 
 a,
-a:not(.wp-element-button),
 a:focus,
-a:hover {
+a:hover,
+a:not(.wp-element-button) {
 	text-decoration-thickness: 1px;
-}
-
-ol,
-ul {
-	margin: 0;
-	padding: 0;
 }
 
 b,
@@ -57,6 +51,20 @@ strong {
 
 blockquote {
 	margin: 0;
+}
+
+ol,
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	list-style-type: disc;
+}
+
+pre {
+	white-space: pre-wrap;
 }
 
 /* Blocks
@@ -121,23 +129,10 @@ blockquote {
 	white-space: pre !important;
 }
 
-*:not(.wp-block-code) > code,
-kbd {
-	background-color: var(--wp--preset--color--contrast);
-	color: var(--wp--preset--color--base);
+*:not(.wp-block-code) > code {
+	background-color: #eee;
 	font-size: var(--wp--preset--font-size--small);
 	padding: 5px 8px;
-	position: relative;
-	top: -1px;
-}
-
-/*
- * When inline code is selected, the Editor applies contextual styling. Since
- * our code color is near white, we need to reset to the default text color.
- */
-.rich-text:focus > code[data-rich-text-format-boundary],
-.rich-text:focus > kbd[data-rich-text-format-boundary] {
-	color: currentColor;
 }
 
 /* Comments
