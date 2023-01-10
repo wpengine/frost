@@ -2,7 +2,7 @@
 
 An experimental block theme for designers, developers, and creators.
 
-![Frost for WordPress](https://user-images.githubusercontent.com/486261/197546365-c5356ebd-4c19-482d-b96a-891530f2ce8c.jpg)
+![Frost for WordPress](https://user-images.githubusercontent.com/486261/211583899-91216900-3932-4b9e-b3db-c59a2a6bff0f.jpg)
 
 ## About
 
