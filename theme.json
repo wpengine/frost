@@ -312,6 +312,9 @@
 				}
 			},
 			"core/heading": {
+				"spacing": {
+					"margin": "0"
+				},
 				"typography": {
 					"fontWeight": "var(--wp--custom--font-weight--regular)",
 					"lineHeight": "var(--wp--custom--line-height--heading)"
@@ -334,10 +337,7 @@
 			},
 			"core/paragraph": {
 				"spacing": {
-					"margin": {
-						"bottom": "30px",
-						"top": "0px"
-					}
+					"margin": "0"
 				}
 			},
 			"core/post-title": {
