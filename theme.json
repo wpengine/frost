@@ -1,4 +1,5 @@
 {
+	"version": 2,
 	"$schema": "https://schemas.wp.org/trunk/theme.json",
 	"customTemplates": [
 		{
@@ -553,6 +554,5 @@
 			"name": "comments",
 			"title": "Comments"
 		}
-	],
-	"version": 2
+	]
 }
