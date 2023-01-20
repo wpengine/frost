@@ -50,6 +50,13 @@
 			"defaultDuotone": false,
 			"defaultGradients": false,
 			"defaultPalette": false,
+			"gradients": [
+				{
+					"gradient": "linear-gradient(0deg, var(--wp--preset--color--primary) 0%, var(--wp--preset--color--tertiary) 100%)",
+					"name": "Primary to Tertiary",
+					"slug": "primary-tertiary"
+				}
+			],
 			"palette": [
 				{
 					"color": "#ffffff",
@@ -62,17 +69,17 @@
 					"slug": "contrast"
 				},
 				{
-					"color": "#990099",
+					"color": "#0000ff",
 					"name": "Primary",
 					"slug": "primary"
 				},
 				{
-					"color": "#0066ff",
+					"color": "#000099",
 					"name": "Secondary",
 					"slug": "secondary"
 				},
 				{
-					"color": "#009999",
+					"color": "#000033",
 					"name": "Tertiary",
 					"slug": "tertiary"
 				},
