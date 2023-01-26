@@ -67,6 +67,13 @@ pre {
 	white-space: pre-wrap;
 }
 
+mark {
+	background: linear-gradient(90deg, var(--wp--preset--color--primary) 0%, var(--wp--preset--color--primary) 100%);
+	background-position: 0 85%;
+	background-repeat: repeat-x;
+	background-size: 100% 15%;
+}
+
 /* Blocks
 ---------------------------------------------------------------------------- */
 
@@ -418,6 +425,14 @@ textarea {
 
 /* Media Queries
 ---------------------------------------------------------------------------- */
+
+@media only screen and (min-width: 600px) {
+
+	.is-style-min-width {
+		min-width: 200px;
+	}
+
+}
 
 @media only screen and (min-width: 800px) {
 
