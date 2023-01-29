@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: List of posts in one column.
- * Slug: frost/query-default
+ * Slug: frost/query
  * Categories: posts
  * Viewport Width: 1280
  */
