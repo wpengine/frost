@@ -480,7 +480,7 @@
 					"radius": "5px"
 				},
 				"color": {
-					"background": "var(--wp--preset--color--contrast)",
+					"background": "var(--wp--preset--color--primary)",
 					"text": "var(--wp--preset--color--base)"
 				},
 				"spacing": {
