@@ -5,8 +5,8 @@
  * Categories: portfolio
  */
 ?>
-
-<!-- wp:columns {"verticalAlignment":"center","align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|medium","left":"var:preset|spacing|large"}}},"className":"is-style-columns-reverse"} -->
+<!-- wp:group {"align":"wide","layout":{"type":"default"}} -->
+<div class="wp-block-group alignwide"><!-- wp:columns {"verticalAlignment":"center","align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|medium","left":"var:preset|spacing|large"}}},"className":"is-style-columns-reverse"} -->
 <div class="wp-block-columns alignwide are-vertically-aligned-center is-style-columns-reverse"><!-- wp:column {"verticalAlignment":"center","width":""} -->
 <div class="wp-block-column is-vertically-aligned-center"><!-- wp:heading {"fontSize":"x-large","anchor":"sample-heading"} -->
 <h2 class="wp-block-heading has-x-large-font-size" id="sample-heading"><?php echo esc_html__( 'Build with Frost', 'frost' ); ?></h2>
@@ -36,4 +36,5 @@
 <!-- /wp:image --></figure>
 <!-- /wp:gallery --></div>
 <!-- /wp:column --></div>
-<!-- /wp:columns -->
+<!-- /wp:columns --></div>
+<!-- /wp:group -->
