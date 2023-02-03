@@ -430,6 +430,17 @@ textarea {
 /* Media Queries
 ---------------------------------------------------------------------------- */
 
+@media only screen and (max-width: 780px) {
+
+	/* Columns
+	--------------------------------------------- */
+
+	.is-style-columns-reverse {
+		flex-direction: column-reverse;
+	}
+
+}
+
 @media only screen and (min-width: 600px) {
 
 	.is-style-min-width {

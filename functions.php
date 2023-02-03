@@ -60,6 +60,9 @@ function frost_register_block_styles() {
 			'fill-base'    => __( 'Fill Base', 'frost' ),
 			'outline-base' => __( 'Outline Base', 'frost' ),
 		),
+		'core/columns'         => array(
+			'columns-reverse' => __( 'Reverse', 'frost' ),
+		),
 		'core/group'           => array(
 			'shadow'       => __( 'Shadow', 'frost' ),
 			'shadow-solid' => __( 'Shadow Solid', 'frost' ),
