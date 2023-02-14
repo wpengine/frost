@@ -56,10 +56,6 @@ function frost_enqueue_style_sheet() {
 function frost_register_block_styles() {
 
 	$block_styles = array(
-		'core/button'          => array(
-			'fill-base'    => __( 'Fill Base', 'frost' ),
-			'outline-base' => __( 'Outline Base', 'frost' ),
-		),
 		'core/columns'         => array(
 			'columns-reverse' => __( 'Reverse', 'frost' ),
 		),

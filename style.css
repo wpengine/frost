@@ -81,15 +81,6 @@ mark {
 /* Blocks
 ---------------------------------------------------------------------------- */
 
-/* Button - Fill Base
---------------------------------------------- */
-
-.wp-block-button.is-style-fill-base .wp-element-button {
-	background-color: var(--wp--preset--color--base);
-	border: 1px solid var(--wp--preset--color--base);
-	color: var(--wp--preset--color--contrast);
-}
-
 /* Button - Outline
 --------------------------------------------- */
 
@@ -99,16 +90,6 @@ mark {
 	border-color: currentColor;
 	color: var(--wp--preset--color--contrast);
 	padding: 14px 29px;
-}
-
-/* Button - Outline Base
---------------------------------------------- */
-
-.wp-block-button.is-style-outline-base .wp-element-button {
-	background-color: transparent;
-	border: 1px solid;
-	border-color: var(--wp--preset--color--base);
-	color: var(--wp--preset--color--base);
 }
 
 /* Calendar
