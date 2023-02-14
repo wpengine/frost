@@ -5,8 +5,8 @@
  * Categories: team
  */
 ?>
-<!-- wp:group {"align":"wide","style":{"spacing":{"margin":{"top":"0"}}},"layout":{"type":"default"}} -->
-<div class="wp-block-group alignwide" style="margin-top:0"><!-- wp:columns -->
+<!-- wp:group {"align":"wide","layout":{"type":"default"}} -->
+<div class="wp-block-group alignwide"><!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:image {"align":"center","id":3489,"width":200,"height":200,"sizeSlug":"full","linkDestination":"none"} -->
 <figure class="wp-block-image aligncenter size-full is-resized"><img src="<?php echo esc_url( get_theme_file_uri() ) . '/patterns/images/sample-black_800x800.jpg'; ?>" alt="Sample Image" class="wp-image-3489" width="200" height="200"/></figure>
