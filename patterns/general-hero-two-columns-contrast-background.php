@@ -21,6 +21,6 @@
 <!-- wp:button {"style":{"border":{"radius":0}},"className":"is-style-outline-base"} -->
 <div class="wp-block-button is-style-outline-base"><a class="wp-block-button__link no-border-radius wp-element-button"><?php echo esc_html__( 'Learn More', 'frost' ); ?></a></div>
 <!-- /wp:button --></div>
-<!-- /wp:buttons --></div><figure class="wp-block-media-text__media"><img src="<?php echo esc_url( get_theme_file_uri() ) . '/assets/images/sample-white_1200x1200.jpg'; ?>" alt="Sample Image" class="wp-image-3484 size-full"/></figure></div>
+<!-- /wp:buttons --></div><figure class="wp-block-media-text__media"><img src="<?php echo esc_url( get_theme_file_uri() ) . '/patterns/images/sample-white_1200x1200.jpg'; ?>" alt="Sample Image" class="wp-image-3484 size-full"/></figure></div>
 <!-- /wp:media-text --></div>
 <!-- /wp:group -->
