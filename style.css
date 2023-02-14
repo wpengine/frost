@@ -422,14 +422,6 @@ textarea {
 
 }
 
-@media only screen and (min-width: 600px) {
-
-	.is-style-min-width {
-		min-width: 200px;
-	}
-
-}
-
 @media only screen and (min-width: 800px) {
 
 	/* Navigation Link
