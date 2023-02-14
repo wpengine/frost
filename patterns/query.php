@@ -23,7 +23,7 @@
 <!-- /wp:group -->
 </div>
 <!-- /wp:group -->
-<!-- wp:post-content /-->
+<!-- wp:post-excerpt {"moreText":"Read More"} /-->
 <!-- /wp:post-template -->
 <!-- wp:query-pagination -->
 <!-- wp:query-pagination-previous /-->
