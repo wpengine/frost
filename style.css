@@ -172,10 +172,6 @@ mark {
 	box-shadow: 0 0 50px rgb(0 0 0 / 10%);
 }
 
-.wp-block-group.is-style-shadow-solid {
-	box-shadow: 5px 5px var(--wp--preset--color--contrast);
-}
-
 /* Heading
 --------------------------------------------- */
 
