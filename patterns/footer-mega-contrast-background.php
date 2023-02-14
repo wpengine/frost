@@ -4,30 +4,29 @@
  * Slug: frost/footer-mega-contrast-background
  * Categories: footer
  * Block Types: core/template-part/footer
- * Viewport Width: 1280
  */
 ?>
-<!-- wp:group {"align":"full","style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}},"typography":{"fontSize":"18px"},"spacing":{"padding":{"top":"var:preset|spacing|x-large","bottom":"var:preset|spacing|x-large"},"margin":{"top":"0px"}}},"backgroundColor":"contrast","textColor":"base","className":"has-background-color","layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull has-background-color has-base-color has-contrast-background-color has-text-color has-background has-link-color" style="margin-top:0px;padding-top:var(--wp--preset--spacing--x-large);padding-bottom:var(--wp--preset--spacing--x-large);font-size:18px"><!-- wp:columns {"align":"wide","style":{"elements":{"link":{"color":[]}}}} -->
+<!-- wp:group {"align":"full","style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}},"spacing":{"padding":{"top":"var:preset|spacing|x-large","bottom":"var:preset|spacing|x-large"},"margin":{"top":"0px"}}},"backgroundColor":"contrast","textColor":"base","className":"has-background-color","layout":{"type":"constrained"},"fontSize":"small"} -->
+<div class="wp-block-group alignfull has-background-color has-base-color has-contrast-background-color has-text-color has-background has-link-color has-small-font-size" style="margin-top:0px;padding-top:var(--wp--preset--spacing--x-large);padding-bottom:var(--wp--preset--spacing--x-large)"><!-- wp:columns {"align":"wide","style":{"elements":{"link":{"color":[]}}}} -->
 <div class="wp-block-columns alignwide has-link-color"><!-- wp:column {"width":"55%"} -->
-<div class="wp-block-column" style="flex-basis:55%"><!-- wp:heading {"level":4} -->
-<h4 id="our-company"><?php echo esc_html__( 'Our Company', 'frost' ); ?></h4>
+<div class="wp-block-column" style="flex-basis:55%"><!-- wp:heading {"level":4,"anchor":"our-company","className":"wp-block-heading"} -->
+<h4 class="wp-block-heading" id="our-company"><?php echo esc_html__( 'Our Company', 'frost' ); ?></h4>
 <!-- /wp:heading -->
 <!-- wp:paragraph -->
-<p>Quisque aliquam nisl quis metus taylor feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing vestibulum vitae gravida non diam.</p>
+<p><?php echo esc_html__( 'With its clean, minimal design and powerful feature set, Frost enables agencies to build stylish and sophisticated WordPress websites.', 'frost' ); ?></p>
 <!-- /wp:paragraph -->
 <!-- wp:buttons -->
-<div class="wp-block-buttons"><!-- wp:button {"style":{"border":{"radius":0}},"className":"is-style-fill-base"} -->
-<div class="wp-block-button is-style-fill-base"><a class="wp-block-button__link no-border-radius wp-element-button" href="#"><?php echo esc_html__( 'Learn More', 'frost' ); ?></a></div>
+<div class="wp-block-buttons"><!-- wp:button {"style":{"spacing":{"padding":{"top":"var:preset|spacing|x-small","bottom":"var:preset|spacing|x-small","left":"var:preset|spacing|medium","right":"var:preset|spacing|medium"}}},"className":"is-style-fill"} -->
+<div class="wp-block-button is-style-fill"><a class="wp-block-button__link wp-element-button" href="#" style="padding-top:var(--wp--preset--spacing--x-small);padding-right:var(--wp--preset--spacing--medium);padding-bottom:var(--wp--preset--spacing--x-small);padding-left:var(--wp--preset--spacing--medium)"><?php echo esc_html__( 'Learn More', 'frost' ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:column -->
 <!-- wp:column {"width":"15%"} -->
-<div class="wp-block-column" style="flex-basis:15%"><!-- wp:heading {"level":4} -->
-<h4 id="about-us"><?php echo esc_html__( 'About Us', 'frost' ); ?></h4>
+<div class="wp-block-column" style="flex-basis:15%"><!-- wp:heading {"level":4,"anchor":"about-us","className":"wp-block-heading"} -->
+<h4 class="wp-block-heading" id="about-us"><?php echo esc_html__( 'About Us', 'frost' ); ?></h4>
 <!-- /wp:heading -->
-<!-- wp:list {"fontSize":"small"} -->
-<ul class="has-small-font-size"><!-- wp:list-item -->
+<!-- wp:list -->
+<ul><!-- wp:list-item -->
 <li><a href="#"><?php echo esc_html__( 'Start Here', 'frost' ); ?></a></li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
@@ -45,11 +44,11 @@
 <!-- /wp:list --></div>
 <!-- /wp:column -->
 <!-- wp:column {"width":"15%"} -->
-<div class="wp-block-column" style="flex-basis:15%"><!-- wp:heading {"level":4} -->
-<h4 id="services"><?php echo esc_html__( 'Services', 'frost' ); ?></h4>
+<div class="wp-block-column" style="flex-basis:15%"><!-- wp:heading {"level":4,"anchor":"services","className":"wp-block-heading"} -->
+<h4 class="wp-block-heading" id="services"><?php echo esc_html__( 'Services', 'frost' ); ?></h4>
 <!-- /wp:heading -->
-<!-- wp:list {"fontSize":"small"} -->
-<ul class="has-small-font-size"><!-- wp:list-item -->
+<!-- wp:list -->
+<ul><!-- wp:list-item -->
 <li><a href="#"><?php echo esc_html__( 'Web Design', 'frost' ); ?></a></li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
@@ -67,11 +66,11 @@
 <!-- /wp:list --></div>
 <!-- /wp:column -->
 <!-- wp:column {"width":"15%"} -->
-<div class="wp-block-column" style="flex-basis:15%"><!-- wp:heading {"level":4} -->
-<h4 id="connect"><?php echo esc_html__( 'Connect', 'frost' ); ?></h4>
+<div class="wp-block-column" style="flex-basis:15%"><!-- wp:heading {"level":4,"anchor":"connect","className":"wp-block-heading"} -->
+<h4 class="wp-block-heading" id="connect"><?php echo esc_html__( 'Connect', 'frost' ); ?></h4>
 <!-- /wp:heading -->
-<!-- wp:list {"fontSize":"small"} -->
-<ul class="has-small-font-size"><!-- wp:list-item -->
+<!-- wp:list -->
+<ul><!-- wp:list-item -->
 <li><a href="#">Facebook</a></li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
