@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: 404 error content.
- * Slug: frost/hidden-404
+ * Slug: frost/404
  * Inserter: false
  */
 ?>
