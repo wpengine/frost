@@ -4,7 +4,6 @@
  * Slug: frost/header-default-contrast-background
  * Categories: header
  * Block Types: core/template-part/header
- * Viewport Width: 1280
  */
 ?>
 <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"30px","bottom":"30px"},"margin":{"top":"0px"}}},"backgroundColor":"contrast","layout":{"type":"constrained"}} -->
