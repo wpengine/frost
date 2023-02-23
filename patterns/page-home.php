@@ -3,7 +3,6 @@
  * Title: Sample home page.
  * Slug: frost/page-home
  * Categories: featured
- * Viewport Width: 1280
  */
 ?>
 <!-- wp:pattern {"slug":"frost/general-hero-one-column"} /-->
