@@ -16,7 +16,7 @@
 <!-- /wp:paragraph -->
 <!-- wp:group {"style":{"spacing":{"blockGap":"15px"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 <div class="wp-block-group"><!-- wp:image {"id":299,"width":60,"height":60,"sizeSlug":"full","linkDestination":"none","style":{"border":{"radius":"50px"}},"className":"is-style-rounded"} -->
-<figure class="wp-block-image size-full is-resized has-custom-border is-style-rounded"><img src="<?php echo esc_url( get_theme_file_uri() ) . '/assets/images/sample-white_800x800.jpg'; ?>" alt="Testimonial Avatar" class="wp-image-299" style="border-radius:50px" width="60" height="60"/></figure>
+<figure class="wp-block-image size-full is-resized has-custom-border is-style-rounded"><img src="<?php echo esc_url( get_theme_file_uri() ) . '/assets/images/sample_white_800x800.jpg'; ?>" alt="Testimonial Avatar" class="wp-image-299" style="border-radius:50px" width="60" height="60"/></figure>
 <!-- /wp:image -->
 <!-- wp:group {"style":{"spacing":{"blockGap":"0"},"typography":{"lineHeight":"1.5"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group" style="line-height:1.5"><!-- wp:paragraph {"fontSize":"small"} -->
@@ -37,7 +37,7 @@
 <!-- /wp:paragraph -->
 <!-- wp:group {"style":{"spacing":{"blockGap":"15px"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 <div class="wp-block-group"><!-- wp:image {"id":299,"width":60,"height":60,"sizeSlug":"full","linkDestination":"none","style":{"border":{"radius":"50px"}},"className":"is-style-rounded"} -->
-<figure class="wp-block-image size-full is-resized has-custom-border is-style-rounded"><img src="<?php echo esc_url( get_theme_file_uri() ) . '/assets/images/sample-white_800x800.jpg'; ?>" alt="Testimonial Avatar" class="wp-image-299" style="border-radius:50px" width="60" height="60"/></figure>
+<figure class="wp-block-image size-full is-resized has-custom-border is-style-rounded"><img src="<?php echo esc_url( get_theme_file_uri() ) . '/assets/images/sample_white_800x800.jpg'; ?>" alt="Testimonial Avatar" class="wp-image-299" style="border-radius:50px" width="60" height="60"/></figure>
 <!-- /wp:image -->
 <!-- wp:group {"style":{"spacing":{"blockGap":"0"},"typography":{"lineHeight":"1.5"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group" style="line-height:1.5"><!-- wp:paragraph {"fontSize":"small"} -->
@@ -58,7 +58,7 @@
 <!-- /wp:paragraph -->
 <!-- wp:group {"style":{"spacing":{"blockGap":"15px"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 <div class="wp-block-group"><!-- wp:image {"id":299,"width":60,"height":60,"sizeSlug":"full","linkDestination":"none","style":{"border":{"radius":"50px"}},"className":"is-style-rounded"} -->
-<figure class="wp-block-image size-full is-resized has-custom-border is-style-rounded"><img src="<?php echo esc_url( get_theme_file_uri() ) . '/assets/images/sample-white_800x800.jpg'; ?>" alt="Testimonial Avatar" class="wp-image-299" style="border-radius:50px" width="60" height="60"/></figure>
+<figure class="wp-block-image size-full is-resized has-custom-border is-style-rounded"><img src="<?php echo esc_url( get_theme_file_uri() ) . '/assets/images/sample_white_800x800.jpg'; ?>" alt="Testimonial Avatar" class="wp-image-299" style="border-radius:50px" width="60" height="60"/></figure>
 <!-- /wp:image -->
 <!-- wp:group {"style":{"spacing":{"blockGap":"0"},"typography":{"lineHeight":"1.5"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group" style="line-height:1.5"><!-- wp:paragraph {"fontSize":"small"} -->
