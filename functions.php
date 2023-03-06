@@ -59,9 +59,6 @@ function frost_register_block_styles() {
 		'core/columns' => array(
 			'columns-reverse' => __( 'Reverse', 'frost' ),
 		),
-		'core/group' => array(
-			'shadow' => __( 'Shadow', 'frost' ),
-		),
 		'core/list' => array(
 			'no-disc' => __( 'No Disc', 'frost' ),
 		),
