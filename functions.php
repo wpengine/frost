@@ -56,13 +56,13 @@ function frost_enqueue_style_sheet() {
 function frost_register_block_styles() {
 
 	$block_styles = array(
-		'core/columns'         => array(
+		'core/columns' => array(
 			'columns-reverse' => __( 'Reverse', 'frost' ),
 		),
-		'core/group'           => array(
-			'shadow'       => __( 'Shadow', 'frost' ),
+		'core/group' => array(
+			'shadow' => __( 'Shadow', 'frost' ),
 		),
-		'core/list'            => array(
+		'core/list' => array(
 			'no-disc' => __( 'No Disc', 'frost' ),
 		),
 		'core/navigation-link' => array(

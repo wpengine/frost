@@ -17,7 +17,7 @@
 <!-- wp:paragraph -->
 <p>·</p>
 <!-- /wp:paragraph -->
-<!-- wp:post-author {"showAvatar":false} /-->
+<!-- wp:post-author-name {"isLink":true} /-->
 </div>
 <!-- /wp:group -->
 </div>
