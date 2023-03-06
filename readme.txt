@@ -1,7 +1,7 @@
 === Frost ===
-Contributors: bgardner, ndiego
-Requires at least: 6.0
-Tested up to: 6.1
+Contributors: bgardner
+Requires at least: 6.2
+Tested up to: 6.2
 Requires PHP: 5.6
 Stable tag: 0.9.10
 License: GPLv2 or later

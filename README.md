@@ -13,7 +13,7 @@ Download the latest stable release: [frost-0.9.10.zip](https://github.com/wpengi
 ## Requirements
 
 - Gutenberg plugin (latest)
-- WordPress 6.0+
+- WordPress 6.2+
 - PHP 5.6+
 - License: [GPLv2](http://www.gnu.org/licenses/gpl-2.0.html) or later
 
@@ -22,7 +22,7 @@ Download the latest stable release: [frost-0.9.10.zip](https://github.com/wpengi
 You can download the latest stable release of Frost using the link above. Alternatively, install the entire repository for development purposes:
 
 1. Set up a local WordPress development environment, we recommend using [Local](https://localwp.com/).
-2. Ensure you are using WordPress 6.0+ with the [Gutenberg plugin](https://wordpress.org/plugins/gutenberg/) active.
+2. Ensure you are using WordPress 6.2+ with the [Gutenberg plugin](https://wordpress.org/plugins/gutenberg/) active.
 3. Clone / download this repository into the `/wp-content/themes/` directory of your new WordPress instance.
 4. In the WordPress admin, use the Appearance > Themes screen to activate Frost.
 
