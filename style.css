@@ -165,13 +165,6 @@ mark {
 	font-size: var(--wp--preset--font-size--x-small);
 }
 
-/* Heading
---------------------------------------------- */
-
-.wp-block-post-content .wp-block-heading + * {
-	margin-top: 20px;
-}
-
 /* Image
 --------------------------------------------- */
 
