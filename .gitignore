@@ -1,8 +1,0 @@
-node_modules
-vendor/
-*.DS_Store
-*.zip
-*.rej
-**/*.map
-.ignore
-.github_token
