@@ -1,12 +1,12 @@
 # Frost
 
-An experimental block theme for designers, developers, and creators.
+The ultimate WordPress theme for website builders.
 
-![Frost for WordPress](https://user-images.githubusercontent.com/486261/211583899-91216900-3932-4b9e-b3db-c59a2a6bff0f.jpg)
+![Frost WordPress Theme](https://user-images.githubusercontent.com/486261/224737575-6045a830-6ef7-4551-a887-82d6228b1530.jpg)
 
 ## About
 
-Frost is a Full Site Editing theme for WordPress that extends the incredible power of the editor, enables builders to create amazing sites with little effort, and elevates the potential for freelancers and entrepreneurs. See the Frost theme in action at [frostwp.com](https://frostwp.com/).
+With its clean, minimal design and powerful feature set, Frost enables agencies to build stylish and sophisticated WordPress websites. See the Frost theme in action at [frostwp.com](https://frostwp.com/).
 
 Download the latest stable release: [frost-0.9.10.zip](https://github.com/wpengine/frost/releases/download/v0.9.10/frost-0.9.10.zip)
 
@@ -25,14 +25,6 @@ You can download the latest stable release of Frost using the link above. Altern
 2. Ensure you are using WordPress 6.2+ with the [Gutenberg plugin](https://wordpress.org/plugins/gutenberg/) active.
 3. Clone / download this repository into the `/wp-content/themes/` directory of your new WordPress instance.
 4. In the WordPress admin, use the Appearance > Themes screen to activate Frost.
-
-**Coding Standards**
-
-Frost adheres to the [WordPress coding standards](https://developer.wordpress.org/coding-standards/). To optionally test standards locally, you will need [Composer](https://getcomposer.org/) on your machine. Run `composer install` to install test-specific development dependencies. The following commands are available:
-
-- `composer run lint` Checks all PHP files for syntax errors
-- `composer run standards:check` Checks all PHP files for standards errors
-- `composer run standards:fix` Attempts to automatically fix all PHP standards errors
 
 ## Resources
 
