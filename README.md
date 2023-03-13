@@ -12,7 +12,6 @@ Download the latest stable release: [frost-0.9.10.zip](https://github.com/wpengi
 
 ## Requirements
 
-- Gutenberg plugin (latest)
 - WordPress 6.2+
 - PHP 5.6+
 - License: [GPLv2](http://www.gnu.org/licenses/gpl-2.0.html) or later
