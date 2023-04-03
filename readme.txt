@@ -1,5 +1,5 @@
 === Frost ===
-Contributors: bgardner
+Contributors: wpengine, bgardner
 Requires at least: 6.2
 Tested up to: 6.2
 Requires PHP: 5.6
@@ -103,7 +103,7 @@ Initial public release.
 
 == Copyright ==
 
-Frost WordPress Theme, (C) 2022 WP Engine.
+Frost WordPress Theme, (C) 2022-2023 WP Engine.
 Frost is distributed under the terms of the GNU GPL.
 
 This program is free software: you can redistribute it and/or modify
