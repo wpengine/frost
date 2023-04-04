@@ -43,7 +43,7 @@
 </div>
 <!-- /wp:buttons -->
 <!-- wp:paragraph {"align":"center","fontSize":"small"} -->
-<p class="has-text-align-center has-small-font-size"><a href="https://frostwp.com/"><?php echo esc_html__( 'Made with Frost', 'frost' ); ?></a></p>
+<p class="has-text-align-center has-small-font-size"><a href=https://wordpress.org/themes/frost/"><?php echo esc_html__( 'Made with Frost', 'frost' ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
