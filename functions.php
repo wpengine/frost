@@ -66,7 +66,7 @@ function frost_register_block_styles() {
 			'outline' => __( 'Outline', 'frost' ),
 		),
 		'core/social-links' => array(
-			'outline' => __( 'Outline', 'powder' ),
+			'outline' => __( 'Outline', 'frost' ),
 		),
 	);
 
