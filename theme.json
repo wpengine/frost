@@ -432,9 +432,6 @@
 					"width": "1px"
 				},
 				"spacing": {
-					"margin": {
-						"bottom": "35px"
-					},
 					"padding": {
 						"bottom": "30px",
 						"left": "40px",
