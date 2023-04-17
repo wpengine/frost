@@ -196,12 +196,6 @@ ul li:where(:not([class*='block'])),
 	color: var(--wp--preset--color--base);
 }
 
-.wp-block-navigation:not([style*=text-decoration]) a,
-.wp-block-navigation:not([style*=text-decoration]) a:focus,
-.wp-block-navigation:not([style*=text-decoration]) a:hover {
-	text-decoration: none;
-}
-
 /* Navigation Submenu
 --------------------------------------------- */
 
