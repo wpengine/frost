@@ -282,6 +282,7 @@
 					"background": "var(--wp--preset--color--contrast)",
 					"text": "var(--wp--preset--color--base)"
 				},
+				"css": "& code {overflow-wrap: normal; overflow-x: scroll; tab-size: 4; white-space: pre;}",
 				"spacing": {
 					"padding": {
 						"bottom": "25px",
@@ -377,6 +378,7 @@
 					"background": "var(--wp--preset--color--contrast)",
 					"text": "var(--wp--preset--color--base)"
 				},
+				"css": "{overflow-wrap: normal; overflow-x: scroll; tab-size: 4; white-space: pre;}",
 				"spacing": {
 					"padding": {
 						"bottom": "25px",

@@ -114,13 +114,6 @@ mark {
 /* Code
 --------------------------------------------- */
 
-.wp-block-code code {
-	overflow-wrap: normal;
-	overflow-x: scroll;
-	tab-size: 4;
-	white-space: pre !important;
-}
-
 *:not(.wp-block-code) > code {
 	background-color: var(--wp--preset--color--neutral);
 	font-size: var(--wp--preset--font-size--small);
@@ -239,15 +232,6 @@ ul li:where(:not([class*='block'])),
 
 p.has-background {
 	padding: 20px 30px;
-}
-
-/* Preformatted
---------------------------------------------- */
-
-.wp-block-preformatted {
-	overflow-wrap: normal;
-	overflow-x: scroll;
-	white-space: pre;
 }
 
 /* Pullquote
