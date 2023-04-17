@@ -81,17 +81,6 @@ mark {
 /* Blocks
 ---------------------------------------------------------------------------- */
 
-/* Button - Outline
---------------------------------------------- */
-
-.wp-block-button.is-style-outline .wp-element-button {
-	background-color: transparent;
-	border: 1px solid;
-	border-color: currentColor;
-	color: var(--wp--preset--color--contrast);
-	padding: 14px 29px;
-}
-
 /* Calendar
 --------------------------------------------- */
 

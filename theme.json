@@ -273,6 +273,7 @@
 	"styles": {
 		"blocks": {
 			"core/buttons": {
+				"css": "& .is-style-outline .wp-element-button {background-color: transparent;border: 1px solid currentColor;color: var(--wp--preset--color--contrast);padding: 14px 29px;}",
 				"spacing": {
 					"blockGap": "10px"
 				}
