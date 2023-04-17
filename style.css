@@ -210,13 +210,6 @@ ul li:where(:not([class*='block'])),
 	padding: 2px 10px;
 }
 
-/* Paragraph
---------------------------------------------- */
-
-p.has-background {
-	padding: 20px 30px;
-}
-
 /* Pullquote
 --------------------------------------------- */
 

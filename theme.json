@@ -370,6 +370,7 @@
 				}
 			},
 			"core/paragraph": {
+				"css": ".has-background {padding: 20px 30px;}",
 				"spacing": {
 					"margin": "0"
 				}
