@@ -269,14 +269,6 @@ p.has-background {
 	height: 1px;
 }
 
-/* Social Icons
---------------------------------------------- */
-
-.wp-block-social-links.is-style-outline .wp-block-social-link {
-	background-color: transparent;
-	border: 1px solid currentColor;
-}
-
 /* Spacer
 --------------------------------------------- */
 

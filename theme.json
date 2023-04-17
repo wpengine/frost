@@ -449,6 +449,7 @@
 				}
 			},
 			"core/social-links": {
+				"css": ".is-style-outline .wp-block-social-link {background-color: transparent;border: 1px solid currentColor;}",
 				"spacing": {
 					"blockGap": "10px"
 				}
