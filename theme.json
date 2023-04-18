@@ -369,6 +369,9 @@
 					"margin": "0"
 				}
 			},
+			"core/post-template": {
+				"css": "& .wp-block-post:not(:last-of-type) {margin-bottom: var(--wp--preset--spacing--medium);}"
+			},
 			"core/preformatted": {
 				"color": {
 					"background": "var(--wp--preset--color--contrast)",
