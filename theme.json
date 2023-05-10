@@ -487,6 +487,7 @@
 				}
 			},
 			"core/table": {
+				"css": "th {border-color: var(--wp--preset--color--contrast) !important;} & td {border-color: var(--wp--preset--color--contrast) !important;}",
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--small)"
 				}
