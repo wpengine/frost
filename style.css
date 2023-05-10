@@ -197,31 +197,3 @@ textarea {
 	}
 
 }
-
-@media only screen and (min-width: 800px) {
-
-	/* Navigation Link
-	--------------------------------------------- */
-
-	.wp-block-navigation-item.is-style-outline a {
-		border: 1px solid currentColor;
-		padding: 8px 15px;
-	}
-
-	/* Pullquote
-	--------------------------------------------- */
-
-	.wp-block-pullquote.alignleft,
-	.wp-block-pullquote.alignright {
-		max-width: 300px;
-	}
-
-	.wp-block-pullquote.alignleft {
-		margin-right: 30px !important;
-	}
-
-	.wp-block-pullquote.alignright {
-		margin-left: 30px !important;
-	}
-
-}

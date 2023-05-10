@@ -388,6 +388,9 @@
 					"fontSize": "var(--wp--preset--font-size--small)"
 				}
 			},
+			"core/navigation-link": {
+				"css": ".is-style-outline a {@media only screen and (min-width: 800px) {border: 1px solid currentColor;border-radius: 5px;padding: 7px 15px;}}"
+			},
 			"core/paragraph": {
 				"css": ".has-background {padding: 20px 30px;}",
 				"spacing": {
