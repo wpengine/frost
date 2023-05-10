@@ -64,25 +64,6 @@ mark {
 /* Blocks
 ---------------------------------------------------------------------------- */
 
-/* Calendar
---------------------------------------------- */
-
-.wp-block-calendar table caption,
-.wp-block-calendar table tbody {
-	color: var(--wp--preset--color--contrast);
-}
-
-.wp-block-calendar table th {
-	background-color: var(--wp--preset--color--contrast);
-	color: var(--wp--preset--color--base);
-}
-
-.wp-block-calendar tbody td,
-.wp-block-calendar th {
-	border: 1px solid var(--wp--preset--color--contrast);
-	padding: 10px;
-}
-
 /* Code
 --------------------------------------------- */
 
