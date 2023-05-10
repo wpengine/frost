@@ -315,6 +315,9 @@
 					"fontSize": "var(--wp--preset--font-size--small)"
 				}
 			},
+			"core/columns": {
+				"css": ".is-style-columns-reverse {@media only screen and (max-width: 780px) {flex-direction: column-reverse;}}"
+			},
 			"core/comment-author-name": {
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--small)",
