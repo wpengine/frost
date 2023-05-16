@@ -3,15 +3,20 @@ Contributors: wpengine, bgardner
 Requires at least: 6.2
 Tested up to: 6.2
 Requires PHP: 5.6
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-With its clean, minimal design and powerful feature set, Frost enables agencies to build stylish and sophisticated WordPress websites. Frost is a masterpiece of design and functionality. It features a range of valuable elements, including hero and portfolio sections, prominent call-to-action buttons, and customer testimonials. In addition, Frost utilizes the potential of the editor to create link pages, serve as a powerful tool for building relationships with clients, sharing valuable content, and boosting social media engagement. So whether you’re building a website for your business, personal brand, or creative project, Frost is the perfect solution for anyone looking to launch a website quickly and efficiently.
+With its clean, minimal design and powerful feature set, Frost enables agencies to build stylish and sophisticated WordPress websites. Frost is a masterpiece of design and functionality. It features a range of valuable patterns, including hero and portfolio sections, prominent call-to-action buttons, and customer testimonials. Whether you’re building a website for your business, personal brand, or creative project, Frost is perfect for anyone looking to launch quickly and efficiently.
+
 
 == Changelog ==
+
+= 1.0.3 - 2023-05-19 =
+
+[Release Notes](https://github.com/wpengine/frost/releases/tag/v1.0.3)
 
 = 1.0.2 - 2023-05-01 =
 
