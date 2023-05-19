@@ -59,11 +59,23 @@ function frost_register_block_styles() {
 		'core/columns' => array(
 			'columns-reverse' => __( 'Reverse', 'frost' ),
 		),
+		'core/group' => array(
+			'shadow-light' => __( 'Shadow', 'frost' ),
+			'shadow-solid' => __( 'Solid', 'frost' ),
+		),
+		'core/image' => array(
+			'shadow-light' => __( 'Shadow', 'frost' ),
+			'shadow-solid' => __( 'Solid', 'frost' ),
+		),
 		'core/list' => array(
 			'no-disc' => __( 'No Disc', 'frost' ),
 		),
 		'core/navigation-link' => array(
 			'outline' => __( 'Outline', 'frost' ),
+		),
+		'core/quote' => array(
+			'shadow-light' => __( 'Shadow', 'frost' ),
+			'shadow-solid' => __( 'Solid', 'frost' ),
 		),
 		'core/social-links' => array(
 			'outline' => __( 'Outline', 'frost' ),

@@ -126,6 +126,21 @@
 			"contentSize": "640px",
 			"wideSize": "1200px"
 		},
+		"shadow": {
+			"defaultPresets": false,
+			"presets": [
+				{
+					"name": "Light",
+					"slug": "light",
+					"shadow": "0 0 50px rgb(0 0 0 / 10%);"
+				},
+				{
+					"name": "Solid",
+					"slug": "solid",
+					"shadow": "5px 5px currentColor"
+				}
+			]
+		},
 		"spacing": {
 			"spacingSizes": [
 				{
