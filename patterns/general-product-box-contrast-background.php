@@ -2,7 +2,7 @@
 /**
  * Title: Box with image, heading, text, button.
  * Slug: frost/general-product-box-contrast-background
- * Categories: text
+ * Categories: call-to-action
  */
 ?>
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|small","right":"var:preset|spacing|small","bottom":"var:preset|spacing|small","left":"var:preset|spacing|small"}}},"backgroundColor":"contrast","textColor":"base","className":"stacked","layout":{"type":"default"}} -->

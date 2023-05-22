@@ -2,7 +2,7 @@
 /**
  * Title: Pricing table with heading, list, buttons.
  * Slug: frost/general-pricing-two-columns-main
- * Categories: featured
+ * Categories: pricing
  */
 ?>
 <!-- wp:group {"align":"wide","layout":{"type":"constrained","wideSize":"800px"}} -->

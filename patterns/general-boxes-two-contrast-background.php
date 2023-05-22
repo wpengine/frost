@@ -2,7 +2,7 @@
 /**
  * Title: Boxes with heading, text, button.
  * Slug: frost/general-boxes-two-contrast-background
- * Categories: text
+ * Categories: featured
  */
 ?>
 <!-- wp:group {"align":"wide","layout":{"type":"default"}} -->

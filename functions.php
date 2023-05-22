@@ -95,3 +95,29 @@ function frost_register_block_styles() {
 	}
 }
 add_action( 'init', 'frost_register_block_styles' );
+
+/**
+ * Register block pattern categories.
+ *
+ * @since 1.0.4
+ */
+function frost_register_block_pattern_categories() {
+
+	register_block_pattern_category(
+		'page',
+		array(
+			'label'       => __( 'Page', 'frost' ),
+			'description' => __( 'Create a full page with multiple patterns that are grouped together.', 'frost' ),
+		)
+	);
+	register_block_pattern_category(
+		'pricing',
+		array(
+			'label'       => __( 'Pricing', 'frost' ),
+			'description' => __( 'Compare features for your digital products or service plans.', 'frost' ),
+		)
+	);
+
+}
+
+add_action( 'init', 'frost_register_block_pattern_categories' );

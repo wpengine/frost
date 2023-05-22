@@ -2,7 +2,7 @@
 /**
  * Title: Box with heading, text.
  * Slug: frost/general-newsletter-signup
- * Categories: featured
+ * Categories: call-to-action
  */
 ?>
 <!-- wp:group {"style":{"border":{"width":"1px"},"spacing":{"padding":{"top":"var:preset|spacing|medium","right":"var:preset|spacing|medium","bottom":"var:preset|spacing|medium","left":"var:preset|spacing|medium"}}},"borderColor":"contrast","className":"stacked","layout":{"type":"default"}} -->

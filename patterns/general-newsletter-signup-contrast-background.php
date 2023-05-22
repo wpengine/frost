@@ -2,7 +2,7 @@
 /**
  * Title: Box with heading, text.
  * Slug: frost/general-newsletter-signup-contrast-background
- * Categories: featured
+ * Categories: call-to-action
  */
 ?>
 <!-- wp:group {"style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}},"spacing":{"padding":{"top":"var:preset|spacing|medium","right":"var:preset|spacing|medium","bottom":"var:preset|spacing|medium","left":"var:preset|spacing|medium"}}},"backgroundColor":"contrast","textColor":"base","className":"stacked","layout":{"type":"default"}} -->

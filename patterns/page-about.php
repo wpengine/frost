@@ -2,7 +2,7 @@
 /**
  * Title: Sample about page.
  * Slug: frost/page-about
- * Categories: featured
+ * Categories: page
  */
 ?>
 <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"70px","bottom":"var:preset|spacing|x-large","right":"30px","left":"30px"}}},"layout":{"type":"constrained"}} -->
