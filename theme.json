@@ -449,6 +449,7 @@
 					"style": "solid",
 					"width": "1px"
 				},
+				"css": "& p {margin: 0;}",
 				"spacing": {
 					"padding": "var(--wp--custom--spacing--gap)"
 				}
