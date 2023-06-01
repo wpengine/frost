@@ -500,6 +500,9 @@
 						"top": "0px !important"
 					}
 				}
+			},
+			"core/term-description": {
+				"css": "& p {margin: 0;}"
 			}
 		},
 		"color": {
