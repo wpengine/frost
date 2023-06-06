@@ -191,3 +191,29 @@ textarea {
 .wp-block-quote.is-style-shadow-solid {
 	box-shadow: var(--wp--preset--shadow--solid);
 }
+
+/* Media Queries
+---------------------------------------------------------------------------- */
+
+@media only screen and (max-width: 780px) {
+
+	/* Columns
+	--------------------------------------------- */
+
+	.is-style-columns-reverse {
+		flex-direction: column-reverse;
+	}
+
+}
+
+@media only screen and (min-width: 800px) {
+
+	/* Navigation Link
+	--------------------------------------------- */
+
+	.wp-block-navigation-item.is-style-outline a {
+		border: 1px solid currentColor;
+		padding: 8px 15px;
+	}
+
+}
