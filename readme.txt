@@ -3,7 +3,7 @@ Contributors: wpengine, bgardner
 Requires at least: 6.2
 Tested up to: 6.2
 Requires PHP: 5.6
-Stable tag: 1.0.3
+Stable tag: 1.0.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -13,6 +13,10 @@ With its clean, minimal design and powerful feature set, Frost enables agencies 
 
 
 == Changelog ==
+
+= 1.0.4 - 2023-06-16 =
+
+[Release Notes](https://github.com/wpengine/frost/releases/tag/v1.0.4)
 
 = 1.0.3 - 2023-05-19 =
 
