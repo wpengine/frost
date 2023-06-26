@@ -195,18 +195,7 @@ textarea {
 /* Media Queries
 ---------------------------------------------------------------------------- */
 
-@media only screen and (max-width: 782px) {
-
-	/* Columns
-	--------------------------------------------- */
-
-	.is-style-columns-reverse {
-		flex-direction: column-reverse;
-	}
-
-}
-
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 600px) {
 
 	/* Navigation Link
 	--------------------------------------------- */
@@ -214,6 +203,17 @@ textarea {
 	.wp-block-navigation-item.is-style-outline a {
 		border: 1px solid currentColor;
 		padding: 8px 15px;
+	}
+
+}
+
+@media only screen and (max-width: 782px) {
+
+	/* Columns
+	--------------------------------------------- */
+
+	.is-style-columns-reverse {
+		flex-direction: column-reverse;
 	}
 
 }
