@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Pricing table with heading, list, buttons.
- * Slug: frost/general-pricing-four-columns
+ * Slug: frost/pricing-four-columns
  * Categories: pricing
  */
 ?>

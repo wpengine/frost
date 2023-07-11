@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Team with image, text, link.
- * Slug: frost/general-team-four-columns
+ * Slug: frost/team-four-columns
  * Categories: team
  */
 ?>

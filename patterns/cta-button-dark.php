@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Call-to-action with text, button.
- * Slug: frost/general-cta-button-dark
+ * Slug: frost/cta-button-dark
  * Categories: call-to-action
  */
 ?>

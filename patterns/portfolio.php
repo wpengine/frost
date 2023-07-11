@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Portfolio with heading, text, images.
- * Slug: frost/general-portfolio
+ * Slug: frost/portfolio
  * Categories: portfolio
  */
 ?>
