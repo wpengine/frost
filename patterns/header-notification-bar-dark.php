@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Header notification bar with text, button.
- * Slug: frost/header-notification-bar-contrast-background
+ * Slug: frost/header-notification-bar-dark
  * Categories: header
  * Block Types: core/template-part/header
  */

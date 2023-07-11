@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Testimonials with text.
- * Slug: frost/general-testimonials-contrast-background
+ * Slug: frost/general-testimonials-dark
  * Categories: testimonials
  */
 ?>

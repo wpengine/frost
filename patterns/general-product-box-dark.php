@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Box with image, heading, text, button.
- * Slug: frost/general-product-box-contrast-background
+ * Slug: frost/general-product-box-dark
  * Categories: call-to-action
  */
 ?>

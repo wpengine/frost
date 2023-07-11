@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Footer with text, button, links.
- * Slug: frost/footer-mega-contrast-background
+ * Slug: frost/footer-mega-dark
  * Categories: footer
  * Block Types: core/template-part/footer
  */

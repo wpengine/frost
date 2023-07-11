@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Footer with text, links.
- * Slug: frost/footer-default-contrast-background
+ * Slug: frost/footer-default-dark
  * Categories: footer
  * Block Types: core/template-part/footer
  */

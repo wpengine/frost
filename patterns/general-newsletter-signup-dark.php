@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Box with heading, text.
- * Slug: frost/general-newsletter-signup-contrast-background
+ * Slug: frost/general-newsletter-signup-dark
  * Categories: call-to-action
  */
 ?>
