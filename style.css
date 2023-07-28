@@ -31,6 +31,10 @@ html {
 	scroll-behavior: smooth;
 }
 
+img.edit-site-site-icon__image {
+	filter: invert(1);
+}
+
 a,
 button,
 input:focus,
@@ -195,14 +199,13 @@ textarea {
 /* Media Queries
 ---------------------------------------------------------------------------- */
 
-@media only screen and (min-width: 600px) {
+@media only screen and (max-width: 600px) {
 
-	/* Navigation Link
+	/* Utility
 	--------------------------------------------- */
 
-	.wp-block-navigation-item.is-style-outline a {
-		border: 1px solid currentColor;
-		padding: 8px 15px;
+	.is-style-hidden-mobile {
+		display: none !important;
 	}
 
 }
@@ -214,6 +217,18 @@ textarea {
 
 	.is-style-columns-reverse {
 		flex-direction: column-reverse;
+	}
+
+}
+
+@media only screen and (min-width: 600px) {
+
+	/* Navigation Link
+	--------------------------------------------- */
+
+	.wp-block-navigation-item.is-style-outline a {
+		border: 1px solid currentColor;
+		padding: 8px 15px;
 	}
 
 }
