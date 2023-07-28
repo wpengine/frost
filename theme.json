@@ -1,4 +1,6 @@
 {
+	"version": 2,
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
 	"customTemplates": [
 		{
 			"name": "blank",
@@ -631,7 +633,5 @@
 			"name": "footer",
 			"title": "Footer"
 		}
-	],
-	"version": 2,
-	"$schema": "https://schemas.wp.org/trunk/theme.json"
+	]
 }
