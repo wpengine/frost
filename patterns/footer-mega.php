@@ -71,19 +71,19 @@
 <!-- /wp:heading -->
 <!-- wp:list -->
 <ul><!-- wp:list-item -->
-<li><a href="#">Facebook</a></li>
+<li><a href="#"><?php echo esc_html__( 'Facebook', 'frost' ); ?></a></li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
-<li><a href="#">Instagram</a></li>
+<li><a href="#"><?php echo esc_html__( 'Instagram', 'frost' ); ?></a></li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
-<li><a href="#">Twitter</a></li>
+<li><a href="#"><?php echo esc_html__( 'Twitter', 'frost' ); ?></a></li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
-<li><a href="#">LinkedIn</a></li>
+<li><a href="#"><?php echo esc_html__( 'LinkedIn', 'frost' ); ?></a></li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
-<li><a href="#">Dribbble</a></li>
+<li><a href="#"><?php echo esc_html__( 'Dribbble', 'frost' ); ?></a></li>
 <!-- /wp:list-item --></ul>
 <!-- /wp:list --></div>
 <!-- /wp:column --></div>

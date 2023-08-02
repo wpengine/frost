@@ -13,7 +13,7 @@
 <p class="has-text-align-center has-small-font-size" style="line-height:1.5"><?php echo esc_html__( 'Personal', 'frost' ); ?></p>
 <!-- /wp:paragraph -->
 <!-- wp:paragraph {"align":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"500"}},"fontSize":"max-36"} -->
-<p class="has-text-align-center has-max-36-font-size" style="font-style:normal;font-weight:500">$95/yr.</p>
+<p class="has-text-align-center has-max-36-font-size" style="font-style:normal;font-weight:500"><?php echo esc_html__( '$95/yr.', 'frost' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 <!-- wp:group {"style":{"spacing":{"blockGap":"10px"}},"layout":{"type":"constrained"}} -->
@@ -60,7 +60,7 @@
 <p class="has-text-align-center has-small-font-size" style="line-height:1.5"><?php echo esc_html__( 'Professional', 'frost' ); ?></p>
 <!-- /wp:paragraph -->
 <!-- wp:paragraph {"align":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"500"}},"fontSize":"max-36"} -->
-<p class="has-text-align-center has-max-36-font-size" style="font-style:normal;font-weight:500">$195/yr.</p>
+<p class="has-text-align-center has-max-36-font-size" style="font-style:normal;font-weight:500"><?php echo esc_html__( '$195/yr.', 'frost' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 <!-- wp:group {"style":{"spacing":{"blockGap":"10px"}},"layout":{"type":"constrained"}} -->
@@ -107,7 +107,7 @@
 <p class="has-text-align-center has-small-font-size" style="line-height:1.5"><?php echo esc_html__( 'Enterprise', 'frost' ); ?></p>
 <!-- /wp:paragraph -->
 <!-- wp:paragraph {"align":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"500"}},"fontSize":"max-36"} -->
-<p class="has-text-align-center has-max-36-font-size" style="font-style:normal;font-weight:500">$495/yr.</p>
+<p class="has-text-align-center has-max-36-font-size" style="font-style:normal;font-weight:500"><?php echo esc_html__( '$495/yr.', 'frost' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 <!-- wp:group {"style":{"spacing":{"blockGap":"10px"}},"layout":{"type":"constrained"}} -->

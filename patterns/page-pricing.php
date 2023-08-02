@@ -22,7 +22,7 @@
 <p class="has-text-align-center has-small-font-size" style="line-height:1.5"><?php echo esc_html__( 'Personal', 'frost' ); ?></p>
 <!-- /wp:paragraph -->
 <!-- wp:paragraph {"align":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"500"}},"fontSize":"max-36"} -->
-<p class="has-text-align-center has-max-36-font-size" style="font-style:normal;font-weight:500">$95/yr.</p>
+<p class="has-text-align-center has-max-36-font-size" style="font-style:normal;font-weight:500"><?php echo esc_html__( '$95/yr.', 'frost' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 <!-- wp:group {"style":{"spacing":{"blockGap":"10px"}},"layout":{"type":"constrained"}} -->
@@ -69,7 +69,7 @@
 <p class="has-text-align-center has-small-font-size" style="line-height:1.5"><?php echo esc_html__( 'Professional', 'frost' ); ?></p>
 <!-- /wp:paragraph -->
 <!-- wp:paragraph {"align":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"500"}},"fontSize":"max-36"} -->
-<p class="has-text-align-center has-max-36-font-size" style="font-style:normal;font-weight:500">$195/yr.</p>
+<p class="has-text-align-center has-max-36-font-size" style="font-style:normal;font-weight:500"><?php echo esc_html__( '$195/yr.', 'frost' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 <!-- wp:group {"style":{"spacing":{"blockGap":"10px"}},"layout":{"type":"constrained"}} -->
@@ -116,7 +116,7 @@
 <p class="has-text-align-center has-small-font-size" style="line-height:1.5"><?php echo esc_html__( 'Enterprise', 'frost' ); ?></p>
 <!-- /wp:paragraph -->
 <!-- wp:paragraph {"align":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"500"}},"fontSize":"max-36"} -->
-<p class="has-text-align-center has-max-36-font-size" style="font-style:normal;font-weight:500">$495/yr.</p>
+<p class="has-text-align-center has-max-36-font-size" style="font-style:normal;font-weight:500"><?php echo esc_html__( '$495/yr.', 'frost' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 <!-- wp:group {"style":{"spacing":{"blockGap":"10px"}},"layout":{"type":"constrained"}} -->
@@ -163,7 +163,7 @@
 <!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"bottom":"var:preset|spacing|large"},"margin":{"top":"0"}}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignwide" style="margin-top:0;padding-bottom:var(--wp--preset--spacing--large)"><!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:heading {"textAlign":"center","style":{"spacing":{"margin":{"bottom":"0px"}}},"className":"wp-block-heading","fontSize":"max-48"} -->
-<h2 class="wp-block-heading has-text-align-center has-max-48-font-size" id="block-patterns" style="margin-bottom:0px">FAQs</h2>
+<h2 class="wp-block-heading has-text-align-center has-max-48-font-size" id="block-patterns" style="margin-bottom:0px"><?php echo esc_html__( 'FAQs', 'frost' ); ?></h2>
 <!-- /wp:heading -->
 <!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|medium"}}}} -->
 <p class="has-text-align-center" style="margin-bottom:var(--wp--preset--spacing--medium)"><?php echo esc_html__( 'Below is a list of frequently asked questions.', 'frost' ); ?></p>

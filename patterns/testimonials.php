@@ -15,7 +15,7 @@
 <p class="has-text-align-center" style="margin-top:0px"><?php echo esc_html__( 'With its clean, minimal design and powerful features, Frost enables agencies to build cool websites.', 'frost' ); ?></p>
 <!-- /wp:paragraph -->
 <!-- wp:paragraph {"align":"center","fontSize":"small"} -->
-<p class="has-text-align-center has-small-font-size"><strong>—Allison Taylor, Designer</strong></p>
+<p class="has-text-align-center has-small-font-size"><strong><?php echo esc_html__( '—Allison Taylor, Designer', 'frost' ); ?></strong></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 <!-- wp:column {"style":{"spacing":{"padding":{"top":"var:preset|spacing|small","right":"var:preset|spacing|small","bottom":"var:preset|spacing|small","left":"var:preset|spacing|small"}},"border":{"width":"1px"}},"borderColor":"contrast"} -->
@@ -26,7 +26,7 @@
 <p class="has-text-align-center" style="margin-top:0px"><?php echo esc_html__( 'With its clean, minimal design and powerful features, Frost enables agencies to build cool websites.', 'frost' ); ?></p>
 <!-- /wp:paragraph -->
 <!-- wp:paragraph {"align":"center","fontSize":"small"} -->
-<p class="has-text-align-center has-small-font-size"><strong>—Anthony Breck, Developer</strong></p>
+<p class="has-text-align-center has-small-font-size"><strong><?php echo esc_html__( '—Anthony Breck, Developer', 'frost' ); ?></strong></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 <!-- wp:column {"style":{"spacing":{"padding":{"top":"var:preset|spacing|small","right":"var:preset|spacing|small","bottom":"var:preset|spacing|small","left":"var:preset|spacing|small"}},"border":{"width":"1px"}},"borderColor":"contrast"} -->
@@ -37,7 +37,7 @@
 <p class="has-text-align-center" style="margin-top:0px"><?php echo esc_html__( 'With its clean, minimal design and powerful features, Frost enables agencies to build cool websites.', 'frost' ); ?></p>
 <!-- /wp:paragraph -->
 <!-- wp:paragraph {"align":"center","fontSize":"small"} -->
-<p class="has-text-align-center has-small-font-size"><strong>—Rebecca Jones, Coach</strong></p>
+<p class="has-text-align-center has-small-font-size"><strong><?php echo esc_html__( '—Rebecca Jones, Coach', 'frost' ); ?></strong></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>
