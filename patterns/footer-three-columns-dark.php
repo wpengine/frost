@@ -4,7 +4,6 @@
  * Slug: frost/footer-three-columns-dark
  * Categories: footer
  * Block Types: core/template-part/footer
- * Viewport Width: 1280
  */
 ?>
 <!-- wp:group {"align":"full","style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}},"spacing":{"padding":{"top":"var:preset|spacing|small","bottom":"var:preset|spacing|small"},"margin":{"top":"0px"}}},"backgroundColor":"contrast","textColor":"base","className":"has-background-color","layout":{"type":"constrained"},"fontSize":"small"} -->
