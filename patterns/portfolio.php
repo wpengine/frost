@@ -2,7 +2,7 @@
 /**
  * Title: Portfolio with heading, text, images.
  * Slug: frost/portfolio
- * Categories: portfolio
+ * Categories: featured
  */
 ?>
 <!-- wp:group {"align":"wide","layout":{"type":"default"}} -->

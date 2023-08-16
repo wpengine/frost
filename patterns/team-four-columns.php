@@ -2,7 +2,7 @@
 /**
  * Title: Team with image, text, link.
  * Slug: frost/team-four-columns
- * Categories: team
+ * Categories: featured
  */
 ?>
 <!-- wp:group {"align":"wide","layout":{"type":"default"}} -->
