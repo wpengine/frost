@@ -376,7 +376,11 @@
 					}
 				}
 			},
+			"core/group": {
+				"css": "&.is-style-shadow-light {box-shadow: var(--wp--preset--shadow--light);} &.is-style-shadow-solid {box-shadow: var(--wp--preset--shadow--solid);}"
+			},
 			"core/image": {
+				"css": " &.is-style-shadow-light {box-shadow: var(--wp--preset--shadow--light);} &.is-style-shadow-solid {box-shadow: var(--wp--preset--shadow--solid);}",
 				"spacing": {
 					"margin": {
 						"top": "30px",
@@ -460,7 +464,7 @@
 					"style": "solid",
 					"width": "1px"
 				},
-				"css": "& p {margin: 0;}",
+				"css": "& p {margin: 0;} &.is-style-shadow-light {box-shadow: var(--wp--preset--shadow--light);} &.is-style-shadow-solid {box-shadow: var(--wp--preset--shadow--solid);}",
 				"spacing": {
 					"padding": {
 						"top": "var(--wp--custom--spacing--gap)",
