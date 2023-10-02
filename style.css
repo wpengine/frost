@@ -12,14 +12,11 @@ Version: 1.0.5
 License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: frost
-
-Frost WordPress Theme, (C) 2022-2023 WP Engine.
-Frost is distributed under the terms of the GNU GPL.
 */
 
 
 /* Defaults
----------------------------------------------------------------------------- */
+---------------------------------------- */
 
 *,
 *::before,
@@ -61,8 +58,7 @@ mark {
 	background-size: 100% 15%;
 }
 
-/* Forms
---------------------------------------------- */
+/* -- Forms -- */
 
 input,
 select,
@@ -107,10 +103,9 @@ textarea {
 }
 
 /* Blocks
----------------------------------------------------------------------------- */
+---------------------------------------- */
 
-/* Code
---------------------------------------------- */
+/* -- Code -- */
 
 *:not(.wp-block-code) > code {
 	background-color: var(--wp--preset--color--neutral);
@@ -118,16 +113,14 @@ textarea {
 	padding: 5px 8px;
 }
 
-/* List
---------------------------------------------- */
+/* -- List -- */
 
 .is-style-no-disc {
 	list-style-type: none;
 	padding-left: 0;
 }
 
-/* Navigation
---------------------------------------------- */
+/* -- Navigation -- */
 
 .wp-block-navigation__responsive-container.is-menu-open {
 	padding: var(--wp--custom--spacing--gap);
@@ -148,8 +141,7 @@ textarea {
 	color: var(--wp--preset--color--base);
 }
 
-/* Navigation Submenu
---------------------------------------------- */
+/* -- Navigation Submenu -- */
 
 .wp-block-navigation:not(.has-background) .wp-block-navigation__submenu-container {
 	background-color: var(--wp--preset--color--contrast);
@@ -163,12 +155,11 @@ textarea {
 }
 
 /* Media Queries
----------------------------------------------------------------------------- */
+---------------------------------------- */
 
 @media only screen and (max-width: 600px) {
 
-	/* Utility
-	--------------------------------------------- */
+	/* -- Utility -- */
 
 	.is-style-hidden-mobile {
 		display: none !important;
@@ -178,8 +169,7 @@ textarea {
 
 @media only screen and (max-width: 782px) {
 
-	/* Columns
-	--------------------------------------------- */
+	/* -- Columns -- */
 
 	.is-style-columns-reverse {
 		flex-direction: column-reverse;
@@ -189,8 +179,7 @@ textarea {
 
 @media only screen and (min-width: 600px) {
 
-	/* Navigation Link
-	--------------------------------------------- */
+	/* -- Navigation Link -- */
 
 	.wp-block-navigation-item.is-style-outline a {
 		border: 1px solid currentColor;
