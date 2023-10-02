@@ -130,8 +130,11 @@ textarea {
 --------------------------------------------- */
 
 .wp-block-navigation__responsive-container.is-menu-open {
-	padding-bottom: 30px;
-	padding-top: 30px
+	padding: var(--wp--custom--spacing--gap);
+}
+
+.wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content {
+	padding-top: var(--wp--custom--spacing--gap);
 }
 
 .wp-block-navigation__responsive-container-close,
