@@ -18,15 +18,8 @@
 	<!-- wp:post-content {"layout":{"type":"constrained"}} /-->
 	<!-- wp:group {"layout":{"type":"constrained"},"style":{"spacing":{"blockGap":"0px"},"typography":{"fontSize":"18px"}}} -->
 	<div class="wp-block-group" style="font-size:18px">
-		<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"left"},"style":{"spacing":{"blockGap":"5px"}}} -->
-		<div class="wp-block-group">
-			<!-- wp:paragraph -->
-			<p>In:</p>
-			<!-- /wp:paragraph -->
-			<!-- wp:post-terms {"term":"category"} /-->
-		</div>
-		<!-- /wp:group -->
-		<!-- wp:post-terms {"term":"post_tag"} /-->
+		<!-- wp:post-terms {"term":"category","prefix":"In: "} /-->
+		<!-- wp:post-terms {"term":"post_tag","prefix":"Tags: "} /-->
 	</div>
 	<!-- /wp:group -->
 	<!-- wp:pattern {"slug":"frost/comments"} /-->
