@@ -113,13 +113,6 @@ textarea {
 	padding: 5px 8px;
 }
 
-/* -- List -- */
-
-.is-style-no-disc {
-	list-style-type: none;
-	padding-left: 0;
-}
-
 /* -- Navigation -- */
 
 .wp-block-navigation__responsive-container.is-menu-open {
