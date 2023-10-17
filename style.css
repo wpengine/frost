@@ -169,14 +169,3 @@ textarea {
 	}
 
 }
-
-@media only screen and (min-width: 600px) {
-
-	/* -- Navigation Link -- */
-
-	.wp-block-navigation-item.is-style-outline a {
-		border: 1px solid currentColor;
-		padding: 8px 15px;
-	}
-
-}
