@@ -54,19 +54,19 @@
 			"defaultPalette": false,
 			"duotone": [
 				{
+					"colors": [ "#000000", "#ffffff" ],
 					"name": "Black and White",
-					"slug": "black-and-white",
-					"colors": [ "#000000", "#ffffff" ]
+					"slug": "black-and-white"
 				},
 				{
+					"colors": [ "#0000ff", "#ffffff" ],
 					"name": "Primary and White",
-					"slug": "primary-and-white",
-					"colors": [ "#0000ff", "#ffffff" ]
+					"slug": "primary-and-white"
 				},
 				{
+					"colors": [ "#000099", "#ffffff" ],
 					"name": "Secondary and White",
-					"slug": "secondary-and-white",
-					"colors": [ "#000099", "#ffffff" ]
+					"slug": "secondary-and-white"
 				}
 			],
 			"gradients": [
