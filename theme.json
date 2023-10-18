@@ -623,6 +623,11 @@
 			"link": {
 				"color": {
 					"text": "var(--wp--preset--color--contrast)"
+				},
+				":hover": {
+					"color": {
+						"text": "var(--wp--preset--color--contrast)"
+					}
 				}
 			}
 		},
