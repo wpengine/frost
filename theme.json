@@ -528,9 +528,6 @@
 						"top": "0"
 					}
 				}
-			},
-			"core/term-description": {
-				"css": "& p {margin: 0;}"
 			}
 		},
 		"color": {
