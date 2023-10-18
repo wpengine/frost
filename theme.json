@@ -333,7 +333,6 @@
 					}
 				},
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--monospace)",
 					"fontSize": "var(--wp--preset--font-size--small)"
 				}
 			},
@@ -443,10 +442,6 @@
 						"bottom": "25px",
 						"left": "30px"
 					}
-				},
-				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--monospace)",
-					"fontSize": "var(--wp--preset--font-size--small)"
 				}
 			},
 			"core/pullquote": {
