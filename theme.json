@@ -133,13 +133,13 @@
 			"presets": [
 				{
 					"name": "Light",
-					"slug": "light",
-					"shadow": "0 0 50px rgb(0 0 0 / 10%);"
+					"shadow": "0 0 50px rgb(10, 10, 10, 0.1);",
+					"slug": "light"
 				},
 				{
 					"name": "Solid",
-					"slug": "solid",
-					"shadow": "5px 5px currentColor"
+					"shadow": "5px 5px 0 rgb(10, 10, 10, 1)",
+					"slug": "solid"
 				}
 			]
 		},
