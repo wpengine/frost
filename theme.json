@@ -567,11 +567,12 @@
 				},
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--x-small)",
-					"fontWeight": "var(--wp--custom--font-weight--regular)"
+					"fontWeight": "var(--wp--custom--font-weight--regular)",
+					"lineHeight": "var(--wp--custom--line-height--medium)"
 				},
 				":hover": {
 					"color": {
-						"background": "var(--wp--preset--color--contrast)"
+						"background": "var(--wp--preset--color--primary)"
 					}
 				}
 			},
