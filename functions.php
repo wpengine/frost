@@ -26,12 +26,8 @@ if ( ! function_exists( 'frost_setup' ) ) {
 		// Make theme available for translation.
 		load_theme_textdomain( 'frost', get_template_directory() . '/languages' );
 
-		// Enqueue editor styles and fonts.
-		add_editor_style(
-			array(
-				'./style.css',
-			)
-		);
+		// Enqueue editor style sheet.
+		add_editor_style( get_template_directory_uri() . '/style.css' );
 
 		// Remove core block patterns.
 		remove_theme_support( 'core-block-patterns' );
