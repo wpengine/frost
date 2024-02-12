@@ -14,7 +14,7 @@ Download the latest stable release: [frost-1.0.8.zip](https://downloads.wordpres
 
 - WordPress 6.4+
 - PHP 7.0+
-- License: [GPLv2](http://www.gnu.org/licenses/gpl-2.0.html) or later
+- License: [GNU General Public License v3](https://www.gnu.org/licenses/gpl-3.0.html)
 
 ## Getting Started
 
