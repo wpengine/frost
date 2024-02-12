@@ -101,14 +101,14 @@ add_action( 'init', 'frost_register_block_styles' );
 function frost_register_block_pattern_categories() {
 
 	register_block_pattern_category(
-		'page',
+		'frost-page',
 		array(
 			'label'       => __( 'Page', 'frost' ),
 			'description' => __( 'Create a full page with multiple patterns that are grouped together.', 'frost' ),
 		)
 	);
 	register_block_pattern_category(
-		'pricing',
+		'frost-pricing',
 		array(
 			'label'       => __( 'Pricing', 'frost' ),
 			'description' => __( 'Compare features for your digital products or service plans.', 'frost' ),

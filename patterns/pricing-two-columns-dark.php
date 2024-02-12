@@ -2,7 +2,7 @@
 /**
  * Title: Pricing table with heading, list, buttons.
  * Slug: frost/pricing-two-columns-dark
- * Categories: pricing
+ * Categories: frost-pricing
  */
 ?>
 <!-- wp:group {"align":"wide","layout":{"type":"constrained","wideSize":"800px"}} -->
