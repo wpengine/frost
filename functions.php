@@ -26,7 +26,7 @@ if ( ! function_exists( 'frost_setup' ) ) {
 		// Make theme available for translation.
 		load_theme_textdomain( 'frost', get_template_directory() . '/languages' );
 
-		// Enqueue editor style sheet.
+		// Enqueue editor stylesheet.
 		add_editor_style( get_template_directory_uri() . '/style.css' );
 
 		// Remove core block patterns.
@@ -36,9 +36,9 @@ if ( ! function_exists( 'frost_setup' ) ) {
 }
 add_action( 'after_setup_theme', 'frost_setup' );
 
-// Enqueue style sheet.
-add_action( 'wp_enqueue_scripts', 'frost_enqueue_style_sheet' );
-function frost_enqueue_style_sheet() {
+// Enqueue stylesheet.
+add_action( 'wp_enqueue_scripts', 'frost_enqueue_stylesheet' );
+function frost_enqueue_stylesheet() {
 
 	wp_enqueue_style( 'frost', get_template_directory_uri() . '/style.css', array(), wp_get_theme()->get( 'Version' ) );
 
