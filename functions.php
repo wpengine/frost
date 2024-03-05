@@ -4,7 +4,7 @@
  *
  * @package Frost
  * @author  WP Engine
- * @license GNU General Public License v2 or later
+ * @license GNU General Public License v3
  * @link    https://frostwp.com/
  */
 
