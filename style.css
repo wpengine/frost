@@ -77,8 +77,9 @@ textarea {
 input:focus,
 textarea:focus {
 	background-color: var(--wp--preset--color--neutral);
-	outline: none;
 }
+
+/* UA focus ring left in place — adapts to any surface and any style variation. */
 
 input[type="checkbox"],
 input[type="image"],
@@ -172,4 +173,20 @@ textarea {
 		flex-direction: column-reverse;
 	}
 
+}
+
+@media (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior: auto;
+	}
+
+	a,
+	button,
+	input:focus,
+	input[type="button"],
+	input[type="submit"],
+	textarea:focus,
+	.wp-element-button {
+		transition: none;
+	}
 }

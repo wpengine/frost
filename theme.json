@@ -37,6 +37,9 @@
 			}
 		},
 		"color": {
+			"custom": false,
+			"customDuotone": false,
+			"customGradient": false,
 			"defaultDuotone": false,
 			"defaultGradients": false,
 			"defaultPalette": false,
@@ -134,6 +137,7 @@
 			]
 		},
 		"spacing": {
+			"customSpacingSize": false,
 			"defaultSpacingSizes": false,
 			"spacingSizes": [
 				{
@@ -172,6 +176,7 @@
 			]
 		},
 		"typography": {
+			"customFontSize": false,
 			"defaultFontSizes": false,
 			"dropCap": false,
 			"fluid": {
@@ -182,7 +187,7 @@
 				{
 					"fontFace": [
 						{
-							"fontDisplay": "block",
+							"fontDisplay": "swap",
 							"fontFamily": "Outfit",
 							"fontStretch": "normal",
 							"fontStyle": "normal",
