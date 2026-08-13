@@ -1,0 +1,63 @@
+{
+	"version": 3,
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"title": "WR Clean",
+	"description": "Clean commercial mood — dark neutrals with an amber accent (Millennium-style reference).",
+	"settings": {
+		"color": {
+			"duotone": [
+				{
+					"colors": [ "#000000", "#ffffff" ],
+					"name": "Black and White",
+					"slug": "black-and-white"
+				},
+				{
+					"colors": [ "#ffc300", "#000000" ],
+					"name": "Primary and Contrast",
+					"slug": "primary-and-white"
+				},
+				{
+					"colors": [ "#ffc300", "#000000" ],
+					"name": "Secondary and White",
+					"slug": "secondary-and-white"
+				}
+			],
+			"palette": [
+				{
+					"color": "#ffffff",
+					"name": "Base",
+					"slug": "base"
+				},
+				{
+					"color": "#000000",
+					"name": "Contrast",
+					"slug": "contrast"
+				},
+				{
+					"color": "#ffc300",
+					"name": "Primary",
+					"slug": "primary"
+				},
+				{
+					"color": "#ffc300",
+					"name": "Secondary",
+					"slug": "secondary"
+				},
+				{
+					"color": "#eeeeee",
+					"name": "Neutral",
+					"slug": "neutral"
+				}
+			]
+		}
+	},
+	"styles": {
+		"elements": {
+			"button": {
+				"color": {
+					"text": "var(--wp--preset--color--contrast)"
+				}
+			}
+		}
+	}
+}

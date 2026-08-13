@@ -1,0 +1,63 @@
+{
+	"version": 3,
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"title": "Mike's Wrecker",
+	"description": "Mike's Wrecker brand palette — navy contrast with orange primary and blue secondary.",
+	"settings": {
+		"color": {
+			"duotone": [
+				{
+					"colors": [ "#000000", "#ffffff" ],
+					"name": "Black and White",
+					"slug": "black-and-white"
+				},
+				{
+					"colors": [ "#f37125", "#1b2a41" ],
+					"name": "Primary and Contrast",
+					"slug": "primary-and-white"
+				},
+				{
+					"colors": [ "#144b8e", "#ffffff" ],
+					"name": "Secondary and White",
+					"slug": "secondary-and-white"
+				}
+			],
+			"palette": [
+				{
+					"color": "#ffffff",
+					"name": "Base",
+					"slug": "base"
+				},
+				{
+					"color": "#1b2a41",
+					"name": "Contrast",
+					"slug": "contrast"
+				},
+				{
+					"color": "#f37125",
+					"name": "Primary",
+					"slug": "primary"
+				},
+				{
+					"color": "#5aa2e6",
+					"name": "Secondary",
+					"slug": "secondary"
+				},
+				{
+					"color": "#eef1f5",
+					"name": "Neutral",
+					"slug": "neutral"
+				}
+			]
+		}
+	},
+	"styles": {
+		"elements": {
+			"button": {
+				"color": {
+					"text": "var(--wp--preset--color--contrast)"
+				}
+			}
+		}
+	}
+}

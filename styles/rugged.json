@@ -1,0 +1,70 @@
+{
+	"version": 3,
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"title": "WR Rugged",
+	"description": "Rugged poster mood — red and safety yellow with condensed display headings (Strickland-style reference).",
+	"settings": {
+		"color": {
+			"duotone": [
+				{
+					"colors": [ "#262626", "#ffffff" ],
+					"name": "Contrast and White",
+					"slug": "black-and-white"
+				},
+				{
+					"colors": [ "#cc0000", "#ffffff" ],
+					"name": "Primary and White",
+					"slug": "primary-and-white"
+				},
+				{
+					"colors": [ "#f7d117", "#262626" ],
+					"name": "Secondary and Contrast",
+					"slug": "secondary-and-white"
+				}
+			],
+			"palette": [
+				{
+					"color": "#ffffff",
+					"name": "Base",
+					"slug": "base"
+				},
+				{
+					"color": "#262626",
+					"name": "Contrast",
+					"slug": "contrast"
+				},
+				{
+					"color": "#cc0000",
+					"name": "Primary",
+					"slug": "primary"
+				},
+				{
+					"color": "#f7d117",
+					"name": "Secondary",
+					"slug": "secondary"
+				},
+				{
+					"color": "#eeeeee",
+					"name": "Neutral",
+					"slug": "neutral"
+				}
+			]
+		}
+	},
+	"styles": {
+		"elements": {
+			"heading": {
+				"typography": {
+					"fontFamily": "Impact, 'Arial Narrow Bold', 'Franklin Gothic Bold', sans-serif",
+					"textTransform": "uppercase",
+					"letterSpacing": "0.02em"
+				}
+			},
+			"button": {
+				"color": {
+					"text": "var(--wp--preset--color--base)"
+				}
+			}
+		}
+	}
+}
